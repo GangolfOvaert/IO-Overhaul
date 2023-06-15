@@ -56,6 +56,16 @@
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
 		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst1</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
 
 
 		<Class>
@@ -74,9 +84,35 @@
 	</BlueprintClasses>
 	
   <BlueprintClassEntries>
-	<Entry Class="SmelterIngots" BlueprintSubtypeId="CopperOreToIngot" />
-	<Entry Class="SmelterIngots" BlueprintSubtypeId="CrushedCopperOreToIngot" />
-    <Entry Class="SmelterIngots" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOreToIngot" />
+	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+    <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="SilverOreToIngot_Smelter" />
+	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSilverOreToIngot_Smelter" />
+	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSilverOreToIngot_Smelter" />
+
+
+
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="StoneOreToIngotBasic" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="IronOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="SiliconOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="NickelOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CobaltOreToIngot" />
+
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedIronOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
 
     <Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
     <Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
@@ -89,9 +125,7 @@
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Bench_CircuitBoard" />
 	<Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Extruder_CircuitBoard" />
 	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="GGM_P_Electronic_CircuitBoard" />
-	<Entry Class="SmelterIngots" BlueprintSubtypeId="SilverOreToIngot_Smelter" />
-	<Entry Class="SmelterIngots" BlueprintSubtypeId="CrushedSilverOreToIngot_Smelter" />
-	<Entry Class="SmelterIngots" BlueprintSubtypeId="PurifiedSilverOreToIngot_Smelter" />
+
 	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyIronOre" />
 	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyNickelOre" />
 	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyCopperOre" />

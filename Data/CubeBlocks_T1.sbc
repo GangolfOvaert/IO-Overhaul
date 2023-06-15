@@ -138,6 +138,8 @@
 			<DestroySound>WepSmallWarheadExpl</DestroySound>
 			<PCU>90</PCU>
 		</Definition>
+
+
 		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
 			<Id>
 				<TypeId>Refinery</TypeId>
@@ -179,7 +181,7 @@
 				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
 			</BuildProgressModels>
-			<BlockPairName>Blast Furnace</BlockPairName>
+
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>40</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -192,7 +194,7 @@
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
 			<OperationalPowerConsumption>2</OperationalPowerConsumption>
 			<BlueprintClasses>
-				<Class>SmelterIngots</Class>
+				<Class>SmelterIngotst2</Class>
 			</BlueprintClasses>
 			<RefineSpeed>0.5</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
@@ -206,6 +208,8 @@
 			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
 			<PCU>75</PCU>
 		</Definition>
+
+
 
 		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
 			<Id>

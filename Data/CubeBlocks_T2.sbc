@@ -118,7 +118,7 @@
 				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
 			</BuildProgressModels>
-			<BlockPairName>Blast Furnace</BlockPairName>
+
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>40</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -194,7 +194,7 @@
 				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
 			</BuildProgressModels>
-			<BlockPairName>Refinery</BlockPairName>
+
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
