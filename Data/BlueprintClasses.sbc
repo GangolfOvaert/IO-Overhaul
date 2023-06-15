@@ -95,14 +95,12 @@
 	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyIronOre" />
 	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyNickelOre" />
 	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyCopperOre" />
-	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyCobaltOre" />
 	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifySiliconOre" />
 	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifySilverOre" />
 	<Entry Class="Crushert1" BlueprintSubtypeId="CrushStoneOre" />
 	<Entry Class="Crushert1" BlueprintSubtypeId="CrushIronOre" />
 	<Entry Class="Crushert1" BlueprintSubtypeId="CrushNickelOre" />
-	<Entry Class="Crushert1" BlueprintSubtypeId="PurifyCopperOre" />
-	<Entry Class="Crushert1" BlueprintSubtypeId="CrushCobaltOre" />
+	<Entry Class="Crushert1" BlueprintSubtypeId="CrushCopperOre" />
 	<Entry Class="Crushert1" BlueprintSubtypeId="CrushSiliconOre" />
 	<Entry Class="Crushert1" BlueprintSubtypeId="CrushSilverOre" />
 
