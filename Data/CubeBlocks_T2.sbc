@@ -174,7 +174,6 @@
 				<Component Subtype="LargeTube" Count="50" />
 				<Component Subtype="Motor" Count="50" />
 				<Component Subtype="Electromagnet" Count="100" />
-				<Component Subtype="HeatingElement" Count="50" />
 				<Component Subtype="Computer" Count="50" />
 				<Component Subtype="SteelPlate" Count="350" />
 			</Components>
@@ -207,7 +206,7 @@
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
 			<OperationalPowerConsumption>3</OperationalPowerConsumption>
 			<BlueprintClasses>
-				<Class>RefineryIngotst2</Class>
+				<Class>RefineryIngotst1</Class>
 			</BlueprintClasses>
 			<RefineSpeed>2</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
