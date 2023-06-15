@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>RockCrushert2</SubtypeId>
+			</Id>
+			<DisplayName>Rock Crusher T2</DisplayName>
+			<Icon>Icons\OreCrusher.dds</Icon>
+			<Description>
+				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
+
+				Power Usage: 2.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="4" z="3" />
+			<Center x="1" y="1" z="1" />
+			<Model>Models\OreCrusher.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="CopperWire" Count="300" />
+				<Component Subtype="LargeTube" Count="60" />
+				<Component Subtype="Motor" Count="60" />
+				<Component Subtype="Ceramic" Count="200" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="GGMSilverComponent" Count="50" />
+				<Component Subtype="SteelPlate" Count="350" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OreCrusherConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Crushert2</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.25</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>RockCrusher</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+
+		
+
+
+
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>BlastFurnacet2</SubtypeId>
+			</Id>
+			<DisplayName>Smelter T2</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Description>
+				Smelters can refine scrap metal, Silicon, Iron, Copper, Nickel, and Cobalt.
+				Stone can also be refined for higher yields than in a Survival Kit.
+
+				Power Usage: 2MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="Computer" Count="75" />
+				<Component Subtype="HeatingElement" Count="75" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="250" />
+			</Components>
+			<CriticalComponent Subtype="HeatingElement" Index="0" />
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>Blast Furnace</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>SmelterIngotst2</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.5</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<PCU>75</PCU>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>LargeRefineryt1</SubtypeId>
+			</Id>
+			<DisplayName>Refinery T1</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+			<Description>
+				Refineries can refine Bauxite, Titanium, Coal, Silver, Gold, Platinum, and Tantalum.
+				Stone can also be refined for higher yields than in a Smelter.
+
+				Power Usage: 3MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="4" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\Refinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="HeatingElement" Count="100" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="Motor" Count="50" />
+				<Component Subtype="Electromagnet" Count="100" />
+				<Component Subtype="HeatingElement" Count="50" />
+				<Component Subtype="Computer" Count="50" />
+				<Component Subtype="SteelPlate" Count="350" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<Center x="1" y="0" z="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+				<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>Refinery</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>RefineryIngotst2</Class>
+			</BlueprintClasses>
+			<RefineSpeed>2</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<Center x="1" y="0" z="0" />
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+
+
+
+
+
+
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>OrePurifiert2</SubtypeId>
+			</Id>
+			<DisplayName>Ore Purifier T2</DisplayName>
+			<Icon>Icons\OrePurifier.dds</Icon>
+			<Description>
+				Filters impurites from Crushed Ore to further increase refining yield.
+
+				Power Usage: 5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<Center x="1" y="0" z="1" />
+			<Model>Models\OrePurifier.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="70" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="CopperWire" Count="50" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Electromagnet" Count="25" />
+				<Component Subtype="Motor" Count="25" />
+				<Component Subtype="GoldWire" Count="50" />
+				<Component Subtype="LaserEmitter" Count="20" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="AdvancedComputer" Count="40" />
+				<Component Subtype="SteelPlate" Count="30" />
+			</Components>
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<Center x="1" y="0" z="1" />
+			<MountPoints>
+				<MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.25" File="Models\Construct\OrePurifierConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Construct\OrePurifierConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="Models\Construct\OrePurifierConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OrePurifierConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Purifiert2</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.25</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+
+
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>AutoLoomt1</SubtypeId>
+			</Id>
+			<DisplayName>Auto Loom T1</DisplayName>
+			<Icon>Icons\AutoLoom.dds</Icon>
+			<Description>
+				Weaves Synthetic Fabrics.
+
+				Power Usage: 1.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="4" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="2" y="0" z="1" />
+			<Model>Models\AutoLoom.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="Electromagnet" Count="30" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Computer" Count="30" />
+				<Component Subtype="GGMSilverComponent" Count="20" />
+				<Component Subtype="SteelPlate" Count="100" />
+
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="3" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="3" StartY="0" EndX="4" EndY="1" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="3" StartY="0" EndX="4" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="2" StartY="0" EndX="3" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.25" File="Models\Construct\AutoLoomConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Construct\AutoLoomConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="Models\Construct\AutoLoomConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Construct\AutoLoomConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>AutoLoomComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>1</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+		
+		
+	</CubeBlocks>
+</Definitions>
