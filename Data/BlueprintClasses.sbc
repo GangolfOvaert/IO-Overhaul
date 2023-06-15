@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClasses>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Purifiert1</SubtypeId>
+			</Id>
+			<DisplayName>Purifier</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert1</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+	</BlueprintClasses>
+	
+  <BlueprintClassEntries>
+
+    <Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
+    <Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
+	<Entry Class="FabricatorComponents" BlueprintSubtypeId="POMedicalComponent" />
+
+	<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
+
+	<Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
+
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Bench_CircuitBoard" />
+	<Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Extruder_CircuitBoard" />
+	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="GGM_P_Electronic_CircuitBoard" />
+	<Entry Class="SmelterIngots" BlueprintSubtypeId="SilverOreToIngot_Smelter" />
+	<Entry Class="SmelterIngots" BlueprintSubtypeId="CrushedSilverOreToIngot_Smelter" />
+	<Entry Class="SmelterIngots" BlueprintSubtypeId="PurifiedSilverOreToIngot_Smelter" />
+	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyIronOre" />
+	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyNickelOre" />
+	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyCobaltOre" />
+	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifySiliconOre" />
+	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifySilverOre" />
+	<Entry Class="Crushert1" BlueprintSubtypeId="CrushStoneOre" />
+	<Entry Class="Crushert1" BlueprintSubtypeId="CrushIronOre" />
+	<Entry Class="Crushert1" BlueprintSubtypeId="CrushNickelOre" />
+	<Entry Class="Crushert1" BlueprintSubtypeId="CrushCobaltOre" />
+	<Entry Class="Crushert1" BlueprintSubtypeId="CrushSiliconOre" />
+	<Entry Class="Crushert1" BlueprintSubtypeId="CrushSilverOre" />
+	  
+	  
+
+
+
+
+  </BlueprintClassEntries>
+
+</Definitions>
