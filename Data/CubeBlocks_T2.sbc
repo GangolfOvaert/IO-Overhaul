@@ -302,7 +302,7 @@
 		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
 			<Id>
 				<TypeId>Assembler</TypeId>
-				<SubtypeId>AutoLoomt1</SubtypeId>
+				<SubtypeId>AutoLoom</SubtypeId>
 			</Id>
 			<DisplayName>Auto Loom T1</DisplayName>
 			<Icon>Icons\AutoLoom.dds</Icon>
