@@ -71,7 +71,7 @@
 		<Class>
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>RefineryIngotst2</SubtypeId>
+				<SubtypeId>RefineryIngotst1</SubtypeId>
 			</Id>
 			<DisplayName>Ingots</DisplayName>
 			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
@@ -80,6 +80,52 @@
 		</Class>
 
 
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Purifiert3</SubtypeId>
+			</Id>
+			<DisplayName>Purifier</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert3</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst3</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>RefineryIngotst2</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		
 
 	</BlueprintClasses>
 	
@@ -145,6 +191,7 @@
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCobaltOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifySiliconOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCopperOre" />
+	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyPlatinumOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifySilverOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="CrushGoldOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="CrushNickelOre" />
@@ -153,7 +200,8 @@
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushIronOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushNickelOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushCobaltOre" />
-	<Entry Class="Crushert2" BlueprintSubtypeId="PurifyCopperOre" />
+	<Entry Class="Crushert2" BlueprintSubtypeId="CrushCopperOre" />
+	<Entry Class="Crushert2" BlueprintSubtypeId="CrushPlatinumOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushSiliconOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushSilverOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushGoldOre" />
@@ -186,25 +234,25 @@
 
 
 
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="ScrapToIronIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="ScrapIngotToIronIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="StoneOreToIngotBasic" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="StoneOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="SilverOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="GoldOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PlatinumOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="BauxiteOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="StoneOreToIngotBasic" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="StoneOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="SilverOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="GoldOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="PlatinumOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="BauxiteOreToIngot" />
 
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedSilverOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedGoldOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedPlatinumOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="CrushedSilverOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="CrushedGoldOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="CrushedPlatinumOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
 
 
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedPlatinumOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="PurifiedPlatinumOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
 
 
 	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyIronOre" />
