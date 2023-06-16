@@ -85,5 +85,34 @@
 		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
 	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>InteriorPlate</SubtypeId>
+		</Id>
+		<DisplayName>Advanced Steel Plate</DisplayName>
+		<Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+		<Size>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>0.05</Z>
+		</Size>
+		<Mass>7</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\interior_plate_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>50</MaxIntegrity>
+		<DropProbability>0.8</DropProbability>
+		<Health>36</Health>
+		<MinimalPricePerUnit>1560</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
+	</Component>
 </Components>
 </Definitions>
