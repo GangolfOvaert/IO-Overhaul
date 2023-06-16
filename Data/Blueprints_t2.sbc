@@ -4,15 +4,72 @@
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>GGM_P_Extruder_CircuitBoard</SubtypeId>
+				<SubtypeId>GGM_P_Cobalt_Plate</SubtypeId>
 			</Id>
-			<DisplayName>Simple Circuit Board</DisplayName>
-			<Icon>Icons\circuitboard.dds</Icon>
+			<DisplayName>Cobalt Plate</DisplayName>
+			<Icon>Icons\silver_plate.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Cobalt" />
 			</Prerequisites>
-			<Result Amount="1" TypeId="Component" SubtypeId="GGMCircuitBoard" />
-			<BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMCobaltPlate" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_P_Cobalt_Girder</SubtypeId>
+			</Id>
+			<DisplayName>Cobalt Girder</DisplayName>
+			<Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="5" TypeId="Component" SubtypeId="GGMCobaltPlate" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMCobaltGirder" />
+			<BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>POMetalGrid</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+			<Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="4" TypeId="Component" SubtypeId="Girder" />
+				<Item Amount="2" TypeId="Component" SubtypeId="GGMCobaltGirder" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GoldWire</SubtypeId>
+			</Id>
+			<DisplayName>Gold Wire</DisplayName>
+			<Icon>Icons\GoldWire.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GoldWire" />
+			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>POSolarCell</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_SolarCell</DisplayName>
+			<Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="BulletproofGlass" />
+				<Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+				<Item Amount="4" TypeId="Component" SubtypeId="GGMSilverComponent" />
+				<Item Amount="8" TypeId="Ingot" SubtypeId="Silicon" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="SolarCell" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 	</Blueprints>
