@@ -203,7 +203,22 @@
 			<BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
-	
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Electromagnet</SubtypeId>
+			</Id>
+			<DisplayName>Electromagnet</DisplayName>
+			<Icon>Icons\Electromagnet.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+				<Item Amount="4" TypeId="Component" SubtypeId="CopperWire" />
+				<Item Amount="2" TypeId="Component" SubtypeId="Construction" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Electromagnet" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
 	</Blueprints>
 </Definitions>
 
