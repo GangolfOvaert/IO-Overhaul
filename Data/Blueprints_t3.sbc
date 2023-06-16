@@ -1,19 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>GGM_P_Electronic_CircuitBoard</SubtypeId>
-			</Id>
-			<DisplayName>Simple Circuit Board</DisplayName>
-			<Icon>Icons\circuitboard.dds</Icon>
-			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
-			</Prerequisites>
-			<Result Amount="1" TypeId="Component" SubtypeId="GGMCircuitBoard" />
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
-			<IsPrimary>true</IsPrimary>
-		</Blueprint>
+
 	</Blueprints>
 </Definitions>

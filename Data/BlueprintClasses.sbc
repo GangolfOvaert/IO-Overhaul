@@ -22,8 +22,17 @@
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
 		</Class>
 
-
-
+		
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>AlloySmelter</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
 
 		<Class>
 			<Id>
@@ -130,6 +139,11 @@
 	</BlueprintClasses>
 	
   <BlueprintClassEntries>
+
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
+	  
 	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOreToIngot" />
 	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
     <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
@@ -268,6 +282,12 @@
 	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyGoldOre" />
 	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyPlatinumOre" />
 	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCopperOre" />
+
+	  <Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_P_Cobalt_Plate" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
+
+
 
   </BlueprintClassEntries>
 
