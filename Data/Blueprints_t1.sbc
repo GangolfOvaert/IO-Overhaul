@@ -218,7 +218,20 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="Electromagnet" />
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 		</Blueprint>
-		
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>POInteriorPlate</SubtypeId>
+			</Id>
+			<DisplayName>Advcanced Stell Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
 	</Blueprints>
 </Definitions>
 
