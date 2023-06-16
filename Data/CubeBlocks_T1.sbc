@@ -754,5 +754,489 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
+
+
+
+
+
+
+		<Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
+			<Id>
+				<TypeId>WindTurbine</TypeId>
+				<SubtypeId>LargeWindTurbine</SubtypeId>
+			</Id>
+			<DisplayName>Large Wind Turbine</DisplayName>
+			<Description>
+				Large blades and an upgraded geartrain provide increased power generation.
+				Optimal clearance: 100m
+				Optimal height: 50m
+				Nominal Output: 4MW
+			</Description>
+			<Icon>Icons\LargeWindTurbine.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<PlaceDecals>false</PlaceDecals>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="1" />
+			<Center x="1" y="0" z="0" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeWindTurbine.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="25" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="Motor" Count="10" />
+				<Component Subtype="Electromagnet" Count="40" />
+				<Component Subtype="CopperWire" Count="150" />
+				<Component Subtype="Computer" Count="50" />
+				<Component Subtype="SteelPlate" Count="275" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.2" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Back" StartX="0.8" StartY="0" EndX="2" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0.2" StartY="0.5" EndX="2" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Front" StartX="1" StartY="0" EndX="2.2" EndY="0.5" />
+				<MountPoint Side="Front" StartX="1" StartY="0.5" EndX="2.8" EndY="1" />
+			</MountPoints>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Construct\LargeWindTurbineConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Construct\LargeWindTurbineConstruct2.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Construct\LargeWindTurbineConstruct1.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>60</BuildTimeSeconds>
+			<DamageEffectId>214</DamageEffectId>
+
+			<ActionSound>ArcBlockWindTurbine</ActionSound>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+
+			<ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+			<MaxPowerOutput>10</MaxPowerOutput>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<IsAirTight>false</IsAirTight>
+
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+				</DynamicMode>
+			</VoxelPlacement>
+
+			<RaycasterSize>100</RaycasterSize>
+			<RaycastersCount>10</RaycastersCount>
+			<MinRaycasterClearance>0.75</MinRaycasterClearance>
+			<OptimalGroundClearance>50</OptimalGroundClearance>
+			<RaycastersToFullEfficiency>9</RaycastersToFullEfficiency>
+			<OptimalWindSpeed>80</OptimalWindSpeed>
+			<TurbineSpinUpSpeed>0.25</TurbineSpinUpSpeed>
+			<TurbineSpinDownSpeed>0.1</TurbineSpinDownSpeed>
+			<TurbineRotationSpeed>-2</TurbineRotationSpeed>
+			<PCU>55</PCU>
+		</Definition>
+
+
+		<Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
+			<Id>
+				<TypeId>WindTurbine</TypeId>
+				<SubtypeId>LargeBlockWindTurbine</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_WindTurbine</DisplayName>
+			<Description>
+				Description_WindTurbine
+				Nominal Max Output: 300kW
+			</Description>
+			<Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<PlaceDecals>false</PlaceDecals>
+			<ResearchGroup>Tier00Basics</ResearchGroup>
+			<ResearchCost>5</ResearchCost>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3" />
+			<Center x="1" y="0" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\WindTurbine.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Electromagnet" Count="20" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="CopperWire" Count="80" />
+				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="SteelPlate" Count="130" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+			</MountPoints>
+			<MirroringY>Z</MirroringY>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WindTurbine_Construction1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbine_Construction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm" />
+			</BuildProgressModels>
+
+			<BlockPairName>WindTurbine</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectId>214</DamageEffectId>
+
+			<ActionSound>ArcBlockWindTurbine</ActionSound>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+
+			<ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+			<MaxPowerOutput>3</MaxPowerOutput>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<IsAirTight>false</IsAirTight>
+
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+				</DynamicMode>
+			</VoxelPlacement>
+
+			<RaycasterSize>20</RaycasterSize>
+			<RaycastersCount>9</RaycastersCount>
+			<MinRaycasterClearance>0.3</MinRaycasterClearance>
+			<OptimalGroundClearance>25</OptimalGroundClearance>
+			<RaycastersToFullEfficiency>7</RaycastersToFullEfficiency>
+			<OptimalWindSpeed>80</OptimalWindSpeed>
+			<TurbineSpinUpSpeed>3</TurbineSpinUpSpeed>
+			<TurbineSpinDownSpeed>0.3</TurbineSpinDownSpeed>
+			<TurbineRotationSpeed>7</TurbineRotationSpeed>
+			<PCU>55</PCU>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+			<Id>
+				<TypeId>Cockpit</TypeId>
+				<SubtypeId>SpeederCockpit</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_SpeederCockpit</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\SpeederCockpit.dds</Icon>
+			<Description>Description_SpeederCockpit</Description>
+			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3" />
+			<Model>Models\Cubes\Small\SpeederCockpit.mwm</Model>
+			<CharacterAnimationMale>SpeederCockpitPose</CharacterAnimationMale>
+			<CharacterAnimationFemale>SpeederCockpitPoseFemale</CharacterAnimationFemale>
+			<BackpackEnabled>true</BackpackEnabled>
+			<ModelOffset x="0" y="0" z="0" />
+			<Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="CopperWire" Count="15" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="Display" Count="10" />
+				<Component Subtype="Fabric" Count="15" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Display" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.6" StartY="0.0" EndX="2.4" EndY="0.7" Default="true"/>
+				<MountPoint Side="Bottom" StartX="1.0" StartY="2.0" EndX="2.0" EndY="3"/>
+				<MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1.5" />
+				<MountPoint Side="Back" StartX="1.1" StartY="1.9" EndX="1.9" EndY="2" />
+				<MountPoint Side="Front" StartX="0.6" StartY="0" EndX="2.4" EndY="1.4" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SpeederCockpitConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SpeederCockpitConstruction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>SpeederCockpit</BlockPairName>
+			<ScreenAreas>
+				<ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_Velocity"  />
+				<ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Small" TextureResolution="256" ScreenWidth="4" ScreenHeight="2" Script="TSS_EnergyHydrogen"  />
+			</ScreenAreas>
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<EnableFirstPerson>true</EnableFirstPerson>
+			<EnableShipControl>true</EnableShipControl>
+			<EnableBuilderCockpit>false</EnableBuilderCockpit>
+			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<IsPressurized>false</IsPressurized>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<PCU>50</PCU>
+			<Center x="1" y="0" z="0" />
+			<IsAirTight>false</IsAirTight>
+			<DLC>Automatons</DLC>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+			<Id>
+				<TypeId>Cockpit</TypeId>
+				<SubtypeId>BuggyCockpit</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_BuggyCockpit</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\BuggyCockpit_Racing.dds</Icon>
+			<Description>Description_BuggyCockpit</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="3" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\BuggyCockpit_Racing.mwm</Model>
+			<PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+			<CharacterAnimation>BuggyCockpitPose</CharacterAnimation>
+			<UsesDeformation>false</UsesDeformation>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="CopperWire" Count="15" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="Display" Count="10" />
+				<Component Subtype="Fabric" Count="15" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Display" Index="0" />
+			<Center x="0" y="0" z="1" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="1.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="3" EndY="1" />
+				<MountPoint Side="Right" StartX="2" StartY="0" EndX="3" EndY="1.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+			</MountPoints>
+			<ScreenAreas>
+				<ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_Velocity" />
+				<ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Left" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_EnergyHydrogen" />
+				<ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_Right" TextureResolution="256" ScreenWidth="5" ScreenHeight="3"  Script="TSS_Weather" />
+			</ScreenAreas>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BuggyCockpit_Racing_Construction1.mwm" />
+				<Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BuggyCockpit_Racing_Construction2.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>BuggyCockpit</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EnableFirstPerson>true</EnableFirstPerson>
+			<EnableShipControl>true</EnableShipControl>
+			<EnableBuilderCockpit>true</EnableBuilderCockpit>
+			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<IsPressurized>false</IsPressurized>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<RaycastOffset>
+				<X>0.016</X>
+				<Y>0.4983</Y>
+				<Z>0.15</Z>
+			</RaycastOffset>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<DLC>ScrapRace</DLC>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+			<Id>
+				<TypeId>Cockpit</TypeId>
+				<SubtypeId>RoverCockpit</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_RoverCockpit</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\RoverCockpit.dds</Icon>
+			<Description>Description_RoverCockpit</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="3" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\RoverCockpit.mwm</Model>
+			<PrimarySound>BlockCockpitFlightSeat</PrimarySound>
+			<CharacterAnimation>RoverCockpitPose</CharacterAnimation>
+			<UsesDeformation>false</UsesDeformation>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="CopperWire" Count="15" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="Fabric" Count="15" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Display" Index="0" />
+			<Center x="0" y="0" z="1" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="1.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="3" EndY="1" />
+				<MountPoint Side="Right" StartX="2" StartY="0" EndX="3" EndY="1.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+			</MountPoints>
+			<ScreenAreas>
+				<ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Left" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_EnergyHydrogen" />
+				<ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopCenter" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_ArtificialHorizon" />
+				<ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_Right" TextureResolution="256" ScreenWidth="5" ScreenHeight="3"  Script="TSS_Gravity" />
+				<ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Small" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" Script="TSS_Velocity"/>
+				<ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_BottomRight" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" Script="TSS_ClockAnalog"/>
+			</ScreenAreas>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\RoverCockpitConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1" File="Models\Cubes\Small\RoverCockpitConstruction_2.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>RoverCockpit</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EnableFirstPerson>true</EnableFirstPerson>
+			<EnableShipControl>true</EnableShipControl>
+			<EnableBuilderCockpit>true</EnableBuilderCockpit>
+			<TargetLockingEnabled>true</TargetLockingEnabled>
+			<IsPressurized>false</IsPressurized>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<RaycastOffset>
+				<X>0.016</X>
+				<Y>0.4983</Y>
+				<Z>0.15</Z>
+			</RaycastOffset>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+			<Id>
+				<TypeId>OxygenGenerator</TypeId>
+				<SubtypeId>GasolineRefinery</SubtypeId>
+			</Id>
+			<DisplayName>Gasoline Refinery</DisplayName>
+			<Icon>Icons\FuelRefinery.dds</Icon>
+			<Description>
+				Refines raw Fuel Oil into useable Gasoline.
+
+				Max Output: 80L/s
+				Power Usage: 2MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\GasolineRefinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="25" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="LargeTube" Count="30" />
+				<Component Subtype="SmallTube" Count="20" />
+				<Component Subtype="Motor" Count="20" />
+				<Component Subtype="Computer" Count="30" />
+				<Component Subtype="Ceramic" Count="50" />
+				<Component Subtype="SteelPlate" Count="75" />
+			</Components>
+			<CriticalComponent Subtype="Ceramic" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+				<MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Construct\FuelRefineryConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Construct\FuelRefineryConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Construct\FuelRefineryConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSourceGroup>Reactors</ResourceSourceGroup>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<IceConsumptionPerSecond>10</IceConsumptionPerSecond>
+			<InventoryMaxVolume>5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+
+			<InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+			<InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+
+			<FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<ProducedGases>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Gasoline</SubtypeId>
+					</Id>
+					<IceToGasRatio>8</IceToGasRatio>
+				</GasInfo>
+			</ProducedGases>
+			<BlueprintClasses>
+				<Class>FuelOilToFuels</Class>
+			</BlueprintClasses>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<GenerateSound>BlockOxyGenProcess</GenerateSound>
+			<IdleSound>BlockOxyGenIdle</IdleSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<PCU>50</PCU>
+			<TieredUpdateTimes>
+				<unsignedInt>300</unsignedInt>
+				<unsignedInt>600</unsignedInt>
+				<unsignedInt>1200</unsignedInt>
+			</TieredUpdateTimes>
+		</Definition>
 	</CubeBlocks>
 </Definitions>
