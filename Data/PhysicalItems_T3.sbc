@@ -33,7 +33,7 @@
 	
 	<Component>
 		<Id>
-			<TypeId>Ingot</TypeId>
+			<TypeId>Component</TypeId>
 			<SubtypeId>GGMAlSiAlloy</SubtypeId>
 		</Id>
 		<DisplayName>Al Si Alloy</DisplayName>
@@ -61,7 +61,7 @@
 	</Component>
 	<Component>
 		<Id>
-			<TypeId>Ingot</TypeId>
+			<TypeId>Component</TypeId>
 			<SubtypeId>GGMAlMgAlloy</SubtypeId>
 		</Id>
 		<DisplayName>Al Mg Alloy</DisplayName>
@@ -89,7 +89,7 @@
 	</Component>
 	<Component>
 		<Id>
-			<TypeId>Ingot</TypeId>
+			<TypeId>Component</TypeId>
 			<SubtypeId>GGMAlCuAlloy</SubtypeId>
 		</Id>
 		<DisplayName>Al Cu Alloy</DisplayName>
@@ -117,11 +117,39 @@
 	</Component>
 	<Component>
 		<Id>
-			<TypeId>Ingot</TypeId>
+			<TypeId>Component</TypeId>
 			<SubtypeId>GGMAlSiCuAlloy</SubtypeId>
 		</Id>
 		<DisplayName>Al Si Cu Alloy</DisplayName>
 		<Description>High sturdy and hardened alloy, used in high end production facilities</Description>
+		<Icon>Icons\placeholder.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>346635</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GGMAdvCircuitBoard</SubtypeId>
+		</Id>
+		<DisplayName>Advanced Circuit Board</DisplayName>
+		<Description>Advanced Circuit Board</Description>
 		<Icon>Icons\placeholder.dds</Icon>
 		<Size>
 			<X>0.1</X>

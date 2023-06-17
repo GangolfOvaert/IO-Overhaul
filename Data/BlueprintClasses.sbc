@@ -355,6 +355,10 @@
 	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlMgAlloy" />
 	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlCuAlloy" />
 	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlSiCuAlloy" />
+
+	  <Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="GGM_P_GGMAdvCircuitBoard" />
+
+	  
   </BlueprintClassEntries>
 
 </Definitions>

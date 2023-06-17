@@ -9,10 +9,10 @@
 			<DisplayName>Al Si Alloy</DisplayName>
 			<Icon>Icons\placeholder.dds</Icon>
 			<Prerequisites>
-				<Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
-				<Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
+				<Item Amount="5" TypeId="Component" SubtypeId="Aluminum" />
+				<Item Amount="5" TypeId="Component" SubtypeId="Silicon" />
 			</Prerequisites>
-			<Result Amount="1" TypeId="Ingot" SubtypeId="GGMAlSiAlloy" />
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlSiAlloy" />
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
@@ -23,10 +23,10 @@
 			<DisplayName>Al Mg Alloy</DisplayName>
 			<Icon>Icons\placeholder.dds</Icon>
 			<Prerequisites>
-				<Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
-				<Item Amount="5" TypeId="Ingot" SubtypeId="Niter" />
+				<Item Amount="5" TypeId="Component" SubtypeId="Aluminum" />
+				<Item Amount="5" TypeId="Component" SubtypeId="Niter" />
 			</Prerequisites>
-			<Result Amount="1" TypeId="Ingot" SubtypeId="GGMAlMgAlloy" />
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlMgAlloy" />
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
@@ -37,10 +37,10 @@
 			<DisplayName>Al Cu Alloy</DisplayName>
 			<Icon>Icons\placeholder.dds</Icon>
 			<Prerequisites>
-				<Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
-				<Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+				<Item Amount="5" TypeId="Component" SubtypeId="Aluminum" />
+				<Item Amount="5" TypeId="Component" SubtypeId="Copper" />
 			</Prerequisites>
-			<Result Amount="1" TypeId="Ingot" SubtypeId="GGMAlCuAlloy" />
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlCuAlloy" />
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
@@ -51,11 +51,42 @@
 			<DisplayName></DisplayName>
 			<Icon>Icons\placeholder.dds</Icon>
 			<Prerequisites>
-				<Item Amount="5" TypeId="Ingot" SubtypeId="GGMAlCuAlloy" />
-				<Item Amount="5" TypeId="Ingot" SubtypeId="GGMAlSiAlloy" />
+				<Item Amount="5" TypeId="Component" SubtypeId="GGMAlCuAlloy" />
+				<Item Amount="5" TypeId="Component" SubtypeId="GGMAlSiAlloy" />
 			</Prerequisites>
-			<Result Amount="1" TypeId="Ingot" SubtypeId="GGMAlSiCuAlloy" />
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlSiCuAlloy" />
 			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_P_GGMAdvCircuitBoard</SubtypeId>
+			</Id>
+			<DisplayName></DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="GGMCircuitBoard" />
+				<Item Amount="5" TypeId="Component" SubtypeId="GoldWire" />
+				<Item Amount="2" TypeId="Component" SubtypeId="Plastic" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAdvCircuitBoard" />
+			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>AdvancedComputer</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Computer</DisplayName>
+			<Icon>Icons\Computer2.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="GGMAdvCircuitBoard" />
+				<Item Amount="1" TypeId="Component" SubtypeId="Lightbulb" />
+				<Item Amount="5" TypeId="Component" SubtypeId="Computer" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="AdvancedComputer" />
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+		</Blueprint>
+
 	</Blueprints>
 </Definitions>
