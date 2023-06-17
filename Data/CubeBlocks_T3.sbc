@@ -145,7 +145,7 @@
 				<SubtypeId>AlloySmelter</SubtypeId>
 			</Id>
 			<DisplayName>Alloy Smelter</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+			<Icon>Icons\placeholder.dds</Icon>
 			<Description>
 				Automated production of basic components.
 				Produces Basic Computers, Construction Components, Metal Grids, Electromagnets, Heating Elements, Lightbulbs, and Alkaline Power Cells.
@@ -358,10 +358,7 @@
 			<DisplayName>Refinery T2</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
 			<Description>
-				Refineries can refine Bauxite, Titanium, Coal, Silver, Gold, Platinum, and Tantalum.
-				Stone can also be refined for higher yields than in a Smelter.
-
-				Power Usage: 3MW
+				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

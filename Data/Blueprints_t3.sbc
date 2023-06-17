@@ -1,6 +1,61 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
-
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_P_AlSiAlloy</SubtypeId>
+			</Id>
+			<DisplayName>Al Si Alloy</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Ingot" SubtypeId="GGMAlSiAlloy" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_P_AlMgAlloy</SubtypeId>
+			</Id>
+			<DisplayName>Al Mg Alloy</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Niter" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Ingot" SubtypeId="GGMAlMgAlloy" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_P_AlCuAlloy</SubtypeId>
+			</Id>
+			<DisplayName>Al Cu Alloy</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Ingot" SubtypeId="GGMAlCuAlloy" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_P_AlSiCuAlloy</SubtypeId>
+			</Id>
+			<DisplayName></DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+				<Item Amount="5" TypeId="Ingot" SubtypeId="GGMAlCuAlloy" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="GGMAlSiAlloy" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Ingot" SubtypeId="GGMAlSiCuAlloy" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+		</Blueprint>
 	</Blueprints>
 </Definitions>
