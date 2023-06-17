@@ -10,7 +10,7 @@
 			</Id>
 			<DisplayName>DisplayName_Block_SolarPanel</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-			<Description>Description_SolarPanel</Description>
+			<Description>Basic T3 Solar Panel</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="4" y="2" z="1" />
