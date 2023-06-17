@@ -288,6 +288,39 @@
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
 
 
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushStoneOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushIronOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushNickelOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushCobaltOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushSiliconOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushSilverOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushGoldOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushPlatinumOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushUraniumOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushCopperOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushLithiumOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushBauxiteOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushTitaniumOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushTantalumOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushNiterOre" />
+	  <Entry Class="Crusher" BlueprintSubtypeId="CrushSulfurOre" />
+
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyIronOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyNickelOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyCobaltOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifySiliconOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifySilverOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyGoldOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyPlatinumOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyUraniumOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyCopperOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyLithiumOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyBauxiteOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyTitaniumOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyTantalumOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifyNiterOre" />
+	  <Entry Class="Purifier" BlueprintSubtypeId="PurifySulfurOre" />
+
 
   </BlueprintClassEntries>
 
