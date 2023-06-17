@@ -148,10 +148,7 @@
 			<DisplayName>Smelter T1</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
 			<Description>
-				Smelters can refine scrap metal, Silicon, Iron, Copper, Nickel, and Cobalt.
-				Stone can also be refined for higher yields than in a Survival Kit.
-
-				Power Usage: 2MW
+				Smelters can refine Nickel, Iron, Silicon, Copper, Silver
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

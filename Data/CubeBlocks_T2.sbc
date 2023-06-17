@@ -84,10 +84,7 @@
 			<DisplayName>Smelter T2</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
 			<Description>
-				Smelters can refine scrap metal, Silicon, Iron, Copper, Nickel, and Cobalt.
-				Stone can also be refined for higher yields than in a Survival Kit.
-
-				Power Usage: 2MW
+				Smelters can refine Nickel, iron, Silicon, copper, Silver, Gold, Cobalt, Platin
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -154,8 +151,7 @@
 			<DisplayName>Refinery T1</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
 			<Description>
-				Refineries can refine Bauxite, Titanium, Coal, Silver, Gold, Platinum, and Tantalum.
-				Stone can also be refined for higher yields than in a Smelter.
+				Refinery can refine Nickel, Iron, Silicon, Copper, Silver, Gold, Cobalt, Platin
 
 				Power Usage: 3MW
 			</Description>
