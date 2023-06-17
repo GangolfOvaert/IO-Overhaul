@@ -1243,8 +1243,8 @@
 			<DisplayName>Gasoline Engine</DisplayName>
 			<Description>
 				Burns Gasoline to generate power.
-				Max Output: 15MW
-				Fuel Consumption: 1.5L/s
+				Max Output: 5MW
+				Fuel Consumption: 50L/s
 			</Description>
 			<Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
 			<CubeSize>Large</CubeSize>
@@ -1263,7 +1263,7 @@
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
-			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" Default="true" />
 				<MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
@@ -1280,8 +1280,8 @@
 			<BuildTimeSeconds>60</BuildTimeSeconds>
 			<ResourceSinkGroup>Generators</ResourceSinkGroup>
 			<ResourceSourceGroup>Reactors</ResourceSourceGroup>
-			<MaxPowerOutput>15</MaxPowerOutput>
-			<FuelCapacity>10</FuelCapacity>
+			<MaxPowerOutput>5</MaxPowerOutput>
+			<FuelCapacity>1000</FuelCapacity>
 			<EmissiveColorPreset>Extended</EmissiveColorPreset>
 			<IsAirTight>false</IsAirTight>
 			<InventorySize>
@@ -1297,7 +1297,7 @@
 					</Id>
 				</FuelInfo>
 			</FuelInfos>
-			<FuelProductionToCapacityMultiplier>10</FuelProductionToCapacityMultiplier>
+			<FuelProductionToCapacityMultiplier>0.11</FuelProductionToCapacityMultiplier>
 			<PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
 
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -1306,7 +1306,7 @@
 			<DestroySound>WepSmallWarheadExpl</DestroySound>
 
 			<AnimationSpeed>5</AnimationSpeed>
-			<PistonAnimationMin>-0.15</PistonAnimationMin>
+			<PistonAnimationMin>0</PistonAnimationMin>
 			<PistonAnimationMax>0.01</PistonAnimationMax>
 			<PistonAnimationOffsets>
 				<float>0.5</float>
@@ -1334,7 +1334,7 @@
 			<Description>
 				Burns Gasoline to generate power.
 				Max Output: 1.5MW
-				Fuel Consumption: 150mL/s
+				Fuel Consumption: 1,5L/s
 			</Description>
 			<Icon>Textures\GUI\Icons\Cubes\HydrogenEngineSmall.dds</Icon>
 			<CubeSize>Small</CubeSize>
@@ -1391,7 +1391,7 @@
 					</Id>
 				</FuelInfo>
 			</FuelInfos>
-			<FuelProductionToCapacityMultiplier>10</FuelProductionToCapacityMultiplier>
+			<FuelProductionToCapacityMultiplier>1</FuelProductionToCapacityMultiplier>
 			<PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
 
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

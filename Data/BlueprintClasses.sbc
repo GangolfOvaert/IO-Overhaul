@@ -134,6 +134,46 @@
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
 		</Class>
 
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Purifiert4</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert4</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>RefineryIngotst3</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst4</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
 		
 
 	</BlueprintClasses>
@@ -293,7 +333,8 @@
 	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedNickelumOreToIngot" />
 	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedIronOreToIngot" />
 	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedTitaniumOreToIngot" />
-	  <!-- T3 Refinery-->
+
+	  <!-- T2 Refinery-->
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="StoneOreToIngot" />
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="SilverOreToIngot" />
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="GoldOreToIngot" />
@@ -309,7 +350,6 @@
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedLithiumOreToIngot" />
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
-
 
 	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlSiAlloy" />
 	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlMgAlloy" />

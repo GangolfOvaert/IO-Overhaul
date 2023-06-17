@@ -231,10 +231,11 @@
 				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="AdvancedComputer" Count="30" />		
 				<Component Subtype="GGMSilverComponent" Count="75" />
-				<Component Subtype="Superconductor" Count="75" />	
+				<Component Subtype="Superconductor" Count="75" />
+				<Component Subtype="MetalGrid" Count="50" />
 				<Component Subtype="SteelPlate" Count="350" />
 			</Components>
-			<CriticalComponent Subtype="Construction" Index="0" />
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
 				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />

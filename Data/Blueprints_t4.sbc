@@ -1,6 +1,24 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
-		
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ReactorComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
+			<Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+				<Item Amount="10" TypeId="Component" SubtypeId="GGMAlSiAlloy" />
+				<Item Amount="20" TypeId="Component" SubtypeId="Concrete" />
+				<Item Amount="5" TypeId="Component" SubtypeId="GGMSilverPlate" />
+				<Item Amount="10" TypeId="Component" SubtypeId="Tantalum" />	
+				<Item Amount="5" TypeId="Component" SubtypeId="Plastic" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
+			<BaseProductionTimeInSeconds>999</BaseProductionTimeInSeconds>
+			<Public>false</Public>
+		</Blueprint>		
 	</Blueprints>
 </Definitions>
