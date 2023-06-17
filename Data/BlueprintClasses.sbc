@@ -139,18 +139,20 @@
 	</BlueprintClasses>
 	
   <BlueprintClassEntries>
+	  <!-- Tier 1 -->
 
-	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
-	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
-	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
-	  
-	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOreToIngot" />
-	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
-    <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
-	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="SilverOreToIngot_Smelter" />
-	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSilverOreToIngot_Smelter" />
-	<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSilverOreToIngot_Smelter" />
+	  <Entry Class="Purifiert1" BlueprintSubtypeId="PurifyIronOre" />
+	  <Entry Class="Purifiert1" BlueprintSubtypeId="PurifyNickelOre" />
+	  <Entry Class="Purifiert1" BlueprintSubtypeId="PurifyCopperOre" />
+	  <Entry Class="Purifiert1" BlueprintSubtypeId="PurifySiliconOre" />
+	  <Entry Class="Purifiert1" BlueprintSubtypeId="PurifySilverOre" />
 
+	  <Entry Class="Crushert1" BlueprintSubtypeId="CrushStoneOre" />
+	  <Entry Class="Crushert1" BlueprintSubtypeId="CrushIronOre" />
+	  <Entry Class="Crushert1" BlueprintSubtypeId="CrushNickelOre" />
+	  <Entry Class="Crushert1" BlueprintSubtypeId="CrushCopperOre" />
+	  <Entry Class="Crushert1" BlueprintSubtypeId="CrushSiliconOre" />
+	  <Entry Class="Crushert1" BlueprintSubtypeId="CrushSilverOre" />
 
 
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
@@ -161,66 +163,56 @@
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="SiliconOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="NickelOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="SilverOreToIngot" />
 
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedIronOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedNickelOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSilverOreToIngot" />
 
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedIronOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
 
-    <Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Bench_CircuitBoard" />
+
+	<Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
     <Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
 	<Entry Class="FabricatorComponents" BlueprintSubtypeId="POMedicalComponent" />
 
 	<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
 
-	<Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
-
-	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Bench_CircuitBoard" />
+    <Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
 	<Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Extruder_CircuitBoard" />
 	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="GGM_P_Electronic_CircuitBoard" />
 
-	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyIronOre" />
-	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyNickelOre" />
-	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyCopperOre" />
-	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifySiliconOre" />
-	<Entry Class="Purifiert1" BlueprintSubtypeId="PurifySilverOre" />
-	<Entry Class="Crushert1" BlueprintSubtypeId="CrushStoneOre" />
-	<Entry Class="Crushert1" BlueprintSubtypeId="CrushIronOre" />
-	<Entry Class="Crushert1" BlueprintSubtypeId="CrushNickelOre" />
-	<Entry Class="Crushert1" BlueprintSubtypeId="CrushCopperOre" />
-	<Entry Class="Crushert1" BlueprintSubtypeId="CrushSiliconOre" />
-	<Entry Class="Crushert1" BlueprintSubtypeId="CrushSilverOre" />
-
-	  
+	  <!-- Tier 2 -->	  
 	  
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyIronOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyNickelOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCobaltOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifySiliconOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCopperOre" />
-
 	<Entry Class="Purifiert2" BlueprintSubtypeId="PurifySilverOre" />
 	<Entry Class="Purifiert2" BlueprintSubtypeId="CrushGoldOre" />
-	<Entry Class="Purifiert2" BlueprintSubtypeId="CrushNickelOre" />
-	<Entry Class="Purifiert2" BlueprintSubtypeId="CrushTitanOre" />	  
+
+
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushStoneOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushIronOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushNickelOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushCobaltOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushCopperOre" />
-
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushSiliconOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushSilverOre" />
 	<Entry Class="Crushert2" BlueprintSubtypeId="CrushGoldOre" />
-	<Entry Class="Crushert2" BlueprintSubtypeId="CrushNickelOre" />
-	<Entry Class="Crushert2" BlueprintSubtypeId="CrushTitanOre" />
 	  
 	  
 
@@ -249,50 +241,25 @@
 	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
 
 
-
-
 	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
 	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
 	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="StoneOreToIngotBasic" />
 	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="StoneOreToIngot" />
 	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="SilverOreToIngot" />
 	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="GoldOreToIngot" />
-
 	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="BauxiteOreToIngot" />
-
-	  
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="CrushedSilverOreToIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="CrushedGoldOreToIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
-
-
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
-
-
-
-	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyIronOre" />
-	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyNickelOre" />
-	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCobaltOre" />
-	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifySiliconOre" />
-	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifySilverOre" />
-	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyGoldOre" />
-
-	  <Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCopperOre" />
 
 	  <Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
 	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_P_Cobalt_Plate" />
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
 
-		<!-- Missing unprocesed Ore-->
+		<!-- Tier 3-->
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushIronOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushNickelOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushCobaltOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushSiliconOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushSilverOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushGoldOre" />
-
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushCopperOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushBauxiteOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushTitaniumOre" />
@@ -303,8 +270,6 @@
 	  <Entry Class="Purifiert3" BlueprintSubtypeId="PurifySiliconOre" />
 	  <Entry Class="Purifiert3" BlueprintSubtypeId="PurifySilverOre" />
 	  <Entry Class="Purifiert3" BlueprintSubtypeId="PurifyGoldOre" />
-
-	  <Entry Class="Purifiert3" BlueprintSubtypeId="PurifyUraniumOre" />
 	  <Entry Class="Purifiert3" BlueprintSubtypeId="PurifyCopperOre" />
 	  <Entry Class="Purifiert3" BlueprintSubtypeId="PurifyLithiumOre" />
 	  <Entry Class="Purifiert3" BlueprintSubtypeId="PurifyBauxiteOre" />

@@ -232,6 +232,7 @@
 			<Icon>Icons\OrePurifier.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
+				Nicekel, Iron, Silicon, Copper, Silver, Gold, Cobalt
 
 				Power Usage: 5MW
 			</Description>
