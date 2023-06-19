@@ -21,14 +21,14 @@
 			<Center x="1" y="1" z="1" />
 			<Model>Models\OreCrusher.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="CopperWire" Count="200" />
 				<Component Subtype="LargeTube" Count="40" />
 				<Component Subtype="Motor" Count="40" />
 				<Component Subtype="Ceramic" Count="100" />
 				<Component Subtype="Computer" Count="30" />
-				<Component Subtype="SteelPlate" Count="300" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -90,16 +90,16 @@
 			<Center x="1" y="0" z="1" />
 			<Model>Models\OrePurifier.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="SteelPlate" Count="250" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="CopperWire" Count="250" />
 				<Component Subtype="LargeTube" Count="75" />
 				<Component Subtype="Electromagnet" Count="100" />
 				<Component Subtype="Motor" Count="100" />
 				<Component Subtype="Computer" Count="80" />
-				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<Center x="1" y="0" z="1" />
 			<MountPoints>
 				<MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -156,12 +156,12 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="SteelPlate" Count="180" />
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="Computer" Count="50" />
 				<Component Subtype="HeatingElement" Count="50" />
-				<Component Subtype="SteelPlate" Count="180" />
+				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="HeatingElement" Index="0" />
 			<MirroringZ>Y</MirroringZ>
@@ -226,13 +226,13 @@
 			<Center x="1" y="1" z="1" />
 			<Model>Models\BitumenExtractor.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="LargeTube" Count="20" />
 				<Component Subtype="Motor" Count="30" />
 				<Component Subtype="Computer" Count="30" />
-				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<Center x="1" y="0" z="1" />
@@ -291,13 +291,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="SteelPlate" Count="80" />
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="LargeTube" Count="30" />
 				<Component Subtype="Electromagnet" Count="30" />
 				<Component Subtype="Computer" Count="50" />
-				<Component Subtype="SteelPlate" Count="80" />
+				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
@@ -349,12 +349,12 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\SiliconFuser.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="80" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="HeatingElement" Count="40" />
 				<Component Subtype="Computer" Count="60" />
-				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -411,13 +411,13 @@
 			<Center x="3" y="1" z="1" />
 			<Model>Models\CementKiln.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="SteelPlate" Count="120" />
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="LargeTube" Count="50" />
 				<Component Subtype="HeatingElement" Count="40" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="SteelPlate" Count="120" />
+				<Component Subtype="SteelPlate" Count="30" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -476,14 +476,14 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\WireDrawer.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="SteelPlate" Count="120" />
 				<Component Subtype="Construction" Count="80" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="SmallTube" Count="40" />
 				<Component Subtype="LargeTube" Count="20" />
 				<Component Subtype="Electromagnet" Count="40" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="SteelPlate" Count="120" />
+				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
@@ -534,12 +534,12 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Incinerator.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="250" />
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="LargeTube" Count="100" />
 				<Component Subtype="HeatingElement" Count="100" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -601,14 +601,14 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Extruder.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="SteelPlate" Count="120" />
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="SmallTube" Count="30" />
 				<Component Subtype="LargeTube" Count="20" />
 				<Component Subtype="Electromagnet" Count="10" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="SteelPlate" Count="120" />
+				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
@@ -660,13 +660,13 @@
 		<Center x="0" y="0" z="1" />
 		<Model>Models\PlateStamp.mwm</Model>
 		<Components>
-			<Component Subtype="SteelPlate" Count="40" />
+			<Component Subtype="SteelPlate" Count="160" />
 			<Component Subtype="Construction" Count="100" />
 			<Component Subtype="CopperWire" Count="100" />
 			<Component Subtype="Electromagnet" Count="30" />
 			<Component Subtype="LargeTube" Count="20" />
 			<Component Subtype="Computer" Count="40" />
-			<Component Subtype="SteelPlate" Count="160" />
+			<Component Subtype="SteelPlate" Count="40" />
 		</Components>
 		<CriticalComponent Subtype="Computer" Index="0" />
 		<MountPoints>
@@ -706,56 +706,6 @@
 		<IsAirTight>true</IsAirTight>
 		<EmissiveColorPreset>Extended</EmissiveColorPreset>
 		</Definition>
-		    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
-      <Id>
-        <TypeId>CargoContainer</TypeId>
-        <SubtypeId>SmallBlockSmallContainer</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_SmallCargoContainer</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
-      <Description>Description_SmallCargoContainer</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="CopperWire" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="CopperWire" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
-      </BuildProgressModels>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>6</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>10</PCU>
-      <IsAirTight>true</IsAirTight>
-    </Definition>
-
-
-
-
-
 
 		<Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
 			<Id>
@@ -778,13 +728,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\LargeWindTurbine.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="25" />
+				<Component Subtype="SteelPlate" Count="275" />
 				<Component Subtype="Construction" Count="20" />
 				<Component Subtype="Motor" Count="10" />
 				<Component Subtype="Electromagnet" Count="40" />
 				<Component Subtype="CopperWire" Count="150" />
 				<Component Subtype="Computer" Count="50" />
-				<Component Subtype="SteelPlate" Count="275" />
+				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -858,12 +808,12 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\WindTurbine.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="SteelPlate" Count="130" />
 				<Component Subtype="Electromagnet" Count="20" />
 				<Component Subtype="Construction" Count="20" />
 				<Component Subtype="CopperWire" Count="80" />
 				<Component Subtype="Computer" Count="20" />
-				<Component Subtype="SteelPlate" Count="130" />
+				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -1166,14 +1116,14 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\GasolineRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="25" />
+				<Component Subtype="SteelPlate" Count="75" />
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="LargeTube" Count="30" />
 				<Component Subtype="SmallTube" Count="20" />
 				<Component Subtype="Motor" Count="20" />
 				<Component Subtype="Computer" Count="30" />
 				<Component Subtype="Ceramic" Count="50" />
-				<Component Subtype="SteelPlate" Count="75" />
+				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -1254,7 +1204,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="80" />
+				<Component Subtype="SteelPlate" Count="180" />
 				<Component Subtype="Construction" Count="60" />
 				<Component Subtype="LargeTube" Count="12" />
 				<Component Subtype="SmallTube" Count="20" />
@@ -1353,7 +1303,7 @@
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="SteelPlate" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
 				<MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
