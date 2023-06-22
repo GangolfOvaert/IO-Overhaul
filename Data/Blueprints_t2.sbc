@@ -48,7 +48,7 @@
 				<SubtypeId>GoldWire</SubtypeId>
 			</Id>
 			<DisplayName>Gold Wire</DisplayName>
-			<Icon>Icons\GoldWire.dds</Icon>
+			<Icon>..\2344068716\Icons\GoldWire.dds</Icon>
 			<Prerequisites>
 				<Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
 			</Prerequisites>

@@ -156,7 +156,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\GasolineRefinery.mwm</Model>
+			<Model>..\2344068716\Models\GasolineRefinery.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="40" />
 				<Component Subtype="Construction" Count="30" />
@@ -174,9 +174,9 @@
 				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\FuelRefineryConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\FuelRefineryConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\FuelRefineryConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\FuelRefineryConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\FuelRefineryConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\FuelRefineryConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>60</BuildTimeSeconds>
@@ -210,7 +210,7 @@
 				<SubtypeId>RockCrushert3</SubtypeId>
 			</Id>
 			<DisplayName>Rock Crusher T3</DisplayName>
-			<Icon>Icons\OreCrusher.dds</Icon>
+			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
@@ -245,9 +245,9 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\OreCrusherConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\OreCrusherConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OreCrusherConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -433,7 +433,7 @@
 				<SubtypeId>OrePurifiert3</SubtypeId>
 			</Id>
 			<DisplayName>Ore Purifier T3</DisplayName>
-			<Icon>Icons\OrePurifier.dds</Icon>
+			<Icon>..\2344068716\Icons\OrePurifier.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 
@@ -466,10 +466,10 @@
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.25" File="Models\Construct\OrePurifierConstruct0.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\OrePurifierConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.75" File="Models\Construct\OrePurifierConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OrePurifierConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\OrePurifierConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\OrePurifierConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\OrePurifierConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OrePurifierConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -504,7 +504,7 @@
 				<SubtypeId>RocketFuelRefinery</SubtypeId>
 			</Id>
 			<DisplayName>Rocket Fuel Refinery</DisplayName>
-			<Icon>Icons\FuelRefinery.dds</Icon>
+			<Icon>..\2344068716\Icons\FuelRefinery.dds</Icon>
 			<Description>
 				Refines raw Fuel Oil into useable Rocket Fuel.
 
@@ -538,9 +538,9 @@
 				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\FuelRefineryConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\FuelRefineryConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\FuelRefineryConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\FuelRefineryConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\FuelRefineryConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\FuelRefineryConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -596,7 +596,7 @@
 				<SubtypeId>MicroelectronicsFactory</SubtypeId>
 			</Id>
 			<DisplayName>Microelectronics Factory</DisplayName>
-			<Icon>Icons\MicroelectronicsFactory.dds</Icon>
+			<Icon>..\2344068716\Icons\MicroelectronicsFactory.dds</Icon>
 			<Description>
 				Advanced production machinery for delicate electronic components.
 				Produces Basic and Advanced Computers, Thermocouples, Sensor Clusters, and Displays.
@@ -607,7 +607,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\MicroelectronicsFactory.mwm</Model>
+			<Model>..\2344068716\Models\MicroelectronicsFactory.mwm</Model>
 			<Components>
 				<Component Subtype="InteriorPlate" Count="300" />
 				<Component Subtype="Construction" Count="150" />
@@ -621,10 +621,10 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.25" File="Models\Construct\MicroelectronicsFactoryConstruct0.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\MicroelectronicsFactoryConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.75" File="Models\Construct\MicroelectronicsFactoryConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\MicroelectronicsFactoryConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\MicroelectronicsFactoryConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\MicroelectronicsFactoryConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\MicroelectronicsFactoryConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\MicroelectronicsFactoryConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -658,7 +658,7 @@
 				<SubtypeId>WireDrawer</SubtypeId>
 			</Id>
 			<DisplayName>Wire Drawer T2</DisplayName>
-			<Icon>Icons\WireDrawer.dds</Icon>
+			<Icon>..\2344068716\Icons\WireDrawer.dds</Icon>
 			<Description>
 				Draws and insulates Wire of various types.
 
@@ -668,7 +668,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\WireDrawer.mwm</Model>
+			<Model>..\2344068716\Models\WireDrawer.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="100" />
@@ -684,8 +684,8 @@
 			</Components>
 			<CriticalComponent Subtype="InteriorPlate" Index="0" />
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\Generic2x2Construct1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\Generic2x2Construct2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -718,7 +718,7 @@
 				<SubtypeId>ChemicalPlant</SubtypeId>
 			</Id>
 			<DisplayName>Chemical Refinery</DisplayName>
-			<Icon>Icons\ChemicalPlant.dds</Icon>
+			<Icon>..\2344068716\Icons\ChemicalPlant.dds</Icon>
 			<Description>
 				Refines Lithium, Niter, and Sulfur, and extracts pure Carbon from Coal.
 
@@ -728,7 +728,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="5" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\ChemicalPlant.mwm</Model>
+			<Model>..\2344068716\Models\ChemicalPlant.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="125" />
 				<Component Subtype="Construction" Count="60" />
@@ -747,9 +747,9 @@
 				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\ChemicalPlantConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\ChemicalPlantConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\ChemicalPlantConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\ChemicalPlantConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\ChemicalPlantConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\ChemicalPlantConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -782,7 +782,7 @@
 				<SubtypeId>AdvancedAssembler</SubtypeId>
 			</Id>
 			<DisplayName>Advanced Assembler</DisplayName>
-			<Icon>Icons\AdvancedAssembler.dds</Icon>
+			<Icon>..\2344068716\Icons\AdvancedAssembler.dds</Icon>
 			<Description>
 				Advanced assembling machinery, capable of producing more intricate and compact components.
 				Produces Laser Emitters, Lithium Power Cells, Reactor Components, Superconducting Magnets, and Tokamak Blanket Plates.
@@ -793,7 +793,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\AdvancedAssembler.mwm</Model>
+			<Model>..\2344068716\Models\AdvancedAssembler.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="250" />
 				<Component Subtype="Construction" Count="100" />
@@ -827,9 +827,9 @@
 				<MountPoint Side="Right" StartX="2" StartY="0" EndX="3" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\AdvancedAssemblerConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\AdvancedAssemblerConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\AdvancedAssemblerConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -1216,7 +1216,7 @@
 				<SubtypeId>LargeRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Rocket Fuel Tank</DisplayName>
-			<Icon>Icons\SphereTankLegs.dds</Icon>
+			<Icon>..\2344068716\Icons\SphereTankLegs.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 500,000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -1245,9 +1245,9 @@
 				<MountPoint Side="Back" StartX="2.0" StartY="2.0" EndX="3.0" EndY="3.0" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\LargeRocketFuelTankConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\LargeRocketFuelTankConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\LargeRocketFuelTankConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeRocketFuelTankConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeRocketFuelTankConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeRocketFuelTankConstruct3.mwm" />
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
@@ -1288,7 +1288,7 @@
 				<SubtypeId>LargeRocketFuelTankNoLegs</SubtypeId>
 			</Id>
 			<DisplayName>Rocket Fuel Tank - No Legs</DisplayName>
-			<Icon>Icons\SphereTankNoLegs.dds</Icon>
+			<Icon>..\2344068716\Icons\SphereTankNoLegs.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 500,000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -1317,9 +1317,9 @@
 				<MountPoint Side="Back" StartX="2.0" StartY="2.0" EndX="3.0" EndY="3.0" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\LargeRocketFuelTankNoLegsConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\LargeRocketFuelTankNoLegsConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\LargeRocketFuelTankNoLegsConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeRocketFuelTankNoLegsConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeRocketFuelTankNoLegsConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeRocketFuelTankNoLegsConstruct3.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>RocketFuelTank</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -1360,7 +1360,7 @@
 				<SubtypeId>SmallRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Rocket Fuel Tank</DisplayName>
-			<Icon>Icons\SphereTankNoLegs.dds</Icon>
+			<Icon>..\2344068716\Icons\SphereTankNoLegs.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 25,000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -1389,9 +1389,9 @@
 				<MountPoint Side="Back" StartX="2.0" StartY="2.0" EndX="3.0" EndY="3.0" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\SmallRocketFuelTankConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\SmallRocketFuelTankConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\SmallRocketFuelTankConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SmallRocketFuelTankConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SmallRocketFuelTankConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallRocketFuelTankConstruct3.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>RocketFuelTank</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -1437,7 +1437,7 @@
 				Stores Rocket Fuel. 50,000L capacity.
 				Caution: Stored fuels are extremely flammable.
 			</Description>
-			<Icon>Icons\CylinderTank.dds</Icon>
+			<Icon>..\2344068716\Icons\CylinderTank.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="1" />
@@ -1457,9 +1457,9 @@
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\CylinderTankConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\CylinderTankConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\CylinderTankConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\CylinderTankConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\CylinderTankConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\CylinderTankConstruct3.mwm" />
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
@@ -1499,7 +1499,7 @@
 				<SubtypeId>EnclosedRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Enclosed Rocket Fuel Tank</DisplayName>
-			<Icon>Icons\EnclosedTank.dds</Icon>
+			<Icon>..\2344068716\Icons\EnclosedTank.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 30,000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -1520,9 +1520,9 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\EnclosedTankConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\EnclosedTankConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\EnclosedTankConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\EnclosedTankConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\EnclosedTankConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\EnclosedTankConstruct3.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>EnclosedRocketTank</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -1563,7 +1563,7 @@
 				<SubtypeId>SmallEnclosedRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Enclosed Rocket Fuel Tank</DisplayName>
-			<Icon>Icons\EnclosedTank.dds</Icon>
+			<Icon>..\2344068716\Icons\EnclosedTank.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 200L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -1584,8 +1584,8 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\EnclosedTankSmallConstruct1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\EnclosedTankSmallConstruct2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\EnclosedTankSmallConstruct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\EnclosedTankSmallConstruct2.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>EnclosedRocketTank</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -1626,7 +1626,7 @@
 				<SubtypeId>SmallRocketFuelTankMini</SubtypeId>
 			</Id>
 			<DisplayName>Small Rocket Fuel Tank</DisplayName>
-			<Icon>Icons\SmallGasTank.dds</Icon>
+			<Icon>..\2344068716\Icons\SmallGasTank.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 5000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -1653,8 +1653,8 @@
 				<MountPoint Side="Back" StartX="1.0" StartY="1.0" EndX="2.0" EndY="2.0" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\SmallGasTankConstruct1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\SmallGasTankConstruct2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\SmallGasTankConstruct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallGasTankConstruct2.mwm" />
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
@@ -1694,7 +1694,7 @@
 				<SubtypeId>SmallCylinderRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Small Cylinder Rocket Fuel Tank</DisplayName>
-			<Icon>Icons\SmallCylinderTank.dds</Icon>
+			<Icon>..\2344068716\Icons\SmallCylinderTank.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 1000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -1724,8 +1724,8 @@
 				<MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\SmallCylinderTankConstruct1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\SmallCylinderTankConstruct2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\SmallCylinderTankConstruct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallCylinderTankConstruct2.mwm" />
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
@@ -1866,7 +1866,7 @@
 				<SubtypeId>CoalFurnace</SubtypeId>
 			</Id>
 			<DisplayName>Coal Boiler</DisplayName>
-			<Icon>Icons\CoalBoiler.dds</Icon>
+			<Icon>..\2344068716\Icons\CoalBoiler.dds</Icon>
 			<Description>
 				Burns Coal to produce Steam. Must be connected to a Steam Turbine.
 				Produces 100 Steam/sec
@@ -1895,9 +1895,9 @@
 			</MountPoints>
 			<IsAirTight>true</IsAirTight>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\CoalBoilerConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\CoalBoilerConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\CoalBoilerConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\CoalBoilerConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\CoalBoilerConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\CoalBoilerConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>

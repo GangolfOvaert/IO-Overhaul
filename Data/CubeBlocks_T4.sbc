@@ -9,7 +9,7 @@
 				<SubtypeId>RockCrushert4</SubtypeId>
 			</Id>
 			<DisplayName>Rock Crusher T4</DisplayName>
-			<Icon>Icons\OreCrusher.dds</Icon>
+			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
@@ -43,9 +43,9 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\OreCrusherConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\OreCrusherConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OreCrusherConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -231,7 +231,7 @@
 				<SubtypeId>OrePurifiert4</SubtypeId>
 			</Id>
 			<DisplayName>Ore Purifier T4</DisplayName>
-			<Icon>Icons\OrePurifier.dds</Icon>
+			<Icon>..\2344068716\Icons\OrePurifier.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 
@@ -264,10 +264,10 @@
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.25" File="Models\Construct\OrePurifierConstruct0.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\OrePurifierConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.75" File="Models\Construct\OrePurifierConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OrePurifierConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\OrePurifierConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\OrePurifierConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\OrePurifierConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OrePurifierConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>

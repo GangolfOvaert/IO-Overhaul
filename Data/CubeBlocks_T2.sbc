@@ -9,7 +9,7 @@
 				<SubtypeId>RockCrushert2</SubtypeId>
 			</Id>
 			<DisplayName>Rock Crusher T2</DisplayName>
-			<Icon>Icons\OreCrusher.dds</Icon>
+			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
@@ -41,9 +41,9 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\OreCrusherConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\OreCrusherConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OreCrusherConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -229,7 +229,7 @@
 				<SubtypeId>OrePurifiert2</SubtypeId>
 			</Id>
 			<DisplayName>Ore Purifier T2</DisplayName>
-			<Icon>Icons\OrePurifier.dds</Icon>
+			<Icon>..\2344068716\Icons\OrePurifier.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 				Nicekel, Iron, Silicon, Copper, Silver, Gold, Cobalt
@@ -262,10 +262,10 @@
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.25" File="Models\Construct\OrePurifierConstruct0.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\OrePurifierConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.75" File="Models\Construct\OrePurifierConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OrePurifierConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\OrePurifierConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\OrePurifierConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\OrePurifierConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OrePurifierConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -301,7 +301,7 @@
 				<SubtypeId>AutoLoom</SubtypeId>
 			</Id>
 			<DisplayName>Auto Loom T1</DisplayName>
-			<Icon>Icons\AutoLoom.dds</Icon>
+			<Icon>..\2344068716\Icons\AutoLoom.dds</Icon>
 			<Description>
 				Weaves Synthetic Fabrics.
 
@@ -312,7 +312,7 @@
 			<Size x="4" y="2" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
 			<Center x="2" y="0" z="1" />
-			<Model>Models\AutoLoom.mwm</Model>
+			<Model>..\2344068716\Models\AutoLoom.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="20" />
 				<Component Subtype="Construction" Count="50" />
@@ -337,10 +337,10 @@
 				<MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.25" File="Models\Construct\AutoLoomConstruct0.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\AutoLoomConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.75" File="Models\Construct\AutoLoomConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\AutoLoomConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\AutoLoomConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\AutoLoomConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\AutoLoomConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\AutoLoomConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -445,7 +445,7 @@
 				<SubtypeId>PolymerFactory</SubtypeId>
 			</Id>
 			<DisplayName>Synthetics Factory</DisplayName>
-			<Icon>Icons\PolymerFactory.dds</Icon>
+			<Icon>..\2344068716\Icons\PolymerFactory.dds</Icon>
 			<Description>
 				Produces Synthetic Polymer, processes Polymers into useful forms, and mixes Asphalt.
 
@@ -455,7 +455,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="5" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\PolymerFactory.mwm</Model>
+			<Model>..\2344068716\Models\PolymerFactory.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="150" />
@@ -478,9 +478,9 @@
 				<MountPoint Side="Back" StartX="0" StartY="2" EndX="1" EndY="2.1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\PolymerFactoryConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\PolymerFactoryConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\PolymerFactoryConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\PolymerFactoryConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\PolymerFactoryConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\PolymerFactoryConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>

@@ -9,7 +9,7 @@
 				<SubtypeId>RockCrusher</SubtypeId>
 			</Id>
 			<DisplayName>Rock Crusher T1</DisplayName>
-			<Icon>Icons\OreCrusher.dds</Icon>
+			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
@@ -19,7 +19,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="4" z="3" />
 			<Center x="1" y="1" z="1" />
-			<Model>Models\OreCrusher.mwm</Model>
+			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="100" />
@@ -40,9 +40,9 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\OreCrusherConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\OreCrusherConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OreCrusherConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -78,7 +78,7 @@
 				<SubtypeId>OrePurifier</SubtypeId>
 			</Id>
 			<DisplayName>Ore Purifier T1</DisplayName>
-			<Icon>Icons\OrePurifier.dds</Icon>
+			<Icon>..\2344068716\Icons\OrePurifier.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 
@@ -88,7 +88,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
 			<Center x="1" y="0" z="1" />
-			<Model>Models\OrePurifier.mwm</Model>
+			<Model>..\2344068716\Models\OrePurifier.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="250" />
 				<Component Subtype="Construction" Count="150" />
@@ -107,10 +107,10 @@
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.25" File="Models\Construct\OrePurifierConstruct0.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\OrePurifierConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.75" File="Models\Construct\OrePurifierConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\OrePurifierConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\OrePurifierConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\OrePurifierConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\OrePurifierConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OrePurifierConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -154,7 +154,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="2" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+			<Model>..\2344068716\Models\Cubes\Large\BasicRefinery.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="180" />
 				<Component Subtype="Construction" Count="50" />
@@ -174,9 +174,9 @@
 				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
 			</BuildProgressModels>
 
 			<EdgeType>Light</EdgeType>
@@ -214,7 +214,7 @@
 				<SubtypeId>BitumenExtractor</SubtypeId>
 			</Id>
 			<DisplayName>Bitumen Extractor</DisplayName>
-			<Icon>Icons\BitumenExtractor.dds</Icon>
+			<Icon>..\2344068716\Icons\BitumenExtractor.dds</Icon>
 			<Description>
 				Extracts Crude Oil from Oil Sand.
 
@@ -224,7 +224,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
 			<Center x="1" y="1" z="1" />
-			<Model>Models\BitumenExtractor.mwm</Model>
+			<Model>..\2344068716\Models\BitumenExtractor.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="50" />
@@ -242,9 +242,9 @@
 				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\BitumenExtractorConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\BitumenExtractorConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\BitumenExtractorConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\BitumenExtractorConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\BitumenExtractorConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\BitumenExtractorConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -337,7 +337,7 @@
 				<SubtypeId>SiliconFuser</SubtypeId>
 			</Id>
 			<DisplayName>Ceramics Furnace</DisplayName>
-			<Icon>Icons\SiliconFuser.dds</Icon>
+			<Icon>..\2344068716\Icons\SiliconFuser.dds</Icon>
 			<Description>
 				Melts materials together to make Glass and Ceramics.
 
@@ -347,7 +347,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="5" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\SiliconFuser.mwm</Model>
+			<Model>..\2344068716\Models\SiliconFuser.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="80" />
@@ -363,9 +363,9 @@
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="5" Default="true" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\SiliconFuserConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\SiliconFuserConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\SiliconFuserConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SiliconFuserConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SiliconFuserConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SiliconFuserConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -398,7 +398,7 @@
 				<SubtypeId>CementKiln</SubtypeId>
 			</Id>
 			<DisplayName>Cement Kiln</DisplayName>
-			<Icon>Icons\CementKiln.dds</Icon>
+			<Icon>..\2344068716\Icons\CementKiln.dds</Icon>
 			<Description>
 				Processes and mixes Concrete.
 
@@ -409,7 +409,7 @@
 			<Size x="7" y="3" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
 			<Center x="3" y="1" z="1" />
-			<Model>Models\CementKiln.mwm</Model>
+			<Model>..\2344068716\Models\CementKiln.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="120" />
 				<Component Subtype="Construction" Count="100" />
@@ -427,10 +427,10 @@
 				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.25" File="Models\Construct\CementKilnConstruct0.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\CementKilnConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.75" File="Models\Construct\CementKilnConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\CementKilnConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\CementKilnConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\CementKilnConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\CementKilnConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\CementKilnConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -464,7 +464,7 @@
 				<SubtypeId>WireDrawer</SubtypeId>
 			</Id>
 			<DisplayName>Wire Drawer T1</DisplayName>
-			<Icon>Icons\WireDrawer.dds</Icon>
+			<Icon>..\2344068716\Icons\WireDrawer.dds</Icon>
 			<Description>
 				Draws and insulates Wire of various types.
 
@@ -474,7 +474,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\WireDrawer.mwm</Model>
+			<Model>..\2344068716\Models\WireDrawer.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="120" />
 				<Component Subtype="Construction" Count="80" />
@@ -487,8 +487,8 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\Generic2x2Construct1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\Generic2x2Construct2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -522,7 +522,7 @@
 				<SubtypeId>Incinerator</SubtypeId>
 			</Id>
 			<DisplayName>Incinerator</DisplayName>
-			<Icon>Icons\Incinerator.dds</Icon>
+			<Icon>..\2344068716\Icons\Incinerator.dds</Icon>
 			<Description>
 				Destroys unwanted items placed inside.
 
@@ -532,7 +532,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="3" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Incinerator.mwm</Model>
+			<Model>..\2344068716\Models\Incinerator.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="250" />
 				<Component Subtype="Construction" Count="100" />
@@ -551,9 +551,9 @@
 				<MountPoint Side="Front" StartX="1" StartY="1.9" EndX="2" EndY="2.1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\IncineratorConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\IncineratorConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\IncineratorConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\IncineratorConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\IncineratorConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\IncineratorConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -589,7 +589,7 @@
 				<SubtypeId>Extruder</SubtypeId>
 			</Id>
 			<DisplayName>Extruder T1</DisplayName>
-			<Icon>Icons\Extruder.dds</Icon>
+			<Icon>..\2344068716\Icons\Extruder.dds</Icon>
 			<Description>
 				Forms Tubes and Girders.
 
@@ -599,7 +599,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Extruder.mwm</Model>
+			<Model>..\2344068716\Models\Extruder.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="120" />
 				<Component Subtype="Construction" Count="100" />
@@ -612,8 +612,8 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\Generic2x2Construct1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\Generic2x2Construct2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -647,7 +647,7 @@
 			<SubtypeId>PlateStamp</SubtypeId>
 		</Id>
 		<DisplayName>Plate Stamp T1</DisplayName>
-		<Icon>Icons\PlateStamp.dds</Icon>
+		<Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
 		<Description>
 			Presses materials into Plates.
 
@@ -658,7 +658,7 @@
 		<Size x="2" y="3" z="3" />
 		<ModelOffset x="0" y="0" z="0" />
 		<Center x="0" y="0" z="1" />
-		<Model>Models\PlateStamp.mwm</Model>
+		<Model>..\2344068716\Models\PlateStamp.mwm</Model>
 		<Components>
 			<Component Subtype="SteelPlate" Count="160" />
 			<Component Subtype="Construction" Count="100" />
@@ -677,9 +677,9 @@
 			<MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="2.5" />
 		</MountPoints>
 		<BuildProgressModels>
-			<Model BuildPercentUpperBound="0.33" File="Models\Construct\PressConstruct1.mwm" />
-			<Model BuildPercentUpperBound="0.66" File="Models\Construct\PressConstruct2.mwm" />
-			<Model BuildPercentUpperBound="1.00" File="Models\Construct\PressConstruct3.mwm" />
+			<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\PressConstruct1.mwm" />
+			<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\PressConstruct2.mwm" />
+			<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\PressConstruct3.mwm" />
 		</BuildProgressModels>
 		<EdgeType>Light</EdgeType>
 		<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -719,14 +719,14 @@
 				Optimal height: 50m
 				Nominal Output: 4MW
 			</Description>
-			<Icon>Icons\LargeWindTurbine.dds</Icon>
+			<Icon>..\2344068716\Icons\LargeWindTurbine.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="1" z="1" />
 			<Center x="1" y="0" z="0" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\LargeWindTurbine.mwm</Model>
+			<Model>..\2344068716\Models\LargeWindTurbine.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="275" />
 				<Component Subtype="Construction" Count="20" />
@@ -749,9 +749,9 @@
 			<MirroringY>X</MirroringY>
 			<MirroringZ>None</MirroringZ>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\LargeWindTurbineConstruct3.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\LargeWindTurbineConstruct2.mwm" />
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\LargeWindTurbineConstruct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeWindTurbineConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeWindTurbineConstruct2.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeWindTurbineConstruct1.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>60</BuildTimeSeconds>
@@ -1103,7 +1103,7 @@
 				<SubtypeId>GasolineRefinery</SubtypeId>
 			</Id>
 			<DisplayName>Gasoline Refinery</DisplayName>
-			<Icon>Icons\FuelRefinery.dds</Icon>
+			<Icon>..\2344068716\Icons\FuelRefinery.dds</Icon>
 			<Description>
 				Refines raw Fuel Oil into useable Gasoline.
 
@@ -1114,7 +1114,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\GasolineRefinery.mwm</Model>
+			<Model>..\2344068716\Models\GasolineRefinery.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="75" />
 				<Component Subtype="Construction" Count="50" />
@@ -1133,9 +1133,9 @@
 				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\FuelRefineryConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\FuelRefineryConstruct2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\FuelRefineryConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\FuelRefineryConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\FuelRefineryConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\FuelRefineryConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>

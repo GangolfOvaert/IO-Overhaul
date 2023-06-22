@@ -107,7 +107,7 @@
 				<SubtypeId>HeatingElement</SubtypeId>
 			</Id>
 			<DisplayName>Heating Element</DisplayName>
-			<Icon>Icons\HeatingElement.dds</Icon>
+			<Icon>..\2344068716\Icons\HeatingElement.dds</Icon>
 			<Prerequisites>
 				<Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
 				<Item Amount="2" TypeId="Component" SubtypeId="Construction" />
@@ -122,7 +122,7 @@
 				<SubtypeId>GGM_P_Bench_CircuitBoard</SubtypeId>
 			</Id>
 			<DisplayName>Simple Circuit Board</DisplayName>
-			<Icon>Icons\circuitboard.dds</Icon>
+			<Icon>..\2344068716\Icons\circuitboard.dds</Icon>
 			<Prerequisites>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
 			</Prerequisites>
