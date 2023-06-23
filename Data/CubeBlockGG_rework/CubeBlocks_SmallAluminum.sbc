@@ -9,13 +9,13 @@
 				<SubtypeId>SmallAluminumCube</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Block</DisplayName>
-			<Icon>Icons\AluminumCube.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumCube.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumCube.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumCube.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -32,8 +32,8 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -46,13 +46,13 @@
 				<SubtypeId>SmallAluminumSlope</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Slope</DisplayName>
-			<Icon>Icons\AluminumSlope.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumSlope.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumSlope.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumSlope.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -69,8 +69,8 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlopePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlopePlateConstruction_2.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -86,13 +86,13 @@
 				<SubtypeId>SmallAluminumCorner</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Corner</DisplayName>
-			<Icon>Icons\AluminumCorner.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumCorner.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumCorner.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumCorner.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -112,8 +112,8 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Armor\HeavyFacePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyFacePlateConstruction_2.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -129,13 +129,13 @@
 				<SubtypeId>SmallAluminumInvCorner</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Inv. Corner</DisplayName>
-			<Icon>Icons\AluminumInvCorner.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumInvCorner.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumInvCorner.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumInvCorner.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -158,8 +158,8 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_2.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -175,13 +175,13 @@
 				<SubtypeId>SmallAluminumCornerSquare</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Corner Square</DisplayName>
-			<Icon>Icons\AluminumCornerSquare.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumCornerSquare.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumCornerSquare.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumCornerSquare.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -197,9 +197,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\CornerSquareConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\CornerSquareConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\CornerSquareConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -215,13 +215,13 @@
 				<SubtypeId>SmallAluminumCornerSquareInv</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Corner Square Inv.</DisplayName>
-			<Icon>Icons\AluminumCornerSquareInv.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumCornerSquareInv.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumCornerSquareInv.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumCornerSquareInv.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -239,9 +239,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -257,13 +257,13 @@
 				<SubtypeId>SmallAluminumSlope2x1x1Base</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Slope 2x1x1 Base</DisplayName>
-			<Icon>Icons\AluminumSlope2x1x1Base.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumSlope2x1x1Base.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumSlope2x1x1Base.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumSlope2x1x1Base.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -281,9 +281,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_3.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -299,13 +299,13 @@
 				<SubtypeId>SmallAluminumSlope2x1x1Tip</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Slope 2x1x1 Tip</DisplayName>
-			<Icon>Icons\AluminumSlope2x1x1Tip.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumSlope2x1x1Tip.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumSlope2x1x1Tip.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumSlope2x1x1Tip.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -324,9 +324,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2TipConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2TipConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2TipConstruction_3.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -342,13 +342,13 @@
 				<SubtypeId>SmallHalfAluminum</SubtypeId>
 			</Id>
 			<DisplayName>Half Aluminum Block</DisplayName>
-			<Icon>Icons\HalfAluminum.dds</Icon>
+			<Icon>..\2344068716\Icons\HalfAluminum.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallHalfAluminum.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallHalfAluminum.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -364,9 +364,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_3.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -382,13 +382,13 @@
 				<SubtypeId>SmallHalfSlopeAluminum</SubtypeId>
 			</Id>
 			<DisplayName>Half Slope Aluminum</DisplayName>
-			<Icon>Icons\HalfSlopeAluminum.dds</Icon>
+			<Icon>..\2344068716\Icons\HalfSlopeAluminum.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallHalfSlopeAluminum.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallHalfSlopeAluminum.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -407,9 +407,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_3.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -425,13 +425,13 @@
 				<SubtypeId>SmallHalfSlopeCornerAluminum</SubtypeId>
 			</Id>
 			<DisplayName>Half Slope Corner Aluminum</DisplayName>
-			<Icon>Icons\HalfSlopeCornerAluminum.dds</Icon>
+			<Icon>..\2344068716\Icons\HalfSlopeCornerAluminum.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallHalfSlopeCornerAluminum.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallHalfSlopeCornerAluminum.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -445,9 +445,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -463,13 +463,13 @@
 				<SubtypeId>SmallAluminumHalfCorner</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Half Corner</DisplayName>
-			<Icon>Icons\AluminumHalfCorner.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumHalfCorner.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumHalfCorner.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumHalfCorner.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -484,9 +484,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfCornerConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfCornerConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfCornerConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfCornerConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfCornerConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfCornerConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -502,13 +502,13 @@
 				<SubtypeId>SmallAluminumHalfSlopedCorner</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Half Sloped Corner</DisplayName>
-			<Icon>Icons\AluminumHalfSlopedCorner.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumHalfSlopedCorner.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumHalfSlopedCorner.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumHalfSlopedCorner.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -525,9 +525,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -543,13 +543,13 @@
 				<SubtypeId>SmallAluminumCorner2x1x1Base</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Corner 2x1x1 Base</DisplayName>
-			<Icon>Icons\AluminumCorner2x1x1Base.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumCorner2x1x1Base.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumCorner2x1x1Base.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumCorner2x1x1Base.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -570,9 +570,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_3.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -588,13 +588,13 @@
 				<SubtypeId>SmallAluminumCorner2x1x1Tip</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Corner 2x1x1 Tip</DisplayName>
-			<Icon>Icons\AluminumCorner2x1x1Tip.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumCorner2x1x1Tip.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumCorner2x1x1Tip.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumCorner2x1x1Tip.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -612,9 +612,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_3.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -630,13 +630,13 @@
 				<SubtypeId>SmallAluminumInvCorner2x1x1Base</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Inv. Corner 2x1x1 Base</DisplayName>
-			<Icon>Icons\AluminumInvCorner2x1x1Base.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Base.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumInvCorner2x1x1Base.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumInvCorner2x1x1Base.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -659,9 +659,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_3.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -677,13 +677,13 @@
 				<SubtypeId>SmallAluminumInvCorner2x1x1Tip</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Inv. Corner 2x1x1 Tip</DisplayName>
-			<Icon>Icons\AluminumInvCorner2x1x1Tip.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Tip.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumInvCorner2x1x1Tip.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumInvCorner2x1x1Tip.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -706,9 +706,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_3.mwm" />
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -724,13 +724,13 @@
 				<SubtypeId>SmallHalfSlopeCornerInvAluminum</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Half Slope Corner Inv.</DisplayName>
-			<Icon>Icons\HalfSlopeCornerInvAluminum.dds</Icon>
+			<Icon>..\2344068716\Icons\HalfSlopeCornerInvAluminum.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallHalfSlopeCornerInvAluminum.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallHalfSlopeCornerInvAluminum.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -753,9 +753,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -771,13 +771,13 @@
 				<SubtypeId>SmallHalfSlopeInvAluminum</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Half Slope Inv.</DisplayName>
-			<Icon>Icons\HalfSlopeInvAluminum.dds</Icon>
+			<Icon>..\2344068716\Icons\HalfSlopeInvAluminum.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallHalfSlopeInvAluminum.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallHalfSlopeInvAluminum.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -798,9 +798,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -816,13 +816,13 @@
 				<SubtypeId>SmallSlopedCornerAluminumTip</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Sloped Corner Tip</DisplayName>
-			<Icon>Icons\SlopedCornerAluminumTip.dds</Icon>
+			<Icon>..\2344068716\Icons\SlopedCornerAluminumTip.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallSlopedCornerAluminumTip.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallSlopedCornerAluminumTip.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -841,9 +841,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerTipConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerTipConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerTipConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -859,13 +859,13 @@
 				<SubtypeId>SmallAluminumSlopedCornerBase</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Sloped Corner Base</DisplayName>
-			<Icon>Icons\AluminumSlopedCornerBase.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumSlopedCornerBase.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumSlopedCornerBase.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumSlopedCornerBase.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -885,9 +885,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -903,13 +903,13 @@
 				<SubtypeId>SmallAluminumSlopedCorner</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Sloped Corner</DisplayName>
-			<Icon>Icons\AluminumSlopedCorner.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumSlopedCorner.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumSlopedCorner.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumSlopedCorner.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -931,9 +931,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
@@ -949,13 +949,13 @@
 				<SubtypeId>SmallAluminumHalfSlopedCornerBase</SubtypeId>
 			</Id>
 			<DisplayName>Aluminum Half Sloped Corner Base</DisplayName>
-			<Icon>Icons\AluminumHalfSlopedCornerBase.dds</Icon>
+			<Icon>..\2344068716\Icons\AluminumHalfSlopedCornerBase.dds</Icon>
 			<Description>Lighter than Light Armor, but less durable.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Aluminum\SmallAluminumHalfSlopedCornerBase.mwm</Model>
+			<Model>..\2344068716\Models\Aluminum\SmallAluminumHalfSlopedCornerBase.mwm</Model>
 			<Components>
 				<Component Subtype="GGMAlMgAlloy" Count="1" />
 				<Component Subtype="InteriorPlate" Count="1" />
@@ -975,9 +975,9 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_3.mwm"/>
 			</BuildProgressModels>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
