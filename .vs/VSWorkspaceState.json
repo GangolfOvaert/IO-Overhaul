@@ -2,12 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Data",
-    "\\Icons",
-    "\\Models",
-    "\\Models\\Construct",
-    "\\Scripts",
-    "\\Scripts\\Block_Animations",
-    "\\Scripts\\Block_Animations\\ExoticMaterialRefinery"
+    "\\Data\\CubeBlockGG_rework",
+    "\\Icons"
   ],
+  "SelectedNode": "\\Data\\Blueprints_t4.sbc",
   "PreviewInSolutionExplorer": false
 }
