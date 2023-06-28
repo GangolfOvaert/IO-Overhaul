@@ -7,7 +7,7 @@
 				<SubtypeId>GGM_P_AlSiAlloy</SubtypeId>
 			</Id>
 			<DisplayName>Al Si Alloy</DisplayName>
-			<Icon>Icons\placeholder.dds</Icon>
+			<Icon>..\2344068716\Icons\placeholder.dds</Icon>
 			<Prerequisites>
 				<Item Amount="5" TypeId="Component" SubtypeId="Aluminum" />
 				<Item Amount="5" TypeId="Component" SubtypeId="Silicon" />
@@ -21,7 +21,7 @@
 				<SubtypeId>GGM_P_AlMgAlloy</SubtypeId>
 			</Id>
 			<DisplayName>Al Mg Alloy</DisplayName>
-			<Icon>Icons\placeholder.dds</Icon>
+			<Icon>..\2344068716\Icons\placeholder.dds</Icon>
 			<Prerequisites>
 				<Item Amount="5" TypeId="Component" SubtypeId="Aluminum" />
 				<Item Amount="5" TypeId="Component" SubtypeId="Niter" />
@@ -35,7 +35,7 @@
 				<SubtypeId>GGM_P_AlCuAlloy</SubtypeId>
 			</Id>
 			<DisplayName>Al Cu Alloy</DisplayName>
-			<Icon>Icons\placeholder.dds</Icon>
+			<Icon>..\2344068716\Icons\placeholder.dds</Icon>
 			<Prerequisites>
 				<Item Amount="5" TypeId="Component" SubtypeId="Aluminum" />
 				<Item Amount="5" TypeId="Component" SubtypeId="Copper" />
@@ -49,7 +49,7 @@
 				<SubtypeId>GGM_P_AlSiCuAlloy</SubtypeId>
 			</Id>
 			<DisplayName></DisplayName>
-			<Icon>Icons\placeholder.dds</Icon>
+			<Icon>..\2344068716\Icons\placeholder.dds</Icon>
 			<Prerequisites>
 				<Item Amount="5" TypeId="Component" SubtypeId="GGMAlCuAlloy" />
 				<Item Amount="5" TypeId="Component" SubtypeId="GGMAlSiAlloy" />
@@ -63,7 +63,7 @@
 				<SubtypeId>GGM_P_GGMAdvCircuitBoard</SubtypeId>
 			</Id>
 			<DisplayName></DisplayName>
-			<Icon>Icons\placeholder.dds</Icon>
+			<Icon>..\2344068716\Icons\placeholder.dds</Icon>
 			<Prerequisites>
 				<Item Amount="1" TypeId="Component" SubtypeId="GGMCircuitBoard" />
 				<Item Amount="5" TypeId="Component" SubtypeId="GoldWire" />
@@ -78,7 +78,7 @@
 				<SubtypeId>AdvancedComputer</SubtypeId>
 			</Id>
 			<DisplayName>Advanced Computer</DisplayName>
-			<Icon>Icons\Computer2.dds</Icon>
+			<Icon>..\2344068716\Icons\Computer2.dds</Icon>
 			<Prerequisites>
 				<Item Amount="1" TypeId="Component" SubtypeId="GGMAdvCircuitBoard" />
 				<Item Amount="1" TypeId="Component" SubtypeId="Lightbulb" />
