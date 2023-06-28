@@ -94,6 +94,7 @@
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="CopperWire" Count="250" />
 				<Component Subtype="LargeTube" Count="75" />
+				<Component Subtype="SmallTube" Count="150" />
 				<Component Subtype="Electromagnet" Count="100" />
 				<Component Subtype="Motor" Count="100" />
 				<Component Subtype="Computer" Count="80" />
@@ -156,12 +157,12 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="180" />
+				<Component Subtype="SteelPlate" Count="150" />
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="Computer" Count="50" />
 				<Component Subtype="HeatingElement" Count="50" />
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="HeatingElement" Index="0" />
 			<MirroringZ>Y</MirroringZ>
@@ -191,7 +192,7 @@
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
 			<OperationalPowerConsumption>2</OperationalPowerConsumption>
 			<BlueprintClasses>
-				<Class>SmelterIngotst2</Class>
+				<Class>SmelterIngotst1</Class>
 			</BlueprintClasses>
 			<RefineSpeed>0.5</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>

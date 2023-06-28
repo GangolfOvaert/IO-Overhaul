@@ -21,7 +21,7 @@
 			<Center x="1" y="1" z="1" />
 			<Model>Models\OreCrusher.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="SteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="120" />
 				<Component Subtype="CopperWire" Count="300" />
 				<Component Subtype="LargeTube" Count="60" />
@@ -29,9 +29,9 @@
 				<Component Subtype="Ceramic" Count="200" />
 				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="GGMSilverComponent" Count="50" />
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="Computer" Index="0" />
+			<CriticalComponent Subtype="GGMSilverComponent" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
 				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
@@ -148,7 +148,7 @@
 				<TypeId>Refinery</TypeId>
 				<SubtypeId>LargeRefineryt1</SubtypeId>
 			</Id>
-			<DisplayName>Refinery T1</DisplayName>
+			<DisplayName>Refinery T2</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
 			<Description>
 				Refinery can refine Nickel, Iron, Silicon, Copper, Silver, Gold, Cobalt, Platin
@@ -161,17 +161,17 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\Refinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="Electromagnet" Count="100" />
+				<Component Subtype="Motor" Count="50" />
+				<Component Subtype="HeatingElement" Count="100" />
+				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="Computer" Count="50" />
 				<Component Subtype="GGMSilverPlate" Count="100" />
 				<Component Subtype="MetalGrid" Count="20" />
-				<Component Subtype="Construction" Count="100" />
-				<Component Subtype="HeatingElement" Count="100" />
-				<Component Subtype="CopperWire" Count="200" />
-				<Component Subtype="LargeTube" Count="50" />
-				<Component Subtype="Motor" Count="50" />
-				<Component Subtype="Electromagnet" Count="100" />
-				<Component Subtype="Computer" Count="50" />
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<Center x="1" y="0" z="1" />
@@ -240,21 +240,21 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
 			<Center x="1" y="0" z="1" />
-			<Model>Models\OrePurifier.mwm</Model>
+			<Model>..\2344068716\Models\OrePurifier.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="70" />
-				<Component Subtype="Construction" Count="50" />
-				<Component Subtype="CopperWire" Count="50" />
-				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="Electromagnet" Count="25" />
-				<Component Subtype="Motor" Count="25" />
-				<Component Subtype="GoldWire" Count="50" />
-				<Component Subtype="LaserEmitter" Count="20" />
-				<Component Subtype="Computer" Count="10" />
-				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="Construction" Count="200" />
+				<Component Subtype="CopperWire" Count="400" />
+				<Component Subtype="LargeTube" Count="100" />
+				<Component Subtype="SmallTube" Count="200" />
+				<Component Subtype="Electromagnet" Count="130" />
+				<Component Subtype="HeatingElement" Count="100" />
+				<Component Subtype="Motor" Count="130" />
+				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="GGMSilverComponent" Count="50" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<Center x="1" y="0" z="1" />
 			<MountPoints>
 				<MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />

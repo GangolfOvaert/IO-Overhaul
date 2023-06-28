@@ -220,20 +220,19 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="4" z="3" />
 			<Center x="1" y="1" z="1" />
-			<Model>Models\OreCrusher.mwm</Model>
+			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="SteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="140" />
 				<Component Subtype="CopperWire" Count="300" />
 				<Component Subtype="LargeTube" Count="100" />
 				<Component Subtype="Motor" Count="100" />
 				<Component Subtype="Ceramic" Count="250" />
-				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="AdvancedComputer" Count="30" />		
+		     	<Component Subtype="AdvancedComputer" Count="30" />		
 				<Component Subtype="GGMSilverComponent" Count="75" />
 				<Component Subtype="Superconductor" Count="75" />
 				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<MountPoints>
@@ -294,14 +293,14 @@
 			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="50" />
-				<Component Subtype="AdvancedComputer" Count="30" />
+				<Component Subtype="Construction" Count="130" />
+				<Component Subtype="CopperWire" Count="250" />
 				<Component Subtype="Computer" Count="75" />
+				<Component Subtype="AdvancedComputer" Count="30" />
+				<Component Subtype="HeatingElement" Count="100" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
 				<Component Subtype="Superconductor" Count="50" />
 				<Component Subtype="MetalGrid" Count="30" />
-				<Component Subtype="GGMSilverPlate" Count="100" />
-				<Component Subtype="HeatingElement" Count="100" />
-				<Component Subtype="CopperWire" Count="250" />
-				<Component Subtype="Construction" Count="130" />
 				<Component Subtype="SteelPlate" Count="300" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
@@ -353,7 +352,7 @@
 				<TypeId>Refinery</TypeId>
 				<SubtypeId>LargeRefineryt2</SubtypeId>
 			</Id>
-			<DisplayName>Refinery T2</DisplayName>
+			<DisplayName>Refinery T3</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
 			<Description>
 				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
@@ -364,21 +363,21 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\Refinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="50" />
-
-				<Component Subtype="Superconductor" Count="50" />
-				<Component Subtype="AdvancedComputer" Count="30" />
-				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="Motor" Count="75" />
-				<Component Subtype="Electromagnet" Count="130" />
-				<Component Subtype="HeatingElement" Count="100" />
-				<Component Subtype="CopperWire" Count="230" />
-				<Component Subtype="LargeTube" Count="75" />
-				<Component Subtype="GGMSilverPlate" Count="100" />
-				<Component Subtype="Construction" Count="120" />
 				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="230" />
+				<Component Subtype="Electromagnet" Count="130" />
+				<Component Subtype="Motor" Count="75" />
+				<Component Subtype="HeatingElement" Count="130" />
+				<Component Subtype="LargeTube" Count="75" />
+				<Component Subtype="Computer" Count="50" />
+				<Component Subtype="AdvancedComputer" Count="30" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="Superconductor" Count="50" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="GGMSilverPlate" Index="0" />
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<Center x="1" y="0" z="1" />
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
@@ -443,22 +442,24 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
 			<Center x="1" y="0" z="1" />
-			<Model>Models\OrePurifier.mwm</Model>
-			<Components>
-				
-				<Component Subtype="SteelPlate" Count="50" />
-				<Component Subtype="AdvancedComputer" Count="30" />
-				<Component Subtype="Superconductor" Count="50" />
-				<Component Subtype="LaserEmitter" Count="20" />
+			<Model>..\2344068716\Models\OrePurifier.mwm</Model>
+			<Components>				
+				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="250" />
 				<Component Subtype="CopperWire" Count="400" />
-				<Component Subtype="Electromagnet" Count="25" />
-				<Component Subtype="Motor" Count="150" />
 				<Component Subtype="LargeTube" Count="130" />
 				<Component Subtype="SmallTube" Count="250" />
-				<Component Subtype="Construction" Count="250" />
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="Electromagnet" Count="150" />
+				<Component Subtype="HeatingElement" Count="130" />
+				<Component Subtype="Motor" Count="150" />
+				<Component Subtype="GGMSilverComponent" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="30" />
+				<Component Subtype="Superconductor" Count="100" />
+				<Component Subtype="LaserEmitter" Count="20" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<Center x="1" y="0" z="1" />
 			<MountPoints>
 				<MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -655,7 +656,7 @@
 		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
 			<Id>
 				<TypeId>Assembler</TypeId>
-				<SubtypeId>WireDrawer</SubtypeId>
+				<SubtypeId>WireDrawert2</SubtypeId>
 			</Id>
 			<DisplayName>Wire Drawer T2</DisplayName>
 			<Icon>..\2344068716\Icons\WireDrawer.dds</Icon>
