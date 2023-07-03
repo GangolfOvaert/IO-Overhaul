@@ -27,7 +27,7 @@
 				<Component Subtype="SmallTube" Count="20" />
 				<Component Subtype="CopperWire" Count="125" />
 				<Component Subtype="Electromagnet" Count="80" />
-				<Component Subtype="GGMSilverPlate Count="50" />
+				<Component Subtype="GGMSilverPlate" Count="50" />
 				<Component Subtype="Computer" Count="50" />
 				<Component Subtype="SteelPlate" Count="20" />
 			</Components>

@@ -235,16 +235,19 @@
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Bench_CircuitBoard" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="soiledPolymerToPlastic" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="soiledplastictopcb" />
 
-	<Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
-    <Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
-	<Entry Class="FabricatorComponents" BlueprintSubtypeId="POMedicalComponent" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="POComputerComponentsoiled" />
+	  
 
-	<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
 
-    <Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
-	<Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Extruder_CircuitBoard" />
-	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="GGM_P_Electronic_CircuitBoard" />
+
+	  <Entry Class="AssemblerComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="plastictopcb" />
+	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
 
 	  <!-- Tier 2 -->	  
 	  
@@ -305,7 +308,16 @@
 	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_P_Cobalt_Plate" />
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
 
-		<!-- Tier 3-->
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_StainlessPlate" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessGirderComponent" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessSmallTube" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessLargeTube" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="plastictopcb" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="AssemblerComponents" />
+
+
+
+	  <!-- Tier 3-->
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushIronOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushNickelOre" />
 	  <Entry Class="Crushert3" BlueprintSubtypeId="CrushCobaltOre" />
@@ -346,6 +358,12 @@
 	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedIronOreToIngot" />
 	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedTitaniumOreToIngot" />
 
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_heavyPlate" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_heavyGirderComponent" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_heavySmallTube" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_heavyLargeTube" />
+
+
 	  <!-- T2 Refinery-->
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="StoneOreToIngot" />
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="SilverOreToIngot" />
@@ -375,7 +393,13 @@
 	  <Entry Class="PlateStampComponentst2" BlueprintSubtypeId="POInteriorPlate" />
 	  <Entry Class="PlateStampComponentst2" BlueprintSubtypeId="TitaniumPlate" />
 	  <Entry Class="PlateStampComponentst2" BlueprintSubtypeId="ArmoredPlate" />
-	  
+
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_reinforcedPlate" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedGirderComponent" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedSmallTube" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedLargeTube" />
+
+	  <!-- Tier 4-->	  
   </BlueprintClassEntries>
 
 </Definitions>

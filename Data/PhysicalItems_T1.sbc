@@ -114,5 +114,114 @@
 		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
 	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Electromagnet</SubtypeId>
+		</Id>
+		<DisplayName>Basic Electromagnet</DisplayName>
+		<Icon>Icons\magnet_basic.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.1</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>4.8</Mass>
+		<Volume>3</Volume>
+		<Model>..\2344068716\Models\Electromagnet.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>20</MaxIntegrity>
+		<MinimalPricePerUnit>2641</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>BasicPCB</SubtypeId>
+		</Id>
+		<DisplayName>BaiscPCB</DisplayName>
+		<Icon>Icons\pcb_basic.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>2.3</Mass>
+		<Volume>1</Volume>
+		<Model>Models\Components\computer_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>43379</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>BasicCuircitBoard</SubtypeId>
+		</Id>
+		<DisplayName>Basic Cuircit Board</DisplayName>
+		<Icon>Icons\cuircitboard_basic.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>2.3</Mass>
+		<Volume>1</Volume>
+		<Model>Models\Components\computer_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>43379</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>InteriorPlate</SubtypeId>
+		</Id>
+		<DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+		<Icon>Icons\internalarmor.dds</Icon>
+		<Size>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>0.05</Z>
+		</Size>
+		<Mass>3</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\interior_plate_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>15</MaxIntegrity>
+		<DropProbability>0.8</DropProbability>
+		<Health>36</Health>
+		<MinimumOfferAmount>1000</MinimumOfferAmount>
+		<MaximumOfferAmount>5000</MaximumOfferAmount>
+		<MinimumOrderAmount>500</MinimumOrderAmount>
+		<MaximumOrderAmount>1000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
 </Components>
 </Definitions>

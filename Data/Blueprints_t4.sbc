@@ -19,6 +19,66 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
 			<BaseProductionTimeInSeconds>999</BaseProductionTimeInSeconds>
 			<Public>false</Public>
-		</Blueprint>		
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_reinforcedPlate</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+			<Icon>Icons\plate_reinforced.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="2" TypeId="Component" SubtypeId="heavySteelPlate" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_reinforcedGirderComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_Girder</DisplayName>
+			<Icon>Icons\girder_reinforced.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="2" TypeId="Component" SubtypeId="heavyGirder" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedGirder" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_reinforcedSmallTube</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+			<Icon>Icons\pipe_reinforced.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="2" TypeId="Component" SubtypeId="heavySmallTube" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedSmallTube" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_reinforcedLargeTube</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+			<Icon>Icons\tube_reinforced.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="2" TypeId="Component" SubtypeId="heavyLargeTube" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedLargeTube" />
+			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
 	</Blueprints>
 </Definitions>
