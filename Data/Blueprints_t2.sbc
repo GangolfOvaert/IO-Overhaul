@@ -91,5 +91,20 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="AcidPowerCell" />
 			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>POMetalGrid</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+			<Icon>Icons\metal_grid_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="3" TypeId="Component" SubtypeId="StainlessGirder" />
+				<Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
+			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
 	</Blueprints>
 </Definitions>

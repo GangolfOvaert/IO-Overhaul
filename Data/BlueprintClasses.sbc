@@ -241,7 +241,8 @@
 
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="POComputerComponentsoiled" />
-	  
+	<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_silverplate" />
+	<Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_p_silvercomponents" />
 
 
 

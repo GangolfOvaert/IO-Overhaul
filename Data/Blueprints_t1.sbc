@@ -100,6 +100,33 @@
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_silverplate</SubtypeId>
+			</Id>
+			<DisplayName>Silver Plate</DisplayName>
+			<Icon>Icons\plate_silver.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMSilverPlate" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_silvercomponents</SubtypeId>
+			</Id>
+			<DisplayName>Silver Components</DisplayName>
+			<Icon>Icons\component_silver.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="GGMSilverPlate" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMSilverComponent" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>HeatingElement</SubtypeId>
 			</Id>
 			<DisplayName>Basic Heating Element</DisplayName>

@@ -159,7 +159,7 @@
             </Size>
             <Mass>0.5</Mass>
             <Volume>0.5</Volume>
-            <Model>..\2344068716\Models\CopperReel.mwm</Model>
+			<Model>..\2344068716\Models\CopperReel.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MaxIntegrity>2</MaxIntegrity>
             <MinimalPricePerUnit>468</MinimalPricePerUnit>
@@ -177,7 +177,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>SilverWire</SubtypeId>
             </Id>
-            <DisplayName>Copper Wire</DisplayName>
+            <DisplayName>Silver Wire</DisplayName>
             <Icon>Icons\wire_silver.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -186,7 +186,7 @@
             </Size>
             <Mass>0.5</Mass>
             <Volume>0.5</Volume>
-            <Model>Models\CopperReel.mwm</Model>
+            <Model>..\2344068716\Models\CopperReel.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MaxIntegrity>2</MaxIntegrity>
             <MinimalPricePerUnit>468</MinimalPricePerUnit>
