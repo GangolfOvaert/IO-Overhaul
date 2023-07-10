@@ -6,7 +6,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>GGM_p_StainlessPlate</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+			<DisplayName>Stainless Steel Plate</DisplayName>
 			<Icon>Icons\plate_stainless.dds</Icon>
 			<Prerequisites>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
@@ -21,7 +21,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>GGM_p_StainlessGirderComponent</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_Girder</DisplayName>
+			<DisplayName>Stainless Steel Girder</DisplayName>
 			<Icon>Icons\girder_stainless.dds</Icon>
 			<Prerequisites>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
@@ -97,14 +97,114 @@
 				<SubtypeId>POMetalGrid</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Item_MetalGrid</DisplayName>
-			<Icon>Icons\metal_grid_component.dds</Icon>
+			<Icon>Icons\metalgrid_nickel.dds</Icon>
 			<Prerequisites>
 				<Item Amount="3" TypeId="Component" SubtypeId="StainlessGirder" />
-				<Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="3" TypeId="Component" SubtypeId="NickelGirder" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_NickelPlate</SubtypeId>
+			</Id>
+			<DisplayName>Nickel Plate</DisplayName>
+			<Icon>Icons\plate_nickel.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="NickelPlate" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_NickelGirderComponent</SubtypeId>
+			</Id>
+			<DisplayName>Nickel Girder</DisplayName>
+			<Icon>Icons\girder_nickel.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="2" TypeId="Component" SubtypeId="NickelPlate" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="NickelGirder" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Ceramic</SubtypeId>
+			</Id>
+			<DisplayName>Ceramic</DisplayName>
+			<Icon>Icons\Ceramic.dds</Icon>
+			<Prerequisites>
+				<Item Amount="3" TypeId="Ingot" SubtypeId="Silicon" />
+				<Item Amount="3" TypeId="Ingot" SubtypeId="Carbon" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Ceramic" />
+			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_CobaltPlate</SubtypeId>
+			</Id>
+			<DisplayName>Cobalt Plate</DisplayName>
+			<Icon>Icons\plate_cobalt.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="CobaltPlate" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_CobaltGirderComponent</SubtypeId>
+			</Id>
+			<DisplayName>Cobalt Girder</DisplayName>
+			<Icon>Icons\girder_cobalt.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
+				<Item Amount="2" TypeId="Component" SubtypeId="CobaltPlate" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="CobaltGirder" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CopperCable</SubtypeId>
+			</Id>
+			<DisplayName>Copper Cable</DisplayName>
+			<Icon>Icons\cable_copper.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="CopperWire" />
+				<Item Amount="1" TypeId="Component" SubtypeId="Rubber" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="CopperCable" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>SilverCable</SubtypeId>
+			</Id>
+			<DisplayName>Silver Cable</DisplayName>
+			<Icon>Icons\cable_silver.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="SilverWire" />
+				<Item Amount="1" TypeId="Component" SubtypeId="Rubber" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="SilverCable" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 		</Blueprint>
 	</Blueprints>
 </Definitions>

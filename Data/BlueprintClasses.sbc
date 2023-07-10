@@ -249,6 +249,8 @@
 	  <Entry Class="AssemblerComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
 	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="plastictopcb" />
 	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="GGM_p_silverwire" />
+	  
 
 	  <!-- Tier 2 -->	  
 	  
@@ -310,11 +312,17 @@
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
 
 	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_StainlessPlate" />
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_CobaltPlate" />
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_NickelPlate" />
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessGirderComponent" />
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessSmallTube" />
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessLargeTube" />
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="plastictopcb" />
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="AssemblerComponents" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_NickelGirderComponent" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_CobaltGirderComponent" />
+	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="CopperCable" />
+	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="SilverCable" />
 
 
 
