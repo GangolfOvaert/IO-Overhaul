@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>WireDrawer</SubtypeId>
+			</Id>
+			<DisplayName>Wire Drawer T1</DisplayName>
+			<Icon>..\2344068716\Icons\WireDrawer.dds</Icon>
+			<Description>
+				Draws and insulates Wire of various types.
+
+				Power Usage: 1.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2344068716\Models\WireDrawer.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="120" />
+				<Component Subtype="Construction" Count="80" />
+				<Component Subtype="CopperWire" Count="100" />
+				<Component Subtype="SmallTube" Count="40" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Electromagnet" Count="40" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>WireDrawerComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>1</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>WireDrawert2</SubtypeId>
+			</Id>
+			<DisplayName>Wire Drawer T2</DisplayName>
+			<Icon>..\2344068716\Icons\WireDrawer.dds</Icon>
+			<Description>
+				Draws and insulates Wire of various types.
+
+				Power Usage: 1.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2344068716\Models\WireDrawer.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="SmallTube" Count="60" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="Electromagnet" Count="40" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="Superconductor" Count="30" />
+				<Component Subtype="AdvancedComputer" Count="40" />
+				<Component Subtype="InteriorPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>WireDrawerComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>2</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+	</CubeBlocks>
+	<BlueprintClasses>
+
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="WireDrawerComponents" BlueprintSubtypeId="GGM_p_silverwire" />
+		<Entry Class="WireDrawerComponents" BlueprintSubtypeId="CopperCable" />
+		<Entry Class="WireDrawerComponents" BlueprintSubtypeId="SilverCable" />
+
+	</BlueprintClassEntries>
+</Definitions>

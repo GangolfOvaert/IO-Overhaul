@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>CementKiln</SubtypeId>
+			</Id>
+			<DisplayName>Cement Kiln</DisplayName>
+			<Icon>..\2344068716\Icons\CementKiln.dds</Icon>
+			<Description>
+				Processes and mixes Concrete.
+
+				Power Usage: 3MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="3" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="3" y="1" z="1" />
+			<Model>..\2344068716\Models\CementKiln.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="120" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="100" />
+				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="HeatingElement" Count="40" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="SteelPlate" Count="30" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="6" StartY="0" EndX="7" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="7" EndY="3" Default="true" />
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\CementKilnConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\CementKilnConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\CementKilnConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\CementKilnConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>CementKilnComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>1</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+	</CubeBlocks>
+	<BlueprintClasses>
+
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+
+	</BlueprintClassEntries>
+</Definitions>

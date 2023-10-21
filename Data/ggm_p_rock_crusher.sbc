@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>RockCrusher</SubtypeId>
+			</Id>
+			<DisplayName>Rock Crusher T1</DisplayName>
+			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
+			<Description>
+                    Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
+
+                    Power Usage: 2.5MW
+                </Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="4" z="3" />
+			<Center x="1" y="1" z="1" />
+			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="Motor" Count="40" />
+				<Component Subtype="Ceramic" Count="100" />
+				<Component Subtype="Computer" Count="30" />
+				<Component Subtype="SteelPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Crushert1</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.25</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>RockCrusher</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>RockCrushert2</SubtypeId>
+			</Id>
+			<DisplayName>Rock Crusher T2</DisplayName>
+			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
+			<Description>
+				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
+
+				Power Usage: 2.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="4" z="3" />
+			<Center x="1" y="1" z="1" />
+			<Model>Models\OreCrusher.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="CopperWire" Count="300" />
+				<Component Subtype="LargeTube" Count="60" />
+				<Component Subtype="Motor" Count="60" />
+				<Component Subtype="Ceramic" Count="200" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="GGMSilverComponent" Count="50" />
+				<Component Subtype="SteelPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="GGMSilverComponent" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Crushert2</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.25</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>RockCrusher</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>RockCrushert3</SubtypeId>
+			</Id>
+			<DisplayName>Rock Crusher T3</DisplayName>
+			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
+			<Description>
+				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
+
+				Power Usage: 2.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="4" z="3" />
+			<Center x="1" y="1" z="1" />
+			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="140" />
+				<Component Subtype="CopperWire" Count="300" />
+				<Component Subtype="LargeTube" Count="100" />
+				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="Ceramic" Count="250" />
+		     	<Component Subtype="AdvancedComputer" Count="30" />		
+				<Component Subtype="GGMSilverComponent" Count="75" />
+				<Component Subtype="Superconductor" Count="75" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="SteelPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Crushert3</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.25</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>RockCrusher</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>RockCrushert4</SubtypeId>
+			</Id>
+			<DisplayName>Rock Crusher T4</DisplayName>
+			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
+			<Description>
+				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
+
+				Power Usage: 2.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="4" z="3" />
+			<Center x="1" y="1" z="1" />
+			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="400" />
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="CopperWire" Count="400" />
+				<Component Subtype="LargeTube" Count="125" />
+				<Component Subtype="Motor" Count="125" />
+				<Component Subtype="Ceramic" Count="250" />
+				<Component Subtype="AdvancedComputer" Count="50" />
+				<Component Subtype="GGMSilverComponent" Count="100" />
+				<Component Subtype="Superconductor" Count="100" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="TitaniumPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Crushert4</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.25</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>RockCrusher</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+	</CubeBlocks>
+	<BlueprintClasses>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert1</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert2</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert3</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert4</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="Crushert1" BlueprintSubtypeId="CrushStoneOre" />
+		<Entry Class="Crushert1" BlueprintSubtypeId="CrushIronOre" />
+		<Entry Class="Crushert1" BlueprintSubtypeId="CrushNickelOre" />
+		<Entry Class="Crushert1" BlueprintSubtypeId="CrushCopperOre" />
+		<Entry Class="Crushert1" BlueprintSubtypeId="CrushSiliconOre" />
+		<Entry Class="Crushert1" BlueprintSubtypeId="CrushSilverOre" />
+
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushStoneOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushIronOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushNickelOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushCobaltOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushCopperOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushSiliconOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushSilverOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushGoldOre" />
+		
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushIronOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushNickelOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushCobaltOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushSiliconOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushSilverOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushGoldOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushCopperOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushBauxiteOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushTitaniumOre" />
+	</BlueprintClassEntries>
+</Definitions>

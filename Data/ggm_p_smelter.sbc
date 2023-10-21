@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>Blast Furnace</SubtypeId>
+			</Id>
+			<DisplayName>Smelter T1</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Description>
+				Smelters can refine Nickel, Iron, Silicon, Copper, Silver
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="CopperWire" Count="100" />
+				<Component Subtype="Computer" Count="50" />
+				<Component Subtype="HeatingElement" Count="50" />
+				<Component Subtype="SteelPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="HeatingElement" Index="0" />
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>SmelterIngotst1</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.5</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<PCU>75</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>BlastFurnacet2</SubtypeId>
+			</Id>
+			<DisplayName>Smelter T2</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Description>
+				Smelters can refine Nickel, iron, Silicon, copper, Silver, Gold, Cobalt, Platin
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="Computer" Count="75" />
+				<Component Subtype="HeatingElement" Count="75" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="250" />
+			</Components>
+			<CriticalComponent Subtype="HeatingElement" Index="0" />
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>SmelterIngotst2</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.5</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<PCU>75</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>BlastFurnacet3</SubtypeId>
+			</Id>
+			<DisplayName>Smelter T3</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Description>
+				Smelters can refine Cobalt, Copper, Iron, Nickel, Silicon, Titan
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="Construction" Count="130" />
+				<Component Subtype="CopperWire" Count="250" />
+				<Component Subtype="Computer" Count="75" />
+				<Component Subtype="AdvancedComputer" Count="30" />
+				<Component Subtype="HeatingElement" Count="100" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="Superconductor" Count="50" />
+				<Component Subtype="MetalGrid" Count="30" />
+				<Component Subtype="SteelPlate" Count="300" />
+			</Components>
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>SmelterIngotst3</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.5</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<PCU>75</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>BlastFurnacet4</SubtypeId>
+			</Id>
+			<DisplayName>Smelter T4</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Description>
+				Smelters can refine Cobalt, Copper, Iron, Nickel, Silicon, Titan
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="CopperWire" Count="250" />
+				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="50" />
+				<Component Subtype="HeatingElement" Count="100" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="Superconductor" Count="50" />
+				<Component Subtype="MetalGrid" Count="30" />
+				<Component Subtype="TitaniumPlate" Count="100" />
+			</Components>
+			<CriticalComponent Subtype="TitaniumPlate" Index="50" />
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>SmelterIngotst4</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.5</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<PCU>75</PCU>
+		</Definition>
+	</CubeBlocks>
+	<BlueprintClasses>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst1</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst2</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst3</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst4</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="StoneOreToIngotBasic" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="IronOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="SiliconOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="NickelOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CobaltOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="SilverOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedIronOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSilverOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="ScrapToIronIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="StoneOreToIngotBasic" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="IronOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CopperOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="SiliconOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="NickelOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CobaltOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CopperOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedIronOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CobaltOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CopperOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="IronOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="NickelOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="TitaniumOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedIronOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedTitaniumOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedNickelumOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedTitaniumOreToIngot" />
+	</BlueprintClassEntries>
+</Definitions>

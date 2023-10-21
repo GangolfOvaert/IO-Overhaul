@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>LargeAssemblerNew</SubtypeId>
+			</Id>
+			<DisplayName>Assembler</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+			<Description>
+				Assembles basic components together to produce more complex items.
+				Produces Comms and Medical Components, Acid Power Cells, Motors, Solar Cells, Capacitors, and Cryocoolers.
+
+				Power Usage: 1.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\Assembler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="Motor" Count="80" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="Computer" Count="150" />
+				<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>AssemblerComponents</Class>
+				<Class>T1Tools</Class>
+				<Class>T2Tools</Class>
+				<Class>Bottles</Class>
+				<Class>Consumables</Class>
+			</BlueprintClasses>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>AdvancedAssembler</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Assembler</DisplayName>
+			<Icon>..\2344068716\Icons\AdvancedAssembler.dds</Icon>
+			<Description>
+				Advanced assembling machinery, capable of producing more intricate and compact components.
+				Produces Laser Emitters, Lithium Power Cells, Reactor Components, Superconducting Magnets, and Tokamak Blanket Plates.
+
+				Power Usage: 4MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2344068716\Models\AdvancedAssembler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="GGMSilverComponent" Count="50" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="InteriorPlate" Count="200" />
+				<Component Subtype="Motor" Count="20" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="GoldWire" Count="100" />
+				<Component Subtype="Superconductor" Count="40" />
+				<Component Subtype="AdvancedComputer" Count="100" />
+				<Component Subtype="SteelPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.25" EndY="2" />
+				<MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Front" StartX="1.75" StartY="0" EndX="2" EndY="2" />
+				<MountPoint Side="Front" StartX="0" StartY="2" EndX="3" EndY="2.25" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="0.25" EndY="2" />
+				<MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Back" StartX="1.75" StartY="0" EndX="2" EndY="2" />
+				<MountPoint Side="Back" StartX="0" StartY="2" EndX="3" EndY="2.25" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="1" EndX="3" EndY="2" />
+				<MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="1" EndX="3" EndY="2" />
+				<MountPoint Side="Right" StartX="2" StartY="0" EndX="3" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>4</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>AdvancedAssemblerComponents</Class>
+				<Class>T3Tools</Class>
+				<Class>T4Tools</Class>
+				<Class>EliteConsumables</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>0.8</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>NanoAssembler</SubtypeId>
+			</Id>
+			<DisplayName>Nano-Assembler</DisplayName>
+			<Icon>..\2344068716\Icons\Nanoassembler.dds</Icon>
+			<Description>
+				Specialized equipment for producing highly advanced quantum-effect components, requiring nano-scale precision.
+				Produces Quantum Computers, Thruster and Gravity Components, Full-Spectrum SOlar Cells and Electron-Matrix Cells.
+
+				Power Usage: 7.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="4" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="1" y="0" z="1" />
+			<Model>..\2344068716\Models\NanoAssembler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="GoldWire" Count="100" />
+				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="GGMSilverComponent" Count="100" />
+				<Component Subtype="LaserEmitter" Count="10" />
+				<Component Subtype="Ceramic" Count="50" />
+				<Component Subtype="SuperMagnet" Count="10" />
+				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="200" />
+				<Component Subtype="TitaniumPlate" Count="100" />
+			</Components>
+			<CriticalComponent Subtype="TitaniumPlate" Index="50" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+				<MountPoint Side="Back" StartX="1" StartY="3" EndX="2" EndY="4" />
+				<MountPoint Side="Front" StartX="1" StartY="3" EndX="2" EndY="4" />
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\NanoAssemblerConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\NanoAssemblerConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\NanoAssemblerConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>7.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>NanoAssemblerComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>0.8</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+	</CubeBlocks>
+	<BlueprintClasses>
+
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
+		<Entry Class="AssemblerComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+		
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Bench_CircuitBoard" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="soiledPolymerToPlastic" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="soiledplastictopcb" />
+
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="POComputerComponentsoiled" />
+
+
+	</BlueprintClassEntries>
+</Definitions>

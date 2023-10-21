@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+	<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+		<Id>
+			<TypeId>Assembler</TypeId>
+			<SubtypeId>PlateStamp</SubtypeId>
+		</Id>
+		<DisplayName>Plate Stamp T1</DisplayName>
+		<Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
+		<Description>
+			Presses materials into Plates.
+
+			Power Usage: 1.5MW
+		</Description>
+		<CubeSize>Large</CubeSize>
+		<BlockTopology>TriangleMesh</BlockTopology>
+		<Size x="2" y="3" z="3" />
+		<ModelOffset x="0" y="0" z="0" />
+		<Center x="0" y="0" z="1" />
+		<Model>..\2344068716\Models\PlateStamp.mwm</Model>
+		<Components>
+			<Component Subtype="SteelPlate" Count="160" />
+			<Component Subtype="Construction" Count="100" />
+			<Component Subtype="CopperWire" Count="100" />
+			<Component Subtype="Electromagnet" Count="30" />
+			<Component Subtype="LargeTube" Count="20" />
+			<Component Subtype="Computer" Count="40" />
+			<Component Subtype="SteelPlate" Count="40" />
+		</Components>
+		<CriticalComponent Subtype="Computer" Index="0" />
+		<MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
+			<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+			<MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+			<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+			<MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="2.5" />
+		</MountPoints>
+		<BuildProgressModels>
+			<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\PressConstruct1.mwm" />
+			<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\PressConstruct2.mwm" />
+			<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\PressConstruct3.mwm" />
+		</BuildProgressModels>
+		<EdgeType>Light</EdgeType>
+		<BuildTimeSeconds>80</BuildTimeSeconds>
+		<ResourceSinkGroup>Factory</ResourceSinkGroup>
+		<InventoryMaxVolume>4</InventoryMaxVolume>
+		<InventorySize>
+			<X>1</X>
+			<Y>1</Y>
+			<Z>1</Z>
+		</InventorySize>
+		<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+		<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+		<BlueprintClasses>
+			<Class>PlateStampComponents</Class>
+		</BlueprintClasses>
+		<AssemblySpeed>1</AssemblySpeed>
+		<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+		<DamagedSound>ParticleHeavyMech</DamagedSound>
+		<PrimarySound>BlockAssembler</PrimarySound>
+		<ActionSound>BlockAssemblerProcess</ActionSound>
+		<DestroyEffect>Explosion_Missile</DestroyEffect>
+		<DestroySound>WepSmallMissileExpl</DestroySound>
+		<PCU>40</PCU>
+		<IsAirTight>true</IsAirTight>
+		<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>PlateStampt2</SubtypeId>
+			</Id>
+			<DisplayName>Plate Stamp T2</DisplayName>
+			<Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
+			<Description>
+				Presses materials into Plates.
+
+				Power Usage: 1.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="3" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="1" />
+			<Model>..\2344068716\Models\PlateStamp.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperWire" Count="100" />
+				<Component Subtype="Electromagnet" Count="30" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Superconductor" Count="40" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="AdvancedComputer" Count="40" />
+				<Component Subtype="TitaniumPlate" Count="40" />
+			</Components>
+			<CriticalComponent Subtype="TitaniumPlate" Index="20" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="2.5" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\PressConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\PressConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\PressConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>PlateStampComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>2</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+	</CubeBlocks>
+	<BlueprintClasses>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>PlateStampComponentst2</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_silverplate" />
+		<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_P_Cobalt_Plate" />
+		<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_StainlessPlate" />
+		<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_CobaltPlate" />
+		<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_NickelPlate" />
+		<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_heavyPlate" />
+		<Entry Class="PlateStampComponentst2" BlueprintSubtypeId="POSteelPlate" />
+		<Entry Class="PlateStampComponentst2" BlueprintSubtypeId="POInteriorPlate" />
+		<Entry Class="PlateStampComponentst2" BlueprintSubtypeId="TitaniumPlate" />
+		<Entry Class="PlateStampComponentst2" BlueprintSubtypeId="ArmoredPlate" />
+		<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_reinforcedPlate" />
+	</BlueprintClassEntries>
+</Definitions>

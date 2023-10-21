@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>ChemicalPlant</SubtypeId>
+			</Id>
+			<DisplayName>Chemical Refinery</DisplayName>
+			<Icon>..\2344068716\Icons\ChemicalPlant.dds</Icon>
+			<Description>
+				Refines Lithium, Niter, and Sulfur, and extracts pure Carbon from Coal.
+
+				Power Usage: 3.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="5" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2344068716\Models\ChemicalPlant.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="Construction" Count="60" />
+				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="Motor" Count="40" />
+				<Component Subtype="CopperWire" Count="100" />
+				<Component Subtype="Ceramic" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="40" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<Center x="1" y="0" z="2" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="2" StartY="0" EndX="3" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="5" Default="true" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\ChemicalPlantConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\ChemicalPlantConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\ChemicalPlantConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>3.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>ChemicalPlantOre</Class>
+			</BlueprintClasses>
+			<RefineSpeed>1</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+		</Definition>
+
+	</CubeBlocks>
+	<BlueprintClasses>
+
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+  
+	</BlueprintClassEntries>
+</Definitions>

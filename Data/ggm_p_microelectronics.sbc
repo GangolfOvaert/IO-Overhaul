@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>MicroelectronicsFactory</SubtypeId>
+			</Id>
+			<DisplayName>Microelectronics Factory</DisplayName>
+			<Icon>..\2344068716\Icons\MicroelectronicsFactory.dds</Icon>
+			<Description>
+				Advanced production machinery for delicate electronic components.
+				Produces Basic and Advanced Computers, Thermocouples, Sensor Clusters, and Displays.
+
+				Power Usage: 2MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2344068716\Models\MicroelectronicsFactory.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="300" />
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="CopperWire" Count="300" />
+				<Component Subtype="GGMSilverComponent" Count="100" />
+				<Component Subtype="Motor" Count="50" />
+				<Component Subtype="BulletproofGlass" Count="200" />
+				<Component Subtype="Computer" Count="50" />
+				<Component Subtype="SteelPlate" Count="300" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\MicroelectronicsFactoryConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\MicroelectronicsFactoryConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\MicroelectronicsFactoryConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\MicroelectronicsFactoryConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>MicroelectronicsFactoryComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>1</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+
+	</CubeBlocks>
+	<BlueprintClasses>
+
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="GGM_P_GGMAdvCircuitBoard" />
+		<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="plastictopcb" />
+		<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	</BlueprintClassEntries>
+</Definitions>
