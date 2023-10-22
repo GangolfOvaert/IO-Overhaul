@@ -9,7 +9,7 @@
 				<SubtypeId>SiliconFuser</SubtypeId>
 			</Id>
 			<DisplayName>Ceramics Furnace</DisplayName>
-			<Icon>..\2344068716\Icons\SiliconFuser.dds</Icon>
+			<Icon>Icons\production\silicon_fuser_t1.dds</Icon>
 			<Description>
 				Melts materials together to make Glass and Ceramics.
 

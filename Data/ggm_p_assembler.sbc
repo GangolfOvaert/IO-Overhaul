@@ -10,7 +10,7 @@
 				<SubtypeId>LargeAssemblerNew</SubtypeId>
 			</Id>
 			<DisplayName>Assembler</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+			<Icon>Icons\production\assembler_t2.dds</Icon>
 			<Description>
 				Assembles basic components together to produce more complex items.
 				Produces Comms and Medical Components, Acid Power Cells, Motors, Solar Cells, Capacitors, and Cryocoolers.
@@ -19,9 +19,9 @@
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2" />
+			<Size x="3" y="2" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\Large\Assembler.mwm</Model>
+			<Model>..\2344068716\Models\AdvancedAssembler.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="50" />
 				<Component Subtype="Construction" Count="120" />
@@ -33,19 +33,27 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
-				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
-				<MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
-				<MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.25" EndY="2" />
+				<MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Front" StartX="1.75" StartY="0" EndX="2" EndY="2" />
+				<MountPoint Side="Front" StartX="0" StartY="2" EndX="3" EndY="2.25" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="0.25" EndY="2" />
+				<MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Back" StartX="1.75" StartY="0" EndX="2" EndY="2" />
+				<MountPoint Side="Back" StartX="0" StartY="2" EndX="3" EndY="2.25" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="1" EndX="3" EndY="2" />
+				<MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="1" EndX="3" EndY="2" />
+				<MountPoint Side="Right" StartX="2" StartY="0" EndX="3" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
-				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\AdvancedAssemblerConstruct3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -81,7 +89,7 @@
 				<SubtypeId>AdvancedAssembler</SubtypeId>
 			</Id>
 			<DisplayName>Advanced Assembler</DisplayName>
-			<Icon>..\2344068716\Icons\AdvancedAssembler.dds</Icon>
+			<Icon>Icons\production\assembler_t3.dds</Icon>
 			<Description>
 				Advanced assembling machinery, capable of producing more intricate and compact components.
 				Produces Laser Emitters, Lithium Power Cells, Reactor Components, Superconducting Magnets, and Tokamak Blanket Plates.
@@ -164,7 +172,7 @@
 				<SubtypeId>NanoAssembler</SubtypeId>
 			</Id>
 			<DisplayName>Nano-Assembler</DisplayName>
-			<Icon>..\2344068716\Icons\Nanoassembler.dds</Icon>
+			<Icon>Icons\production\assembler_t4.dds</Icon>
 			<Description>
 				Specialized equipment for producing highly advanced quantum-effect components, requiring nano-scale precision.
 				Produces Quantum Computers, Thruster and Gravity Components, Full-Spectrum SOlar Cells and Electron-Matrix Cells.

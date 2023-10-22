@@ -9,7 +9,7 @@
 				<SubtypeId>AlloySmelter</SubtypeId>
 			</Id>
 			<DisplayName>Alloy Smelter</DisplayName>
-			<Icon>Icons\placeholder.dds</Icon>
+			<Icon>Icons\production\alloy_smelter_t3.dds</Icon>
 			<Description>
 				Automated production of basic components.
 				Produces Basic Computers, Construction Components, Metal Grids, Electromagnets, Heating Elements, Lightbulbs, and Alkaline Power Cells.

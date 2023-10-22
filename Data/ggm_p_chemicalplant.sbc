@@ -9,7 +9,7 @@
 				<SubtypeId>ChemicalPlant</SubtypeId>
 			</Id>
 			<DisplayName>Chemical Refinery</DisplayName>
-			<Icon>..\2344068716\Icons\ChemicalPlant.dds</Icon>
+			<Icon>Icons\production\chemical_plant_t3.dds</Icon>
 			<Description>
 				Refines Lithium, Niter, and Sulfur, and extracts pure Carbon from Coal.
 

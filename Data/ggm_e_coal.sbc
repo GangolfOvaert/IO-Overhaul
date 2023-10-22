@@ -9,7 +9,7 @@
 				<SubtypeId>CoalFurnace</SubtypeId>
 			</Id>
 			<DisplayName>Coal Boiler</DisplayName>
-			<Icon>..\2344068716\Icons\CoalBoiler.dds</Icon>
+			<Icon>Icons\energy\coal_boiler.dds</Icon>
 			<Description>
 				Burns Coal to produce Steam. Must be connected to a Steam Turbine.
 				Produces 100 Steam/sec
@@ -18,7 +18,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="6" y="2" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\CoalBoiler.mwm</Model>
+			<Model>..\2344068716\Models\CoalBoiler.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="80" />
 				<Component Subtype="Construction" Count="25" />

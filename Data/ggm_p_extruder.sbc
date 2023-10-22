@@ -9,7 +9,7 @@
 				<SubtypeId>Extruder</SubtypeId>
 			</Id>
 			<DisplayName>Extruder T1</DisplayName>
-			<Icon>..\2344068716\Icons\Extruder.dds</Icon>
+			<Icon>Icons\production\extruder_t1.dds</Icon>
 			<Description>
 				Forms Tubes and Girders.
 
@@ -66,7 +66,7 @@
 				<SubtypeId>Extrudert2</SubtypeId>
 			</Id>
 			<DisplayName>Extruder T2</DisplayName>
-			<Icon>..\2344068716\Icons\Extruder.dds</Icon>
+			<Icon>Icons\production\extruder_t2.dds</Icon>
 			<Description>
 				Forms Tubes and Girders.
 

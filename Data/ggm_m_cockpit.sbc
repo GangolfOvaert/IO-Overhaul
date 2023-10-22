@@ -11,7 +11,7 @@
 				<SubtypeId>SpeederCockpit</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_SpeederCockpit</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\SpeederCockpit.dds</Icon>
+			<Icon>Icons\mobility\speeder_cockpit_t1.dds</Icon>
 			<Description>Description_SpeederCockpit</Description>
 			<CubeSize>Small</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -84,7 +84,7 @@
 				<SubtypeId>BuggyCockpit</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_BuggyCockpit</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\BuggyCockpit_Racing.dds</Icon>
+			<Icon>Icons\mobility\buggy_cockpit_racing_t1.dds</Icon>
 			<Description>Description_BuggyCockpit</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -166,7 +166,7 @@
 				<SubtypeId>RoverCockpit</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_RoverCockpit</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\RoverCockpit.dds</Icon>
+			<Icon>Icons\mobility\rover_cockpit_t1.dds</Icon>
 			<Description>Description_RoverCockpit</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -242,6 +242,81 @@
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SpeederCockpitCompact</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SpeederCockpitCompact</DisplayName>
+            <Icon>Icons\mobility\speeder_cockpit_light_t1.dds</Icon>
+            <Description>Description_SpeederCockpit</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="3" />
+            <Model>Models\Cubes\Small\SpeederCockpitLite.mwm</Model>
+            <CharacterAnimationMale>SpeederCockpitPose</CharacterAnimationMale>
+            <CharacterAnimationFemale>SpeederCockpitPoseFemale</CharacterAnimationFemale>
+            <BackpackEnabled>true</BackpackEnabled>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="CopperWire" Count="15" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="Display" Count="10" />
+				<Component Subtype="Fabric" Count="15" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="2.0" EndY="0.7" Default="true"/>
+                <MountPoint Side="Bottom" StartX="0.5" StartY="2.0" EndX="1.5" EndY="3"/>
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1.5" EndY="1.5" />
+                <MountPoint Side="Back" StartX="0.6" StartY="1.9" EndX="1.4" EndY="2" />
+                <MountPoint Side="Front" StartX="0.0" StartY="0" EndX="2.0" EndY="1.5" />
+                <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.8" EndY="1.5" />
+                <MountPoint Side="Right" StartX="2.2" StartY="0.0" EndX="3.0" EndY="1.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SpeederCockpitLiteConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SpeederCockpitLiteConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SpeederCockpitCompact</BlockPairName>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_Velocity"  />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Small" TextureResolution="256" ScreenWidth="4" ScreenHeight="2" Script="TSS_EnergyHydrogen"  />
+            </ScreenAreas>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>true</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>true</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PCU>50</PCU>
+            <Center x="0" y="0" z="0" />
+            <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Automatons</DLC> -->
+        </Definition>
 	</CubeBlocks>
 	<BlueprintClasses>
 	</BlueprintClasses>

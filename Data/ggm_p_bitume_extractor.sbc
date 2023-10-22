@@ -9,7 +9,7 @@
 				<SubtypeId>BitumenExtractor</SubtypeId>
 			</Id>
 			<DisplayName>Bitumen Extractor</DisplayName>
-			<Icon>..\2344068716\Icons\BitumenExtractor.dds</Icon>
+			<Icon>Icons\production\bitumen_extractor_t1.dds</Icon>
 			<Description>
 				Extracts Crude Oil from Oil Sand.
 

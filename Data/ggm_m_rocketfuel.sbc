@@ -9,7 +9,7 @@
 				<SubtypeId>RocketFuelRefinery</SubtypeId>
 			</Id>
 			<DisplayName>Rocket Fuel Refinery</DisplayName>
-			<Icon>..\2344068716\Icons\FuelRefinery.dds</Icon>
+			<Icon>Icons\mobility\rocket_fuel_refinery_t3.dds</Icon>
 			<Description>
 				Refines raw Fuel Oil into useable Rocket Fuel.
 
@@ -20,7 +20,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\FuelRefinery.mwm</Model>
+			<Model>..\2344068716\Models\FuelRefinery.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="60" />
@@ -101,7 +101,7 @@
 				<SubtypeId>LargeBlockLargeRocketThrust</SubtypeId>
 			</Id>
 			<DisplayName>Large Rocket Thruster</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Icons\mobility\RocketThrusterLarge.dds</Icon>
 			<Description>
 				Higher-powered fuelled thruster, running on kerosense-based Rocket Fuel for increased thrust.
 				Thrust Output: 14MN
@@ -111,7 +111,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\Large\HydrogenThrusterLarge.mwm</Model>
+			<Model>..\2344068716\Models\Cubes\Large\HydrogenThrusterLarge.mwm</Model>
 			<ThrusterType>Hydrogen</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
@@ -189,7 +189,7 @@
 				<SubtypeId>LargeBlockSmallRocketThrust</SubtypeId>
 			</Id>
 			<DisplayName>Small Rocket Thruster</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Icons\mobility\RocketThrusterSmall.dds</Icon>
 			<Description>
 				Higher-powered fuelled thruster, running on kerosense-based Rocket Fuel for increased thrust.
 				Thrust Output: 2MN
@@ -199,7 +199,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\Large\HydrogenThrusterSmall.mwm</Model>
+			<Model>..\2344068716\Models\Cubes\Large\HydrogenThrusterSmall.mwm</Model>
 			<ThrusterType>Hydrogen</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
@@ -275,7 +275,7 @@
 				<SubtypeId>SmallBlockLargeRocketThrust</SubtypeId>
 			</Id>
 			<DisplayName>Large Rocket Thruster</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Icons\mobility\RocketThrusterLarge.dds</Icon>
 			<Description>
 				Higher-powered fuelled thruster, running on kerosense-based Rocket Fuel for increased thrust.
 				Thrust Output: 1MN
@@ -285,7 +285,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\Small\HydrogenThrusterLarge.mwm</Model>
+			<Model>..\2344068716\Models\Cubes\Small\HydrogenThrusterLarge.mwm</Model>
 			<ThrusterType>Hydrogen</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
@@ -362,7 +362,7 @@
 				<SubtypeId>SmallBlockSmallRocketThrust</SubtypeId>
 			</Id>
 			<DisplayName>Small Rocket Thruster</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Icons\mobility\RocketThrusterSmall.dds</Icon>
 			<Description>
 				Higher-powered fuelled thruster, running on kerosense-based Rocket Fuel for increased thrust.
 				Thrust Output: 200kN
@@ -373,7 +373,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\Small\HydrogenThrusterSmall.mwm</Model>
+			<Model>..\2344068716\Models\Cubes\Small\HydrogenThrusterSmall.mwm</Model>
 			<ThrusterType>Hydrogen</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
@@ -450,7 +450,7 @@
 				<SubtypeId>LargeRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Rocket Fuel Tank</DisplayName>
-			<Icon>..\2344068716\Icons\SphereTankLegs.dds</Icon>
+			<Icon>Icons\mobility\spheretanklegs_rocket.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 500,000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -459,7 +459,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="5" z="5" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\LargeRocketFuelTank.mwm</Model>
+			<Model>..\2344068716\Models\LargeRocketFuelTank.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="160" />
 				<Component Subtype="LargeTube" Count="80" />
@@ -522,7 +522,7 @@
 				<SubtypeId>LargeRocketFuelTankNoLegs</SubtypeId>
 			</Id>
 			<DisplayName>Rocket Fuel Tank - No Legs</DisplayName>
-			<Icon>..\2344068716\Icons\SphereTankNoLegs.dds</Icon>
+			<Icon>Icons\mobility\spheretanknolegs_rocket.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 500,000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -531,7 +531,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="5" z="5" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\LargeRocketFuelTankNoLegs.mwm</Model>
+			<Model>..\2344068716\Models\LargeRocketFuelTankNoLegs.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="160" />
 				<Component Subtype="LargeTube" Count="80" />
@@ -594,7 +594,7 @@
 				<SubtypeId>SmallRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Rocket Fuel Tank</DisplayName>
-			<Icon>..\2344068716\Icons\SphereTankNoLegs.dds</Icon>
+			<Icon>Icons\mobility\spheretanknolegs_rocket.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 25,000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -603,7 +603,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="5" z="5" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\SmallRocketFuelTank.mwm</Model>
+			<Model>..\2344068716\Models\SmallRocketFuelTank.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="20" />
 				<Component Subtype="LargeTube" Count="25" />
@@ -671,12 +671,12 @@
 				Stores Rocket Fuel. 50,000L capacity.
 				Caution: Stored fuels are extremely flammable.
 			</Description>
-			<Icon>..\2344068716\Icons\CylinderTank.dds</Icon>
+			<Icon>Icons\mobility\cylindertank_rocket.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\RocketFuelCylinderTank.mwm</Model>
+			<Model>..\2344068716\Models\RocketFuelCylinderTank.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="60" />
 				<Component Subtype="LargeTube" Count="30" />
@@ -733,7 +733,7 @@
 				<SubtypeId>EnclosedRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Enclosed Rocket Fuel Tank</DisplayName>
-			<Icon>..\2344068716\Icons\EnclosedTank.dds</Icon>
+			<Icon>Icons\mobility\EnclosedTank_rocket.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 30,000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -742,7 +742,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\EnclosedRocketFuelTank.mwm</Model>
+			<Model>..\2344068716\Models\EnclosedRocketFuelTank.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30" />
 				<Component Subtype="LargeTube" Count="20" />
@@ -797,7 +797,7 @@
 				<SubtypeId>SmallEnclosedRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Enclosed Rocket Fuel Tank</DisplayName>
-			<Icon>..\2344068716\Icons\EnclosedTank.dds</Icon>
+			<Icon>Icons\mobility\EnclosedTank_rocket.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 200L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -806,7 +806,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\EnclosedRocketFuelTankSmall.mwm</Model>
+			<Model>..\2344068716\Models\EnclosedRocketFuelTankSmall.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="2" />
 				<Component Subtype="LargeTube" Count="1" />
@@ -860,7 +860,7 @@
 				<SubtypeId>SmallRocketFuelTankMini</SubtypeId>
 			</Id>
 			<DisplayName>Small Rocket Fuel Tank</DisplayName>
-			<Icon>..\2344068716\Icons\SmallGasTank.dds</Icon>
+			<Icon>Icons\mobility\SmallGasTank_rocket.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 5000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -869,7 +869,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="5" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\SmallRocketTank.mwm</Model>
+			<Model>..\2344068716\Models\SmallRocketTank.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10" />
 				<Component Subtype="LargeTube" Count="10" />
@@ -928,7 +928,7 @@
 				<SubtypeId>SmallCylinderRocketFuelTank</SubtypeId>
 			</Id>
 			<DisplayName>Small Cylinder Rocket Fuel Tank</DisplayName>
-			<Icon>..\2344068716\Icons\SmallCylinderTank.dds</Icon>
+			<Icon>Icons\mobility\SmallCylinderTank_rocket.dds</Icon>
 			<Description>
 				Stores Rocket Fuel. 1000L capacity.
 				Caution: Stored fuels are extremely flammable.
@@ -937,7 +937,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="1" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\SmallCylinderRocketFuelTank.mwm</Model>
+			<Model>..\2344068716\Models\SmallCylinderRocketFuelTank.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="5" />
 				<Component Subtype="LargeTube" Count="2" />
