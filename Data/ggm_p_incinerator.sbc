@@ -9,7 +9,7 @@
 				<SubtypeId>Incinerator</SubtypeId>
 			</Id>
 			<DisplayName>Incinerator</DisplayName>
-			<Icon>..\2344068716\Icons\Incinerator.dds</Icon>
+			<Icon>Icons\production\incinerator_t1.dds</Icon>
 			<Description>
 				Destroys unwanted items placed inside.
 

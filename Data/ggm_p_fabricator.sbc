@@ -9,7 +9,7 @@
 				<SubtypeId>Fabricator</SubtypeId>
 			</Id>
 			<DisplayName>Fabricator</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+			<Icon>Icons\production\fabricator.dds</Icon>
 			<Description>
 				Automated production of basic components.
 				Produces Basic Computers, Construction Components, Metal Grids, Electromagnets, Heating Elements, Lightbulbs, and Alkaline Power Cells.

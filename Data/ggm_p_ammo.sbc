@@ -65,7 +65,7 @@
 		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
 			<Id>
 				<TypeId>Assembler</TypeId>
-				<SubtypeId>MunitionsFactory</SubtypeId>
+				<SubtypeId>MunitionsFactoryt3</SubtypeId>
 			</Id>
 			<DisplayName>Munitions Factory T3</DisplayName>
 			<Icon>Icons\production\munitions_factory_t3.dds</Icon>

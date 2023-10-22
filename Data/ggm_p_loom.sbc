@@ -8,8 +8,8 @@
 				<TypeId>Assembler</TypeId>
 				<SubtypeId>AutoLoom</SubtypeId>
 			</Id>
-			<DisplayName>Auto Loom T1</DisplayName>
-			<Icon>Icons\production\auto_loom_t1.dds</Icon>
+			<DisplayName>Auto Loom T2</DisplayName>
+			<Icon>Icons\production\auto_loom_t2.dds</Icon>
 			<Description>
 				Weaves Synthetic Fabrics.
 

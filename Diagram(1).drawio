@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-10-21T23:41:26.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="io8TGEkQ_chuyiMpWAnG" version="22.0.2" type="device" pages="11">
+<mxfile host="Electron" modified="2023-10-22T13:27:53.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="3I1uBSOoET7LreDwU_--" version="22.0.2" type="device" pages="11">
   <diagram id="Ydktu7NFS379eD1LzOc7" name="Primary">
     <mxGraphModel dx="1098" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -416,8 +416,8 @@
         <mxCell id="ZHTC9rPFBJCvCZT5CvOV-117" value="Extruder&lt;br&gt;T2" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="340" y="1150" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZHTC9rPFBJCvCZT5CvOV-118" value="Ammo&lt;br&gt;Factory" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="410" y="1150" width="50" height="50" as="geometry" />
+        <mxCell id="ZHTC9rPFBJCvCZT5CvOV-118" value="Ammo&lt;br&gt;Factory T1" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="760" y="230" width="50" height="50" as="geometry" />
         </mxCell>
         <object label="Dorium" id="ZHTC9rPFBJCvCZT5CvOV-119">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
@@ -465,11 +465,14 @@
         <mxCell id="XfKqQhqz1fRSX8GoJIaO-3" value="First&lt;br&gt;&lt;div&gt;Spaceships&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1210" width="100" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="odB5_wyDw8HwmaQbtrnh-2" value="Ammo&lt;br&gt;Factory T1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="850" width="50" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="old" id="jwzpZFNurRj90TS4R6ws">
-    <mxGraphModel dx="3363" dy="1994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1692" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1153,7 +1156,7 @@
         <mxCell id="L0irN21z79A93jrd1M2a-2" value="Cobalt &lt;br&gt;Plate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1596" y="1810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L0irN21z79A93jrd1M2a-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="L0irN21z79A93jrd1M2a-3">
+        <mxCell id="L0irN21z79A93jrd1M2a-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L0irN21z79A93jrd1M2a-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1893" y="1849" />
