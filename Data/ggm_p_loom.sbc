@@ -9,7 +9,7 @@
 				<SubtypeId>AutoLoom</SubtypeId>
 			</Id>
 			<DisplayName>Auto Loom T1</DisplayName>
-			<Icon>..\2344068716\Icons\AutoLoom.dds</Icon>
+			<Icon>Icons\production\auto_loom_t1.dds</Icon>
 			<Description>
 				Weaves Synthetic Fabrics.
 

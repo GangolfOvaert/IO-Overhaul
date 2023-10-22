@@ -9,7 +9,7 @@
 				<SubtypeId>OrePurifier</SubtypeId>
 			</Id>
 			<DisplayName>Ore Purifier T1</DisplayName>
-			<Icon>..\2344068716\Icons\OrePurifier.dds</Icon>
+			<Icon>Icons\production\ore_purifier_t1.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 
@@ -76,7 +76,7 @@
 				<SubtypeId>OrePurifiert2</SubtypeId>
 			</Id>
 			<DisplayName>Ore Purifier T2</DisplayName>
-			<Icon>..\2344068716\Icons\OrePurifier.dds</Icon>
+			<Icon>Icons\production\ore_purifier_t2.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 				Nicekel, Iron, Silicon, Copper, Silver, Gold, Cobalt
@@ -146,7 +146,7 @@
 				<SubtypeId>OrePurifiert3</SubtypeId>
 			</Id>
 			<DisplayName>Ore Purifier T3</DisplayName>
-			<Icon>..\2344068716\Icons\OrePurifier.dds</Icon>
+			<Icon>Icons\production\ore_purifier_t3.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 
@@ -218,7 +218,7 @@
 				<SubtypeId>OrePurifiert4</SubtypeId>
 			</Id>
 			<DisplayName>Ore Purifier T4</DisplayName>
-			<Icon>..\2344068716\Icons\OrePurifier.dds</Icon>
+			<Icon>Icons\production\ore_purifier_t4.dds</Icon>
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 

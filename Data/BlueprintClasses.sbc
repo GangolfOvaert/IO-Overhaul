@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClasses>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Purifiert1</SubtypeId>
+			</Id>
+			<DisplayName>Purifier</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert1</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>AlloySmelter</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Purifiert2</SubtypeId>
+			</Id>
+			<DisplayName>Purifier</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst2</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst1</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>RefineryIngotst1</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Purifiert3</SubtypeId>
+			</Id>
+			<DisplayName>Purifier</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst3</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>RefineryIngotst2</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Purifiert4</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>RefineryIngotst3</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst4</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>PlateStampComponentst2</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+
+
+		
+
+	</BlueprintClasses>
+	
+  <BlueprintClassEntries>
+
+
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="StoneOreToIngotBasic" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="IronOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="SiliconOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="NickelOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="SilverOreToIngot" />
+
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedIronOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSilverOreToIngot" />
+
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
+
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_silver_plate" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Silver_Component" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="GGM_P_Bench_CircuitBoard" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="soiledPolymerToPlastic" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="soiledplastictopcb" />
+
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="POComputerComponentsoiled" />
+	<Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_silverplate" />
+	<Entry Class="FabricatorComponents" BlueprintSubtypeId="GGM_p_silvercomponents" />
+
+
+
+	  <Entry Class="AssemblerComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="plastictopcb" />
+	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="GGM_p_silverwire" />
+	  
+
+
+	  
+
+	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="ScrapToIronIngot" />
+	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="StoneOreToIngotBasic" />
+	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="IronOreToIngot" />
+	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CopperOreToIngot" />
+	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="SiliconOreToIngot" />
+	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="NickelOreToIngot" />
+	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CopperOreToIngot" />
+
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedIronOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+
+
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="StoneOreToIngotBasic" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="StoneOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="SilverOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="GoldOreToIngot" />
+	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="BauxiteOreToIngot" />
+
+	  <Entry Class="AssemblerComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_P_Cobalt_Plate" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
+
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_StainlessPlate" />
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_CobaltPlate" />
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_NickelPlate" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessGirderComponent" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessSmallTube" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessLargeTube" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="plastictopcb" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="AssemblerComponents" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_NickelGirderComponent" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_CobaltGirderComponent" />
+	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="CopperCable" />
+	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="SilverCable" />
+
+
+
+
+	  <!-- T3 Smelter-->
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CopperOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="IronOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="NickelOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="TitaniumOreToIngot" />
+
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedIronOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedTitaniumOreToIngot" />
+
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedNickelumOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+	  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedTitaniumOreToIngot" />
+
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_heavyPlate" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_heavyGirderComponent" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_heavySmallTube" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_heavyLargeTube" />
+
+
+	  <!-- T2 Refinery-->
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="StoneOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="SilverOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="GoldOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="LithiumOreToIngot" />
+
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="BauxiteOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedGoldOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedLithiumOreToIngot" />
+
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedSilverOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedLithiumOreToIngot" />
+	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
+
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlSiAlloy" />
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlMgAlloy" />
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlCuAlloy" />
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlSiCuAlloy" />
+
+	  <Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="GGM_P_GGMAdvCircuitBoard" />
+
+
+	  <Entry Class="PlateStampComponentst2" BlueprintSubtypeId="POSteelPlate" />
+	  <Entry Class="PlateStampComponentst2" BlueprintSubtypeId="POInteriorPlate" />
+	  <Entry Class="PlateStampComponentst2" BlueprintSubtypeId="TitaniumPlate" />
+	  <Entry Class="PlateStampComponentst2" BlueprintSubtypeId="ArmoredPlate" />
+
+	  <Entry Class="PlateStampComponents" BlueprintSubtypeId="GGM_p_reinforcedPlate" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedGirderComponent" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedSmallTube" />
+	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedLargeTube" />
+
+	  <!-- Tier 4-->	  
+  </BlueprintClassEntries>
+
+</Definitions>

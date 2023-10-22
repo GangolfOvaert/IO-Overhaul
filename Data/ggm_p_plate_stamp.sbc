@@ -9,7 +9,7 @@
 			<SubtypeId>PlateStamp</SubtypeId>
 		</Id>
 		<DisplayName>Plate Stamp T1</DisplayName>
-		<Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
+		<Icon>Icons\production\plate_stamp_t1.dds</Icon>
 		<Description>
 			Presses materials into Plates.
 
@@ -74,7 +74,7 @@
 				<SubtypeId>PlateStampt2</SubtypeId>
 			</Id>
 			<DisplayName>Plate Stamp T2</DisplayName>
-			<Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
+			<Icon>Icons\production\plate_stamp_t2.dds</Icon>
 			<Description>
 				Presses materials into Plates.
 

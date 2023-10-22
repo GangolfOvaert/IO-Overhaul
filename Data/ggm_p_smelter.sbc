@@ -9,7 +9,7 @@
 				<SubtypeId>Blast Furnace</SubtypeId>
 			</Id>
 			<DisplayName>Smelter T1</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Icon>Icons\production\blast_furnace_t1.dds</Icon>
 			<Description>
 				Smelters can refine Nickel, Iron, Silicon, Copper, Silver
 			</Description>
@@ -73,7 +73,7 @@
 				<SubtypeId>BlastFurnacet2</SubtypeId>
 			</Id>
 			<DisplayName>Smelter T2</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Icon>Icons\production\blast_furnace_t2.dds</Icon>
 			<Description>
 				Smelters can refine Nickel, iron, Silicon, copper, Silver, Gold, Cobalt, Platin
 			</Description>
@@ -138,7 +138,7 @@
 				<SubtypeId>BlastFurnacet3</SubtypeId>
 			</Id>
 			<DisplayName>Smelter T3</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Icon>Icons\production\blast_furnace_t3.dds</Icon>
 			<Description>
 				Smelters can refine Cobalt, Copper, Iron, Nickel, Silicon, Titan
 			</Description>
@@ -206,7 +206,7 @@
 				<SubtypeId>BlastFurnacet4</SubtypeId>
 			</Id>
 			<DisplayName>Smelter T4</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+			<Icon>Icons\production\blast_furnace_t4.dds</Icon>
 			<Description>
 				Smelters can refine Cobalt, Copper, Iron, Nickel, Silicon, Titan
 			</Description>

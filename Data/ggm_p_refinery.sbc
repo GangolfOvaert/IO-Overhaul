@@ -9,7 +9,7 @@
 				<SubtypeId>LargeRefineryt1</SubtypeId>
 			</Id>
 			<DisplayName>Refinery T2</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+			<Icon>Icons\production\refinery_t2.dds</Icon>
 			<Description>
 				Refinery can refine Nickel, Iron, Silicon, Copper, Silver, Gold, Cobalt, Platin
 
@@ -83,7 +83,7 @@
 				<SubtypeId>LargeRefineryt2</SubtypeId>
 			</Id>
 			<DisplayName>Refinery T3</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+			<Icon>Icons\production\refinery_t3.dds</Icon>
 			<Description>
 				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
 			</Description>
@@ -157,7 +157,7 @@
 				<SubtypeId>LargeRefineryt3</SubtypeId>
 			</Id>
 			<DisplayName>Refinery T4</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+			<Icon>Icons\production\refinery_t4.dds</Icon>
 			<Description>
 				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
 			</Description>

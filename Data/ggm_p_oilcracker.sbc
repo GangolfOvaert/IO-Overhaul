@@ -10,7 +10,7 @@
 			<SubtypeId>OilCracker</SubtypeId>
 		</Id>
 		<DisplayName>Oil Cracker</DisplayName>
-		<Icon>..\2344068716\Icons\OilCracker.dds</Icon>
+		<Icon>Icons\production\oil_cracker_t1.dds</Icon>
 		<Description>
 			Cracks Crude Oil into various products.
 

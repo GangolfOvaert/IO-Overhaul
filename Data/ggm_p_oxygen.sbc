@@ -11,7 +11,7 @@
 				<SubtypeId>GasolineRefinery</SubtypeId>
 			</Id>
 			<DisplayName>Gasoline Refinery</DisplayName>
-			<Icon>..\2344068716\Icons\FuelRefinery.dds</Icon>
+			<Icon>Icons\production\fuel_refinery_t1.dds</Icon>
 			<Description>
 				Refines raw Fuel Oil into useable Gasoline.
 

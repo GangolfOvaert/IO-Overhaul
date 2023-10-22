@@ -9,7 +9,7 @@
 				<SubtypeId>PolymerFactory</SubtypeId>
 			</Id>
 			<DisplayName>Synthetics Factory</DisplayName>
-			<Icon>..\2344068716\Icons\PolymerFactory.dds</Icon>
+			<Icon>Icons\production\synth_factory_t2.dds</Icon>
 			<Description>
 				Produces Synthetic Polymer, processes Polymers into useful forms, and mixes Asphalt.
 

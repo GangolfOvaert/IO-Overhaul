@@ -9,7 +9,7 @@
 				<SubtypeId>RockCrusher</SubtypeId>
 			</Id>
 			<DisplayName>Rock Crusher T1</DisplayName>
-			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
+			<Icon>Icons\production\ore_crusher_t1.dds</Icon>
 			<Description>
                     Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
@@ -76,7 +76,7 @@
 				<SubtypeId>RockCrushert2</SubtypeId>
 			</Id>
 			<DisplayName>Rock Crusher T2</DisplayName>
-			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
+			<Icon>Icons\production\ore_crusher_t2.dds</Icon>
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
@@ -144,7 +144,7 @@
 				<SubtypeId>RockCrushert3</SubtypeId>
 			</Id>
 			<DisplayName>Rock Crusher T3</DisplayName>
-			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
+			<Icon>Icons\production\ore_crusher_t3.dds</Icon>
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
@@ -214,7 +214,7 @@
 				<SubtypeId>RockCrushert4</SubtypeId>
 			</Id>
 			<DisplayName>Rock Crusher T4</DisplayName>
-			<Icon>..\2344068716\Icons\OreCrusher.dds</Icon>
+			<Icon>Icons\production\ore_crusher_t4.dds</Icon>
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 

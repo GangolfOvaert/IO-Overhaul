@@ -9,7 +9,7 @@
 				<SubtypeId>MicroelectronicsFactory</SubtypeId>
 			</Id>
 			<DisplayName>Microelectronics Factory</DisplayName>
-			<Icon>..\2344068716\Icons\MicroelectronicsFactory.dds</Icon>
+			<Icon>Icons\production\microelectronics_factory_t1.dds</Icon>
 			<Description>
 				Advanced production machinery for delicate electronic components.
 				Produces Basic and Advanced Computers, Thermocouples, Sensor Clusters, and Displays.
