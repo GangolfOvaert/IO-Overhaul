@@ -1,0 +1,1 @@
+--format bc7 --quality normal --no-mips --alpha-threshold 143 --export-pre-alpha --zcmp 5

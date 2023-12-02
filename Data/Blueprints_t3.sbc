@@ -92,5 +92,19 @@
 			</Results>
 			<BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
 		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POExplosivesComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_Explosives</DisplayName>
+			<Icon>Icons\ExplosivesComponent.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+			  <Item Amount="4" TypeId="Ingot" SubtypeId="Magnesium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Explosives" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+		  </Blueprint>
 	</Blueprints>
 </Definitions>

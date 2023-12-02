@@ -3,7 +3,6 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
-
 	<Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
 		<Id>
 			<TypeId>WindTurbine</TypeId>
@@ -184,9 +183,9 @@
 		<Model>Models\Cubes\Large\WindTurbine.mwm</Model>
 		<Components>
 			<Component Subtype="SteelPlate" Count="130" />
-			<Component Subtype="Electromagnet" Count="20" />
-			<Component Subtype="Construction" Count="20" />
-			<Component Subtype="CopperWire" Count="80" />
+			<Component Subtype="Electromagnet" Count="15" />
+			<Component Subtype="Construction" Count="50" />
+			<Component Subtype="CopperWire" Count="100" />
 			<Component Subtype="Computer" Count="20" />
 			<Component Subtype="SteelPlate" Count="20" />
 		</Components>

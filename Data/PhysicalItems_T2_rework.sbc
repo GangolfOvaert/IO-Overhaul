@@ -199,6 +199,36 @@
 		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
 	</Component>
 	<Component>
+	  <Id>
+		  <TypeId>Component</TypeId>
+		  <SubtypeId>Explosives</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_Item_Explosives</DisplayName>
+	  <Icon>Icons\ExplosivesComponent.dds</Icon>
+	  <Size>
+		  <X>0.2</X>
+		  <Y>0.2</Y>
+		  <Z>0.1</Z>
+	  </Size>
+	  <Mass>3.2</Mass>
+	  <Volume>3</Volume>
+	  <Model>Models\Components\ExplosivesComponent.mwm</Model>
+	  <PhysicalMaterial>Metal</PhysicalMaterial>
+	  <MaxIntegrity>5</MaxIntegrity>
+	  <DropProbability>0.4</DropProbability>
+	  <Health>21</Health>
+	  <MinimalPricePerUnit>97208</MinimalPricePerUnit>
+	  <MinimumOfferAmount>100</MinimumOfferAmount>
+	  <MaximumOfferAmount>10000</MaximumOfferAmount>
+	  <MinimumOrderAmount>1</MinimumOrderAmount>
+	  <MaximumOrderAmount>10000</MaximumOrderAmount>
+	  <CanPlayerOrder>true</CanPlayerOrder>
+	 
+	  <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+	  <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+
+	<Component>
 		<Id>
 			<TypeId>Component</TypeId>
 			<SubtypeId>NickelPlate</SubtypeId>

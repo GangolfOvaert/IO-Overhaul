@@ -58,6 +58,33 @@
 		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
 	</Component>
+    <Component>
+        <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Concrete</SubtypeId>
+        </Id>
+        <DisplayName>Concrete</DisplayName>
+        <Icon>Icons\Concrete.dds</Icon>
+        <Size>
+            <X>0.2</X>
+            <Y>0.2</Y>
+            <Z>0.2</Z>
+        </Size>
+        <Mass>35</Mass>
+        <Volume>4</Volume>
+        <Model>Models\Ingots\stone_ingot.mwm</Model>
+        <PhysicalMaterial>Rock</PhysicalMaterial>
+        <MaxIntegrity>150</MaxIntegrity>
+        <MinimalPricePerUnit>234</MinimalPricePerUnit>
+        <MinimumOfferAmount>100</MinimumOfferAmount>
+        <MaximumOfferAmount>10000</MaximumOfferAmount>
+        <MinimumOrderAmount>1</MinimumOrderAmount>
+        <MaximumOrderAmount>10000</MaximumOrderAmount>
+        <CanPlayerOrder>true</CanPlayerOrder>
+
+        <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+        <MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
+    </Component>
 	<Component>
 		<Id>
 			<TypeId>Component</TypeId>

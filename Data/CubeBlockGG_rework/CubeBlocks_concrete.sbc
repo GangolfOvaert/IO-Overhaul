@@ -11,7 +11,7 @@
 				<SubtypeId>ConcreteArmor</SubtypeId>
 			</Id>
 			<DisplayName>Concrete Block</DisplayName>
-			<Icon>..\2344068716\Icons\Concrete1x1.dds</Icon>
+			<Icon>Icons\Concrete1x1.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -39,7 +39,7 @@
 				<SubtypeId>ConcreteArmorSlope</SubtypeId>
 			</Id>
 			<DisplayName>Concrete Block Slope</DisplayName>
-			<Icon>..\2344068716\Icons\Concrete1x1Slope.dds</Icon>
+			<Icon>Icons\Concrete1x1Slope.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -72,7 +72,7 @@
 				<SubtypeId>ConcreteArmorCorner</SubtypeId>
 			</Id>
 			<DisplayName>Concrete Block Corner</DisplayName>
-			<Icon>..\2344068716\Icons\Concrete1x1Corner.dds</Icon>
+			<Icon>Icons\Concrete1x1Corner.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -104,7 +104,7 @@
 				<SubtypeId>ConcreteArmorInvertedCorner</SubtypeId>
 			</Id>
 			<DisplayName>Concrete Block Inverted Corner</DisplayName>
-			<Icon>..\2344068716\Icons\Concrete1x1Inverted.dds</Icon>
+			<Icon>Icons\Concrete1x1Inverted.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -139,7 +139,7 @@
 				<SubtypeId>ConcreteArmorSlope2x1</SubtypeId>
 			</Id>
 			<DisplayName>Concrete Block Slope 2x1</DisplayName>
-			<Icon>..\2344068716\Icons\Concrete2x1Slope.dds</Icon>
+			<Icon>Icons\Concrete2x1Slope.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1" />
@@ -172,7 +172,7 @@
 				<SubtypeId>ConcreteArmorCorner2x1</SubtypeId>
 			</Id>
 			<DisplayName>Concrete Block Corner 2x1</DisplayName>
-			<Icon>..\2344068716\Icons\Concrete2x1Corner.dds</Icon>
+			<Icon>Icons\Concrete2x1Corner.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1" />
@@ -204,7 +204,7 @@
 				<SubtypeId>ConcreteArmorInvertedCorner2x1</SubtypeId>
 			</Id>
 			<DisplayName>Concrete Block Inverted Corner 2x1</DisplayName>
-			<Icon>..\2344068716\Icons\Concrete2x1Inverted.dds</Icon>
+			<Icon>Icons\Concrete2x1Inverted.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1" />

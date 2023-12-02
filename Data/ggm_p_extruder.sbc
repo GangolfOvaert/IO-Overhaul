@@ -22,13 +22,13 @@
 			<Model>..\2344068716\Models\Extruder.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="120" />
-				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="Construction" Count="120" />
 				<Component Subtype="CopperWire" Count="100" />
-				<Component Subtype="SmallTube" Count="30" />
-				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="SmallTube" Count="50" />
+				<Component Subtype="LargeTube" Count="5" />
 				<Component Subtype="Electromagnet" Count="10" />
-				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
@@ -120,9 +120,6 @@
 			<EmissiveColorPreset>Extended</EmissiveColorPreset>
 		</Definition>
 	</CubeBlocks>
-	<BlueprintClasses>
-
-	</BlueprintClasses>
 	<BlueprintClassEntries>
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_P_Cobalt_Girder" />
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessGirderComponent" />
@@ -138,9 +135,5 @@
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedGirderComponent" />
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedSmallTube" />
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedLargeTube" />
-  
-  
-  
-  
 	</BlueprintClassEntries>
 </Definitions>
