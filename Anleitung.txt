@@ -6,6 +6,6 @@ Anleitung
                 C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Textures\GUI\Icons
 
 4. Ziehe es per Drag und Drop in Photoshop (Alle 3 Optionen deaktiveren).
-5. Speichere das Icon mit dem orginalen Dateinamen ab.
-6. Nach einem Neustart, musst du das Preset neu laden. Du kannst dieses im Nvidia Texture exporter unter Load Preset auswählen.
-7. Speichern klicken
+5. Speichere das Icon mit dem orginalen Dateinamen ab wenn möglich.
+6. Nach einem Neustart, musst du das Preset neu laden "git hub ordner preset dpf". Du kannst dieses im Nvidia Texture exporter unter Load Preset auswählen.
+7. Speichern klicken in Photoshop Ort und Namen eingeben bevor nutzung des tools
