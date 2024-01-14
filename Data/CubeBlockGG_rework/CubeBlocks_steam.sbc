@@ -79,6 +79,8 @@
 			<AnimationSpinDownSpeed>0.75</AnimationSpinDownSpeed>
 		</Definition>
 
+		
+
 		<Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
 			<Id>
 				<TypeId>HydrogenEngine</TypeId>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>Starter</SubtypeId>
+            </Id>
+            <DisplayName>Car Starter</DisplayName>
+            <Icon>Icons\AcidBattery.dds</Icon>
+            <Description>Outputs just enough energy to start a engine</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>..\2344068716\Models\SmallAcidBattery.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="CopperWire" Count="10" />
+                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Construct\SmallAcidBatteryConstruct1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Construct\SmallAcidBatteryConstruct2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Construct\SmallAcidBatteryConstruct3.mwm" />
+            </BuildProgressModels>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>0.01</MaxPowerOutput>
+
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>0</RequiredPowerInput>
+            <MaxStoredPower>0.1</MaxStoredPower>
+            <InitialStoredPowerRatio>1</InitialStoredPowerRatio>
+            <RechargeMultiplier>1</RechargeMultiplier>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+        </Definition>
+		<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>Fuelnozzle</SubtypeId>
+            </Id>
+            <DisplayName>Fuel Nozzle</DisplayName>
+			<Icon>Icons\fuel_nozzle.dds</Icon>
+			<Description>Refines raw Fuel Oil into useable Gasoline.
+			
+			Max Output: 80L/s
+			Power Usage: 2MW</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\Connector.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorConstruction_2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <IceConsumptionPerSecond>10</IceConsumptionPerSecond>
+            <InventoryMaxVolume>5</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+            <StandbyPowerConsumption>0</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0</OperationalPowerConsumption>
+            <ProducedGases>
+				<GasInfo>
+				<Id>
+					<TypeId>GasProperties</TypeId>
+					<SubtypeId>Gasoline</SubtypeId>
+				</Id>
+				<IceToGasRatio>8</IceToGasRatio>
+				</GasInfo>
+            </ProducedGases>
+            <BlueprintClasses>
+				<Class>FuelNozzle</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <GenerateSound>BlockOxyGenProcess</GenerateSound>
+            <IdleSound>BlockOxyGenIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <PCU>50</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
+        </Definition>
+		
+
+	</CubeBlocks>
+    <BlueprintClasses>
+		<Class>
+			<Id>                   
+			  <TypeId>BlueprintClassDefinition</TypeId>
+			  <SubtypeId>FuelNozzle</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+		  </Class>
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="FuelNozzle" BlueprintSubtypeId="FuelNozzlebp" />
+	</BlueprintClassEntries>
+<Blueprints>
+    <Blueprint>
+		<Id>
+		  <TypeId>BlueprintDefinition</TypeId>
+		  <SubtypeId>FuelNozzlebp</SubtypeId>
+		</Id>
+		<DisplayName>DisplayName_Item_Oxygen</DisplayName>
+		<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+		<Prerequisites>
+		  <Item Amount="1" TypeId="Component" SubtypeId="JerryCan" />
+		</Prerequisites>
+		<Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+		<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+	  </Blueprint>
+  </Blueprints>
+
+
+<PhysicalItems>
+	<PhysicalItem>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>JerryCan</SubtypeId>
+		</Id>
+		<DisplayName>Jerry Can</DisplayName>
+		<Icon>Icons\jerry_can.dds</Icon>
+		<Size>
+			<X>0.072</X>
+			<Y>0.072</Y>
+			<Z>0.072</Z>
+		</Size>
+		<Mass>0.3</Mass>
+		<Volume>0.2</Volume>
+		<Model>..\2344068716\Models\PolymerBarrel.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		
+		<MinimalPricePerUnit>2082</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>100</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
+	</PhysicalItem>
+</PhysicalItems>
+</Definitions>
