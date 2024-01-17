@@ -16,7 +16,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\MetalWheel3x3.mwm</Model>
+			<Model>..\2344068716\Models\MetalWheel3x3.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<Components>
@@ -28,8 +28,8 @@
 			</Components>
 			<CriticalComponent Subtype="SmallTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3Construction_1.mwm" />
-			  <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension3x3Construction_2.mwm" />
+			  <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3Construction_1.mwm" />
+			  <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3Construction_2.mwm" />
 			</BuildProgressModels>
 			<MountPoints>
 			</MountPoints>
@@ -105,8 +105,8 @@
 			<MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
 		  </MountPoints>
 		  <BuildProgressModels>
-			<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
-			<Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+			<Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+			<Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
 		  </BuildProgressModels>
 		  <VoxelPlacement>
 			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -182,9 +182,9 @@
                 <MountPoint EndX="0.75" EndY="0.8" Side="Back" StartX="0.25" StartY="0.0"/>
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -273,9 +273,9 @@
                 <MountPoint Side="Right" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension5x5_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\MotorSuspension5x5_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\MotorSuspension5x5_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -362,9 +362,9 @@
                 <MountPoint EndX="0.75" EndY="0.8" Side="Back" StartX="0.25" StartY="0.0"/>
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension1x1_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension1x1_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\MotorSuspension1x1_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -450,9 +450,9 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -536,8 +536,8 @@
                 <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0"/>
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -622,8 +622,8 @@
                 <MountPoint Side="Right" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspension5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\MotorSuspension5x5_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -709,8 +709,8 @@
                 <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0"/>
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -795,8 +795,8 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -883,9 +883,9 @@
                 <MountPoint EndX="0.75" EndY="0.8" Side="Back" StartX="0.25" StartY="0.0"/>
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -974,9 +974,9 @@
                 <MountPoint Side="Right" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension5x5_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\MotorSuspension5x5_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\MotorSuspension5x5_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1063,9 +1063,9 @@
                 <MountPoint EndX="0.75" EndY="0.8" Side="Back" StartX="0.25" StartY="0.0"/>
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension1x1_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension1x1_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\MotorSuspension1x1_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1151,9 +1151,9 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspension3x3_Racing_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspension3x3_Racing_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1239,8 +1239,8 @@
                 <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0"/>
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1325,8 +1325,8 @@
                 <MountPoint Side="Right" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspension5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\MotorSuspension5x5_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1412,8 +1412,8 @@
                 <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0"/>
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1498,8 +1498,8 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1602,8 +1602,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <MountPoints/>
             <VoxelPlacement>
@@ -1674,8 +1674,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension2x2_Racing_Construction1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension2x2_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension2x2_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension2x2_Racing_Construction2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1744,8 +1744,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1817,8 +1817,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1889,9 +1889,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1962,9 +1962,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension2x2_Racing_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension2x2_Racing_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension2x2_Racing_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2_Racing_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2033,9 +2033,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2107,9 +2107,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2180,8 +2180,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <MountPoints/>
             <VoxelPlacement>
@@ -2252,8 +2252,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension2x2_Racing_Construction1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension2x2_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension2x2_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension2x2_Racing_Construction2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2322,8 +2322,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2395,8 +2395,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2467,9 +2467,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2540,9 +2540,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension2x2_Racing_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension2x2_Racing_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension2x2_Racing_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2_Racing_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2611,9 +2611,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2685,9 +2685,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2756,9 +2756,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel1x1_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel1x1_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Wheel1x1_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\Wheel1x1_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\Wheel1x1_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\Wheel1x1_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint EndX="0.75" EndY="0.75" Side="Top" StartX="0.25" StartY="0.25"/>
@@ -2824,8 +2824,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel1x1_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel1x1_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\Wheel1x1_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Wheel1x1_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2890,9 +2890,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel3x3_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Wheel3x3_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\Wheel3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\Wheel3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\Wheel3x3_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -2957,8 +2957,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel3x3_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel3x3_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\Wheel3x3_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Wheel3x3_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3024,9 +3024,9 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel5x5_Racing_Construction2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Wheel5x5_Racing_Construction3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\Wheel5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\Wheel5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Large\Wheel5x5_Racing_Construction3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3091,8 +3091,8 @@
             </Components>
             <CriticalComponent Index="0" Subtype="LargeTube"/>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel5x5_Racing_Construction1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel5x5_Racing_Construction2.mwm"/>
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\Wheel5x5_Racing_Construction1.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Wheel5x5_Racing_Construction2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3157,9 +3157,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel2x2_Racing_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel2x2_Racing_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Wheel2x2_Racing_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\Wheel2x2_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\Wheel2x2_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\Wheel2x2_Racing_Construction3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Top" StartX="0.4" StartY="0.4" EndX="1.6" EndY="1.6" Default="true" />
@@ -3222,8 +3222,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Wheel2x2_Racing_Construction1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Wheel2x2_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Wheel2x2_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Wheel2x2_Racing_Construction2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3335,9 +3335,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -3424,9 +3424,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -3510,9 +3510,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -3595,9 +3595,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -3680,8 +3680,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -3765,8 +3765,8 @@
                 <MountPoint Side="Back" StartX="1.5" StartY="0" EndX="2" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Large_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Large_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Large_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -3849,8 +3849,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -3932,8 +3932,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4016,9 +4016,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4105,9 +4105,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Large_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4191,9 +4191,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4276,9 +4276,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\LargeShortOffroadWheelsSuspension_Small_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4363,8 +4363,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4449,8 +4449,8 @@
                 <MountPoint Side="Back" StartX="1.5" StartY="0" EndX="2" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Large_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Large_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Large_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4533,8 +4533,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4616,8 +4616,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\SmallShortOffroadWheelsSuspension_Small_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -4760,9 +4760,9 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4845,9 +4845,9 @@
                 <MountPoint Side="Right" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionLargeConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionLargeConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionLargeConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4929,9 +4929,9 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension1x1Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension1x1Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspension1x1Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5012,8 +5012,8 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5092,8 +5092,8 @@
                 <MountPoint Side="Right" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionLargeConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5174,8 +5174,8 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5255,8 +5255,8 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5337,9 +5337,9 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5422,9 +5422,9 @@
                 <MountPoint Side="Right" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionLargeConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionLargeConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionLargeConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5506,9 +5506,9 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension1x1Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension1x1Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspension1x1Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspension1x1Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5589,9 +5589,9 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5674,8 +5674,8 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5755,8 +5755,8 @@
                 <MountPoint Side="Right" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionLargeConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5837,8 +5837,8 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5918,8 +5918,8 @@
                 <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5993,8 +5993,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension1x1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension1x1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension1x1Construction_2.mwm" />
             </BuildProgressModels>
             <MountPoints>
             </MountPoints>
@@ -6062,8 +6062,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension2x2Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension2x2Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension2x2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension2x2Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6129,8 +6129,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension3x3Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6197,8 +6197,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension5x5Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension5x5Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension5x5Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6264,9 +6264,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension1x1Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension1x1Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension1x1Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6333,9 +6333,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension2x2Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension2x2Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension2x2Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6401,9 +6401,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension3x3Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension3x3Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension3x3Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6470,9 +6470,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension5x5Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension5x5Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension5x5Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6538,8 +6538,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension1x1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension1x1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension1x1Construction_2.mwm" />
             </BuildProgressModels>
             <MountPoints>
             </MountPoints>
@@ -6606,8 +6606,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension2x2Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension2x2Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension2x2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension2x2Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6673,8 +6673,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension3x3Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension3x3Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6741,8 +6741,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension5x5Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\WheelSuspension5x5Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\WheelSuspension5x5Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6808,9 +6808,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension1x1Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension1x1Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension1x1Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension1x1Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6876,9 +6876,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension2x2Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension2x2Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension2x2Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension2x2Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -6944,9 +6944,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension3x3Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension3x3Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension3x3Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension3x3Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -7013,9 +7013,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension5x5Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension5x5Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WheelSuspension5x5Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\WheelSuspension5x5Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -7080,9 +7080,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel1x1Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel1x1Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Wheel1x1Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\Wheel1x1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\Wheel1x1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\Wheel1x1Construction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Top" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75" />
@@ -7149,8 +7149,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Wheel1x1Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Wheel1x1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Wheel1x1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Wheel1x1Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -7216,9 +7216,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel3x3Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel3x3Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Wheel3x3Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\Wheel3x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\Wheel3x3Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\Wheel3x3Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -7283,8 +7283,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Wheel3x3Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Wheel3x3Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Wheel3x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Wheel3x3Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -7350,9 +7350,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel5x5Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel5x5Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Wheel5x5Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\Wheel5x5Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\Wheel5x5Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\Wheel5x5Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -7418,8 +7418,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Wheel5x5Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Wheel5x5Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Wheel5x5Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Wheel5x5Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -7485,9 +7485,9 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel2x2Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel2x2Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Wheel2x2Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\Wheel2x2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\Wheel2x2Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\Wheel2x2Construction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Top" StartX="0.4" StartY="0.4" EndX="1.6" EndY="1.6" Default="true" />
@@ -7554,8 +7554,8 @@
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Wheel2x2Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Wheel2x2Construction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Wheel2x2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Wheel2x2Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -7637,9 +7637,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -7725,9 +7725,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -7810,9 +7810,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -7894,9 +7894,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -7978,8 +7978,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8062,8 +8062,8 @@
                 <MountPoint Side="Back" StartX="1.5" StartY="0" EndX="2" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionCompactLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionCompactLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactLargeConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8145,8 +8145,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8227,8 +8227,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8310,9 +8310,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8398,9 +8398,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactLargeConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8483,9 +8483,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8567,9 +8567,9 @@
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\MotorSuspensionCompactConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8653,8 +8653,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8738,8 +8738,8 @@
                 <MountPoint Side="Back" StartX="1.5" StartY="0" EndX="2" EndY="0.2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionCompactLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionCompactLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactLargeConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8821,8 +8821,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>
@@ -8903,8 +8903,8 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="..\2344068716\Models\Cubes\Small\MotorSuspensionCompactConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <StaticMode>

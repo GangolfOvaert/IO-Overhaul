@@ -2312,7 +2312,7 @@
                 <SubtypeId>LargeHalfArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfLightArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/LightArmorSquareSlab.dds</Icon>
+            <Icon>Icons/lightArmor/LightArmorSquareSlab.dds</Icon>
             <Description>Description_LightArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2475,7 +2475,7 @@
                 <SubtypeId>LargeHeavyHalfArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfHeavyArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSquareSlab.dds</Icon>
+            <Icon>Icons/lightArmor/HeavyArmorSquareSlab.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2497,7 +2497,7 @@
             <PhysicsOption>Convex</PhysicsOption>
             <Components>
                 <Component Subtype="SteelPlate" Count="65" />
-                <Component Subtype="MetalGrid" Count="25" />
+                <Component Subtype="MetalGrid" Count="20" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
             <CriticalComponent Subtype="SteelPlate" Index="0" />
@@ -2640,7 +2640,7 @@
                 <SubtypeId>LargeHalfSlopeArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfSlopeLightArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/LightArmorSlopeSlab.dds</Icon>
+            <Icon>Icons/lightArmor/LightArmorSlopeSlab.dds</Icon>
             <Description>Description_LightArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2803,7 +2803,7 @@
                 <SubtypeId>LargeHeavyHalfSlopeArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfSlopeHeavyArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSlopeSlab.dds</Icon>
+            <Icon>Icons/lightArmor/HeavyArmorSlopeSlab.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2968,7 +2968,7 @@
                 <SubtypeId>HalfArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfLightArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/LightArmorSquareSlab.dds</Icon>
+            <Icon>Icons/lightArmor/LightArmorSquareSlab.dds</Icon>
             <Description>Description_LightArmor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -3130,7 +3130,7 @@
                 <SubtypeId>HeavyHalfArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfHeavyArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSquareSlab.dds</Icon>
+            <Icon>Icons/lightArmor/HeavyArmorSquareSlab.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -3295,7 +3295,7 @@
                 <SubtypeId>HalfSlopeArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfSlopeLightArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/LightArmorSlopeSlab.dds</Icon>
+            <Icon>Icons/lightArmor/LightArmorSlopeSlab.dds</Icon>
             <Description>Description_LightArmor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -3457,7 +3457,7 @@
                 <SubtypeId>HeavyHalfSlopeArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfSlopeHeavyArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSlopeSlab.dds</Icon>
+            <Icon>Icons/lightArmor/HeavyArmorSlopeSlab.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>

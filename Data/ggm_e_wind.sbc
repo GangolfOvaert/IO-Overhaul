@@ -186,7 +186,7 @@
 			<Component Subtype="Electromagnet" Count="15" />
 			<Component Subtype="Construction" Count="50" />
 			<Component Subtype="CopperWire" Count="100" />
-			<Component Subtype="Computer" Count="20" />
+			<Component Subtype="Computer" Count="5" />
 			<Component Subtype="SteelPlate" Count="20" />
 		</Components>
 		<CriticalComponent Subtype="Computer" Index="0" />
