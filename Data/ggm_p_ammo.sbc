@@ -27,10 +27,10 @@
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="Motor" Count="40" />
 				<Component Subtype="Computer" Count="20" />
-				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="TitaniumPlate" Count="100" />
+				<Component Subtype="Computer" Count="80" />
+				<Component Subtype="SteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="20" />
+			<CriticalComponent Subtype="SteelPlate" Index="20" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
 				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\MunitionsFactoryConstruct2.mwm" />
@@ -80,16 +80,16 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\MunitionsFactory.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="heavySteelPlate" Count="200" />
 				<Component Subtype="InteriorPlate" Count="100" />
 				<Component Subtype="Construction" Count="80" />
-				<Component Subtype="CopperWire" Count="100" />
-				<Component Subtype="Motor" Count="40" />
+				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="advMotor" Count="40" />
 				<Component Subtype="Computer" Count="20" />
 				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="TitaniumPlate" Count="100" />
+				<Component Subtype="heavySteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="20" />
+			<CriticalComponent Subtype="heavySteelPlate" Index="20" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
 				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\MunitionsFactoryConstruct2.mwm" />

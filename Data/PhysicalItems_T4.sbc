@@ -29,5 +29,88 @@
 		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
 	</Component>
+
+
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>QTPCB</SubtypeId>
+		</Id>
+		<DisplayName>Quantum PCB</DisplayName>
+		<Icon>Icons\pcb_quantum.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>2.3</Mass>
+		<Volume>1</Volume>
+		<Model>Models\Components\computer_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>43379</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>QTCuircitBoard</SubtypeId>
+		</Id>
+		<DisplayName>Quantum Cuircit Board</DisplayName>
+		<Icon>Icons\cuircitboard_quantum.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>2.3</Mass>
+		<Volume>1</Volume>
+		<Model>Models\Components\computer_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>43379</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>QuantumComputer</SubtypeId>
+		</Id>
+		<DisplayName>Quantum Computer</DisplayName>
+		<Icon>Icons\computer_quantum.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>2.3</Mass>
+		<Volume>1</Volume>
+		<Model>Models\Components\computer_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>43379</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
 </Components>
 </Definitions>

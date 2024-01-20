@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+	</CubeBlocks>
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Casing</SubtypeId>
+			</Id>
+			<DisplayName>Metal Casing</DisplayName>
+			<Icon>Icons\casing.dds</Icon>
+			<Prerequisites>
+				<Item Amount="6" TypeId="Component" SubtypeId="heavySteelPlate" />
+				<Item Amount="6" TypeId="Component" SubtypeId="Ceramic" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Casing" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POPowerCell</SubtypeId>
+			</Id>
+			<DisplayName>Lithium Power Cell</DisplayName>
+			<Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="2" TypeId="Component" SubtypeId="Casing" />
+			  <Item Amount="4" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="4" TypeId="Component" SubtypeId="Capacitor" />
+
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		  </Blueprint>
+	</Blueprints>
+	<BlueprintClasses>
+
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+  	</BlueprintClassEntries>
+	<Components>
+		<Component>
+			<Id>
+				<TypeId>Component</TypeId>
+				<SubtypeId>Casing</SubtypeId>
+			</Id>
+			<DisplayName>Metal Casing</DisplayName>
+			<Icon>Icons\casing.dds</Icon>
+			<Size>
+				<X>0.15</X>
+				<Y>0.15</Y>
+				<Z>0.4</Z>
+			</Size>
+			<Mass>27.4</Mass>
+			<Volume>6</Volume>
+			<Model>Models\Components\sphere.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<MaxIntegrity>4</MaxIntegrity>
+			<DropProbability>0.1</DropProbability>
+			<Health>11</Health>
+			<MinimalPricePerUnit>23454</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1</MinimumOrderAmount>
+			<MaximumOrderAmount>10000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+	
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+		</Component>
+		<Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PowerCell</SubtypeId>
+            </Id>
+            <DisplayName>Lithium Power Cell</DisplayName>
+            <Icon>Icons\BatteryComponent.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>9.9</Mass>
+            <Volume>15</Volume>
+            <Model>Models\Components\PowerCellComponent.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>40</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimalPricePerUnit>52282</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+	</Components>
+	<PhysicalItems>
+	</PhysicalItems>
+</Definitions>

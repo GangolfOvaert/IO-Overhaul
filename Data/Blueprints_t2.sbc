@@ -3,6 +3,38 @@
 	<Blueprints>
 		<Blueprint>
 			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>PODetectorComponent</SubtypeId>
+			</Id>
+			<DisplayName>Sensor Cluster</DisplayName>
+			<Icon>Icons\detector_components_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="5" TypeId="Component" SubtypeId="SilverCable" />
+			  <Item Amount="3" TypeId="Component" SubtypeId="advElectromagnet" />
+			  <Item Amount="5" TypeId="Component" SubtypeId="Computer" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Detector" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		  </Blueprint>
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>PORadioCommunicationComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_RadioCommunicationComponents</DisplayName>
+			<Icon>Icons\radio_communication_components_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="5" TypeId="Component" SubtypeId="SilverCable" />
+			  <Item Amount="2" TypeId="Component" SubtypeId="StainlessGirder" />
+			  <Item Amount="5" TypeId="Component" SubtypeId="Computer" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="RadioCommunication" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		  </Blueprint>
+		<Blueprint>
+			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>GGM_p_StainlessPlate</SubtypeId>
 			</Id>
@@ -91,6 +123,7 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="AcidPowerCell" />
 			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 		</Blueprint>
+		
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
@@ -100,41 +133,13 @@
 			<Icon>Icons\metalgrid_nickel.dds</Icon>
 			<Prerequisites>
 				<Item Amount="3" TypeId="Component" SubtypeId="StainlessGirder" />
-				<Item Amount="3" TypeId="Component" SubtypeId="NickelGirder" />
+				<Item Amount="3" TypeId="Component" SubtypeId="StainlessSteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>GGM_p_NickelPlate</SubtypeId>
-			</Id>
-			<DisplayName>Nickel Plate</DisplayName>
-			<Icon>Icons\plate_nickel.dds</Icon>
-			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
-			</Prerequisites>
-			<Result Amount="1" TypeId="Component" SubtypeId="NickelPlate" />
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
-			<IsPrimary>true</IsPrimary>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>GGM_p_NickelGirderComponent</SubtypeId>
-			</Id>
-			<DisplayName>Nickel Girder</DisplayName>
-			<Icon>Icons\girder_nickel.dds</Icon>
-			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
-				<Item Amount="2" TypeId="Component" SubtypeId="NickelPlate" />
-			</Prerequisites>
-			<Result Amount="1" TypeId="Component" SubtypeId="NickelGirder" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-			<IsPrimary>true</IsPrimary>
-		</Blueprint>
+
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
@@ -148,35 +153,6 @@
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Ceramic" />
 			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>GGM_p_CobaltPlate</SubtypeId>
-			</Id>
-			<DisplayName>Cobalt Plate</DisplayName>
-			<Icon>Icons\plate_cobalt.dds</Icon>
-			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
-			</Prerequisites>
-			<Result Amount="1" TypeId="Component" SubtypeId="CobaltPlate" />
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
-			<IsPrimary>true</IsPrimary>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>GGM_p_CobaltGirderComponent</SubtypeId>
-			</Id>
-			<DisplayName>Cobalt Girder</DisplayName>
-			<Icon>Icons\girder_cobalt.dds</Icon>
-			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
-				<Item Amount="2" TypeId="Component" SubtypeId="CobaltPlate" />
-			</Prerequisites>
-			<Result Amount="1" TypeId="Component" SubtypeId="CobaltGirder" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
 			<Id>
@@ -205,6 +181,37 @@
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="SilverCable" />
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Electromagnetadv</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Electromagnet</DisplayName>
+			<Icon>Icons\magnet_adv.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Component" SubtypeId="StainlessSmallTube" />
+				<Item Amount="2" TypeId="Component" SubtypeId="CopperCable" />
+				<Item Amount="2" TypeId="Component" SubtypeId="GGMSilverComponent" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="advElectromagnet" />
+			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>POMotorComponentadv</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Motor</DisplayName>
+			<Icon>Icons\engine_adv.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Component" SubtypeId="advElectromagnet" />
+				<Item Amount="2" TypeId="Component" SubtypeId="StainlessLargeTube" />
+				<Item Amount="3" TypeId="Component" SubtypeId="CopperCable" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="advMotor" />
+			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 	</Blueprints>
 </Definitions>

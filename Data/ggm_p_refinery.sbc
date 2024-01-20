@@ -93,19 +93,18 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\Refinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="heavySteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="100" />
-				<Component Subtype="CopperWire" Count="230" />
-				<Component Subtype="Electromagnet" Count="130" />
-				<Component Subtype="Motor" Count="75" />
+				<Component Subtype="CopperCable" Count="230" />
+				<Component Subtype="advElectromagnet" Count="130" />
+				<Component Subtype="advMotor" Count="75" />
 				<Component Subtype="HeatingElement" Count="130" />
-				<Component Subtype="LargeTube" Count="75" />
+				<Component Subtype="heavyLargeTube" Count="75" />
 				<Component Subtype="Computer" Count="50" />
 				<Component Subtype="AdvancedComputer" Count="30" />
-				<Component Subtype="GGMSilverPlate" Count="100" />
 				<Component Subtype="Superconductor" Count="50" />
 				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="heavySteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<Center x="1" y="0" z="1" />

@@ -18,11 +18,11 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamTank.mwm</Model>
 			<Components>
-			  <Component Subtype="SteelPlate" Count="20" />
-			  <Component Subtype="LargeTube" Count="45" />
+			  <Component Subtype="StainlessSteelPlate" Count="20" />
+			  <Component Subtype="StainlessLargeTube" Count="45" />
 			  <Component Subtype="Construction" Count="25" />
 			  <Component Subtype="Computer" Count="5" />
-			  <Component Subtype="SteelPlate" Count="15" />
+			  <Component Subtype="StainlessSteelPlate" Count="15" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
@@ -75,9 +75,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipe.mwm</Model>
 			<Components>
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeConstruct.mwm" />
 			</BuildProgressModels>
@@ -110,11 +110,12 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipeFrame.mwm</Model>
 			<Components>
-			  <Component Subtype="Girder" Count="10" />
+			  <Component Subtype="StainlessGirder" Count="10" />
+			  <Component Subtype="StainlessSteelPlate" Count="5" />
 			  <Component Subtype="Construction" Count="5" />
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeFrameConstruct.mwm" />
 			</BuildProgressModels>
@@ -143,12 +144,12 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipePassthrough.mwm</Model>
 			<Components>
-			  <Component Subtype="Girder" Count="10" />
-			  <Component Subtype="SteelPlate" Count="5" />
+			  <Component Subtype="StainlessGirder" Count="10" />
+			  <Component Subtype="StainlessSteelPlate" Count="5" />
 			  <Component Subtype="Construction" Count="5" />
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeFrameConstruct.mwm" />
 			</BuildProgressModels>
@@ -177,9 +178,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipeCorner.mwm</Model>
 			<Components>
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeCornerConstruct.mwm" />
 			</BuildProgressModels>
@@ -212,9 +213,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipeT.mwm</Model>
 			<Components>
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeTConstruct.mwm" />
 			</BuildProgressModels>
@@ -248,9 +249,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipeCross.mwm</Model>
 			<Components>
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeCrossConstruct.mwm" />
 			</BuildProgressModels>
@@ -285,9 +286,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipeElbow.mwm</Model>
 			<Components>
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeElbowConstruct.mwm" />
 			</BuildProgressModels>
@@ -321,9 +322,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipe4Way.mwm</Model>
 			<Components>
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipe4WayConstruct.mwm" />
 			</BuildProgressModels>
@@ -358,9 +359,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipe5Way.mwm</Model>
 			<Components>
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipe5WayConstruct.mwm" />
 			</BuildProgressModels>
@@ -396,9 +397,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\SteamPipe6Way.mwm</Model>
 			<Components>
-			  <Component Subtype="LargeTube" Count="10" />
+			  <Component Subtype="StainlessLargeTube" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
 			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipe6WayConstruct.mwm" />
 			</BuildProgressModels>
@@ -427,15 +428,15 @@
         <ModelOffset x="0" y="0" z="0" />
         <Model>..\2344068716\Models\SteamTurbineMirrored.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="StainlessSteelPlate" Count="80" />
                 <Component Subtype="Construction" Count="60" />
-                <Component Subtype="LargeTube" Count="40" />
-                <Component Subtype="SmallTube" Count="20" />
-                <Component Subtype="CopperWire" Count="125" />
-                <Component Subtype="Electromagnet" Count="80" />
-                <Component Subtype="TitaniumPlate" Count="50" />
+                <Component Subtype="StainlessLargeTube" Count="40" />
+                <Component Subtype="StainlessSmallTube" Count="20" />
+                <Component Subtype="CopperCable" Count="125" />
+                <Component Subtype="advElectromagnet" Count="80" />
+                <Component Subtype="advMotor" Count="50" />
                 <Component Subtype="Computer" Count="50" />
-                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="StainlessSteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
         <MountPoints>
@@ -501,15 +502,15 @@
         <ModelOffset x="0" y="0" z="0" />
         <Model>..\2344068716\Models\SteamTurbine.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="StainlessSteelPlate" Count="80" />
                 <Component Subtype="Construction" Count="60" />
-                <Component Subtype="LargeTube" Count="40" />
-                <Component Subtype="SmallTube" Count="20" />
-                <Component Subtype="CopperWire" Count="125" />
-                <Component Subtype="Electromagnet" Count="80" />
-                <Component Subtype="TitaniumPlate" Count="50" />
+                <Component Subtype="StainlessLargeTube" Count="40" />
+                <Component Subtype="StainlessSmallTube" Count="20" />
+                <Component Subtype="CopperCable" Count="125" />
+                <Component Subtype="advElectromagnet" Count="80" />
+                <Component Subtype="advMotor" Count="50" />
                 <Component Subtype="Computer" Count="50" />
-                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="StainlessSteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
         <MountPoints>

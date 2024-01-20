@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>Debug</SubtypeId>
+			</Id>
+			<DisplayName>Debug Generator</DisplayName>
+			<Icon>Icons\production\extruder_t1.dds</Icon>
+			<Description>
+				Forms Tubes and Girders.
+
+				Power Usage: 1.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2344068716\Models\Extruder.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Debug</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>1</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+
+	</CubeBlocks>
+	<BlueprintClasses>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Debug</SubtypeId>
+			</Id>
+			<DisplayName>Crusher</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Bauxite" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Coal" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Cobalt" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Copper" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Gold" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Lithium" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Magnesium" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Nickel" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Niter" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_OilSand" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Platinum" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Silicon" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Silver" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Stone" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Sulfur" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Tantalum" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Titanium" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Uranium" />
+	</BlueprintClassEntries>
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Bauxite</SubtypeId>
+			</Id>
+			<DisplayName>Bauxite</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Bauxite" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Coal</SubtypeId>
+			</Id>
+			<DisplayName>Coal</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Coal" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Cobalt</SubtypeId>
+			</Id>
+			<DisplayName>Cobalt</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Cobalt" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Copper</SubtypeId>
+			</Id>
+			<DisplayName>Copper</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Copper" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Gold</SubtypeId>
+			</Id>
+			<DisplayName>Gold</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Gold" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Lithium</SubtypeId>
+			</Id>
+			<DisplayName>Lithium</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Lithium" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Magnesium</SubtypeId>
+			</Id>
+			<DisplayName>Magnesium</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Magnesium" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Nickel</SubtypeId>
+			</Id>
+			<DisplayName>Nickel</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Nickel" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Niter</SubtypeId>
+			</Id>
+			<DisplayName>Niter</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Niter" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_OilSand</SubtypeId>
+			</Id>
+			<DisplayName>OilSand</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="OilSand" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Platinum</SubtypeId>
+			</Id>
+			<DisplayName>Platinum</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Platinum" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Silicon</SubtypeId>
+			</Id>
+			<DisplayName>Silicon</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Silicon" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Silver</SubtypeId>
+			</Id>
+			<DisplayName>Silver</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Silver" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Stone</SubtypeId>
+			</Id>
+			<DisplayName>Stone</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Stone" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Sulfur</SubtypeId>
+			</Id>
+			<DisplayName>Sulfur</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Sulfur" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Tantalum</SubtypeId>
+			</Id>
+			<DisplayName>Tantalum</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Tantalum" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Titanium</SubtypeId>
+			</Id>
+			<DisplayName>Titanium</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Titanium" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Uranium</SubtypeId>
+			</Id>
+			<DisplayName>Uranium</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Uranium" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
+	</Blueprints>
+</Definitions>

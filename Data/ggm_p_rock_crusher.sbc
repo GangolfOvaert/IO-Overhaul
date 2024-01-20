@@ -88,17 +88,17 @@
 			<Center x="1" y="1" z="1" />
 			<Model>Models\OreCrusher.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="StainlessSteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="120" />
-				<Component Subtype="CopperWire" Count="300" />
-				<Component Subtype="LargeTube" Count="60" />
-				<Component Subtype="Motor" Count="60" />
+				<Component Subtype="CopperCable" Count="300" />
+				<Component Subtype="StainlessLargeTube" Count="60" />
+				<Component Subtype="StainlessSmallTube" Count="50" />
+				<Component Subtype="advMotor" Count="60" />
 				<Component Subtype="Ceramic" Count="200" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="GGMSilverComponent" Count="50" />
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="StainlessSteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="GGMSilverComponent" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
 				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
@@ -156,17 +156,16 @@
 			<Center x="1" y="1" z="1" />
 			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="heavySteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="140" />
-				<Component Subtype="CopperWire" Count="300" />
-				<Component Subtype="LargeTube" Count="100" />
-				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="CopperCable" Count="300" />
+				<Component Subtype="heavyLargeTube" Count="100" />
+				<Component Subtype="advMotor" Count="100" />
 				<Component Subtype="Ceramic" Count="250" />
 		     	<Component Subtype="AdvancedComputer" Count="30" />		
-				<Component Subtype="GGMSilverComponent" Count="75" />
 				<Component Subtype="Superconductor" Count="75" />
 				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="heavySteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<MountPoints>

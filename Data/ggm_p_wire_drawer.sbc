@@ -78,17 +78,15 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\WireDrawer.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="StainlessSteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="100" />
-				<Component Subtype="CopperWire" Count="200" />
-				<Component Subtype="SmallTube" Count="60" />
-				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="Electromagnet" Count="40" />
+				<Component Subtype="CopperCable" Count="200" />
+				<Component Subtype="StainlessSmallTube" Count="60" />
+				<Component Subtype="StainlessLargeTube" Count="40" />
+				<Component Subtype="advElectromagnet" Count="40" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="Superconductor" Count="30" />
-				<Component Subtype="AdvancedComputer" Count="40" />
 				<Component Subtype="InteriorPlate" Count="100" />
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="StainlessSteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="InteriorPlate" Index="0" />
 			<BuildProgressModels>

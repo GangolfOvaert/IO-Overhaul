@@ -106,5 +106,199 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="Explosives" />
 			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 		  </Blueprint>
+
+
+
+
+
+
+
+
+
+
+
+		  <Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_GGMAlSiAlloy</SubtypeId>
+			</Id>
+			<DisplayName>Al Si Alloy</DisplayName>
+			<Icon>Icons\alg_si.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Aluminum" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlSiAlloy" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_GGMAlMgAlloy</SubtypeId>
+			</Id>
+			<DisplayName>Al Mg Alloy</DisplayName>
+			<Icon>Icons\alg_mg.dds</Icon>
+			<Prerequisites>
+				<Item Amount="6" TypeId="Ingot" SubtypeId="Aluminum" />
+				<Item Amount="2" TypeId="Ore" SubtypeId="Magnesium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlMgAlloy" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_GGMAlCuAlloy</SubtypeId>
+			</Id>
+			<DisplayName>Al Cu Alloy</DisplayName>
+			<Icon>Icons\alg_cu.dds</Icon>
+			<Prerequisites>
+				<Item Amount="6" TypeId="Ingot" SubtypeId="Aluminum" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Copper" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlCuAlloy" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_GGMAlSiCuAlloy</SubtypeId>
+			</Id>
+			<DisplayName>Al Si Cu Alloy</DisplayName>
+			<Icon>Icons\alg_all.dds</Icon>
+			<Prerequisites>
+				<Item Amount="12" TypeId="Ingot" SubtypeId="Aluminum" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Copper" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlSiCuAlloy" />
+			<BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POSuperconductor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_Superconductor</DisplayName>
+			<Icon>Icons\superconductor_conducts_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="6" TypeId="Component" SubtypeId="Rubber" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="GoldCable" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Superconductor" />
+			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+		  </Blueprint>
+	  
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GGM_p_GGMAlTiAlloy</SubtypeId>
+			</Id>
+			<DisplayName>Al Ti Alloy</DisplayName>
+			<Icon>Icons\alg_ti.dds</Icon>
+			<Prerequisites>
+				<Item Amount="6" TypeId="Ingot" SubtypeId="Aluminum" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlTiAlloy" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>GoldWire</SubtypeId>
+			</Id>
+			<DisplayName>Gold Wire</DisplayName>
+			<Icon>Icons\wire_gold.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="0.6" TypeId="Ingot" SubtypeId="Gold" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GoldWire" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		  <Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GoldCable</SubtypeId>
+			</Id>
+			<DisplayName>Gold Cable</DisplayName>
+			<Icon>Icons\cable_gold.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="GoldWire" />
+				<Item Amount="1" TypeId="Component" SubtypeId="Rubber" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GoldCable" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>Capacitor</SubtypeId>
+			</Id>
+			<DisplayName>Capacitor Cell</DisplayName>
+				  <Icon>Icons\CapacitorCell.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="1" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="Rubber" />
+			  <Item Amount="1" TypeId="Ingot" SubtypeId="Lithium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Capacitor" />
+			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		  <Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>plastictoadvpcb</SubtypeId>
+			</Id>
+			<DisplayName>Advanced PCB</DisplayName>
+			<Icon>Icons\pcb_advanced.dds</Icon>
+			<Prerequisites>
+				<Item Amount="2" TypeId="Component" SubtypeId="BasicPCB" />
+				<Item Amount="2" TypeId="Component" SubtypeId="GoldCable" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="AdvPCB" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>advpcbtoadvcuircitboard</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Cuircit Board</DisplayName>
+			<Icon>Icons\cuircitboard_advanced.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="AdvPCB" />
+				<Item Amount="2" TypeId="Component" SubtypeId="GoldCable" />
+				<Item Amount="1" TypeId="Component" SubtypeId="Capacitor" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="AdvCuircitBoard" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>AdvancedComputer</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Computer</DisplayName>
+			<Icon>Icons\computer_advanced.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="AdvCuircitBoard" />
+				<Item Amount="2" TypeId="Component" SubtypeId="Lightbulb" />
+				<Item Amount="1" TypeId="Component" SubtypeId="Computer" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="AdvancedComputer" />
+			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		  
+	  
 	</Blueprints>
 </Definitions>

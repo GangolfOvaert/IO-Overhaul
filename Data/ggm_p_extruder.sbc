@@ -80,16 +80,14 @@
 			<Components>
 				<Component Subtype="SteelPlate" Count="120" />
 				<Component Subtype="Construction" Count="80" />
-				<Component Subtype="CopperWire" Count="20" />
-				<Component Subtype="SmallTube" Count="20" />
-				<Component Subtype="LargeTube" Count="10" />
-				<Component Subtype="Electromagnet" Count="10" />
-				<Component Subtype="Superconductor" Count="40" />
-				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="CopperCable" Count="20" />
+				<Component Subtype="StainlessSmallTube" Count="20" />
+				<Component Subtype="StainlessLargeTube" Count="10" />
+				<Component Subtype="advElectromagnet" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="TitaniumPlate" Count="40" />
+				<Component Subtype="StainlessSteelPlate" Count="40" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="20" />
+			<CriticalComponent Subtype="StainlessSteelPlate" Index="20" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />

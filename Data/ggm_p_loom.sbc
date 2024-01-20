@@ -22,14 +22,14 @@
 			<Center x="2" y="0" z="1" />
 			<Model>..\2344068716\Models\AutoLoom.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="StainlessSteelPlate" Count="20" />
 				<Component Subtype="Construction" Count="50" />
-				<Component Subtype="CopperWire" Count="200" />
+				<Component Subtype="CopperCable" Count="200" />
 				<Component Subtype="Electromagnet" Count="30" />
-				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="StainlessLargeTube" Count="20" />
 				<Component Subtype="Computer" Count="30" />
-				<Component Subtype="GGMSilverComponent" Count="20" />
-				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="StainlessSmallTube" Count="20" />
+				<Component Subtype="StainlessSteelPlate" Count="100" />
 
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />

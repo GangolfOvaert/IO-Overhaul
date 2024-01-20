@@ -165,6 +165,9 @@
 	
   <BlueprintClassEntries>
 
+      <Entry Class="AssemblerComponents" BlueprintSubtypeId="POMotorComponentadv" />
+   	  <Entry Class="FabricatorComponents" BlueprintSubtypeId="Electromagnetadv" />
+
 
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
 	  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
@@ -208,10 +211,15 @@
 	  <Entry Class="AssemblerComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
 	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="plastictopcb" />
 	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
+	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="advpcbtoadvcuircitboard" />
+	<Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="plastictoadvpcb" />
+
+
 	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="GGM_p_silverwire" />
 	  
-
-
+	  <Entry Class="AssemblerComponents" BlueprintSubtypeId="Casing" />
+	  <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="qtpcbtoadvcuircitboard" />
+	  <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="plastictoqtpcb" />
 	  
 
 	 <Entry Class="SmelterIngotst2" BlueprintSubtypeId="ScrapToIronIngot" />
@@ -263,6 +271,7 @@
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_CobaltGirderComponent" />
 	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="CopperCable" />
 	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="SilverCable" />
+	  <Entry Class="WireDrawerComponents" BlueprintSubtypeId="GoldCable" />
 
 
 
@@ -309,10 +318,12 @@
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedLithiumOreToIngot" />
 	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
 
-	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlSiAlloy" />
-	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlMgAlloy" />
-	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlCuAlloy" />
-	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_P_AlSiCuAlloy" />
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_p_GGMAlSiAlloy" />
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_p_GGMAlMgAlloy" />
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_p_GGMAlCuAlloy" />
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_p_GGMAlSiCuAlloy" />
+	  <Entry Class="AlloySmelter" BlueprintSubtypeId="GGM_p_GGMAlTiAlloy" />
+
 
 	  <Entry Class="MicroelectronicsFactoryComponents" BlueprintSubtypeId="GGM_P_GGMAdvCircuitBoard" />
 

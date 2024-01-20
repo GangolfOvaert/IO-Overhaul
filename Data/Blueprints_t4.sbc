@@ -80,5 +80,55 @@
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>plastictoqtpcb</SubtypeId>
+			</Id>
+			<DisplayName>Quantum PCB</DisplayName>
+			<Icon>Icons\pcb_quantum.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="AdvPCB" />
+				<Item Amount="2" TypeId="Component" SubtypeId="GoldCable" />
+				<Item Amount="2" TypeId="Component" SubtypeId="GGMAlSiAlloy" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="QTPCB" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>qtpcbtoadvcuircitboard</SubtypeId>
+			</Id>
+			<DisplayName>Quantum Cuircit Board</DisplayName>
+			<Icon>Icons\cuircitboard_quantum.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="QTPCB" />
+				<Item Amount="2" TypeId="Component" SubtypeId="GoldCable" />
+				<Item Amount="2" TypeId="Component" SubtypeId="Cryocooler" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="QTCuircitBoard" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>QuantumComputer</SubtypeId>
+			</Id>
+			<DisplayName>Quantum Computer</DisplayName>
+			<Icon>Icons\computer_quantum.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Component" SubtypeId="QTCuircitBoard" />
+				<Item Amount="2" TypeId="Component" SubtypeId="Lightbulb" />
+				<Item Amount="1" TypeId="Component" SubtypeId="AdvancedComputer" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="QuantumComputer" />
+			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+		  </Blueprint>
 	</Blueprints>
 </Definitions>

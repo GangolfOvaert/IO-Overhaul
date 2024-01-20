@@ -89,17 +89,17 @@
 			<Center x="1" y="0" z="1" />
 			<Model>..\2344068716\Models\OrePurifier.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="StainlessSteelPlate" Count="250" />
 				<Component Subtype="Construction" Count="200" />
-				<Component Subtype="CopperWire" Count="400" />
-				<Component Subtype="LargeTube" Count="100" />
-				<Component Subtype="SmallTube" Count="200" />
-				<Component Subtype="Electromagnet" Count="130" />
+				<Component Subtype="CopperCable" Count="400" />
+				<Component Subtype="StainlessLargeTube" Count="100" />
+				<Component Subtype="StainlessSmallTube" Count="200" />
+				<Component Subtype="advElectromagnet" Count="130" />
 				<Component Subtype="HeatingElement" Count="100" />
-				<Component Subtype="Motor" Count="130" />
+				<Component Subtype="advMotor" Count="130" />
 				<Component Subtype="Computer" Count="100" />
 				<Component Subtype="GGMSilverComponent" Count="50" />
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="StainlessSteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<Center x="1" y="0" z="1" />
@@ -158,20 +158,19 @@
 			<Center x="1" y="0" z="1" />
 			<Model>..\2344068716\Models\OrePurifier.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="heavySteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="250" />
-				<Component Subtype="CopperWire" Count="400" />
-				<Component Subtype="LargeTube" Count="130" />
-				<Component Subtype="SmallTube" Count="250" />
-				<Component Subtype="Electromagnet" Count="150" />
+				<Component Subtype="GoldCable" Count="400" />
+				<Component Subtype="heavyLargeTube" Count="130" />
+				<Component Subtype="heavySmallTube" Count="250" />
+				<Component Subtype="advElectromagnet" Count="150" />
 				<Component Subtype="HeatingElement" Count="130" />
-				<Component Subtype="Motor" Count="150" />
+				<Component Subtype="advMotor" Count="150" />
 				<Component Subtype="GGMSilverComponent" Count="100" />
 				<Component Subtype="AdvancedComputer" Count="30" />
 				<Component Subtype="Superconductor" Count="100" />
-				<Component Subtype="LaserEmitter" Count="20" />
 				<Component Subtype="MetalGrid" Count="10" />
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="heavySteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<Center x="1" y="0" z="1" />

@@ -103,13 +103,13 @@
 		<ModelOffset x="0" y="0" z="0" />
 		<Model>..\2344068716\Models\LargeWindTurbine.mwm</Model>
 		<Components>
-			<Component Subtype="SteelPlate" Count="275" />
+			<Component Subtype="StainlessSteelPlate" Count="275" />
 			<Component Subtype="Construction" Count="20" />
-			<Component Subtype="Motor" Count="10" />
-			<Component Subtype="Electromagnet" Count="40" />
-			<Component Subtype="CopperWire" Count="150" />
+			<Component Subtype="advMotor" Count="10" />
+			<Component Subtype="advElectromagnet" Count="40" />
+			<Component Subtype="CopperCable" Count="150" />
 			<Component Subtype="Computer" Count="50" />
-			<Component Subtype="SteelPlate" Count="25" />
+			<Component Subtype="StainlessSteelPlate" Count="25" />
 		</Components>
 		<CriticalComponent Subtype="Computer" Index="0" />
 		<MountPoints>

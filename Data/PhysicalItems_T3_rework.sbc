@@ -116,6 +116,117 @@
 		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
 	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GoldWire</SubtypeId>
+		</Id>
+		<DisplayName>Gold Wire</DisplayName>
+		<Icon>Icons\wire_gold.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.1</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>1.2</Mass>
+		<Volume>0.5</Volume>
+		<Model>Models\GoldReel.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>4500</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GoldCable</SubtypeId>
+		</Id>
+		<DisplayName>Gold Cable</DisplayName>
+		<Icon>Icons\cable_gold.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.1</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>1.2</Mass>
+		<Volume>0.5</Volume>
+		<Model>Models\GoldReel.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>4500</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Capacitor</SubtypeId>
+		</Id>
+		<DisplayName>Capacitor Cell</DisplayName>
+		<Icon>Icons\CapacitorCell.dds</Icon>
+		<Size>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>4.6</Mass>
+		<Volume>10</Volume>
+		<Model>Models\CapacitorCell.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>5</MaxIntegrity>
+		<MinimalPricePerUnit>19899</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Superconductor</SubtypeId>
+		</Id>
+		<DisplayName>DisplayName_Item_Superconductor</DisplayName>
+		<Icon>Icons\superconductor_conducts_component.dds</Icon>
+		<Size>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>0.03</Z>
+		</Size>
+		<Mass>21</Mass>
+		<Volume>8</Volume>
+		<Model>Models\Components\superconductor_conducts_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>5</MaxIntegrity>
+		<DropProbability>0.3</DropProbability>
+		<Health>14</Health>
+		<MinimalPricePerUnit>194656</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
 </Components>
 
 	<PhysicalItems>

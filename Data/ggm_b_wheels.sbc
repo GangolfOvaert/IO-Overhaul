@@ -93,10 +93,10 @@
 			<Component Subtype="Construction" Count="7" />
 			<Component Subtype="CopperWire" Count="5" />
 			<Component Subtype="SmallTube" Count="2" />
-			<Component Subtype="Motor" Count="2" />
+			<Component Subtype="advMotor" Count="2" />
 			<Component Subtype="SteelPlate" Count="3" />
 		  </Components>
-		  <CriticalComponent Subtype="Motor" Index="0" />
+		  <CriticalComponent Subtype="advMotor" Index="0" />
 		  <MountPoints>
 			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
 			<MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -170,10 +170,10 @@
                 <Component Count="15" Subtype="Construction"/>
                 <Component Count="6" Subtype="LargeTube"/>
                 <Component Count="12" Subtype="SmallTube"/>
-                <Component Count="6" Subtype="Motor"/>
+                <Component Count="6" Subtype="advMotor"/>
                 <Component Count="10" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
                 <MountPoint EndX="0.75" EndY="0.8" Side="Left" StartX="0.25" StartY="0.0"/>
@@ -263,10 +263,10 @@
                 <Component Count="40" Subtype="Construction"/>
                 <Component Count="20" Subtype="LargeTube"/>
                 <Component Count="30" Subtype="SmallTube"/>
-                <Component Count="20" Subtype="Motor"/>
+                <Component Count="20" Subtype="advMotor"/>
                 <Component Count="30" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
@@ -350,10 +350,10 @@
                 <Component Count="15" Subtype="Construction"/>
                 <Component Count="6" Subtype="LargeTube"/>
                 <Component Count="12" Subtype="SmallTube"/>
-                <Component Count="6" Subtype="Motor"/>
+                <Component Count="6" Subtype="advMotor"/>
                 <Component Count="10" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
                 <MountPoint EndX="0.75" EndY="0.8" Side="Left" StartX="0.25" StartY="0.0"/>
@@ -438,10 +438,10 @@
                 <Component Subtype="Construction" Count="15" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
@@ -524,10 +524,10 @@
                 <Component Count="5" Subtype="SteelPlate"/>
                 <Component Count="7" Subtype="Construction"/>
                 <Component Count="2" Subtype="SmallTube"/>
-                <Component Count="1" Subtype="Motor"/>
+                <Component Count="1" Subtype="advMotor"/>
                 <Component Count="3" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
                 <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0"/>
@@ -612,10 +612,10 @@
                 <Component Count="10" Subtype="SteelPlate"/>
                 <Component Count="12" Subtype="Construction"/>
                 <Component Count="4" Subtype="SmallTube"/>
-                <Component Count="2" Subtype="Motor"/>
+                <Component Count="2" Subtype="advMotor"/>
                 <Component Count="6" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
@@ -697,10 +697,10 @@
                 <Component Count="5" Subtype="SteelPlate"/>
                 <Component Count="7" Subtype="Construction"/>
                 <Component Count="2" Subtype="SmallTube"/>
-                <Component Count="1" Subtype="Motor"/>
+                <Component Count="1" Subtype="advMotor"/>
                 <Component Count="3" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
                 <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0"/>
@@ -783,10 +783,10 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="7" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -871,10 +871,10 @@
                 <Component Count="15" Subtype="Construction"/>
                 <Component Count="6" Subtype="LargeTube"/>
                 <Component Count="12" Subtype="SmallTube"/>
-                <Component Count="6" Subtype="Motor"/>
+                <Component Count="6" Subtype="advMotor"/>
                 <Component Count="10" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
                 <MountPoint EndX="0.75" EndY="0.8" Side="Left" StartX="0.25" StartY="0.0"/>
@@ -964,10 +964,10 @@
                 <Component Count="40" Subtype="Construction"/>
                 <Component Count="20" Subtype="LargeTube"/>
                 <Component Count="30" Subtype="SmallTube"/>
-                <Component Count="20" Subtype="Motor"/>
+                <Component Count="20" Subtype="advMotor"/>
                 <Component Count="30" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
@@ -1051,10 +1051,10 @@
                 <Component Count="15" Subtype="Construction"/>
                 <Component Count="6" Subtype="LargeTube"/>
                 <Component Count="12" Subtype="SmallTube"/>
-                <Component Count="6" Subtype="Motor"/>
+                <Component Count="6" Subtype="advMotor"/>
                 <Component Count="10" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
                 <MountPoint EndX="0.75" EndY="0.8" Side="Left" StartX="0.25" StartY="0.0"/>
@@ -1139,10 +1139,10 @@
                 <Component Subtype="Construction" Count="15" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
@@ -1227,10 +1227,10 @@
                 <Component Count="5" Subtype="SteelPlate"/>
                 <Component Count="7" Subtype="Construction"/>
                 <Component Count="2" Subtype="SmallTube"/>
-                <Component Count="1" Subtype="Motor"/>
+                <Component Count="1" Subtype="advMotor"/>
                 <Component Count="3" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
                 <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0"/>
@@ -1315,10 +1315,10 @@
                 <Component Count="10" Subtype="SteelPlate"/>
                 <Component Count="12" Subtype="Construction"/>
                 <Component Count="4" Subtype="SmallTube"/>
-                <Component Count="2" Subtype="Motor"/>
+                <Component Count="2" Subtype="advMotor"/>
                 <Component Count="6" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
@@ -1400,10 +1400,10 @@
                 <Component Count="5" Subtype="SteelPlate"/>
                 <Component Count="7" Subtype="Construction"/>
                 <Component Count="2" Subtype="SmallTube"/>
-                <Component Count="1" Subtype="Motor"/>
+                <Component Count="1" Subtype="advMotor"/>
                 <Component Count="3" Subtype="SteelPlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="Motor"/>
+            <CriticalComponent Index="0" Subtype="advMotor"/>
             <MountPoints>
                 <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0"/>
                 <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0"/>
@@ -1486,10 +1486,10 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="7" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -3323,10 +3323,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -3412,10 +3412,10 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="SmallTube" Count="30" />
-                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="advMotor" Count="20" />
                 <Component Subtype="SteelPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0.1" EndX="2" EndY="1.9" Default="true" />
                 <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="2" EndY="1" />
@@ -3498,10 +3498,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -3583,10 +3583,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -3668,10 +3668,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -3752,10 +3752,10 @@
                 <Component Subtype="SteelPlate" Count="7" />
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SmallTube" Count="4" />
-                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="advMotor" Count="2" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.2" StartY="0" EndX="1.8" EndY="0.3" />
@@ -3837,10 +3837,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -3920,10 +3920,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -4004,10 +4004,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -4093,10 +4093,10 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="SmallTube" Count="30" />
-                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="advMotor" Count="20" />
                 <Component Subtype="SteelPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0.1" EndX="2" EndY="1.9" Default="true" />
                 <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="2" EndY="1" />
@@ -4179,10 +4179,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -4264,10 +4264,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -4351,10 +4351,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -4436,10 +4436,10 @@
                 <Component Subtype="SteelPlate" Count="7" />
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SmallTube" Count="4" />
-                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="advMotor" Count="2" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.2" StartY="0" EndX="1.8" EndY="0.3" />
@@ -4521,10 +4521,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -4604,10 +4604,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -4748,10 +4748,10 @@
                 <Component Subtype="Construction" Count="15" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
@@ -4835,10 +4835,10 @@
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="SmallTube" Count="30" />
-                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="advMotor" Count="20" />
                 <Component Subtype="SteelPlate" Count="30" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
@@ -4917,10 +4917,10 @@
                 <Component Subtype="Construction" Count="15" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
@@ -5000,10 +5000,10 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="7" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -5082,10 +5082,10 @@
                 <Component Subtype="SteelPlate" Count="10" />
                 <Component Subtype="Construction" Count="12" />
                 <Component Subtype="SmallTube" Count="4" />
-                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="advMotor" Count="2" />
                 <Component Subtype="SteelPlate" Count="6" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
@@ -5162,10 +5162,10 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="7" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -5243,10 +5243,10 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="7" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -5325,10 +5325,10 @@
                 <Component Subtype="Construction" Count="15" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
@@ -5412,10 +5412,10 @@
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="SmallTube" Count="30" />
-                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="advMotor" Count="20" />
                 <Component Subtype="SteelPlate" Count="30" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
@@ -5494,10 +5494,10 @@
                 <Component Subtype="Construction" Count="15" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
@@ -5577,10 +5577,10 @@
                 <Component Subtype="Construction" Count="15" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
@@ -5662,10 +5662,10 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="7" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -5745,10 +5745,10 @@
                 <Component Subtype="SteelPlate" Count="10" />
                 <Component Subtype="Construction" Count="12" />
                 <Component Subtype="SmallTube" Count="4" />
-                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="advMotor" Count="2" />
                 <Component Subtype="SteelPlate" Count="6" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.3" StartY="0.2" EndX="1.7" EndY="1.25" />
@@ -5825,10 +5825,10 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="7" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -5906,10 +5906,10 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="7" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
@@ -7625,10 +7625,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -7713,10 +7713,10 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="SmallTube" Count="30" />
-                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="advMotor" Count="20" />
                 <Component Subtype="SteelPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0.1" EndX="2" EndY="1.9" Default="true" />
                 <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="2" EndY="1" />
@@ -7798,10 +7798,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -7882,10 +7882,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -7966,10 +7966,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -8049,10 +8049,10 @@
                 <Component Subtype="SteelPlate" Count="7" />
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SmallTube" Count="4" />
-                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="advMotor" Count="2" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.2" StartY="0" EndX="1.8" EndY="0.3" />
@@ -8133,10 +8133,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -8215,10 +8215,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -8298,10 +8298,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -8386,10 +8386,10 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="SmallTube" Count="30" />
-                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="advMotor" Count="20" />
                 <Component Subtype="SteelPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0.1" EndX="2" EndY="1.9" Default="true" />
                 <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="2" EndY="1" />
@@ -8471,10 +8471,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -8555,10 +8555,10 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="SmallTube" Count="12" />
-                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="advMotor" Count="6" />
                 <Component Subtype="SteelPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -8641,10 +8641,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -8725,10 +8725,10 @@
                 <Component Subtype="SteelPlate" Count="7" />
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SmallTube" Count="4" />
-                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="advMotor" Count="2" />
                 <Component Subtype="SteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
                 <MountPoint Side="Left" StartX="0.2" StartY="0" EndX="1.8" EndY="0.3" />
@@ -8809,10 +8809,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
@@ -8891,10 +8891,10 @@
                 <Component Subtype="SteelPlate" Count="3" />
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="SmallTube" Count="2" />
-                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="advMotor" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="advMotor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />

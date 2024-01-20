@@ -20,15 +20,15 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\CoalBoiler.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="80" />
+				<Component Subtype="StainlessSteelPlate" Count="80" />
 				<Component Subtype="Construction" Count="25" />
-				<Component Subtype="CopperWire" Count="30" />
-				<Component Subtype="LargeTube" Count="50" />
-				<Component Subtype="Motor" Count="10" />
+				<Component Subtype="CopperCable" Count="30" />
+				<Component Subtype="StainlessLargeTube" Count="50" />
+				<Component Subtype="advMotor" Count="10" />
 				<Component Subtype="HeatingElement" Count="10" />
-				<Component Subtype="GGMAlSiAlloy" Count="20" />
+				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="Computer" Count="25" />
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="StainlessSteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>

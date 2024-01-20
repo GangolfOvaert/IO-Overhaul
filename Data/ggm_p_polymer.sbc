@@ -21,18 +21,17 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\PolymerFactory.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="StainlessSteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="150" />
-				<Component Subtype="LargeTube" Count="80" />
-				<Component Subtype="SmallTube" Count="80" />
-				<Component Subtype="Motor" Count="80" />
+				<Component Subtype="StainlessLargeTube" Count="80" />
+				<Component Subtype="StainlessSmallTube" Count="80" />
+				<Component Subtype="advMotor" Count="80" />
 				<Component Subtype="CopperWire" Count="300" />
 				<Component Subtype="HeatingElement" Count="80" />
-				<Component Subtype="GGMSilverComponent" Count="30" />
 				<Component Subtype="Computer" Count="80" />
-				<Component Subtype="SteelPlate" Count="300" />
+				<Component Subtype="StainlessSteelPlate" Count="300" />
 			</Components>
-			<CriticalComponent Subtype="Computer" Index="0" />
+			<CriticalComponent Subtype="HeatingElement" Index="0" />
 			<Center x="1" y="0" z="2" />
 			<MountPoints>
 				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />

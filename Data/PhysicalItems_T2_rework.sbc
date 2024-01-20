@@ -4,6 +4,64 @@
 	<Component>
 		<Id>
 			<TypeId>Component</TypeId>
+			<SubtypeId>Detector</SubtypeId>
+		</Id>
+		<DisplayName>Sensor Cluster</DisplayName>
+		<Icon>Icons\detector_components_component.dds</Icon>
+		<Size>
+			<X>0.15</X>
+			<Y>0.15</Y>
+			<Z>0.4</Z>
+		</Size>
+		<Mass>27.4</Mass>
+		<Volume>6</Volume>
+		<Model>Models\Components\detector_components_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>4</MaxIntegrity>
+		<DropProbability>0.1</DropProbability>
+		<Health>11</Health>
+		<MinimalPricePerUnit>23454</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>RadioCommunication</SubtypeId>
+		</Id>
+		<DisplayName>DisplayName_Item_RadioCommunicationComponents</DisplayName>
+		<Icon>Icons\radio_communication_components_component.dds</Icon>
+		<Size>
+			<X>1</X>
+			<Y>0.5</Y>
+			<Z>0.4</Z>
+		</Size>
+		<Mass>25.4</Mass>
+		<Volume>15</Volume>
+		<Model>Models\Components\radio_communication_components_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>15</MaxIntegrity>
+		<DropProbability>0.1</DropProbability>
+		<Health>11</Health>
+		<MinimalPricePerUnit>15435</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
 			<SubtypeId>StainlessSteelPlate</SubtypeId>
 		</Id>
 		<DisplayName>Stainless Steel Plate</DisplayName>
@@ -228,62 +286,8 @@
 	  <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
 	</Component>
 
-	<Component>
-		<Id>
-			<TypeId>Component</TypeId>
-			<SubtypeId>NickelPlate</SubtypeId>
-		</Id>
-		<DisplayName>Nickel Plate</DisplayName>
-		<Icon>Icons\plate_nickel.dds</Icon>
-		<Size>
-			<X>0.5</X>
-			<Y>0.5</Y>
-			<Z>0.05</Z>
-		</Size>
-		<Mass>6</Mass>
-		<Volume>15</Volume>
-		<Model>Models\Components\steel_plate_component.mwm</Model>
-		<PhysicalMaterial>Metal</PhysicalMaterial>
-		<MaxIntegrity>30</MaxIntegrity>
-		<DropProbability>0.95</DropProbability>
-		<Health>69</Health>
-		<MinimumOfferAmount>250</MinimumOfferAmount>
-		<MaximumOfferAmount>1000</MaximumOfferAmount>
-		<MinimumOrderAmount>125</MinimumOrderAmount>
-		<MaximumOrderAmount>1000</MaximumOrderAmount>
-		<CanPlayerOrder>true</CanPlayerOrder>
+	
 
-		<MinimumAcquisitionAmount>125</MinimumAcquisitionAmount>
-		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
-	</Component>
-	<Component>
-		<Id>
-			<TypeId>Component</TypeId>
-			<SubtypeId>NickelGirder</SubtypeId>
-		</Id>
-		<DisplayName>Nickel Girder</DisplayName>
-		<Icon>Icons\girder_nickel.dds</Icon>
-		<Size>
-			<X>0.05</X>
-			<Y>0.05</Y>
-			<Z>1</Z>
-		</Size>
-		<Mass>3.2</Mass>
-		<Volume>3</Volume>
-		<Model>Models\Components\girder_component.mwm</Model>
-		<PhysicalMaterial>Metal</PhysicalMaterial>
-		<MaxIntegrity>15</MaxIntegrity>
-		<DropProbability>0.5</DropProbability>
-		<MinimalPricePerUnit>532</MinimalPricePerUnit>
-		<MinimumOfferAmount>100</MinimumOfferAmount>
-		<MaximumOfferAmount>10000</MaximumOfferAmount>
-		<MinimumOrderAmount>1</MinimumOrderAmount>
-		<MaximumOrderAmount>10000</MaximumOrderAmount>
-		<CanPlayerOrder>true</CanPlayerOrder>
-
-		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
-		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
-	</Component>
 	<Component>
 		<Id>
 			<TypeId>Component</TypeId>
@@ -311,63 +315,7 @@
 		<MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
 	</Component>
-	<Component>
-		<Id>
-			<TypeId>Component</TypeId>
-			<SubtypeId>CobaltPlate</SubtypeId>
-		</Id>
-		<DisplayName>Cobalt Plate</DisplayName>
-		<Icon>Icons\plate_cobalt.dds</Icon>
-		<Size>
-			<X>0.5</X>
-			<Y>0.5</Y>
-			<Z>0.01</Z>
-		</Size>
-		<Mass>20</Mass>
-		<Volume>5</Volume>
-		<Model>Models\Components\steel_plate_component.mwm</Model>
-		<PhysicalMaterial>Metal</PhysicalMaterial>
-		<MaxIntegrity>100</MaxIntegrity>
-		<DropProbability>0.9</DropProbability>
-		<Health>53</Health>
-		<MinimalPricePerUnit>798</MinimalPricePerUnit>
-		<MinimumOfferAmount>100</MinimumOfferAmount>
-		<MaximumOfferAmount>10000</MaximumOfferAmount>
-		<MinimumOrderAmount>1</MinimumOrderAmount>
-		<MaximumOrderAmount>10000</MaximumOrderAmount>
-		<CanPlayerOrder>true</CanPlayerOrder>
-
-		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
-		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
-	</Component>
-	<Component>
-		<Id>
-			<TypeId>Component</TypeId>
-			<SubtypeId>CobaltGirder</SubtypeId>
-		</Id>
-		<DisplayName>Cobalt Girder</DisplayName>
-		<Icon>Icons\girder_cobalt.dds</Icon>
-		<Size>
-			<X>0.05</X>
-			<Y>0.05</Y>
-			<Z>1</Z>
-		</Size>
-		<Mass>3.2</Mass>
-		<Volume>3</Volume>
-		<Model>Models\Components\girder_component.mwm</Model>
-		<PhysicalMaterial>Metal</PhysicalMaterial>
-		<MaxIntegrity>15</MaxIntegrity>
-		<DropProbability>0.5</DropProbability>
-		<MinimalPricePerUnit>532</MinimalPricePerUnit>
-		<MinimumOfferAmount>100</MinimumOfferAmount>
-		<MaximumOfferAmount>10000</MaximumOfferAmount>
-		<MinimumOrderAmount>1</MinimumOrderAmount>
-		<MaximumOrderAmount>10000</MaximumOrderAmount>
-		<CanPlayerOrder>true</CanPlayerOrder>
-
-		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
-		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
-	</Component>
+	
 	<Component>
 		<Id>
 			<TypeId>Component</TypeId>
@@ -422,5 +370,91 @@
 		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
 	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>advElectromagnet</SubtypeId>
+		</Id>
+		<DisplayName>Advanced Electromagnet</DisplayName>
+		<Icon>Icons\magnet_adv.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.1</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>4.8</Mass>
+		<Volume>3</Volume>
+		<Model>..\2344068716\Models\Electromagnet.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>20</MaxIntegrity>
+		<MinimalPricePerUnit>2641</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>advMotor</SubtypeId>
+		</Id>
+		<DisplayName>Advanced Motor</DisplayName>
+		<Icon>Icons\engine_adv.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.2</Y>
+			<Z>0.2</Z>
+		</Size>
+		<Mass>23.8</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\motor_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>40</MaxIntegrity>
+		<DropProbability>0.3</DropProbability>
+		<Health>14</Health>
+		<MinimalPricePerUnit>15435</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
 </Components>
+<PhysicalItems>
+		<PhysicalItem>
+			<Id>
+				<TypeId>Ore</TypeId>
+				<SubtypeId>Coal</SubtypeId>
+			</Id>
+			<DisplayName>Coal</DisplayName>
+			<Icon>Icons\coal.dds</Icon>
+			<Size>
+				<X>0.07</X>
+				<Y>0.07</Y>
+				<Z>0.07</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>0.3</Volume>
+			<Model>Models\Components\Sphere.mwm</Model>
+			<PhysicalMaterial>Stone</PhysicalMaterial>
+			<IconSymbol>Coal</IconSymbol>
+			
+			<MinimalPricePerUnit>250</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>100</MinimumOrderAmount>
+			<MaximumOrderAmount>10000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
+		</PhysicalItem>
+</PhysicalItems>
 </Definitions>

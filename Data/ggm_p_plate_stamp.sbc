@@ -87,17 +87,17 @@
 			<Center x="0" y="0" z="1" />
 			<Model>..\2344068716\Models\PlateStamp.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="StainlessSteelPlate" Count="200" />
 				<Component Subtype="Construction" Count="100" />
-				<Component Subtype="CopperWire" Count="100" />
-				<Component Subtype="Electromagnet" Count="30" />
-				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="Superconductor" Count="40" />
+				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="advElectromagnet" Count="30" />
+				<Component Subtype="StainlessLargeTube" Count="20" />
+				<Component Subtype="advMotor" Count="40" />
 				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="TitaniumPlate" Count="40" />
+				<Component Subtype="StainlessSteelPlate" Count="40" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="20" />
+			<CriticalComponent Subtype="StainlessSteelPlate" Index="20" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />

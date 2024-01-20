@@ -22,7 +22,6 @@
 				<Component Subtype="SteelPlate" Count="150" />
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="CopperWire" Count="100" />
-				<Component Subtype="Computer" Count="50" />
 				<Component Subtype="HeatingElement" Count="50" />
 				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
@@ -88,7 +87,6 @@
 				<Component Subtype="CopperWire" Count="200" />
 				<Component Subtype="Computer" Count="75" />
 				<Component Subtype="HeatingElement" Count="75" />
-				<Component Subtype="GGMSilverPlate" Count="100" />
 				<Component Subtype="SteelPlate" Count="250" />
 			</Components>
 			<CriticalComponent Subtype="HeatingElement" Index="0" />
@@ -148,16 +146,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="StainlessSteelPlate" Count="50" />
 				<Component Subtype="Construction" Count="130" />
-				<Component Subtype="CopperWire" Count="250" />
+				<Component Subtype="CopperCable" Count="250" />
 				<Component Subtype="Computer" Count="75" />
-				<Component Subtype="AdvancedComputer" Count="30" />
 				<Component Subtype="HeatingElement" Count="100" />
-				<Component Subtype="GGMSilverPlate" Count="100" />
-				<Component Subtype="Superconductor" Count="50" />
 				<Component Subtype="MetalGrid" Count="30" />
-				<Component Subtype="SteelPlate" Count="300" />
+				<Component Subtype="StainlessSteelPlate" Count="300" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<MirroringZ>Y</MirroringZ>
@@ -216,18 +211,17 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="heavySteelPlate" Count="150" />
 				<Component Subtype="Construction" Count="150" />
-				<Component Subtype="CopperWire" Count="250" />
+				<Component Subtype="GoldCable" Count="250" />
 				<Component Subtype="Computer" Count="100" />
 				<Component Subtype="AdvancedComputer" Count="50" />
 				<Component Subtype="HeatingElement" Count="100" />
-				<Component Subtype="GGMSilverPlate" Count="100" />
 				<Component Subtype="Superconductor" Count="50" />
 				<Component Subtype="MetalGrid" Count="30" />
-				<Component Subtype="TitaniumPlate" Count="100" />
+				<Component Subtype="heavySteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="50" />
+			<CriticalComponent Subtype="heavySteelPlate" Index="50" />
 			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<MountPoints>
