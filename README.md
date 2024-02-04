@@ -1,7 +1,7 @@
 # IO Overhaul
 **Overhaul for Industrial Overhaul Mod, which overhauls Space Engineers Industry.**
 
-![]([https://raw.githubusercontent.com/nextcloud/screenshots/master/nextcloud-hub-files-25-preview.png](https://raw.githubusercontent.com/GangolfOvaert/IO-Overhaul-Docs/main/logo.png))
+![](https://raw.githubusercontent.com/GangolfOvaert/IO-Overhaul-Docs/main/logo.png))
 
 ## What does the Mod? 🤩
 
