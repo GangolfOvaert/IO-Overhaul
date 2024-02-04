@@ -17,16 +17,17 @@
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="1" />
+			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>..\2344068716\Models\Extruder.mwm</Model>
+			<Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="1" />
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicAssembler_Construction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicAssembler_Construction3.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
@@ -38,7 +39,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>0.001</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>Debug</Class>
 			</BlueprintClasses>
@@ -86,6 +87,10 @@
 		<Entry Class="Debug" BlueprintSubtypeId="debug_Tantalum" />
 		<Entry Class="Debug" BlueprintSubtypeId="debug_Titanium" />
 		<Entry Class="Debug" BlueprintSubtypeId="debug_Uranium" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Iron" />
+		<Entry Class="Debug" BlueprintSubtypeId="debug_Ice" />
+		
+		
 	</BlueprintClassEntries>
 	<Blueprints>
 		<Blueprint>
@@ -337,6 +342,34 @@
 			</Prerequisites>
 			<Results>
 				<Item Amount="5000" TypeId="Ore" SubtypeId="Uranium" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Iron</SubtypeId>
+			</Id>
+			<DisplayName>Iron</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Iron" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>debug_Ice</SubtypeId>
+			</Id>
+			<DisplayName>Ice</DisplayName>
+			<Icon>Icons\placeholder.dds</Icon>
+			<Prerequisites>
+			</Prerequisites>
+			<Results>
+				<Item Amount="5000" TypeId="Ore" SubtypeId="Ice" />
 			</Results>
 			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
 		</Blueprint>

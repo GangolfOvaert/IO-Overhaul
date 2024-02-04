@@ -1,6 +1,34 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <Components>
+    <Component>
+        <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Display</SubtypeId>
+        </Id>
+        <DisplayName>DisplayName_Item_Display</DisplayName>
+        <Icon>Icons\todo\display_component.dds</Icon>
+        <Size>
+            <X>0.3</X>
+            <Y>0.4</Y>
+            <Z>0.05</Z>
+        </Size>
+        <Mass>8.5</Mass>
+        <Volume>3</Volume>
+        <Model>Models\Components\display_component.mwm</Model>
+        <PhysicalMaterial>Metal</PhysicalMaterial>
+        <MaxIntegrity>5</MaxIntegrity>
+        <DropProbability>0.2</DropProbability>
+        <Health>12</Health>
+        <MinimalPricePerUnit>32538</MinimalPricePerUnit>
+        <MinimumOfferAmount>100</MinimumOfferAmount>
+        <MaximumOfferAmount>10000</MaximumOfferAmount>
+        <MinimumOrderAmount>1</MinimumOrderAmount>
+        <MaximumOrderAmount>10000</MaximumOrderAmount>
+        <CanPlayerOrder>true</CanPlayerOrder>
 
+        <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+        <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
 </Components>
 </Definitions>

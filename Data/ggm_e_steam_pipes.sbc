@@ -559,6 +559,221 @@
             <AnimationSpinUpSpeed>0.75</AnimationSpinUpSpeed>
             <AnimationSpinDownSpeed>0.75</AnimationSpinDownSpeed>
         </Definition>
+		<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>GeothermalWellHead</SubtypeId>
+            </Id>
+            <DisplayName>Geothermal Wellhead</DisplayName>
+            <Icon>Icons\GeothermalWellHead.dds</Icon>
+            <Description>Processes geothermal heat to produce Steam. Must be connected by Geothermal Pipes to a Geothermal Well Tip.
+			Produces ~7.5 Steam/sec per 100m of Well Tip depth below 150m.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="4" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\GeothermalWellHead.mwm</Model>
+            <Components>
+                <Component Subtype="heavySteelPlate" Count="50" />
+                <Component Subtype="Construction" Count="25" />
+                <Component Subtype="heavyLargeTube" Count="50" />
+                <Component Subtype="advMotor" Count="30" />
+                <Component Subtype="CopperCable" Count="25" />
+                <Component Subtype="AdvancedComputer" Count="5" />
+                <Component Subtype="Computer" Count="15" />
+                <Component Subtype="heavySteelPlate" Count="15" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="4" />
+				<MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Construct\GeothermalWellHeadConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="Models\Construct\GeothermalWellHeadConstruct2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Construct\GeothermalWellHeadConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="Models\Construct\GeothermalWellHeadConstruct0.mwm" />
+            </BuildProgressModels>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <IceConsumptionPerSecond>9999999999</IceConsumptionPerSecond>
+            <InventoryMaxVolume>1</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+
+            <InventoryFillFactorMin>1</InventoryFillFactorMin>
+            <InventoryFillFactorMax>1</InventoryFillFactorMax>
+
+            <FuelPullAmountFromConveyorInMinutes>10</FuelPullAmountFromConveyorInMinutes>
+
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+            <ProducedGases>
+                <GasInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Steam</SubtypeId>
+                    </Id>
+                    <IceToGasRatio>1.25</IceToGasRatio>
+                </GasInfo>
+            </ProducedGases>
+            <BlueprintClasses>
+                <Class>Heat</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <GenerateSound>BlockOxyGenProcess</GenerateSound>
+            <IdleSound>BlockOxyGenIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <PCU>50</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>10</unsignedInt>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
+        </Definition>
+		<Definition>
+			<Id>
+			  <TypeId>Conveyor</TypeId>
+			  <SubtypeId>GeothermalPipeMount</SubtypeId>
+			</Id>
+			<DisplayName>Geothermal Pipe Mount</DisplayName>
+			<Icon>Icons\GeothermalPipe.dds</Icon>
+			<Description>Used in Geothermal systems to connect Well Tips and Wellheads. Provides a point to anchor Pipes.</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\GeothermalPipeMount.mwm</Model>
+			<Components>
+			  <Component Subtype="heavySteelPlate" Count="5" />
+			  <Component Subtype="heavyGirder" Count="5" />
+			  <Component Subtype="Construction" Count="5" />
+			  <Component Subtype="heavyLargeTube" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\GeothermalPipeMountConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="0.50" File="Models\Construct\GeothermalPipeMountConstruct1.mwm" />
+			</BuildProgressModels>
+			  <MountPoints>
+				  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				  <MountPoint Side="Left" StartX="0" StartY="0.35" EndX="1" EndY="0.65" />
+				  <MountPoint Side="Right" StartX="0" StartY="0.35" EndX="1" EndY="0.65" />
+				  <MountPoint Side="Front" StartX="0" StartY="0.35" EndX="1" EndY="0.65" />
+				  <MountPoint Side="Back" StartX="0" StartY="0.35" EndX="1" EndY="0.65" />
+			  </MountPoints>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<AutorotateMode>OppositeDirections</AutorotateMode>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+			<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>      
+		  </Definition>
+		  <Definition>
+			<Id>
+			  <TypeId>Conveyor</TypeId>
+			  <SubtypeId>GeothermalPipe</SubtypeId>
+			</Id>
+			<DisplayName>Geothermal Pipe</DisplayName>
+			<Icon>Icons\GeothermalPipe.dds</Icon>
+			<Description>Used in Geothermal systems to connect Well Tips and Wellheads.</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\GeothermalPipe.mwm</Model>
+			<Components>
+			  <Component Subtype="heavyGirder" Count="5" />
+			  <Component Subtype="Construction" Count="5" />
+			  <Component Subtype="heavyLargeTube" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\GeothermalPipeConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="0.50" File="Models\Construct\GeothermalPipeConstruct1.mwm" />
+			</BuildProgressModels>
+			  <MountPoints>
+				  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+			  </MountPoints>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<AutorotateMode>OppositeDirections</AutorotateMode>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+			<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>      
+		  </Definition>
+		  <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+			  <TypeId>CargoContainer</TypeId>
+			  <SubtypeId>GeothermalWellTip</SubtypeId>
+			</Id>
+			<DisplayName>Geothermal Well Tip</DisplayName>
+			<Icon>Icons\GeothermalWellTip.dds</Icon>
+			<Description>Geothermal heat exchanger. Must be placed underground and connected to a Wellhead.
+			Minimum depth: 150m
+			Optimal well separation: 250m
+			Efficiency will fall off linearly if other wells are within this distance.
+			
+			Produces ~7.5 Steam/sec per 100m of depth below 150m.</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\GeothermalWellTip.mwm</Model>
+			<Components>
+			  <Component Subtype="heavySteelPlate" Count="25" />
+			  <Component Subtype="Construction" Count="20" />
+			  <Component Subtype="heavyLargeTube" Count="10" />
+			  <Component Subtype="heavySmallTube" Count="20" />
+			  <Component Subtype="Computer" Count="5" />
+			  <Component Subtype="heavySteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			  <MountPoints>
+				  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				  <MountPoint Side="Bottom" StartX="0.35" StartY="0.35" EndX="0.65" EndY="0.65" />
+				  <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.2" EndY="1.5" />
+				  <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.2" EndY="1.5" />
+				  <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.2" EndY="1.5" />
+				  <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.2" EndY="1.5" />
+				  <MountPoint Side="Front" StartX="0.8" StartY="0.1" EndX="0.9" EndY="1.5" />
+				  <MountPoint Side="Back" StartX="0.8" StartY="0.1" EndX="0.9" EndY="1.5" />
+				  <MountPoint Side="Left" StartX="0.8" StartY="0.1" EndX="0.9" EndY="1.5" />
+				  <MountPoint Side="Right" StartX="0.8" StartY="0.1" EndX="0.9" EndY="1.5" />
+			  </MountPoints>
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\GeothermalWellTipConstruct3.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="Models\Construct\GeothermalWellTipConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="0.33" File="Models\Construct\GeothermalWellTipConstruct1.mwm" />
+			</BuildProgressModels>
+			<MirroringX>None</MirroringX>
+			<MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>10</PCU>
+		  </Definition>
 
 	</CubeBlocks>
 	<BlueprintClasses>

@@ -6,7 +6,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>GGM_p_heavyPlate</SubtypeId>
 			</Id>
-			<DisplayName>Heavy Plate</DisplayName>
+			<DisplayName>Heavy Steel Plate</DisplayName>
 			<Icon>Icons\plate_heavy.dds</Icon>
 			<Prerequisites>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
@@ -298,7 +298,40 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="AdvancedComputer" />
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 		  </Blueprint>
-		  
+
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POThrustComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
+			<Icon>Icons\thrust_components_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="6" TypeId="Component" SubtypeId="Ceramic" />
+			  <Item Amount="20" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="GGMAlTiAlloy" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="advMotor" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+		  </Blueprint>
+
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POThrustimpComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
+			<Icon>Icons\impthrust_components_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="1" TypeId="Component" SubtypeId="Casing" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="Cryocooler" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="GGMAlTiAlloy" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="Thrust" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="impThrust" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+		  </Blueprint>
 	  
 	</Blueprints>
 </Definitions>

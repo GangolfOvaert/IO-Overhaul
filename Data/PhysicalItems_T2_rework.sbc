@@ -346,6 +346,35 @@
 	<Component>
 		<Id>
 			<TypeId>Component</TypeId>
+			<SubtypeId>Medical</SubtypeId>
+		</Id>
+		<DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+		<Icon>Icons\medical_components_component.dds</Icon>
+		<Size>
+			<X>1</X>
+			<Y>0.4</Y>
+			<Z>0.4</Z>
+		</Size>
+		<Mass>50</Mass>
+		<Volume>20</Volume>
+		<Model>Models\Components\medical_components_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>70</MaxIntegrity>
+		<DropProbability>0.2</DropProbability>
+		<Health>12</Health>
+		<MinimalPricePerUnit>41632</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
 			<SubtypeId>SilverCable</SubtypeId>
 		</Id>
 		<DisplayName>Silver Cable</DisplayName>
