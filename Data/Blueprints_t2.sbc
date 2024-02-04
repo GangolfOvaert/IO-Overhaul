@@ -213,5 +213,37 @@
 			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>POMedicalComponent</SubtypeId>
+			</Id>
+			<DisplayName>Advanced Motor</DisplayName>
+			<Icon>Icons\medical_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Component" SubtypeId="GGMSilverPlate" />
+				<Item Amount="2" TypeId="Component" SubtypeId="StainlessSmallTube" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Medical" />
+			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>PODisplay</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_Display</DisplayName>
+			<Icon>Icons\todo\display_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="2" TypeId="Component" SubtypeId="CopperWire" />
+			  <Item Amount="4" TypeId="Ingot" SubtypeId="Silicon" />
+			  <Item Amount="2" TypeId="Component" SubtypeId="Plastic" />
+			  <Item Amount="2" TypeId="Component" SubtypeId="Computer" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Display" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		  </Blueprint>
 	</Blueprints>
 </Definitions>

@@ -338,6 +338,11 @@
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedSmallTube" />
 	  <Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_reinforcedLargeTube" />
 
+
+	  <Entry Class="AdvancedAssemblerComponents" BlueprintSubtypeId="POThrustComponent" />
+	  <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="POThrustimpComponent" />
+	  <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="POThrustadvComponent" />
+
 	  <!-- Tier 4-->	  
   </BlueprintClassEntries>
 

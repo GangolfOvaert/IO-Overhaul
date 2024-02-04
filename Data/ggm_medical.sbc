@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+			<Id>
+			  <TypeId>SurvivalKit</TypeId>
+			  <SubtypeId>SurvivalKitLarge</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_SurvivalKit</DisplayName>
+			<Description>Description_SurvivalKit</Description>
+			<Icon>Icons\SurvivalKitLarge.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<ResearchGroup>Tier00Basics</ResearchGroup>
+			<ResearchCost>5</ResearchCost>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
+			<Components>
+			  <Component Subtype="GGMSilverPlate" Count="20" />
+			  <Component Subtype="Construction" Count="2" />
+			  <Component Subtype="Medical" Count="3" />
+			  <Component Subtype="Motor" Count="4" />
+			  <Component Subtype="Display" Count="1" />
+			  <Component Subtype="Computer" Count="5" />
+			  <Component Subtype="GGMSilverPlate" Count="10" />
+			</Components>
+			<MountPoints>
+			  <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+			  <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+			  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SurvivalKit_Construction1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>SurvivalKit</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+			</ScreenAreas>
+			<BlueprintClasses>
+			  <Class>StartingComponents</Class>
+			  <Class>StartingIngots</Class>
+			  <Class>T1Tools</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>0.2</AssemblySpeed>
+	  
+			<StandbyPowerConsumption>0.015</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+	  
+			<InventoryMaxVolume>2</InventoryMaxVolume>
+			<InventorySize>
+			  <X>2</X>
+			  <Y>2</Y>
+			  <Z>2</Z>
+			</InventorySize>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<ProgressSound>BlockMedicalProgress</ProgressSound>
+			<PCU>140</PCU>
+		  </Definition>
+		  <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+			<Id>
+			  <TypeId>SurvivalKit</TypeId>
+			  <SubtypeId>SurvivalKit</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_SurvivalKit</DisplayName>
+			<Description>Description_SurvivalKit</Description>
+			<Icon>Icons\SurvivalKitLarge.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="4" y="3" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
+			<Components>
+				<Component Subtype="GGMSilverPlate" Count="20" />
+				<Component Subtype="Construction" Count="2" />
+				<Component Subtype="Medical" Count="3" />
+				<Component Subtype="Motor" Count="4" />
+				<Component Subtype="Display" Count="1" />
+				<Component Subtype="Computer" Count="5" />
+				<Component Subtype="GGMSilverPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+			  <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
+			  <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1"/>
+			  <MountPoint Side="Back" StartX="2" StartY="0" EndX="4" EndY="3"/>
+			  <MountPoint Side="Front" StartX="0" StartY="0" EndX="4" EndY="3" />
+			  <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+			  <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+			  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="3" Default="true" />
+			  <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="3" />
+			</MountPoints>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>SurvivalKit</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<BlueprintClasses>
+			  <Class>StartingComponents</Class>
+			  <Class>StartingIngots</Class>
+			  <Class>T1Tools</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>0.2</AssemblySpeed>
+			<ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+			</ScreenAreas>
+	  
+			<StandbyPowerConsumption>0.015</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+			<InventoryMaxVolume>1</InventoryMaxVolume>
+			<InventorySize>
+			  <X>2</X>
+			  <Y>2</Y>
+			  <Z>2</Z>
+			</InventorySize>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<ProgressSound>BlockMedicalProgress</ProgressSound>
+			<PCU>140</PCU>
+		  </Definition>
+		  <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+			<Id>
+			  <TypeId>MedicalRoom</TypeId>
+			  <SubtypeId>LargeMedicalRoom</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_MedicalRoom</DisplayName>
+			<Icon>Icons\medical_room.dds</Icon>
+			<Description>Description_MedicalRoom</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\MedicalRoom.mwm</Model>
+			<IdleSound>BlockMedical</IdleSound>
+			<ProgressSound>BlockMedicalProgress</ProgressSound>
+			<Components>
+			  <Component Subtype="GGMSilverPlate" Count="100" />
+			  <Component Subtype="Construction" Count="80" />
+			  <Component Subtype="MetalGrid" Count="60" />
+			  <Component Subtype="SmallTube" Count="20" />
+			  <Component Subtype="CopperWire" Count="35" />
+			  <Component Subtype="Detector" Count="10" />
+			  <Component Subtype="Display" Count="10" />
+			  <Component Subtype="Computer" Count="10" />
+			  <Component Subtype="AdvancedComputer" Count="30" />
+			  <Component Subtype="Medical" Count="15" />
+			  <Component Subtype="GGMSilverPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="Medical" Index="0" />
+			<Center x="0" y="0" z="1" />
+			<MountPoints>
+			  <MountPoint Side="Top" StartX="0.2" StartY="0.1" EndX="0.8" EndY="0.8" />
+			  <MountPoint Side="Bottom" StartX="0.2" StartY="1.2" EndX="0.8" EndY="2" Default="true" />
+			</MountPoints>
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MedicalRoomConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MedicalRoomConstruction_2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MedicalRoomConstruction_3.mwm" />
+			</BuildProgressModels>
+			<ScreenAreas>
+			  <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
+			  <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+			</ScreenAreas>
+			<VoxelPlacement>
+			  <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			  <StaticMode>
+				<PlacementMode>Volumetric</PlacementMode>
+				<MaxAllowed>0.2</MaxAllowed>
+				<MinAllowed>0</MinAllowed>
+			  </StaticMode>
+			  <DynamicMode>
+				<PlacementMode>Volumetric</PlacementMode>
+				<MaxAllowed>0.2</MaxAllowed>
+				<MinAllowed>0.01</MinAllowed>
+			  </DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>MedicalRoom</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>50</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>30</PCU>
+			<IsAirTight>false</IsAirTight>      
+		  </Definition>
+		  <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+            <Id>
+                <TypeId>MedicalRoom</TypeId>
+                <SubtypeId>LargeMedicalRoomReskin</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_MedicalRoomReskin</DisplayName>
+            <Icon>Icons\MedicalRoomReskin.dds</Icon>
+            <Description>Description_MedicalRoom</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="2" />
+            <Center x="1" y="0" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MedicalRoomReskin.mwm</Model>
+            <IdleSound>BlockMedical</IdleSound>
+            <ProgressSound>BlockMedicalProgress</ProgressSound>
+            <Components>
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="Construction" Count="80" />
+				<Component Subtype="MetalGrid" Count="60" />
+				<Component Subtype="SmallTube" Count="20" />
+				<Component Subtype="CopperWire" Count="35" />
+				<Component Subtype="Detector" Count="10" />
+				<Component Subtype="Display" Count="10" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="AdvancedComputer" Count="30" />
+				<Component Subtype="Medical" Count="15" />
+				<Component Subtype="GGMSilverPlate" Count="50" />
+            </Components>
+            <CriticalComponent Subtype="Medical" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Top" StartX="1.5" StartY="0.5" EndX="2" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1.5" EndX="2" EndY="2" Default="true" />
+                <MountPoint Side="Bottom" StartX="1.5" StartY="0" EndX="2" EndY="1.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="1.5" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MedicalRoomReskin_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MedicalRoomReskin_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MedicalRoomReskin_Construction_3.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" />
+            </ScreenAreas>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.14</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.14</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>MedicalRoomReskin</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>50</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<WardrobeCharacterOffset x="-1.65" y="-0.9" z="-0.6" />
+            <PCU>30</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+	</CubeBlocks>
+	<Blueprints>
+	</Blueprints>
+	<BlueprintClasses>
+	</BlueprintClasses>
+    <BlueprintClassEntries>
+    </BlueprintClassEntries>
+    <PhysicalItems>
+    </PhysicalItems>
+</Definitions>

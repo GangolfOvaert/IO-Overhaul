@@ -25,7 +25,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>GGM_p_reinforcedPlate</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+			<DisplayName>Reinforced Steel Plate</DisplayName>
 			<Icon>Icons\plate_reinforced.dds</Icon>
 			<Prerequisites>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
@@ -130,5 +130,53 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="QuantumComputer" />
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 		  </Blueprint>
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POThrustadvComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
+			<Icon>Icons\advthrust_components_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="1" TypeId="Component" SubtypeId="Casing" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="Cryocooler" />
+			  <Item Amount="11" TypeId="Component" SubtypeId="impThrust" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="advThrust" />
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>Cryocooler</SubtypeId>
+			</Id>
+			<DisplayName>Cryogenic Cooler</DisplayName>
+			<Icon>Icons\todo\Cryocooler.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="2" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="reinforcedSmallTube" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="advMotor" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="Thermocouple" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Cryocooler" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>Thermocouple</SubtypeId>
+			</Id>
+			<DisplayName>Thermocouple</DisplayName>
+			<Icon>Icons\todo\Thermocouple.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="2" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
+			  <Item Amount="3" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="AdvPCB" />
+			  <Item Amount="2" TypeId="Component" SubtypeId="GGMAlSiAlloy" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Thermocouple" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		
 	</Blueprints>
 </Definitions>
