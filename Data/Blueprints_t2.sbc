@@ -45,7 +45,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="SteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="StainlessSteelPlate" />
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
