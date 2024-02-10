@@ -145,12 +145,12 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>..\2344068716\Models\LargeFSSolarPanel.mwm</Model>
             <Components>
-                <Component Subtype="heavySteelPlate" Count="15" />
+                <Component Subtype="reinforcedSteelPlate" Count="15" />
                 <Component Subtype="Construction" Count="10" />
-                <Component Subtype="heavyGirder" Count="10" />
+                <Component Subtype="reinforcedGirder" Count="10" />
                 <Component Subtype="AdvancedComputer" Count="10" />
                 <Component Subtype="Computer" Count="10" />
-                <Component Subtype="GoldWire" Count="15" />
+                <Component Subtype="GoldCable" Count="15" />
                 <Component Subtype="FSSolarCell" Count="32" />
                 <Component Subtype="Construction" Count="5" />
             </Components>
@@ -726,4 +726,101 @@
 	<BlueprintClassEntries>
   
 	</BlueprintClassEntries>
+    <Components>
+    <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>SolarCell</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+            <Icon>Icons\todo\   SolarCellComponent.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.5</Y>
+                <Z>0.05</Z>
+            </Size>
+            <Mass>19.8</Mass>
+            <Volume>10</Volume>
+            <Model>Models\Components\SolarCell.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1</MaxIntegrity>
+            <DropProbability>0.1</DropProbability>
+            <Health>11</Health>
+            <MinimalPricePerUnit>8855</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+        </Component>
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>FSSolarCell</SubtypeId>
+            </Id>
+            <DisplayName>Full-Spectrum Solar Cell</DisplayName>
+            <Icon>Icons\todo\SolarCellComponent.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.5</Y>
+                <Z>0.05</Z>
+            </Size>
+            <Mass>10</Mass>
+            <Volume>10</Volume>
+            <Model>..\2344068716\Models\FSSolarCell.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1</MaxIntegrity>
+            <DropProbability>0.1</DropProbability>
+            <Health>11</Health>
+            <MinimalPricePerUnit>44433</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+    </Components>
+
+    <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POSolarCell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+      <Icon>Icons\todo\SolarCellComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Component" SubtypeId="BulletproofGlass" />
+        <Item Amount="3" TypeId="Component" SubtypeId="heavySteelPlate" />
+        <Item Amount="6" TypeId="Component" SubtypeId="GoldCable" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SolarCell" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FSSolarCell</SubtypeId>
+      </Id>
+      <DisplayName>Full-Spectrum Solar Cell</DisplayName>
+      <Icon>Icons\todo\FSSolarCell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="ArmorGlass" />
+        <Item Amount="3" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
+        <Item Amount="0.5" TypeId="Component" SubtypeId="GoldCable" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Capacitor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SolarCell" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="FSSolarCell" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+    </Blueprints>
 </Definitions>
