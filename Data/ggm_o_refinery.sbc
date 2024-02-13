@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+   <!--T1-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="9" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="0.7" TypeId="Ingot" SubtypeId="Iron" />
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SiliconOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="0.7" TypeId="Ingot" SubtypeId="Silicon" />
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    	
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CopperOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ingot</DisplayName>
+      <Icon>Icons\CopperIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Copper" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!--T2-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NickelOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="0.6" TypeId="Ingot" SubtypeId="Nickel" />
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SilverOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SilverIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Ingot" SubtypeId="Silver" />
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CoalbyrefineryToCarbonBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Icons\CarbonIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Coal" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Carbon" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+     <!--T3-->
+     <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CobaltOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_CobaltIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="0.4" TypeId="Ingot" SubtypeId="Cobalt" />
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_GoldIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="0.05" TypeId="Ingot" SubtypeId="Gold" />
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BauxiteOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Ingot</DisplayName>
+      <Icon>Icons\GenericIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Bauxite" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+     <!--T4-->
+     <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitaniumOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Ingot</DisplayName>
+      <Icon>Icons\GenericIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.4" TypeId="Ingot" SubtypeId="Titanium" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.05" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="DepletedUranium" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!--T5-->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinumOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_PlatinumIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="0.025" TypeId="Ingot" SubtypeId="Platinum" />
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TantalumOrebyrefineryToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Tantalum Ingot</DisplayName>
+      <Icon>Icons\GenericIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Tantalum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Tantalum" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+  <BlueprintClasses>
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>refineryIngotst1</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>refineryIngotst2</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>refineryIngotst3</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>refineryIngotst4</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>refineryIngotst5</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+  </BlueprintClasses>
+  
+<BlueprintClassEntries>
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="StoneOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="IronOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="SiliconOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="CopperOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="NickelOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="CrushedIronOreToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="CrushedNiterOreToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="PurifiedNiterOreToIngot" />
+
+
+
+
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="NickelOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="SilverOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="CoalbyrefineryToCarbonBasic" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="CobaltOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="CrushedIronOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="CrushedNiterOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="CrushedSilverOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="PurifiedNiterOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
+  
+
+
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CobaltOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="GoldOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="BauxiteOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="TitaniumOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedIronOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedNiterOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedSilverOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedGoldOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedNiterOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
+
+
+
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="TitaniumOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="UraniumOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="TantalumOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedIronOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedNiterOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedSilverOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedGoldOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedTitaniumOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedUraniumOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedNiterOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedTitaniumOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedUraniumOreToIngot" />
+
+
+
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="TantalumOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="PlatinumOrebyrefineryToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedIronOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedNiterOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedSilverOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedGoldOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedTitaniumOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedUraniumOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedPlatinumOreToIngot" />
+  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedTantalumOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedNiterOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedTitaniumOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedUraniumOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedPlatinumOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedTantalumOreToIngot" />
+</BlueprintClassEntries>
+</Definitions>

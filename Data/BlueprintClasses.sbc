@@ -1,26 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<BlueprintClasses>
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Purifiert1</SubtypeId>
-			</Id>
-			<DisplayName>Purifier</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Crushert1</SubtypeId>
-			</Id>
-			<DisplayName>Crusher</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
 
 		
 		<Class>
@@ -34,16 +14,7 @@
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
 		</Class>
 
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Purifiert2</SubtypeId>
-			</Id>
-			<DisplayName>Purifier</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
+
 		
 
 		<Class>
@@ -81,17 +52,6 @@
 
 
 
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Purifiert3</SubtypeId>
-			</Id>
-			<DisplayName>Purifier</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
-
 
 
 		<Class>
@@ -109,17 +69,6 @@
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>RefineryIngotst2</SubtypeId>
-			</Id>
-			<DisplayName>Crusher</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
-
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Purifiert4</SubtypeId>
 			</Id>
 			<DisplayName>Crusher</DisplayName>
 			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>

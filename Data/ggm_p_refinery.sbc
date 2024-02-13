@@ -8,8 +8,8 @@
 				<TypeId>Refinery</TypeId>
 				<SubtypeId>LargeRefineryt1</SubtypeId>
 			</Id>
-			<DisplayName>Refinery T2</DisplayName>
-			<Icon>Icons\production\refinery_t2.dds</Icon>
+			<DisplayName>Refinery T1</DisplayName>
+			<Icon>Icons\production\refinery_t1.dds</Icon>
 			<Description>
 				Refinery can refine Nickel, Iron, Silicon, Copper, Silver, Gold, Cobalt, Platin
 
@@ -62,7 +62,7 @@
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
 			<OperationalPowerConsumption>3</OperationalPowerConsumption>
 			<BlueprintClasses>
-				<Class>RefineryIngotst1</Class>
+				<Class>refineryIngotst1</Class>
 			</BlueprintClasses>
 			<RefineSpeed>2</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
@@ -82,8 +82,8 @@
 				<TypeId>Refinery</TypeId>
 				<SubtypeId>LargeRefineryt2</SubtypeId>
 			</Id>
-			<DisplayName>Refinery T3</DisplayName>
-			<Icon>Icons\production\refinery_t3.dds</Icon>
+			<DisplayName>Refinery T2</DisplayName>
+			<Icon>Icons\production\refinery_t2.dds</Icon>
 			<Description>
 				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
 			</Description>
@@ -135,7 +135,7 @@
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
 			<OperationalPowerConsumption>3</OperationalPowerConsumption>
 			<BlueprintClasses>
-				<Class>RefineryIngotst2</Class>
+				<Class>refineryIngotst2</Class>
 			</BlueprintClasses>
 			<RefineSpeed>2</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
@@ -154,6 +154,81 @@
 			<Id>
 				<TypeId>Refinery</TypeId>
 				<SubtypeId>LargeRefineryt3</SubtypeId>
+			</Id>
+			<DisplayName>Refinery T3</DisplayName>
+			<Icon>Icons\production\refinery_t3.dds</Icon>
+			<Description>
+				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="4" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\Refinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="400" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="CopperWire" Count="250" />
+				<Component Subtype="Electromagnet" Count="150" />
+				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="HeatingElement" Count="150" />
+				<Component Subtype="LargeTube" Count="100" />
+				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="50" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="Superconductor" Count="100" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="TitaniumPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<Center x="1" y="0" z="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+				<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
+			</BuildProgressModels>
+
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>refineryIngotst3</Class>
+			</BlueprintClasses>
+			<RefineSpeed>2</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<Center x="1" y="0" z="0" />
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>LargeRefineryt4</SubtypeId>
 			</Id>
 			<DisplayName>Refinery T4</DisplayName>
 			<Icon>Icons\production\refinery_t4.dds</Icon>
@@ -209,7 +284,7 @@
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
 			<OperationalPowerConsumption>3</OperationalPowerConsumption>
 			<BlueprintClasses>
-				<Class>RefineryIngotst3</Class>
+				<Class>refineryIngotst4</Class>
 			</BlueprintClasses>
 			<RefineSpeed>2</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
@@ -225,67 +300,164 @@
 			<PCU>90</PCU>
 		</Definition>
 
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>LargeRefineryt4</SubtypeId>
+			</Id>
+			<DisplayName>Refinery T4</DisplayName>
+			<Icon>Icons\production\refinery_t4.dds</Icon>
+			<Description>
+				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="4" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\Refinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="400" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="CopperWire" Count="250" />
+				<Component Subtype="Electromagnet" Count="150" />
+				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="HeatingElement" Count="150" />
+				<Component Subtype="LargeTube" Count="100" />
+				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="50" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="Superconductor" Count="100" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="TitaniumPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<Center x="1" y="0" z="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+				<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
+			</BuildProgressModels>
+
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>refineryIngotst4</Class>
+			</BlueprintClasses>
+			<RefineSpeed>2</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<Center x="1" y="0" z="0" />
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+
+		
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>LargeRefineryt5</SubtypeId>
+			</Id>
+			<DisplayName>Refinery T5</DisplayName>
+			<Icon>Icons\production\refinery_t5.dds</Icon>
+			<Description>
+				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="4" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\Refinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="400" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="CopperWire" Count="250" />
+				<Component Subtype="Electromagnet" Count="150" />
+				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="HeatingElement" Count="150" />
+				<Component Subtype="LargeTube" Count="100" />
+				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="50" />
+				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="Superconductor" Count="100" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="TitaniumPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<Center x="1" y="0" z="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+				<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
+			</BuildProgressModels>
+
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>refineryIngotst5</Class>
+			</BlueprintClasses>
+			<RefineSpeed>2</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<Center x="1" y="0" z="0" />
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
 	</CubeBlocks>
 	<BlueprintClasses>
 
 
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>RefineryIngotst1</SubtypeId>
-			</Id>
-			<DisplayName>Ingots</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
-		</Class>
-
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>RefineryIngotst2</SubtypeId>
-			</Id>
-			<DisplayName>Crusher</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
-
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>RefineryIngotst3</SubtypeId>
-			</Id>
-			<DisplayName>Crusher</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
 
 	</BlueprintClasses>
 	<BlueprintClassEntries>
-  	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="StoneOreToIngotBasic" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="StoneOreToIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="SilverOreToIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="GoldOreToIngot" />
-	  <Entry Class="RefineryIngotst1" BlueprintSubtypeId="BauxiteOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="StoneOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="SilverOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="GoldOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="LithiumOreToIngot" />
 
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="BauxiteOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedGoldOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedLithiumOreToIngot" />
-
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="CrushedSilverOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedLithiumOreToIngot" />
-	  <Entry Class="RefineryIngotst2" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
 
 	</BlueprintClassEntries>
 </Definitions>
