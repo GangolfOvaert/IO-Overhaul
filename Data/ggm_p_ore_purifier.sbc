@@ -129,7 +129,7 @@
 			<BlueprintClasses>
 				<Class>Purifiert2</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>0.5</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -200,7 +200,7 @@
 			<BlueprintClasses>
 				<Class>Purifiert3</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>1</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -273,7 +273,7 @@
 			<BlueprintClasses>
 				<Class>Purifiert4</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>2</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -346,7 +346,7 @@
 			<BlueprintClasses>
 				<Class>Purifiert5</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>4</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

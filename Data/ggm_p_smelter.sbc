@@ -54,7 +54,7 @@
 			<BlueprintClasses>
 				<Class>SmelterIngotst1</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.5</RefineSpeed>
+			<RefineSpeed>0.2</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -118,7 +118,7 @@
 			<BlueprintClasses>
 				<Class>SmelterIngotst2</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.5</RefineSpeed>
+			<RefineSpeed>0.4</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -183,7 +183,7 @@
 			<BlueprintClasses>
 				<Class>SmelterIngotst3</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.5</RefineSpeed>
+			<RefineSpeed>0.8</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -250,7 +250,7 @@
 			<BlueprintClasses>
 				<Class>SmelterIngotst4</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.5</RefineSpeed>
+			<RefineSpeed>1</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 			<DamagedSound>ParticleHeavyMech</DamagedSound>

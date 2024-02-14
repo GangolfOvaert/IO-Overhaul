@@ -13,7 +13,7 @@
 			<Description>
 				Refinery can refine Nickel, Iron, Silicon, Copper, Silver, Gold, Cobalt, Platin
 
-				Power Usage: 3MW
+				
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -64,7 +64,7 @@
 			<BlueprintClasses>
 				<Class>refineryIngotst1</Class>
 			</BlueprintClasses>
-			<RefineSpeed>2</RefineSpeed>
+			<RefineSpeed>1</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -211,7 +211,7 @@
 			<BlueprintClasses>
 				<Class>refineryIngotst3</Class>
 			</BlueprintClasses>
-			<RefineSpeed>2</RefineSpeed>
+			<RefineSpeed>4</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -286,7 +286,7 @@
 			<BlueprintClasses>
 				<Class>refineryIngotst4</Class>
 			</BlueprintClasses>
-			<RefineSpeed>2</RefineSpeed>
+			<RefineSpeed>8</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -361,7 +361,7 @@
 			<BlueprintClasses>
 				<Class>refineryIngotst4</Class>
 			</BlueprintClasses>
-			<RefineSpeed>2</RefineSpeed>
+			<RefineSpeed>16</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -457,7 +457,7 @@
 
 	</BlueprintClasses>
 	<BlueprintClassEntries>
-
+		
 
 	</BlueprintClassEntries>
 </Definitions>
