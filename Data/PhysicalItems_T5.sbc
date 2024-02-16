@@ -116,5 +116,34 @@
 		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
 	</Component>
+	<Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>GravityGenerator</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
+            <Icon>Icons\gravity_generator_components_component.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>244.2</Mass>
+            <Volume>50</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>0.2</DropProbability>
+            <Health>12</Health>
+            <MinimalPricePerUnit>1492693</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
 </Components>
 </Definitions>
