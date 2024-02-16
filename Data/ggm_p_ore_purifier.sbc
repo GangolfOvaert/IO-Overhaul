@@ -3,6 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
+		
 		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
 			<Id>
 				<TypeId>Refinery</TypeId>
@@ -128,7 +129,7 @@
 			<BlueprintClasses>
 				<Class>Purifiert2</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>0.5</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -199,7 +200,7 @@
 			<BlueprintClasses>
 				<Class>Purifiert3</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>1</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -229,22 +230,23 @@
 			<Center x="1" y="0" z="1" />
 			<Model>..\2344068716\Models\OrePurifier.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="reinforcedSteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="250" />
-				<Component Subtype="CopperWire" Count="400" />
-				<Component Subtype="LargeTube" Count="150" />
-				<Component Subtype="SmallTube" Count="300" />
-				<Component Subtype="Electromagnet" Count="150" />
+				<Component Subtype="CopperCable" Count="400" />
+				<Component Subtype="GoldCable" Count="400" />
+				<Component Subtype="reinforcedLargeTube" Count="150" />
+				<Component Subtype="reinforcedSmallTube" Count="300" />
+				<Component Subtype="advElectromagnet" Count="150" />
 				<Component Subtype="HeatingElement" Count="150" />
-				<Component Subtype="Motor" Count="150" />
+				<Component Subtype="advMotor" Count="150" />
 				<Component Subtype="GGMSilverComponent" Count="100" />
 				<Component Subtype="AdvancedComputer" Count="50" />
 				<Component Subtype="Superconductor" Count="100" />
 				<Component Subtype="LaserEmitter" Count="40" />
 				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="TitaniumPlate" Count="200" />
+				<Component Subtype="reinforcedSteelPlate" Count="200" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="100" />
+			<CriticalComponent Subtype="reinforcedSteelPlate" Index="100" />
 			<Center x="1" y="0" z="1" />
 			<MountPoints>
 				<MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -271,7 +273,80 @@
 			<BlueprintClasses>
 				<Class>Purifiert4</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>2</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>OrePurifiert5</SubtypeId>
+			</Id>
+			<DisplayName>Ore Purifier T5</DisplayName>
+			<Icon>Icons\production\ore_purifier_t5.dds</Icon>
+			<Description>
+				Filters impurites from Crushed Ore to further increase refining yield.
+
+				Power Usage: 5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<Center x="1" y="0" z="1" />
+			<Model>..\2344068716\Models\OrePurifier.mwm</Model>
+			<Components>
+				<Component Subtype="reinforcedSteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="250" />
+				<Component Subtype="CopperCable" Count="400" />
+				<Component Subtype="GoldCable" Count="400" />
+				<Component Subtype="reinforcedLargeTube" Count="150" />
+				<Component Subtype="reinforcedSmallTube" Count="300" />
+				<Component Subtype="advElectromagnet" Count="150" />
+				<Component Subtype="HeatingElement" Count="150" />
+				<Component Subtype="advMotor" Count="150" />
+				<Component Subtype="GGMSilverComponent" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="50" />
+				<Component Subtype="Superconductor" Count="100" />
+				<Component Subtype="LaserEmitter" Count="40" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="reinforcedSteelPlate" Count="200" />
+			</Components>
+			<CriticalComponent Subtype="reinforcedSteelPlate" Index="100" />
+			<Center x="1" y="0" z="1" />
+			<MountPoints>
+				<MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\OrePurifierConstruct0.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\OrePurifierConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\OrePurifierConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OrePurifierConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Purifiert5</Class>
+			</BlueprintClasses>
+			<RefineSpeed>4</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -284,72 +359,5 @@
 			<PCU>90</PCU>
 		</Definition>
 	</CubeBlocks>
-	<BlueprintClasses>
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Purifiert1</SubtypeId>
-			</Id>
-			<DisplayName>Purifier</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Purifiert2</SubtypeId>
-			</Id>
-			<DisplayName>Purifier</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Purifiert3</SubtypeId>
-			</Id>
-			<DisplayName>Purifier</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
-		<Class>
-			<Id>
-				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Purifiert4</SubtypeId>
-			</Id>
-			<DisplayName>Crusher</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
-		</Class>
-	</BlueprintClasses>
-	<BlueprintClassEntries>
-		<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyIronOre" />
-		<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyNickelOre" />
-		<Entry Class="Purifiert1" BlueprintSubtypeId="PurifyCopperOre" />
-		<Entry Class="Purifiert1" BlueprintSubtypeId="PurifySiliconOre" />
-		<Entry Class="Purifiert1" BlueprintSubtypeId="PurifySilverOre" />
 
-		<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyIronOre" />
-		<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyNickelOre" />
-		<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCobaltOre" />
-		<Entry Class="Purifiert2" BlueprintSubtypeId="PurifySiliconOre" />
-		<Entry Class="Purifiert2" BlueprintSubtypeId="PurifyCopperOre" />
-		<Entry Class="Purifiert2" BlueprintSubtypeId="PurifySilverOre" />
-		<Entry Class="Purifiert2" BlueprintSubtypeId="CrushGoldOre" />		<!--Was ist das hier?-->
-		
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifyIronOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifyNickelOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifyCobaltOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifySiliconOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifySilverOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifyGoldOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifyCopperOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifyLithiumOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifyBauxiteOre" />
-		<Entry Class="Purifiert3" BlueprintSubtypeId="PurifyTitaniumOre" />
-	</BlueprintClassEntries>
 </Definitions>

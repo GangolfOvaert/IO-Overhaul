@@ -485,5 +485,6 @@
 			<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		
 </PhysicalItems>
 </Definitions>

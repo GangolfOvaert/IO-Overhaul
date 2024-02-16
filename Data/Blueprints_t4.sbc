@@ -32,7 +32,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="heavySteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>160</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -40,7 +40,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>GGM_p_reinforcedGirderComponent</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_Girder</DisplayName>
+			<DisplayName>Reinforced Girder</DisplayName>
 			<Icon>Icons\girder_reinforced.dds</Icon>
 			<Prerequisites>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
@@ -151,7 +151,7 @@
 			  <SubtypeId>Cryocooler</SubtypeId>
 			</Id>
 			<DisplayName>Cryogenic Cooler</DisplayName>
-			<Icon>Icons\todo\Cryocooler.dds</Icon>
+			<Icon>Icons\Cryocooler.dds</Icon>
 			<Prerequisites>
 			  <Item Amount="2" TypeId="Component" SubtypeId="GoldCable" />
 			  <Item Amount="1" TypeId="Component" SubtypeId="reinforcedSmallTube" />
@@ -167,7 +167,7 @@
 			  <SubtypeId>Thermocouple</SubtypeId>
 			</Id>
 			<DisplayName>Thermocouple</DisplayName>
-			<Icon>Icons\todo\Thermocouple.dds</Icon>
+			<Icon>Icons\Thermocouple.dds</Icon>
 			<Prerequisites>
 			  <Item Amount="2" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
 			  <Item Amount="3" TypeId="Component" SubtypeId="GoldCable" />
@@ -177,6 +177,57 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="Thermocouple" />
 			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 		  </Blueprint>
-		
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>LaserEmitter</SubtypeId>
+			</Id>
+			<DisplayName>Laser Emitter</DisplayName>
+			<Icon>Icons\LaserEmitter.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="6" TypeId="Component" SubtypeId="BulletproofGlass" />
+			  <Item Amount="3" TypeId="Component" SubtypeId="Lightbulb" />
+			  <Item Amount="2" TypeId="Component" SubtypeId="Casing" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+			  <Item Amount="3" TypeId="Component" SubtypeId="Capacitor" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="Cryocooler" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="LaserEmitter" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>SuperMagnet</SubtypeId>
+			</Id>
+			<DisplayName>Superconducting Electromagnet</DisplayName>
+			<Icon>Icons\SuperMagnet.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="2" TypeId="Component" SubtypeId="reinforcedSmallTube" />
+			  <Item Amount="2" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="Cryocooler" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="SuperMagnet" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POGravityGeneratorComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
+			<Icon>Icons\gravity_generator_components_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="5" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
+			  <Item Amount="30" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="25" TypeId="Component" SubtypeId="Rubber" />
+			  <Item Amount="5" TypeId="Component" SubtypeId="SuperMagnet" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="Electromagnet" />
+			 </Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GravityGenerator" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+		  </Blueprint>
+		  
 	</Blueprints>
 </Definitions>

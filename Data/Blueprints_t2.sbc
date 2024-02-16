@@ -45,7 +45,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="SteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="StainlessSteelPlate" />
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -234,7 +234,7 @@
 			  <SubtypeId>PODisplay</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Item_Display</DisplayName>
-			<Icon>Icons\todo\display_component.dds</Icon>
+			<Icon>Icons\display_component.dds</Icon>
 			<Prerequisites>
 			  <Item Amount="2" TypeId="Component" SubtypeId="CopperWire" />
 			  <Item Amount="4" TypeId="Ingot" SubtypeId="Silicon" />

@@ -135,6 +135,140 @@
 			<IsAirTight>true</IsAirTight>
 			<EmissiveColorPreset>Extended</EmissiveColorPreset>
 		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>PlateStampt3</SubtypeId>
+			</Id>
+			<DisplayName>Plate Stamp T3</DisplayName>
+			<Icon>Icons\production\plate_stamp_t3.dds</Icon>
+			<Description>
+				Presses materials into Plates.
+
+				Power Usage: 1.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="3" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="1" />
+			<Model>..\2344068716\Models\PlateStamp.mwm</Model>
+			<Components>
+				<Component Subtype="StainlessSteelPlate" Count="200" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="advElectromagnet" Count="30" />
+				<Component Subtype="StainlessLargeTube" Count="20" />
+				<Component Subtype="advMotor" Count="40" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="AdvancedComputer" Count="40" />
+				<Component Subtype="StainlessSteelPlate" Count="40" />
+			</Components>
+			<CriticalComponent Subtype="StainlessSteelPlate" Index="20" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="2.5" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\PressConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\PressConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\PressConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>PlateStampComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>4</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>PlateStampt4</SubtypeId>
+			</Id>
+			<DisplayName>Plate Stamp T4</DisplayName>
+			<Icon>Icons\production\plate_stamp_t4.dds</Icon>
+			<Description>
+				Presses materials into Plates.
+
+				Power Usage: 1.5MW
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="3" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="1" />
+			<Model>..\2344068716\Models\PlateStamp.mwm</Model>
+			<Components>
+				<Component Subtype="StainlessSteelPlate" Count="200" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="advElectromagnet" Count="30" />
+				<Component Subtype="StainlessLargeTube" Count="20" />
+				<Component Subtype="advMotor" Count="40" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="AdvancedComputer" Count="40" />
+				<Component Subtype="StainlessSteelPlate" Count="40" />
+			</Components>
+			<CriticalComponent Subtype="StainlessSteelPlate" Index="20" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="2.5" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\PressConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\PressConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\PressConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>PlateStampComponents</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>8</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
 	</CubeBlocks>
 	<BlueprintClasses>
 		<Class>

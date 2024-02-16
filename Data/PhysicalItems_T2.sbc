@@ -7,7 +7,7 @@
             <SubtypeId>Display</SubtypeId>
         </Id>
         <DisplayName>DisplayName_Item_Display</DisplayName>
-        <Icon>Icons\todo\display_component.dds</Icon>
+        <Icon>Icons\display_component.dds</Icon>
         <Size>
             <X>0.3</X>
             <Y>0.4</Y>

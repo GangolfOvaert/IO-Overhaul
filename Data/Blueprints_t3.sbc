@@ -13,15 +13,15 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="StainlessSteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="heavySteelPlate" />
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>80</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Heavy Girder</SubtypeId>
+				<SubtypeId>GGM_p_heavyGirderComponent</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_Girder</DisplayName>
+			<DisplayName>Heavy Girder</DisplayName>
 			<Icon>Icons\girder_heavy.dds</Icon>
 			<Prerequisites>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />

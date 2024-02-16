@@ -13,7 +13,7 @@
 			<Description>
                     Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-                    Power Usage: 2.5MW
+
                 </Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -58,7 +58,7 @@
 			<BlueprintClasses>
 				<Class>Crushert1</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>1</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -80,13 +80,13 @@
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-				Power Usage: 2.5MW
+				
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="4" z="3" />
 			<Center x="1" y="1" z="1" />
-			<Model>Models\OreCrusher.mwm</Model>
+			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
 			<Components>
 				<Component Subtype="StainlessSteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="120" />
@@ -126,7 +126,7 @@
 			<BlueprintClasses>
 				<Class>Crushert2</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>2</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -148,7 +148,7 @@
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-				Power Usage: 2.5MW
+				
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -195,7 +195,7 @@
 			<BlueprintClasses>
 				<Class>Crushert3</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>4</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -217,7 +217,7 @@
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-				Power Usage: 2.5MW
+				
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -225,17 +225,17 @@
 			<Center x="1" y="1" z="1" />
 			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="400" />
-				<Component Subtype="Construction" Count="150" />
-				<Component Subtype="CopperWire" Count="400" />
-				<Component Subtype="LargeTube" Count="125" />
-				<Component Subtype="Motor" Count="125" />
+				<Component Subtype="reinforcedSteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="140" />
+				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="GoldCable" Count="300" />
+				<Component Subtype="reinforcedLargeTube" Count="100" />
+				<Component Subtype="advMotor" Count="100" />
 				<Component Subtype="Ceramic" Count="250" />
-				<Component Subtype="AdvancedComputer" Count="50" />
-				<Component Subtype="GGMSilverComponent" Count="100" />
-				<Component Subtype="Superconductor" Count="100" />
+		     	<Component Subtype="QuantumComputer" Count="30" />		
+				<Component Subtype="Superconductor" Count="75" />
 				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="TitaniumPlate" Count="50" />
+				<Component Subtype="reinforcedSteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
 			<MountPoints>
@@ -265,7 +265,79 @@
 			<BlueprintClasses>
 				<Class>Crushert4</Class>
 			</BlueprintClasses>
-			<RefineSpeed>0.25</RefineSpeed>
+			<RefineSpeed>8</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>RockCrusher</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>
+		</Definition>
+
+
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>RockCrushert5</SubtypeId>
+			</Id>
+			<DisplayName>Rock Crusher T5</DisplayName>
+			<Icon>Icons\production\ore_crusher_t5.dds</Icon>
+			<Description>
+				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
+
+				
+			</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="4" z="3" />
+			<Center x="1" y="1" z="1" />
+			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
+			<Components>
+				<Component Subtype="reinforcedSteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="140" />
+				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="GoldCable" Count="300" />
+				<Component Subtype="reinforcedLargeTube" Count="100" />
+				<Component Subtype="advMotor" Count="100" />
+				<Component Subtype="Ceramic" Count="250" />
+		     	<Component Subtype="QuantumComputer" Count="30" />		
+				<Component Subtype="Superconductor" Count="75" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="reinforcedSteelPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Crushert5</Class>
+			</BlueprintClasses>
+			<RefineSpeed>16</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -284,7 +356,7 @@
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Crushert1</SubtypeId>
 			</Id>
-			<DisplayName>Crusher</DisplayName>
+
 			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
@@ -294,7 +366,7 @@
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Crushert2</SubtypeId>
 			</Id>
-			<DisplayName>Crusher</DisplayName>
+
 			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
@@ -304,7 +376,7 @@
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Crushert3</SubtypeId>
 			</Id>
-			<DisplayName>Crusher</DisplayName>
+
 			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
@@ -314,37 +386,74 @@
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Crushert4</SubtypeId>
 			</Id>
-			<DisplayName>Crusher</DisplayName>
+
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Crushert5</SubtypeId>
+			</Id>
+
 			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
 		</Class>
 	</BlueprintClasses>
 	<BlueprintClassEntries>
-		<Entry Class="Crushert1" BlueprintSubtypeId="CrushStoneOre" />
 		<Entry Class="Crushert1" BlueprintSubtypeId="CrushIronOre" />
-		<Entry Class="Crushert1" BlueprintSubtypeId="CrushNickelOre" />
-		<Entry Class="Crushert1" BlueprintSubtypeId="CrushCopperOre" />
 		<Entry Class="Crushert1" BlueprintSubtypeId="CrushSiliconOre" />
-		<Entry Class="Crushert1" BlueprintSubtypeId="CrushSilverOre" />
+		<Entry Class="Crushert1" BlueprintSubtypeId="CrushCopperOre" />
+		<Entry Class="Crushert1" BlueprintSubtypeId="CrushNiterOre" />
 
-		<Entry Class="Crushert2" BlueprintSubtypeId="CrushStoneOre" />
+
 		<Entry Class="Crushert2" BlueprintSubtypeId="CrushIronOre" />
-		<Entry Class="Crushert2" BlueprintSubtypeId="CrushNickelOre" />
-		<Entry Class="Crushert2" BlueprintSubtypeId="CrushCobaltOre" />
-		<Entry Class="Crushert2" BlueprintSubtypeId="CrushCopperOre" />
 		<Entry Class="Crushert2" BlueprintSubtypeId="CrushSiliconOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushCopperOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushNiterOre" />
+		<Entry Class="Crushert2" BlueprintSubtypeId="CrushNickelOre" />
 		<Entry Class="Crushert2" BlueprintSubtypeId="CrushSilverOre" />
-		<Entry Class="Crushert2" BlueprintSubtypeId="CrushGoldOre" />
-		
+
+
 		<Entry Class="Crushert3" BlueprintSubtypeId="CrushIronOre" />
-		<Entry Class="Crushert3" BlueprintSubtypeId="CrushNickelOre" />
-		<Entry Class="Crushert3" BlueprintSubtypeId="CrushCobaltOre" />
 		<Entry Class="Crushert3" BlueprintSubtypeId="CrushSiliconOre" />
-		<Entry Class="Crushert3" BlueprintSubtypeId="CrushSilverOre" />
-		<Entry Class="Crushert3" BlueprintSubtypeId="CrushGoldOre" />
 		<Entry Class="Crushert3" BlueprintSubtypeId="CrushCopperOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushNiterOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushNickelOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushSilverOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushCobaltOre" />
+		<Entry Class="Crushert3" BlueprintSubtypeId="CrushGoldOre" />
 		<Entry Class="Crushert3" BlueprintSubtypeId="CrushBauxiteOre" />
-		<Entry Class="Crushert3" BlueprintSubtypeId="CrushTitaniumOre" />
+	  
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushIronOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushSiliconOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushCopperOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushNiterOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushNickelOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushSilverOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushCobaltOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushGoldOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushBauxiteOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushTitaniumOre" />
+		<Entry Class="Crushert4" BlueprintSubtypeId="CrushUraniumOre" />
+
+
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushIronOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushSiliconOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushCopperOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushNiterOre	" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushNickelOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushSilverOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushCobaltOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushGoldOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushBauxiteOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushTitaniumOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushUraniumOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushPlatinumOre" />
+		<Entry Class="Crushert5" BlueprintSubtypeId="CrushTantalumOre" />
+	  
+	  
 	</BlueprintClassEntries>
 </Definitions>

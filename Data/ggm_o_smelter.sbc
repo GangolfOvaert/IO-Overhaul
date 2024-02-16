@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+   <!--T1-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="9" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="0.7" TypeId="Ingot" SubtypeId="Iron" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SiliconOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="0.7" TypeId="Ingot" SubtypeId="Silicon" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    	
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CopperOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ingot</DisplayName>
+      <Icon>Icons\CopperIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Copper" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!--T2-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NickelOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="0.6" TypeId="Ingot" SubtypeId="Nickel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SilverOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SilverIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Ingot" SubtypeId="Silver" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CoalbySmelterToCarbonBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Icons\CarbonIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Coal" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Carbon" />
+      </Results>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+     <!--T3-->
+     <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CobaltOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_CobaltIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="0.4" TypeId="Ingot" SubtypeId="Cobalt" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_GoldIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="0.05" TypeId="Ingot" SubtypeId="Gold" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BauxiteOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Ingot</DisplayName>
+      <Icon>Icons\GenericIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Bauxite" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Results>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+     <!--T4-->
+     <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitaniumOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Ingot</DisplayName>
+      <Icon>Icons\GenericIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.4" TypeId="Ingot" SubtypeId="Titanium" />
+      </Results>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.05" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="DepletedUranium" />
+      </Results>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!--T5-->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinumOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_PlatinumIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="0.025" TypeId="Ingot" SubtypeId="Platinum" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TantalumOrebySmelterToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Tantalum Ingot</DisplayName>
+      <Icon>Icons\GenericIngot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Tantalum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Tantalum" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+  <BlueprintClasses>
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst1</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst2</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst3</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst4</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>SmelterIngotst5</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+  </BlueprintClasses>
+  
+<BlueprintClassEntries>
+  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="StoneOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="IronOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="SiliconOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOrebySmelterToIngot" />
+
+  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="StoneOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="IronOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="SiliconOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CopperOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="NickelOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="SilverOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst2" BlueprintSubtypeId="CoalbySmelterToCarbonBasic" />
+
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="StoneOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="IronOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="SiliconOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CopperOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="NickelOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="SilverOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CoalbySmelterToCarbonBasic" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="CobaltOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="GoldOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst3" BlueprintSubtypeId="BauxiteOrebySmelterToIngot" />
+
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="StoneOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="IronOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="SiliconOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="CopperOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="NickelOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="SilverOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="CoalbySmelterToCarbonBasic" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="CobaltOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="GoldOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="BauxiteOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="TitaniumOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="UraniumOrebySmelterToIngot" />
+
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="StoneOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="IronOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="SiliconOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="CopperOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="NickelOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="SilverOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="CoalbySmelterToCarbonBasic" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="CobaltOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="GoldOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="BauxiteOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="TitaniumOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="UraniumOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="PlatinumOrebySmelterToIngot" />
+  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="TantalumOrebySmelterToIngot" />
+</BlueprintClassEntries>
+</Definitions>

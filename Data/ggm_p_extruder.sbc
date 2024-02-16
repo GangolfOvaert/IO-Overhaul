@@ -123,8 +123,6 @@
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessGirderComponent" />
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessSmallTube" />
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_StainlessLargeTube" />
-		<Entry Class="ExtruderComponents" BlueprintSubtypeId="plastictopcb" />
-		<Entry Class="ExtruderComponents" BlueprintSubtypeId="AssemblerComponents" />
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_NickelGirderComponent" />
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_CobaltGirderComponent" />
 		<Entry Class="ExtruderComponents" BlueprintSubtypeId="GGM_p_heavyGirderComponent" />

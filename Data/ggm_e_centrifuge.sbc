@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+			  <TypeId>Refinery</TypeId>
+			  <SubtypeId>Centrifuge</SubtypeId>
+			</Id>
+			<DisplayName>Uranium Centrifuge</DisplayName>
+			  <Icon>Icons\Centrifuge.dds</Icon>
+			<Description>Refines and enriches Uranium into useable forms.</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2344068716\Models\UraniumCentrifuge.mwm</Model>
+			<Components>
+			  <Component Subtype="reinforcedSteelPlate" Count="300" />
+			  <Component Subtype="Construction" Count="100" />
+			  <Component Subtype="GoldCable" Count="80" />
+			  <Component Subtype="reinforcedLargeTube" Count="80" />
+			  <Component Subtype="reinforcedSmallTube" Count="50" />
+			  <Component Subtype="advMotor" Count="75" />
+			  <Component Subtype="Rubber" Count="20" />
+			  <Component Subtype="AdvancedComputer" Count="100" />
+			  <Component Subtype="QuantumComputer" Count="50" />
+			  <Component Subtype="reinforcedSteelPlate" Count="100" />
+			</Components>
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<Center x="1" y="0" z="1" />
+			<MountPoints>
+			  <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />
+			  <MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+			  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+			</MountPoints>
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\UraniumCentrifugeConstruct1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\UraniumCentrifugeConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\UraniumCentrifugeConstruct3.mwm" />
+			</BuildProgressModels>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventorySize>
+			  <X>2.5</X>
+			  <Y>2.5</Y>
+			  <Z>2.5</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>6</OperationalPowerConsumption>
+			<BlueprintClasses>
+			  <Class>CentrifugeIngots</Class>
+			</BlueprintClasses>
+			<RefineSpeed>0.25</RefineSpeed>
+			<MaterialEfficiency>1.0</MaterialEfficiency>
+			<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<Center x="1" y="0" z="0" />
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>90</PCU>      
+		  </Definition>
+		
+	</CubeBlocks>
+	<Blueprints>
+	</Blueprints>
+	<BlueprintClasses>
+	</BlueprintClasses>
+    <BlueprintClassEntries>
+    </BlueprintClassEntries>
+    <PhysicalItems>
+    </PhysicalItems>
+	<Components>
+	</Components>
+</Definitions>

@@ -23,13 +23,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\AdvancedAssembler.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="StainlessSteelPlate" Count="50" />
 				<Component Subtype="Construction" Count="120" />
-				<Component Subtype="CopperWire" Count="200" />
-				<Component Subtype="Motor" Count="80" />
-				<Component Subtype="GGMSilverPlate" Count="100" />
+				<Component Subtype="CopperCable" Count="200" />
+				<Component Subtype="advMotor" Count="80" />
+				<Component Subtype="StainlessGirder" Count="80" />
 				<Component Subtype="Computer" Count="150" />
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="StainlessSteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -102,17 +102,16 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\AdvancedAssembler.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="heavySteelPlate" Count="250" />
 				<Component Subtype="Construction" Count="100" />
-				<Component Subtype="GGMSilverComponent" Count="50" />
-				<Component Subtype="CopperWire" Count="200" />
-				<Component Subtype="InteriorPlate" Count="200" />
-				<Component Subtype="Motor" Count="20" />
+				<Component Subtype="CopperCable" Count="200" />
+				<Component Subtype="heavyGirder" Count="200" />
+				<Component Subtype="advMotor" Count="20" />
 				<Component Subtype="MetalGrid" Count="40" />
-				<Component Subtype="GoldWire" Count="100" />
+				<Component Subtype="GoldCable" Count="100" />
 				<Component Subtype="Superconductor" Count="40" />
 				<Component Subtype="AdvancedComputer" Count="100" />
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="heavySteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<MountPoints>
@@ -186,7 +185,7 @@
 			<Center x="1" y="0" z="1" />
 			<Model>..\2344068716\Models\NanoAssembler.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="reinforcedSteelPlate" Count="200" />
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="CopperWire" Count="200" />
 				<Component Subtype="GoldWire" Count="100" />
@@ -197,9 +196,9 @@
 				<Component Subtype="SuperMagnet" Count="10" />
 				<Component Subtype="Computer" Count="100" />
 				<Component Subtype="AdvancedComputer" Count="200" />
-				<Component Subtype="TitaniumPlate" Count="100" />
+				<Component Subtype="reinforcedSteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="50" />
+			<CriticalComponent Subtype="reinforcedSteelPlate" Index="50" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
 				<MountPoint Side="Back" StartX="1" StartY="3" EndX="2" EndY="4" />
@@ -238,6 +237,69 @@
 			<IsAirTight>true</IsAirTight>
 			<EmissiveColorPreset>Extended</EmissiveColorPreset>
 		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+			  <TypeId>Assembler</TypeId>
+			  <SubtypeId>ExoticAssembler</SubtypeId>
+			</Id>
+			<DisplayName>Exotic Assembler</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+			<Description>An assembler for exotic materials</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\Assembler.mwm</Model>
+			<Components>
+			  <Component Subtype="SteelPlate" Count="120" />
+			  <Component Subtype="Construction" Count="80" />
+			  <Component Subtype="Motor" Count="20" />
+			  <Component Subtype="Display" Count="10" />
+			  <Component Subtype="MetalGrid" Count="10" />
+			  <Component Subtype="Computer" Count="160" />
+			  <Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+			  <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+			  <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+			  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+			  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+			  <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+			  <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+			  <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+			  <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>Exotic Assembler</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+			  <X>1</X>
+			  <Y>1</Y>
+			  <Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+			<BlueprintClasses>
+			  <Class>ExoticMaterials</Class>
+			</BlueprintClasses>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>   
+			<Public>false</Public>   
+		  </Definition>
 	</CubeBlocks>
 	<BlueprintClasses>
 
