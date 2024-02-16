@@ -138,7 +138,8 @@
 			<DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
 			<Icon>Icons\advthrust_components_component.dds</Icon>
 			<Prerequisites>
-			  <Item Amount="1" TypeId="Component" SubtypeId="Casing" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="duraniumSteelPlate" />
+			  <Item Amount="4" TypeId="Component" SubtypeId="duraniumLargeTube" />
 			  <Item Amount="10" TypeId="Component" SubtypeId="Cryocooler" />
 			  <Item Amount="11" TypeId="Component" SubtypeId="impThrust" />
 			</Prerequisites>

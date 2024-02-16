@@ -61,6 +61,23 @@
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POGravityGeneratorComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
+			<Icon>Icons\gravity_generator_components_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="5" TypeId="Component" SubtypeId="Cryocooler" />
+			  <Item Amount="30" TypeId="Component" SubtypeId="GoldCable" />
+			  <Item Amount="25" TypeId="Component" SubtypeId="QuantumComputer" />
+			  <Item Amount="20" TypeId="Component" SubtypeId="advMagnet" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="SuperMagnet" />
+			 </Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="GravityGenerator" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+		  </Blueprint>
 
 	</Blueprints>
 <BlueprintClassEntries>

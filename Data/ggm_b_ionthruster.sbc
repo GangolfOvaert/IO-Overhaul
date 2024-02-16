@@ -23,15 +23,15 @@
 			<ThrusterType>Ion</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
-				<Component Subtype="reinforcedSteelPlate" Count="1" />
+				<Component Subtype="duraniumSteelPlate" Count="1" />
 				<Component Subtype="Construction" Count="1" />
 				<Component Subtype="Computer" Count="1" />
 				<Component Subtype="AdvancedComputer" Count="1" />
-				<Component Subtype="reinforcedLargeTube" Count="1" />
+				<Component Subtype="duraniumLargeTube" Count="1" />
 				<Component Subtype="MetalGrid" Count="1" />
 				<Component Subtype="advThrust" Count="1" />
 				<Component Subtype="Ceramic" Count="1" />
-				<Component Subtype="reinforcedSteelPlate" Count="1" />
+				<Component Subtype="duraniumSteelPlate" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -124,15 +124,15 @@
 			<ThrusterType>Ion</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
-				<Component Subtype="reinforcedSteelPlate" Count="5" />
+				<Component Subtype="duraniumSteelPlate" Count="5" />
 				<Component Subtype="Construction" Count="5" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="5" />
-				<Component Subtype="reinforcedLargeTube" Count="5" />
+				<Component Subtype="duraniumLargeTube" Count="5" />
 				<Component Subtype="MetalGrid" Count="4" />
 				<Component Subtype="advThrust" Count="12" />
 				<Component Subtype="Ceramic" Count="8" />
-				<Component Subtype="reinforcedSteelPlate" Count="5" />
+				<Component Subtype="duraniumSteelPlate" Count="5" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -230,15 +230,15 @@
 			<ThrusterType>Ion</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
-				<Component Subtype="reinforcedSteelPlate" Count="25" />
+				<Component Subtype="duraniumSteelPlate" Count="25" />
 				<Component Subtype="Construction" Count="40" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="15" />
-				<Component Subtype="reinforcedLargeTube" Count="10" />
+				<Component Subtype="duraniumLargeTube" Count="10" />
 				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="advThrust" Count="80" />
 				<Component Subtype="Ceramic" Count="50" />
-				<Component Subtype="reinforcedSteelPlate" Count="10" />
+				<Component Subtype="duraniumSteelPlate" Count="10" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -331,15 +331,15 @@
 			<ThrusterType>Ion</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
-				<Component Subtype="reinforcedSteelPlate" Count="100" />
+				<Component Subtype="duraniumSteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="80" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="35" />
-				<Component Subtype="reinforcedLargeTube" Count="40" />
+				<Component Subtype="duraniumLargeTube" Count="40" />
 				<Component Subtype="MetalGrid" Count="50" />
 				<Component Subtype="advThrust" Count="800" />
 				<Component Subtype="Ceramic" Count="150" />
-				<Component Subtype="reinforcedSteelPlate" Count="50" />
+				<Component Subtype="duraniumSteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -440,15 +440,15 @@
 			<ThrusterType>Ion</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
-			  <Component Subtype="reinforcedSteelPlate" Count="1" />
+			  <Component Subtype="duraniumSteelPlate" Count="1" />
 			  <Component Subtype="Construction" Count="1" />
 			  <Component Subtype="Computer" Count="1" />
 			  <Component Subtype="AdvancedComputer" Count="1" />
-			  <Component Subtype="reinforcedLargeTube" Count="1" />
+			  <Component Subtype="duraniumLargeTube" Count="1" />
 			  <Component Subtype="MetalGrid" Count="1" />
 			  <Component Subtype="advThrust" Count="1" />
 			  <Component Subtype="Ceramic" Count="1" />
-			  <Component Subtype="reinforcedSteelPlate" Count="1" />
+			  <Component Subtype="duraniumSteelPlate" Count="1" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -539,15 +539,15 @@
 			<ThrusterType>Ion</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
-			  <Component Subtype="reinforcedSteelPlate" Count="5" />
+			  <Component Subtype="duraniumSteelPlate" Count="5" />
 			  <Component Subtype="Construction" Count="5" />
 			  <Component Subtype="Computer" Count="10" />
 			  <Component Subtype="AdvancedComputer" Count="5" />
-			  <Component Subtype="reinforcedLargeTube" Count="5" />
+			  <Component Subtype="duraniumLargeTube" Count="5" />
 			  <Component Subtype="MetalGrid" Count="4" />
 			  <Component Subtype="advThrust" Count="12" />
 			  <Component Subtype="Ceramic" Count="8" />
-			  <Component Subtype="reinforcedSteelPlate" Count="5" />
+			  <Component Subtype="duraniumSteelPlate" Count="5" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -640,15 +640,15 @@
 			<ThrusterType>Ion</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
-			  <Component Subtype="reinforcedSteelPlate" Count="25" />
+			  <Component Subtype="duraniumSteelPlate" Count="25" />
 			  <Component Subtype="Construction" Count="40" />
 			  <Component Subtype="Computer" Count="10" />
 			  <Component Subtype="AdvancedComputer" Count="15" />
-			  <Component Subtype="reinforcedLargeTube" Count="10" />
+			  <Component Subtype="duraniumLargeTube" Count="10" />
 			  <Component Subtype="MetalGrid" Count="20" />
 			  <Component Subtype="advThrust" Count="80" />
 			  <Component Subtype="Ceramic" Count="50" />
-			  <Component Subtype="reinforcedSteelPlate" Count="10" />
+			  <Component Subtype="duraniumSteelPlate" Count="10" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -739,15 +739,15 @@
 			<ThrusterType>Ion</ThrusterType>
 			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 			<Components>
-			  <Component Subtype="reinforcedSteelPlate" Count="100" />
+			  <Component Subtype="duraniumSteelPlate" Count="100" />
 			  <Component Subtype="Construction" Count="80" />
 			  <Component Subtype="Computer" Count="10" />
 			  <Component Subtype="AdvancedComputer" Count="35" />
-			  <Component Subtype="reinforcedLargeTube" Count="40" />
+			  <Component Subtype="duraniumLargeTube" Count="40" />
 			  <Component Subtype="MetalGrid" Count="50" />
 			  <Component Subtype="advThrust" Count="800" />
 			  <Component Subtype="Ceramic" Count="150" />
-			  <Component Subtype="reinforcedSteelPlate" Count="50" />
+			  <Component Subtype="duraniumSteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
@@ -873,15 +873,15 @@
 					<ThrusterType>Ion</ThrusterType>
 					<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 					<Components>
-						<Component Subtype="reinforcedSteelPlate" Count="1" />
+						<Component Subtype="duraniumSteelPlate" Count="1" />
 						<Component Subtype="Construction" Count="1" />
 						<Component Subtype="Computer" Count="1" />
 						<Component Subtype="AdvancedComputer" Count="1" />
-						<Component Subtype="reinforcedLargeTube" Count="1" />
+						<Component Subtype="duraniumLargeTube" Count="1" />
 						<Component Subtype="MetalGrid" Count="1" />
 						<Component Subtype="advThrust" Count="1" />
 						<Component Subtype="Ceramic" Count="1" />
-						<Component Subtype="reinforcedSteelPlate" Count="1" />
+						<Component Subtype="duraniumSteelPlate" Count="1" />
 					</Components>
 					<CriticalComponent Subtype="Ceramic" Index="0" />
 					<MountPoints>
@@ -972,15 +972,15 @@
 					<ThrusterType>Ion</ThrusterType>
 					<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 					<Components>
-						<Component Subtype="reinforcedSteelPlate" Count="5" />
+						<Component Subtype="duraniumSteelPlate" Count="5" />
 						<Component Subtype="Construction" Count="5" />
 						<Component Subtype="Computer" Count="10" />
 						<Component Subtype="AdvancedComputer" Count="5" />
-						<Component Subtype="reinforcedLargeTube" Count="5" />
+						<Component Subtype="duraniumLargeTube" Count="5" />
 						<Component Subtype="MetalGrid" Count="4" />
 						<Component Subtype="advThrust" Count="12" />
 						<Component Subtype="Ceramic" Count="8" />
-						<Component Subtype="reinforcedSteelPlate" Count="5" />
+						<Component Subtype="duraniumSteelPlate" Count="5" />
 					</Components>
 					<CriticalComponent Subtype="advElectromagnet" Index="0" />
 					<MountPoints>
@@ -1071,15 +1071,15 @@
 					<ThrusterType>Ion</ThrusterType>
 					<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 					<Components>
-						<Component Subtype="reinforcedSteelPlate" Count="25" />
+						<Component Subtype="duraniumSteelPlate" Count="25" />
 						<Component Subtype="Construction" Count="40" />
 						<Component Subtype="Computer" Count="10" />
 						<Component Subtype="AdvancedComputer" Count="15" />
-						<Component Subtype="reinforcedLargeTube" Count="10" />
+						<Component Subtype="duraniumLargeTube" Count="10" />
 						<Component Subtype="MetalGrid" Count="20" />
 						<Component Subtype="advThrust" Count="80" />
 						<Component Subtype="Ceramic" Count="50" />
-						<Component Subtype="reinforcedSteelPlate" Count="10" />
+						<Component Subtype="duraniumSteelPlate" Count="10" />
 					</Components>
 					<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 					<MountPoints>
@@ -1170,15 +1170,15 @@
 					<ThrusterType>Ion</ThrusterType>
 					<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 					<Components>
-						<Component Subtype="reinforcedSteelPlate" Count="100" />
+						<Component Subtype="duraniumSteelPlate" Count="100" />
 						<Component Subtype="Construction" Count="80" />
 						<Component Subtype="Computer" Count="10" />
 						<Component Subtype="AdvancedComputer" Count="35" />
-						<Component Subtype="reinforcedLargeTube" Count="40" />
+						<Component Subtype="duraniumLargeTube" Count="40" />
 						<Component Subtype="MetalGrid" Count="50" />
 						<Component Subtype="advThrust" Count="800" />
 						<Component Subtype="Ceramic" Count="150" />
-						<Component Subtype="reinforcedSteelPlate" Count="50" />
+						<Component Subtype="duraniumSteelPlate" Count="50" />
 					</Components>
 					<CriticalComponent Subtype="Ceramic" Index="0" />
 					<MountPoints>
