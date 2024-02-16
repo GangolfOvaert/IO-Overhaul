@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+	</CubeBlocks>
+	<Blueprints>
+		<Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>POReactorComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
+			<Icon>Icons\reactor_components_component.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="10" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
+			  <Item Amount="20" TypeId="Component" SubtypeId="Concrete" />
+			  <Item Amount="5" TypeId="Component" SubtypeId="Casing" />
+			  <Item Amount="5" TypeId="Component" SubtypeId="Plastic" />
+			  <Item Amount="4" TypeId="Component" SubtypeId="Cryocooler" />
+			  
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
+			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+			<Public>true</Public>
+		  </Blueprint>
+	</Blueprints>
+	<BlueprintClasses>
+	</BlueprintClasses>
+    <BlueprintClassEntries>
+    </BlueprintClassEntries>
+    <PhysicalItems>
+    </PhysicalItems>
+	<Components>
+		<Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Reactor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
+            <Icon>Icons\reactor_components_component.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>107.8</Mass>
+            <Volume>15</Volume>
+            <Model>Models\Components\reactor_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>20</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimalPricePerUnit>149075</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+	</Components>
+</Definitions>

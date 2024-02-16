@@ -26,7 +26,7 @@
 			  <SubtypeId>POPowerCell</SubtypeId>
 			</Id>
 			<DisplayName>Lithium Power Cell</DisplayName>
-			<Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+			<Icon>Icons\BatteryComponent.dds</Icon>
 			<Prerequisites>
 			  <Item Amount="2" TypeId="Component" SubtypeId="Casing" />
 			  <Item Amount="4" TypeId="Component" SubtypeId="GoldCable" />
@@ -36,6 +36,23 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
 			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
+		  </Blueprint>
+		  <Blueprint>
+			<Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>ElectronMatrix</SubtypeId>
+			</Id>
+			<DisplayName>Electron-Matrix Cell</DisplayName>
+				  <Icon>Icons\ElectronMatrixCell.dds</Icon>
+			<Prerequisites>
+			  <Item Amount="1" TypeId="Component" SubtypeId="ArmorGlass" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="Casing" />
+			  <Item Amount="1" TypeId="Component" SubtypeId="LaserEmitter" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="PowerCell" />
+			  <Item Amount="10" TypeId="Ingot" SubtypeId="Polymer" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="ElectronMatrix" />
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 		  </Blueprint>
 	</Blueprints>
 	<BlueprintClasses>
@@ -87,7 +104,7 @@
             </Size>
             <Mass>9.9</Mass>
             <Volume>15</Volume>
-            <Model>Models\Components\PowerCellComponent.mwm</Model>
+            <Model>..\2344068716\Models\Components\PowerCellComponent.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MaxIntegrity>40</MaxIntegrity>
             <DropProbability>0.3</DropProbability>
@@ -101,6 +118,33 @@
 
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+		<Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>ElectronMatrix</SubtypeId>
+            </Id>
+            <DisplayName>Electron-Matrix Cell</DisplayName>
+			<Icon>Icons\ElectronMatrixCell.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>24.9</Mass>
+            <Volume>10</Volume>
+            <Model>Models\ElectronMatrixCell.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>2</MaxIntegrity>
+            <MinimalPricePerUnit>177871</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 	</Components>
 	<PhysicalItems>

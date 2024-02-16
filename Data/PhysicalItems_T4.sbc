@@ -121,7 +121,7 @@
 			<SubtypeId>Cryocooler</SubtypeId>
 		</Id>
 		<DisplayName>Cryogenic Cooler</DisplayName>
-		<Icon>Icons\todo\Cryocooler.dds</Icon>
+		<Icon>Icons\Cryocooler.dds</Icon>
 		<Size>
 			<X>0.4</X>
 			<Y>0.4</Y>
@@ -148,7 +148,7 @@
 			<SubtypeId>Thermocouple</SubtypeId>
 		</Id>
 		<DisplayName>Thermocouple</DisplayName>
-		<Icon>Icons\todo\Thermocouple.dds</Icon>
+		<Icon>Icons\Thermocouple.dds</Icon>
 		<Size>
 			<X>0.5</X>
 			<Y>0.5</Y>

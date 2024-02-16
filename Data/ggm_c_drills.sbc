@@ -10,7 +10,7 @@
 			  <SubtypeId>SmallBlockHeavyDrill</SubtypeId>
 			</Id>
 			<DisplayName>Heavy Drill</DisplayName>
-				  <Icon>Icons\todo\drill2.dds</Icon>
+				  <Icon>Icons\drill2.dds</Icon>
 			<Description>A more powerful Drill equipped with silicon carbide teeth. Cuts an area twice as large as a standard Drill. Integrated sorting systems provide 50% higher ore yield.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -86,7 +86,7 @@
 			  <SubtypeId>LargeBlockHeavyDrill</SubtypeId>
 			</Id>
 			<DisplayName>Heavy Drill</DisplayName>
-				  <Icon>Icons\todo\drill2.dds</Icon>
+				  <Icon>Icons\drill2.dds</Icon>
 			<Description>A more powerful Drill equipped with silicon carbide teeth. Cuts an area twice as large as a standard Drill. Integrated sorting systems provide 50% higher ore yield.</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -165,13 +165,13 @@
 			  <SubtypeId>SmallBlockGravDrill</SubtypeId>
 			</Id>
 			<DisplayName>Gravitonic Drill</DisplayName>
-			<Icon>Icons\todo\drill3.dds</Icon>
+			<Icon>Icons\drill3.dds</Icon>
 			<Description>Uses focused arificial gravity to break up and collect rock. Cuts an area three times as large as a standard Drill. Upgraded sorting systems and internal filters provide double yield.</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="6" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\SmallGravDrill.mwm</Model>
+			<Model>..\2344068716\Models\SmallGravDrill.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
@@ -246,13 +246,13 @@
 			  <SubtypeId>LargeBlockGravDrill</SubtypeId>
 			</Id>
 			<DisplayName>Gravitonic Drill</DisplayName>
-			<Icon>Icons\todo\drill3.dds</Icon>
+			<Icon>Icons\drill3.dds</Icon>
 			<Description>Uses focused arificial gravity to break up and collect rock. Cuts an area three times as large as a standard Drill. Upgraded sorting systems and internal filters provide double yield.</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\GravDrill.mwm</Model>
+			<Model>..\2344068716\Models\GravDrill.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<UseModelIntersection>true</UseModelIntersection>
 			<UsesDeformation>false</UsesDeformation>

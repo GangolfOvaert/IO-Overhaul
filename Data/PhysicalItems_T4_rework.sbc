@@ -116,5 +116,59 @@
 		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
 		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
 	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>LaserEmitter</SubtypeId>
+		</Id>
+		<DisplayName>Laser Emitter</DisplayName>
+		<Icon>Icons\LaserEmitter.dds</Icon>
+		<Size>
+			<X>1</X>
+			<Y>0.2</Y>
+			<Z>0.2</Z>
+		</Size>
+		<Mass>18.3</Mass>
+		<Volume>12</Volume>
+		<Model>Models\LaserEmitter.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>20</MaxIntegrity>
+		<MinimalPricePerUnit>34681</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>SuperMagnet</SubtypeId>
+		</Id>
+		<DisplayName>Superconducting Magnet</DisplayName>
+		<Icon>Icons\SuperMagnet.dds</Icon>
+		<Size>
+			<X>0.4</X>
+			<Y>0.4</Y>
+			<Z>0.3</Z>
+		</Size>
+		<Mass>43.6</Mass>
+		<Volume>15</Volume>
+		<Model>Models\SuperMagnet.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>10</MaxIntegrity>
+		<MinimalPricePerUnit>281395</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
 </Components>
 </Definitions>

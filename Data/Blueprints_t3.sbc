@@ -19,9 +19,9 @@
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Heavy Girder</SubtypeId>
+				<SubtypeId>GGM_p_heavyGirderComponent</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_Girder</DisplayName>
+			<DisplayName>Heavy Girder</DisplayName>
 			<Icon>Icons\girder_heavy.dds</Icon>
 			<Prerequisites>
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />

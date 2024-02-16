@@ -306,62 +306,26 @@
 		</Class>
 	</BlueprintClasses>
 	<BlueprintClassEntries>
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="StoneOreToIngotBasic" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="StoneOreToIngot" />
 		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="IronOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOreToIngot" />
 		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="SiliconOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="NickelOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CobaltOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="SilverOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedIronOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCopperOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedNickelOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CrushedSilverOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedIronOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
-		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="PurifiedSilverOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="ScrapToIronIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="ScrapIngotToIronIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="StoneOreToIngotBasic" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="IronOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CopperOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="SiliconOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="CopperOreToIngot" />
+		<Entry Class="SmelterIngotst1" BlueprintSubtypeId="NiterOreToIngot" />
+
+
 		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="NickelOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CobaltOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CopperOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedIronOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCopperOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedNickelOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CrushedCopperOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedIronOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
-		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="SilverOreToIngot" />
+		<Entry Class="SmelterIngotst2" BlueprintSubtypeId="CoalToCarbonBasic" />
+
 		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CobaltOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CopperOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="IronOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="NickelOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="TitaniumOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedCopperOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedNickelOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedIronOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="CrushedTitaniumOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedNickelumOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedIronOreToIngot" />
-		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="PurifiedTitaniumOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="GoldOreToIngot" />
+		<Entry Class="SmelterIngotst3" BlueprintSubtypeId="BauxiteOreToIngot" />
+
+		<Entry Class="SmelterIngotst4" BlueprintSubtypeId="TitaniumOreToIngot" />
+
+		<Entry Class="SmelterIngotst5" BlueprintSubtypeId="TitaniumOreToIngot" />
+		<Entry Class="SmelterIngotst5" BlueprintSubtypeId="PlatinumOreToIngot" />
+		<Entry Class="SmelterIngotst5" BlueprintSubtypeId="TantalumOreToIngot" />
+
 	</BlueprintClassEntries>
 </Definitions>
