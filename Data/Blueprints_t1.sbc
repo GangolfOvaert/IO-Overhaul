@@ -12,7 +12,7 @@
 				<Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
-			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>

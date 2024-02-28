@@ -17,7 +17,7 @@
 				<Item Amount="5" TypeId="Component" SubtypeId="Plastic" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
-			<BaseProductionTimeInSeconds>999</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
 			<Public>false</Public>
 		</Blueprint>
 		<Blueprint>
@@ -32,7 +32,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="heavySteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
-			<BaseProductionTimeInSeconds>160</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>64</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
