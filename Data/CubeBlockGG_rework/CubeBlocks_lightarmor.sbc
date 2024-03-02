@@ -534,7 +534,7 @@
                 <SubtypeId>LargeRoundArmor_Slope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LightRoundArmorSlope</DisplayName>
-            <Icon>Textures\GUI\Icons\lightArmor\Fake.dds</Icon>
+            <Icon>Textures\GUI\Fake.dds</Icon>
             <Description>Description_LightArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -586,7 +586,7 @@
                 <SubtypeId>LargeRoundArmor_Corner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LightRoundArmorCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\lightArmor\Fake.dds</Icon>
+            <Icon>Textures\GUI\Fake.dds</Icon>
             <Description>Description_LightArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>

@@ -29,8 +29,8 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
       </BuildProgressModels>
 	  
       <DisassembleRatio>3</DisassembleRatio>
@@ -67,8 +67,8 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlopePlateConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlopePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_2.mwm" />
       </BuildProgressModels>
 	  
       <DisassembleRatio>3</DisassembleRatio>
@@ -111,8 +111,8 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Armor\HeavyFacePlateConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyFacePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_2.mwm" />
       </BuildProgressModels>
 	  
       <DisassembleRatio>3</DisassembleRatio>
@@ -158,8 +158,8 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_2.mwm" />
       </BuildProgressModels>
 	  
       <DisassembleRatio>3</DisassembleRatio>
@@ -198,9 +198,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\CornerSquareConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\CornerSquareConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\CornerSquareConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -240,9 +240,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -281,9 +281,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_3.mwm" />
       </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -324,9 +324,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2TipConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2TipConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySlope2TipConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_3.mwm" />
       </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -364,9 +364,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_3.mwm" />
       </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -407,9 +407,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_3.mwm" />
       </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -444,9 +444,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -483,9 +483,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfCornerConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfCornerConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfCornerConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfCornerConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -524,9 +524,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -569,9 +569,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyCorner2BaseConstruction_3.mwm" />
       </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -611,9 +611,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_3.mwm" />
       </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -658,9 +658,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_3.mwm" />
       </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -705,9 +705,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_3.mwm" />
       </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -752,9 +752,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -797,9 +797,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -840,9 +840,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerTipConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerTipConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerTipConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -884,9 +884,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -930,9 +930,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\SlopedCornerConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
@@ -974,9 +974,9 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_3.mwm"/>
             </BuildProgressModels>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>

@@ -2653,7 +2653,8 @@
         <SubtypeId>SmallHeavyBlockDuraniumArmorAngledSlope</SubtypeId>
       </Id>
       <DisplayName>DuraniumHeavyAngledDuraniumArmorSlope</DisplayName>
-      <Icon>Icons\AngledHeavyArmorSlopeDr.dds</Icon>
+      <Icon>..\822604059\Textures\GUI\Icons\Cubes\AngledHeavyArmorSlopeDr.dds</Icon>
+      <Icon>Icons\Corners\t5.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -2785,7 +2786,8 @@
         <SubtypeId>SmallHeavyBlockDuraniumArmorAngledCorner</SubtypeId>
       </Id>
       <DisplayName>DuraniumHeavyAngledDuraniumArmorCorner</DisplayName>
-      <Icon>Icons\AngledHeavyArmorCornerDr.dds</Icon>
+      <Icon>..\822604059\Textures\GUI\Icons\Cubes\AngledHeavyArmorCornerDr.dds</Icon>
+      <Icon>Icons\Corners\t5.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
