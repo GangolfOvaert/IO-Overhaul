@@ -129,7 +129,7 @@
 		</Size>
 		<Mass>36.2</Mass>
 		<Volume>5</Volume>
-		<Model>Models\Cryocooler.mwm</Model>
+		<Model>..\2344068716\Models\Cryocooler.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>10</MaxIntegrity>
 		<MinimalPricePerUnit>54822</MinimalPricePerUnit>
@@ -156,7 +156,7 @@
 		</Size>
 		<Mass>4.1</Mass>
 		<Volume>3</Volume>
-		<Model>Models\Thermocouple.mwm</Model>
+		<Model>..\2344068716\Models\Thermocouple.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>20</MaxIntegrity>
 		<MinimalPricePerUnit>14468</MinimalPricePerUnit>

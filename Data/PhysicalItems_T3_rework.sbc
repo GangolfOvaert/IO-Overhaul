@@ -130,7 +130,7 @@
 		</Size>
 		<Mass>1.2</Mass>
 		<Volume>0.5</Volume>
-		<Model>Models\GoldReel.mwm</Model>
+		<Model>..\2344068716\Models\GoldReel.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>2</MaxIntegrity>
 		<MinimalPricePerUnit>4500</MinimalPricePerUnit>
@@ -157,7 +157,7 @@
 		</Size>
 		<Mass>1.2</Mass>
 		<Volume>0.5</Volume>
-		<Model>Models\GoldReel.mwm</Model>
+		<Model>..\2344068716\Models\GoldReel.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>2</MaxIntegrity>
 		<MinimalPricePerUnit>4500</MinimalPricePerUnit>
@@ -184,7 +184,7 @@
 		</Size>
 		<Mass>4.6</Mass>
 		<Volume>10</Volume>
-		<Model>Models\CapacitorCell.mwm</Model>
+		<Model>..\2344068716\Models\CapacitorCell.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>5</MaxIntegrity>
 		<MinimalPricePerUnit>19899</MinimalPricePerUnit>

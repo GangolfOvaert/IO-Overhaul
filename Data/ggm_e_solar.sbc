@@ -232,9 +232,9 @@
 			<MirroringY>X</MirroringY>
 			<MirroringZ>Y</MirroringZ>
             <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\SolarConcentratorConstruct3.mwm" />
-				<Model BuildPercentUpperBound="0.66" File="Models\Construct\SolarConcentratorConstruct2.mwm" />
-				<Model BuildPercentUpperBound="0.33" File="Models\Construct\SolarConcentratorConstruct1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SolarConcentratorConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SolarConcentratorConstruct2.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SolarConcentratorConstruct1.mwm" />
             </BuildProgressModels>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>

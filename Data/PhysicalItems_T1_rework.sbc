@@ -550,7 +550,7 @@
             </Size>
             <Mass>1.8</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\CopperIngot.mwm</Model>
+            <Model>..\2344068716\Models\CopperIngot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Cu</IconSymbol>
 			

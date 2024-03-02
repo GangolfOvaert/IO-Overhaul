@@ -130,7 +130,7 @@
 		</Size>
 		<Mass>18.3</Mass>
 		<Volume>12</Volume>
-		<Model>Models\LaserEmitter.mwm</Model>
+		<Model>..\2344068716\Models\LaserEmitter.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>20</MaxIntegrity>
 		<MinimalPricePerUnit>34681</MinimalPricePerUnit>
@@ -157,7 +157,7 @@
 		</Size>
 		<Mass>43.6</Mass>
 		<Volume>15</Volume>
-		<Model>Models\SuperMagnet.mwm</Model>
+		<Model>..\2344068716\Models\SuperMagnet.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>10</MaxIntegrity>
 		<MinimalPricePerUnit>281395</MinimalPricePerUnit>
