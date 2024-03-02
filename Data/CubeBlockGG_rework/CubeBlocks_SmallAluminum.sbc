@@ -659,7 +659,7 @@
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File=".Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
 				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_2.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_3.mwm" />
 			</BuildProgressModels>
