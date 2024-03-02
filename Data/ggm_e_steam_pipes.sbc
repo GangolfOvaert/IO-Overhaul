@@ -26,9 +26,9 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.33" File="Models\Construct\SteamTankConstruct1.mwm" />
-			  <Model BuildPercentUpperBound="0.66" File="Models\Construct\SteamTankConstruct2.mwm" />
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamTankConstruct3.mwm" />
+			  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SteamTankConstruct1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SteamTankConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamTankConstruct3.mwm" />
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
@@ -79,7 +79,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipeConstruct.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -117,7 +117,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeFrameConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipeFrameConstruct.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
@@ -151,7 +151,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeFrameConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipeFrameConstruct.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
@@ -182,7 +182,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeCornerConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipeCornerConstruct.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -217,7 +217,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeTConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipeTConstruct.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -253,7 +253,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeCrossConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipeCrossConstruct.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -290,7 +290,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipeElbowConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipeElbowConstruct.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -326,7 +326,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipe4WayConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipe4WayConstruct.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -363,7 +363,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipe5WayConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipe5WayConstruct.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -401,7 +401,7 @@
 			</Components>
 			<CriticalComponent Subtype="StainlessLargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamPipe6WayConstruct.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamPipe6WayConstruct.mwm" />
 			</BuildProgressModels>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
@@ -444,9 +444,9 @@
             <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="6" Default="true" />
         </MountPoints>
             <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Construct\SteamTurbineConstruct1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Construct\SteamTurbineMirroredConstruct2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamTurbineMirroredConstruct3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SteamTurbineConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SteamTurbineMirroredConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamTurbineMirroredConstruct3.mwm" />
             </BuildProgressModels>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -518,9 +518,9 @@
             <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="6" Default="true" />
         </MountPoints>
             <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Construct\SteamTurbineConstruct1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Construct\SteamTurbineConstruct2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Construct\SteamTurbineConstruct3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SteamTurbineConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SteamTurbineConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SteamTurbineConstruct3.mwm" />
             </BuildProgressModels>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -572,7 +572,7 @@
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="4" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\GeothermalWellHead.mwm</Model>
+            <Model>..\2344068716\Models\GeothermalWellHead.mwm</Model>
             <Components>
                 <Component Subtype="heavySteelPlate" Count="50" />
                 <Component Subtype="Construction" Count="25" />
@@ -589,10 +589,10 @@
 				<MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
             </MountPoints>
             <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\Construct\GeothermalWellHeadConstruct3.mwm" />
-				<Model BuildPercentUpperBound="0.75" File="Models\Construct\GeothermalWellHeadConstruct2.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Construct\GeothermalWellHeadConstruct1.mwm" />
-				<Model BuildPercentUpperBound="0.25" File="Models\Construct\GeothermalWellHeadConstruct0.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\GeothermalWellHeadConstruct3.mwm" />
+				<Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\GeothermalWellHeadConstruct2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\GeothermalWellHeadConstruct1.mwm" />
+				<Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\GeothermalWellHeadConstruct0.mwm" />
             </BuildProgressModels>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -654,7 +654,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\GeothermalPipeMount.mwm</Model>
+			<Model>..\2344068716\Models\GeothermalPipeMount.mwm</Model>
 			<Components>
 			  <Component Subtype="heavySteelPlate" Count="5" />
 			  <Component Subtype="heavyGirder" Count="5" />
@@ -663,8 +663,8 @@
 			</Components>
 			<CriticalComponent Subtype="LargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\GeothermalPipeMountConstruct2.mwm" />
-			  <Model BuildPercentUpperBound="0.50" File="Models\Construct\GeothermalPipeMountConstruct1.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\GeothermalPipeMountConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\GeothermalPipeMountConstruct1.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -695,7 +695,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\GeothermalPipe.mwm</Model>
+			<Model>..\2344068716\Models\GeothermalPipe.mwm</Model>
 			<Components>
 			  <Component Subtype="heavyGirder" Count="5" />
 			  <Component Subtype="Construction" Count="5" />
@@ -703,8 +703,8 @@
 			</Components>
 			<CriticalComponent Subtype="LargeTube" Index="0" />
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\GeothermalPipeConstruct2.mwm" />
-			  <Model BuildPercentUpperBound="0.50" File="Models\Construct\GeothermalPipeConstruct1.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\GeothermalPipeConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\GeothermalPipeConstruct1.mwm" />
 			</BuildProgressModels>
 			  <MountPoints>
 				  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -736,7 +736,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="2" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\GeothermalWellTip.mwm</Model>
+			<Model>..\2344068716\Models\GeothermalWellTip.mwm</Model>
 			<Components>
 			  <Component Subtype="heavySteelPlate" Count="25" />
 			  <Component Subtype="Construction" Count="20" />
@@ -759,9 +759,9 @@
 				  <MountPoint Side="Right" StartX="0.8" StartY="0.1" EndX="0.9" EndY="1.5" />
 			  </MountPoints>
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\GeothermalWellTipConstruct3.mwm" />
-			  <Model BuildPercentUpperBound="0.66" File="Models\Construct\GeothermalWellTipConstruct2.mwm" />
-			  <Model BuildPercentUpperBound="0.33" File="Models\Construct\GeothermalWellTipConstruct1.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\GeothermalWellTipConstruct3.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\GeothermalWellTipConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\GeothermalWellTipConstruct1.mwm" />
 			</BuildProgressModels>
 			<MirroringX>None</MirroringX>
 			<MirroringY>X</MirroringY>

@@ -16,7 +16,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="6" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\SmallHeavyDrill.mwm</Model>
+			<Model>..\2344068716\Models\SmallHeavyDrill.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
@@ -92,7 +92,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\HeavyDrill.mwm</Model>
+			<Model>..\2344068716\Models\HeavyDrill.mwm</Model>
 			<PlaceDecals>false</PlaceDecals>
 			<UseModelIntersection>true</UseModelIntersection>
 			<UsesDeformation>false</UsesDeformation>

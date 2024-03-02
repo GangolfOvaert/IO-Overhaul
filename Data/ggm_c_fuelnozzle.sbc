@@ -9,7 +9,7 @@
                 <SubtypeId>Starter</SubtypeId>
             </Id>
             <DisplayName>Car Starter</DisplayName>
-            <Icon>Icons\AcidBattery.dds</Icon>
+            <Icon>..\2344068716\Icons\AcidBattery.dds</Icon>
             <Description>Outputs just enough energy to start a engine</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -26,9 +26,9 @@
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Construct\SmallAcidBatteryConstruct1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Construct\SmallAcidBatteryConstruct2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Construct\SmallAcidBatteryConstruct3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SmallAcidBatteryConstruct1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SmallAcidBatteryConstruct2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallAcidBatteryConstruct3.mwm" />
             </BuildProgressModels>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>

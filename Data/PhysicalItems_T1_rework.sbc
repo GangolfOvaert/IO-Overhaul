@@ -536,7 +536,8 @@
             <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
         </PhysicalItem>
 
-        
+  
+
         <PhysicalItem>
             <Id>
                 <TypeId>Ore</TypeId>
