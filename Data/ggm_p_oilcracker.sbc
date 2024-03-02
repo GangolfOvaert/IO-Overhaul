@@ -30,7 +30,7 @@
 			<Component Subtype="HeatingElement" Count="80" />
 			<Component Subtype="SteelPlate" Count="100" />
 		</Components>
-		<CriticalComponent Subtype="Computer" Index="0" />
+		<CriticalComponent Subtype="HeatingElement" Index="0" />
 		<Center x="1" y="0" z="1" />
 		<MountPoints>
 			<MountPoint Side="Back" StartX="2" StartY="0" EndX="3" EndY="1" />

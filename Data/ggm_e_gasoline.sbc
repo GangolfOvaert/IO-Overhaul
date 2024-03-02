@@ -205,9 +205,9 @@
 		  <MountPoint Side="Back" StartX="2.0" StartY="2.0" EndX="3.0" EndY="3.0" />
 		</MountPoints>
 		<BuildProgressModels>
-		  <Model BuildPercentUpperBound="0.33" File="Models\Construct\LargeRocketFuelTankConstruct1.mwm" />
-		  <Model BuildPercentUpperBound="0.66" File="Models\Construct\LargeRocketFuelTankConstruct2.mwm" />
-		  <Model BuildPercentUpperBound="1.00" File="Models\Construct\LargeRocketFuelTankConstruct3.mwm" />
+		  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeRocketFuelTankConstruct1.mwm" />
+		  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeRocketFuelTankConstruct2.mwm" />
+		  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeRocketFuelTankConstruct3.mwm" />
 		</BuildProgressModels>
 		<MirroringY>Z</MirroringY>
 		<MirroringZ>Y</MirroringZ>
@@ -265,9 +265,9 @@
 		</Components>
 		<CriticalComponent Subtype="Computer" Index="0" />
 		<BuildProgressModels>
-		  <Model BuildPercentUpperBound="0.33" File="Models\Construct\EnclosedTankConstruct1.mwm" />
-		  <Model BuildPercentUpperBound="0.66" File="Models\Construct\EnclosedTankConstruct2.mwm" />
-		  <Model BuildPercentUpperBound="1.00" File="Models\Construct\EnclosedTankConstruct3.mwm" />
+		  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\EnclosedTankConstruct1.mwm" />
+		  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\EnclosedTankConstruct2.mwm" />
+		  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\EnclosedTankConstruct3.mwm" />
 		</BuildProgressModels>
 		<BlockPairName>EnclosedGasolineTank</BlockPairName>
 		<MirroringY>Z</MirroringY>
@@ -329,9 +329,9 @@
 		  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
 		</MountPoints>
 		<BuildProgressModels>
-		  <Model BuildPercentUpperBound="0.33" File="Models\Construct\CylinderTankConstruct1.mwm" />
-		  <Model BuildPercentUpperBound="0.66" File="Models\Construct\CylinderTankConstruct2.mwm" />
-		  <Model BuildPercentUpperBound="1.00" File="Models\Construct\CylinderTankConstruct3.mwm" />
+		  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\CylinderTankConstruct1.mwm" />
+		  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\CylinderTankConstruct2.mwm" />
+		  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\CylinderTankConstruct3.mwm" />
 		</BuildProgressModels>
 		<MirroringY>Z</MirroringY>
 		<MirroringZ>Y</MirroringZ>
@@ -397,9 +397,9 @@
 		  <MountPoint Side="Back" StartX="2.0" StartY="2.0" EndX="3.0" EndY="3.0" />
 		</MountPoints>
 		<BuildProgressModels>
-		  <Model BuildPercentUpperBound="0.33" File="Models\Construct\SmallRocketFuelTankConstruct1.mwm" />
-		  <Model BuildPercentUpperBound="0.66" File="Models\Construct\SmallRocketFuelTankConstruct2.mwm" />
-		  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SmallRocketFuelTankConstruct3.mwm" />
+		  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SmallRocketFuelTankConstruct1.mwm" />
+		  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SmallRocketFuelTankConstruct2.mwm" />
+		  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallRocketFuelTankConstruct3.mwm" />
 		</BuildProgressModels>
 		<BlockPairName>GasolineTank</BlockPairName>
 		<MirroringY>Z</MirroringY>
@@ -466,9 +466,9 @@
 		  <MountPoint Side="Back" StartX="2.0" StartY="2.0" EndX="3.0" EndY="3.0" />
 		</MountPoints>
 		<BuildProgressModels>
-		  <Model BuildPercentUpperBound="0.33" File="Models\Construct\LargeRocketFuelTankNoLegsConstruct1.mwm" />
-		  <Model BuildPercentUpperBound="0.66" File="Models\Construct\LargeRocketFuelTankNoLegsConstruct2.mwm" />
-		  <Model BuildPercentUpperBound="1.00" File="Models\Construct\LargeRocketFuelTankNoLegsConstruct3.mwm" />
+		  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeRocketFuelTankNoLegsConstruct1.mwm" />
+		  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeRocketFuelTankNoLegsConstruct2.mwm" />
+		  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeRocketFuelTankNoLegsConstruct3.mwm" />
 		</BuildProgressModels>
 		<BlockPairName>GasolineTank</BlockPairName>
 		<MirroringY>Z</MirroringY>
@@ -533,8 +533,8 @@
 		  <MountPoint Side="Back" StartX="1.0" StartY="1.0" EndX="2.0" EndY="2.0" />
 		</MountPoints>
 		<BuildProgressModels>
-		  <Model BuildPercentUpperBound="0.50" File="Models\Construct\SmallGasTankConstruct1.mwm" />
-		  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SmallGasTankConstruct2.mwm" />
+		  <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\SmallGasTankConstruct1.mwm" />
+		  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallGasTankConstruct2.mwm" />
 		</BuildProgressModels>
 		<MirroringY>Z</MirroringY>
 		<MirroringZ>Y</MirroringZ>

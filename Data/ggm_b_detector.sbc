@@ -34,9 +34,9 @@
 			  <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.33" File="Models\Construct\SmallMetalDetectorConstruct1.mwm" />
-			  <Model BuildPercentUpperBound="0.66" File="Models\Construct\SmallMetalDetectorConstruct2.mwm" />
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\SmallMetalDetectorConstruct3.mwm" />
+			  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SmallMetalDetectorConstruct1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SmallMetalDetectorConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallMetalDetectorConstruct3.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>MetalDetector</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -84,9 +84,9 @@
 			  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.33" File="Models\Construct\LargeMetalDetectorConstruct1.mwm" />
-			  <Model BuildPercentUpperBound="0.66" File="Models\Construct\LargeMetalDetectorConstruct2.mwm" />
-			  <Model BuildPercentUpperBound="1.00" File="Models\Construct\LargeMetalDetectorConstruct3.mwm" />
+			  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeMetalDetectorConstruct1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeMetalDetectorConstruct2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeMetalDetectorConstruct3.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>MetalDetector</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -136,9 +136,9 @@
 			  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorConstruction_1.mwm" />
-			  <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorConstruction_2.mwm" />
-			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorConstruction_3.mwm" />
+			  <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Cubes\Large\OreDetectorConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Cubes\Large\OreDetectorConstruction_2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Large\OreDetectorConstruction_3.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>OreDetector</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -187,8 +187,8 @@
 			  <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
-			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
+			  <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>OreDetector</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -237,8 +237,8 @@
 			  <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
-			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
+			  <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>OreDetector</BlockPairName>
 			<MirroringY>Z</MirroringY>

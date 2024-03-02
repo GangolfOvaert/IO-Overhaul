@@ -28,7 +28,7 @@
 			<DisplayName>Reinforced Steel Plate</DisplayName>
 			<Icon>Icons\plate_reinforced.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />
 				<Item Amount="2" TypeId="Component" SubtypeId="heavySteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
@@ -43,11 +43,11 @@
 			<DisplayName>Reinforced Girder</DisplayName>
 			<Icon>Icons\girder_reinforced.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Titanium" />
 				<Item Amount="2" TypeId="Component" SubtypeId="heavyGirder" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedGirder" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -62,7 +62,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="heavySmallTube" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedSmallTube" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -73,7 +73,7 @@
 			<DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
 			<Icon>Icons\tube_reinforced.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />
 				<Item Amount="2" TypeId="Component" SubtypeId="heavyLargeTube" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="reinforcedLargeTube" />
