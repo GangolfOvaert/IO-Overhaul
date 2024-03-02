@@ -1338,7 +1338,7 @@
                 <SubtypeId>Heat</SubtypeId>
             </Id>
             <DisplayName>Heat</DisplayName>
-            <Icon>Icons\Heat.dds</Icon>
+            <Icon>..\2344068716\Icons\Heat.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -1357,7 +1357,7 @@
                 <SubtypeId>Coal</SubtypeId>
             </Id>
             <DisplayName>Coal</DisplayName>
-            <Icon>Icons\OilSand.dds</Icon>
+            <Icon>..\2344068716\Icons\OilSand.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -1652,7 +1652,7 @@
             </Size>
             <Mass>1.8</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\CopperIngot.mwm</Model>
+            <Model>..\2344068716\Models\CopperIngot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Cu</IconSymbol>
 			
@@ -1681,7 +1681,7 @@
             </Size>
             <Mass>0.3</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\PolymerBarrel.mwm</Model>
+            <Model>..\2344068716\Models\PolymerBarrel.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Polymer</IconSymbol>
 			
@@ -1739,7 +1739,7 @@
             </Size>
             <Mass>0.11</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\LithiumBarrel.mwm</Model>
+            <Model>..\2344068716\Models\LithiumBarrel.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Li</IconSymbol>
 			
@@ -1768,7 +1768,7 @@
             </Size>
             <Mass>0.54</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\GenericIngot.mwm</Model>
+            <Model>..\2344068716\Models\GenericIngot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Al</IconSymbol>
 			
@@ -1797,7 +1797,7 @@
             </Size>
             <Mass>0.9</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\GenericIngot.mwm</Model>
+            <Model>..\2344068716\Models\GenericIngot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Ti</IconSymbol>
 			
@@ -1826,7 +1826,7 @@
             </Size>
             <Mass>3.34</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\GenericIngot.mwm</Model>
+            <Model>..\2344068716\Models\GenericIngot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Ta</IconSymbol>
 			
@@ -1855,7 +1855,7 @@
             </Size>
             <Mass>0.41</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\SulfurIngot.mwm</Model>
+            <Model>..\2344068716\Models\SulfurIngot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>S</IconSymbol>
 			
@@ -1884,7 +1884,7 @@
             </Size>
             <Mass>0.4</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\CarbonIngot.mwm</Model>
+            <Model>..\2344068716\Models\CarbonIngot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>C</IconSymbol>
 			
@@ -1913,7 +1913,7 @@
             </Size>
             <Mass>0.42</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\LithiumBarrel.mwm</Model>
+            <Model>..\2344068716\Models\LithiumBarrel.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>KNO3</IconSymbol>
 			
@@ -1942,7 +1942,7 @@
             </Size>
             <Mass>0.414</Mass>
             <Volume>0.2</Volume>
-            <Model>Models\GunpowderBarrel.mwm</Model>
+            <Model>..\2344068716\Models\GunpowderBarrel.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Gun</IconSymbol>
 			

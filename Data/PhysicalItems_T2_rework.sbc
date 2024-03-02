@@ -188,7 +188,7 @@
 		</Size>
 		<Mass>0.6</Mass>
 		<Volume>3</Volume>
-		<Model>Models\RubberReel.mwm</Model>
+		<Model>..\2344068716\Models\RubberReel.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>40</MaxIntegrity>
 		<MinimalPricePerUnit>7288</MinimalPricePerUnit>
@@ -215,7 +215,7 @@
 		</Size>
 		<Mass>18.6</Mass>
 		<Volume>10</Volume>
-		<Model>Models\AcidCell.mwm</Model>
+		<Model>..\2344068716\Models\AcidCell.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>20</MaxIntegrity>
 		<MinimalPricePerUnit>16054</MinimalPricePerUnit>
@@ -302,7 +302,7 @@
 		</Size>
 		<Mass>3.5</Mass>
 		<Volume>5</Volume>
-		<Model>Models\CeramicPlate.mwm</Model>
+		<Model>..\2344068716\Models\CeramicPlate.mwm</Model>
 		<PhysicalMaterial>Metal</PhysicalMaterial>
 		<MaxIntegrity>40</MaxIntegrity>
 		<MinimalPricePerUnit>3562</MinimalPricePerUnit>

@@ -229,35 +229,5 @@
 	</Component>
 </Components>
 
-	<PhysicalItems>
-		<PhysicalItem>
 
-			<Id>
-				<TypeId>Ingot</TypeId>
-				<SubtypeId>Carbon</SubtypeId>
-			</Id>
-			<DisplayName>Carbon</DisplayName>
-			<Icon>Icons\Carbon.dds</Icon>
-			<Size>
-				<X>0.072</X>
-				<Y>0.072</Y>
-				<Z>0.072</Z>
-			</Size>
-			<Mass>0.4</Mass>
-			<Volume>0.2</Volume>
-			<Model>Models\CarbonIngot.mwm</Model>
-			<PhysicalMaterial>Metal</PhysicalMaterial>
-			<IconSymbol>C</IconSymbol>
-
-			<MinimalPricePerUnit>416</MinimalPricePerUnit>
-			<MinimumOfferAmount>100</MinimumOfferAmount>
-			<MaximumOfferAmount>10000</MaximumOfferAmount>
-			<MinimumOrderAmount>100</MinimumOrderAmount>
-			<MaximumOrderAmount>10000</MaximumOrderAmount>
-			<CanPlayerOrder>true</CanPlayerOrder>
-
-			<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
-			<MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
-		</PhysicalItem>
-	</PhysicalItems>
 </Definitions>
