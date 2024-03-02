@@ -12,6 +12,8 @@
 			<Icon>Icons\production\blast_furnace_t1.dds</Icon>
 			<Description>
 				Smelters can refine Nickel, Iron, Silicon, Copper, Silver
+
+				Power Usage 2MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -23,6 +25,7 @@
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="HeatingElement" Count="50" />
+				<Component Subtype="Computer" Count="20" />
 				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="HeatingElement" Index="0" />
@@ -75,6 +78,8 @@
 			<Icon>Icons\production\blast_furnace_t2.dds</Icon>
 			<Description>
 				Smelters can refine Nickel, iron, Silicon, copper, Silver, Gold, Cobalt, Platin
+
+				Power Usage 4MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -114,7 +119,7 @@
 				<Z>2</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<OperationalPowerConsumption>4</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>SmelterIngotst2</Class>
 			</BlueprintClasses>
@@ -139,6 +144,8 @@
 			<Icon>Icons\production\blast_furnace_t3.dds</Icon>
 			<Description>
 				Smelters can refine Cobalt, Copper, Iron, Nickel, Silicon, Titan
+
+				Power Usage 10MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -179,7 +186,7 @@
 				<Z>2</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<OperationalPowerConsumption>10</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>SmelterIngotst3</Class>
 			</BlueprintClasses>
@@ -204,6 +211,8 @@
 			<Icon>Icons\production\blast_furnace_t4.dds</Icon>
 			<Description>
 				Smelters can refine Cobalt, Copper, Iron, Nickel, Silicon, Titan
+
+				Power Usage 20MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -221,7 +230,7 @@
 				<Component Subtype="MetalGrid" Count="30" />
 				<Component Subtype="heavySteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="heavySteelPlate" Index="50" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<MountPoints>
@@ -246,7 +255,7 @@
 				<Z>2</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<OperationalPowerConsumption>20</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>SmelterIngotst4</Class>
 			</BlueprintClasses>

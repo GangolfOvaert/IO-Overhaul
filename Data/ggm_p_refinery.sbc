@@ -13,7 +13,7 @@
 			<Description>
 				Refinery can refine Nickel, Iron, Silicon, Copper, Silver, Gold, Cobalt, Platin
 
-				
+				Power Usage 3MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -85,7 +85,9 @@
 			<DisplayName>Refinery T2</DisplayName>
 			<Icon>Icons\production\refinery_t2.dds</Icon>
 			<Description>
-				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
+				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield than T1.
+
+				Power Usage 6MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -93,18 +95,18 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\Refinery.mwm</Model>
 			<Components>
-				<Component Subtype="heavySteelPlate" Count="350" />
+				<Component Subtype="StainlessSteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="CopperCable" Count="230" />
 				<Component Subtype="advElectromagnet" Count="130" />
 				<Component Subtype="advMotor" Count="75" />
 				<Component Subtype="HeatingElement" Count="130" />
-				<Component Subtype="heavyLargeTube" Count="75" />
+				<Component Subtype="StainlessLargeTube" Count="75" />
 				<Component Subtype="Computer" Count="50" />
-				<Component Subtype="AdvancedComputer" Count="30" />
-				<Component Subtype="Superconductor" Count="50" />
+				<Component Subtype="Computer" Count="30" />
+				<Component Subtype="StainlessSmallTube" Count="50" />
 				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="heavySteelPlate" Count="50" />
+				<Component Subtype="StainlessSteelPlate" Count="50" />			
 			</Components>
 			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<Center x="1" y="0" z="1" />
@@ -126,14 +128,14 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventoryMaxVolume>10</InventoryMaxVolume>
 			<InventorySize>
 				<X>2.5</X>
 				<Y>2.5</Y>
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<OperationalPowerConsumption>6</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>refineryIngotst2</Class>
 			</BlueprintClasses>
@@ -158,7 +160,9 @@
 			<DisplayName>Refinery T3</DisplayName>
 			<Icon>Icons\production\refinery_t3.dds</Icon>
 			<Description>
-				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
+				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield than T2.
+
+				Power Usage 10MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -166,21 +170,21 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\Refinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="400" />
+				<Component Subtype="heavySteelPlate" Count="400" />
 				<Component Subtype="Construction" Count="120" />
-				<Component Subtype="CopperWire" Count="250" />
-				<Component Subtype="Electromagnet" Count="150" />
-				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="GoldCable" Count="250" />
+				<Component Subtype="advElectromagnet" Count="150" />
+				<Component Subtype="advMotor" Count="100" />
 				<Component Subtype="HeatingElement" Count="150" />
-				<Component Subtype="LargeTube" Count="100" />
+				<Component Subtype="heavyLargeTube" Count="100" />
 				<Component Subtype="Computer" Count="100" />
 				<Component Subtype="AdvancedComputer" Count="50" />
 				<Component Subtype="GGMSilverPlate" Count="100" />
 				<Component Subtype="Superconductor" Count="100" />
-				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="TitaniumPlate" Count="50" />
+				<Component Subtype="heavyGirder" Count="50" />
+				<Component Subtype="heavySteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<Center x="1" y="0" z="1" />
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
@@ -200,14 +204,14 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventoryMaxVolume>12.5</InventoryMaxVolume>
 			<InventorySize>
 				<X>2.5</X>
 				<Y>2.5</Y>
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<OperationalPowerConsumption>10</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>refineryIngotst3</Class>
 			</BlueprintClasses>
@@ -233,7 +237,9 @@
 			<DisplayName>Refinery T4</DisplayName>
 			<Icon>Icons\production\refinery_t4.dds</Icon>
 			<Description>
-				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
+				Refinery can refine with better yield than T3.
+
+				Power Usage 15MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -241,21 +247,21 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\Refinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="400" />
+				<Component Subtype="reinforcedSteelPlate" Count="400" />
 				<Component Subtype="Construction" Count="120" />
-				<Component Subtype="CopperWire" Count="250" />
-				<Component Subtype="Electromagnet" Count="150" />
-				<Component Subtype="Motor" Count="100" />
-				<Component Subtype="HeatingElement" Count="150" />
-				<Component Subtype="LargeTube" Count="100" />
-				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="GoldCable" Count="250" />
+				<Component Subtype="advElectromagnet" Count="150" />
+				<Component Subtype="advMotor" Count="100" />
+				<Component Subtype="Thermocouple" Count="150" />
+				<Component Subtype="reinforcedLargeTube" Count="100" />
+				<Component Subtype="QuantumComputer" Count="100" />
 				<Component Subtype="AdvancedComputer" Count="50" />
 				<Component Subtype="GGMSilverPlate" Count="100" />
 				<Component Subtype="Superconductor" Count="100" />
-				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="TitaniumPlate" Count="50" />
+				<Component Subtype="reinforcedGirder" Count="50" />
+				<Component Subtype="reinforcedSteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<CriticalComponent Subtype="QuantumComputer" Index="0" />
 			<Center x="1" y="0" z="1" />
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
@@ -275,14 +281,14 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventoryMaxVolume>15</InventoryMaxVolume>
 			<InventorySize>
 				<X>2.5</X>
 				<Y>2.5</Y>
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<OperationalPowerConsumption>15</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>refineryIngotst4</Class>
 			</BlueprintClasses>
@@ -300,80 +306,6 @@
 			<PCU>90</PCU>
 		</Definition>
 
-		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
-			<Id>
-				<TypeId>Refinery</TypeId>
-				<SubtypeId>LargeRefineryt4</SubtypeId>
-			</Id>
-			<DisplayName>Refinery T4</DisplayName>
-			<Icon>Icons\production\refinery_t4.dds</Icon>
-			<Description>
-				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
-			</Description>
-			<CubeSize>Large</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="4" z="2" />
-			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\Large\Refinery.mwm</Model>
-			<Components>
-				<Component Subtype="SteelPlate" Count="400" />
-				<Component Subtype="Construction" Count="120" />
-				<Component Subtype="CopperWire" Count="250" />
-				<Component Subtype="Electromagnet" Count="150" />
-				<Component Subtype="Motor" Count="100" />
-				<Component Subtype="HeatingElement" Count="150" />
-				<Component Subtype="LargeTube" Count="100" />
-				<Component Subtype="Computer" Count="100" />
-				<Component Subtype="AdvancedComputer" Count="50" />
-				<Component Subtype="GGMSilverPlate" Count="100" />
-				<Component Subtype="Superconductor" Count="100" />
-				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="TitaniumPlate" Count="50" />
-			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
-			<Center x="1" y="0" z="1" />
-			<MountPoints>
-				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
-				<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
-				<MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
-				<MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
-				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
-			</MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
-				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
-			</BuildProgressModels>
-
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>90</BuildTimeSeconds>
-			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<InventoryMaxVolume>7.5</InventoryMaxVolume>
-			<InventorySize>
-				<X>2.5</X>
-				<Y>2.5</Y>
-				<Z>2.5</Z>
-			</InventorySize>
-			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>3</OperationalPowerConsumption>
-			<BlueprintClasses>
-				<Class>refineryIngotst4</Class>
-			</BlueprintClasses>
-			<RefineSpeed>16</RefineSpeed>
-			<MaterialEfficiency>1.0</MaterialEfficiency>
-			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
-			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<Center x="1" y="0" z="0" />
-			<DamagedSound>ParticleHeavyMech</DamagedSound>
-			<PrimarySound>BlockRafinery</PrimarySound>
-			<ActionSound>BlockRafineryProcess</ActionSound>
-			<EmissiveColorPreset>Default</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-			<PCU>90</PCU>
-		</Definition>
 
 		
 		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
@@ -384,7 +316,9 @@
 			<DisplayName>Refinery T5</DisplayName>
 			<Icon>Icons\production\refinery_t5.dds</Icon>
 			<Description>
-				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield then t1.
+				Refinery can refine with better yield than T4.
+
+				Power Usage 200MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -392,21 +326,21 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\Refinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="400" />
+				<Component Subtype="duraniumSteelPlate" Count="400" />
 				<Component Subtype="Construction" Count="120" />
-				<Component Subtype="CopperWire" Count="250" />
-				<Component Subtype="Electromagnet" Count="150" />
-				<Component Subtype="Motor" Count="100" />
-				<Component Subtype="HeatingElement" Count="150" />
-				<Component Subtype="LargeTube" Count="100" />
-				<Component Subtype="Computer" Count="100" />
-				<Component Subtype="AdvancedComputer" Count="50" />
+				<Component Subtype="GoldCable" Count="250" />
+				<Component Subtype="advElectromagnet" Count="150" />
+				<Component Subtype="advMotor" Count="200" />
+				<Component Subtype="Thermocouple" Count="150" />
+				<Component Subtype="duraniumLargeTube" Count="100" />
+				<Component Subtype="AdvancedComputer" Count="100" />
+				<Component Subtype="QuantumComputer" Count="150" />
 				<Component Subtype="GGMSilverPlate" Count="100" />
 				<Component Subtype="Superconductor" Count="100" />
-				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="TitaniumPlate" Count="50" />
+				<Component Subtype="duraniumGirder" Count="50" />
+				<Component Subtype="duraniumSteelPlate" Count="250" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<Center x="1" y="0" z="1" />
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
@@ -426,18 +360,18 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<InventoryMaxVolume>7.5</InventoryMaxVolume>
+			<InventoryMaxVolume>100</InventoryMaxVolume>
 			<InventorySize>
 				<X>2.5</X>
 				<Y>2.5</Y>
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>3</OperationalPowerConsumption>
+			<OperationalPowerConsumption>200</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>refineryIngotst5</Class>
 			</BlueprintClasses>
-			<RefineSpeed>2</RefineSpeed>
+			<RefineSpeed>12</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

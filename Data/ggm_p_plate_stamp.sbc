@@ -76,9 +76,10 @@
 			<DisplayName>Plate Stamp T2</DisplayName>
 			<Icon>Icons\production\plate_stamp_t2.dds</Icon>
 			<Description>
-				Presses materials into Plates.
+				Also presses materials into Plates
+				but faster.
 
-				Power Usage: 1.5MW
+				Power Usage: 3MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -97,7 +98,7 @@
 				<Component Subtype="AdvancedComputer" Count="40" />
 				<Component Subtype="StainlessSteelPlate" Count="40" />
 			</Components>
-			<CriticalComponent Subtype="StainlessSteelPlate" Index="20" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -120,7 +121,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>3</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>PlateStampComponents</Class>
 			</BlueprintClasses>
@@ -143,9 +144,10 @@
 			<DisplayName>Plate Stamp T3</DisplayName>
 			<Icon>Icons\production\plate_stamp_t3.dds</Icon>
 			<Description>
-				Presses materials into Plates.
+				Aswell presses materials into Plates 
+				but even faster.
 
-				Power Usage: 1.5MW
+				Power Usage: 6MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -164,7 +166,7 @@
 				<Component Subtype="AdvancedComputer" Count="40" />
 				<Component Subtype="StainlessSteelPlate" Count="40" />
 			</Components>
-			<CriticalComponent Subtype="StainlessSteelPlate" Index="20" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -187,7 +189,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>6</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>PlateStampComponents</Class>
 			</BlueprintClasses>
@@ -210,9 +212,10 @@
 			<DisplayName>Plate Stamp T4</DisplayName>
 			<Icon>Icons\production\plate_stamp_t4.dds</Icon>
 			<Description>
-				Presses materials into Plates.
+				Aswell presses materials into Plates
+				This is the fastest Press!
 
-				Power Usage: 1.5MW
+				Power Usage: 12MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -231,7 +234,7 @@
 				<Component Subtype="AdvancedComputer" Count="40" />
 				<Component Subtype="StainlessSteelPlate" Count="40" />
 			</Components>
-			<CriticalComponent Subtype="StainlessSteelPlate" Index="20" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -254,7 +257,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>12</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>PlateStampComponents</Class>
 			</BlueprintClasses>

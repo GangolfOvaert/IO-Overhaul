@@ -14,7 +14,7 @@
 		<Description>
 			Cracks Crude Oil into various products.
 
-			Power Usage: 7.5MW
+			Power Usage: 1.5MW
 		</Description>
 		<CubeSize>Large</CubeSize>
 		<BlockTopology>TriangleMesh</BlockTopology>
@@ -56,12 +56,12 @@
 			<Z>2.5</Z>
 		</InventorySize>
 		<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-		<OperationalPowerConsumption>3</OperationalPowerConsumption>
+		<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
 		<BlueprintClasses>
 			<Class>OilCracking</Class>
 		</BlueprintClasses>
-		<RefineSpeed>1</RefineSpeed>
-		<MaterialEfficiency>1.0</MaterialEfficiency>
+		<RefineSpeed>0.5</RefineSpeed>
+		<MaterialEfficiency>0.8</MaterialEfficiency>
 		<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
 		<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 		<Center x="1" y="0" z="0" />

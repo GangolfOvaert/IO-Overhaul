@@ -68,9 +68,9 @@
 			<DisplayName>Extruder T2</DisplayName>
 			<Icon>Icons\production\extruder_t2.dds</Icon>
 			<Description>
-				Forms Tubes and Girders.
+				Forms advanced Tubes and Girders.
 
-				Power Usage: 1.5MW
+				Power Usage: 3MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -87,7 +87,7 @@
 				<Component Subtype="AdvancedComputer" Count="40" />
 				<Component Subtype="StainlessSteelPlate" Count="40" />
 			</Components>
-			<CriticalComponent Subtype="StainlessSteelPlate" Index="20" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\Generic2x2Construct2.mwm" />
@@ -102,7 +102,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>3</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>ExtruderComponents</Class>
 			</BlueprintClasses>
