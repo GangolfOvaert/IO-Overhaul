@@ -9,10 +9,10 @@
 			<DisplayName>DisplayName_Item_SteelPlate</DisplayName>
 			<Icon>Icons\plate_steel.dds</Icon>
 			<Prerequisites>
-				<Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
-			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -26,7 +26,7 @@
 				<Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Construction" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -40,7 +40,7 @@
 				<Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Girder" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -51,10 +51,10 @@
 			<DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
 			<Icon>Icons\pipe_steel.dds</Icon>
 			<Prerequisites>
-				<Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
+				<Item Amount="3" TypeId="Component" SubtypeId="SteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="SmallTube" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -82,7 +82,7 @@
 				<Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="CopperWire" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
 			<Id>
@@ -95,7 +95,7 @@
 				<Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="SilverWire" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
 			<Id>
@@ -108,7 +108,7 @@
 				<Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="GGMSilverPlate" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
 			<Id>
@@ -121,7 +121,7 @@
 				<Item Amount="1" TypeId="Component" SubtypeId="GGMSilverPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="GGMSilverComponent" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 		</Blueprint>
 		
 		<Blueprint>
@@ -259,7 +259,7 @@
 				<Item Amount="1" TypeId="Component" SubtypeId="CopperWire" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Computer" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -275,7 +275,7 @@
 				<Item Amount="1" TypeId="Component" SubtypeId="CopperWire" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Computer" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -305,7 +305,7 @@
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="BulletproofGlass" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -333,7 +333,7 @@
 				<Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 

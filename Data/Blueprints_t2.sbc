@@ -41,11 +41,11 @@
 			<DisplayName>Stainless Steel Plate</DisplayName>
 			<Icon>Icons\plate_stainless.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
 				<Item Amount="2" TypeId="Component" SubtypeId="SteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="StainlessSteelPlate" />
-			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>16</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -56,11 +56,11 @@
 			<DisplayName>Stainless Steel Girder</DisplayName>
 			<Icon>Icons\girder_stainless.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
 				<Item Amount="2" TypeId="Component" SubtypeId="Girder" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="StainlessGirder" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -75,7 +75,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="SmallTube" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="StainlessSmallTube" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -86,7 +86,7 @@
 			<DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
 			<Icon>Icons\tube_stainless.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
 				<Item Amount="2" TypeId="Component" SubtypeId="LargeTube" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="StainlessLargeTube" />
@@ -166,7 +166,7 @@
 				<Item Amount="1" TypeId="Component" SubtypeId="Rubber" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="CopperCable" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
 			<Id>
@@ -180,7 +180,7 @@
 				<Item Amount="1" TypeId="Component" SubtypeId="Rubber" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="SilverCable" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
 			<Id>

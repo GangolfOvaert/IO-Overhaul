@@ -13,7 +13,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="duraniumSteelPlate" />
-			<BaseProductionTimeInSeconds>160</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>128</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -24,11 +24,11 @@
 			<DisplayName>Duranium Girder</DisplayName>
 			<Icon>Icons\girder_duranium.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="DuraniumIngot" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="DuraniumIngot" />
 				<Item Amount="2" TypeId="Component" SubtypeId="reinforcedGirder" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="duraniumGirder" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -43,7 +43,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="reinforcedSmallTube" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="duraniumSmallTube" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -54,11 +54,11 @@
 			<DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
 			<Icon>Icons\tube_duranium.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="DuraniumIngot" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="DuraniumIngot" />
 				<Item Amount="2" TypeId="Component" SubtypeId="reinforcedLargeTube" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="duraniumLargeTube" />
-			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>

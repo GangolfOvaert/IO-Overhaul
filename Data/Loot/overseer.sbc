@@ -4,10 +4,10 @@
 	<Component>
 		<Id>
 			<TypeId>Component</TypeId>
-			<SubtypeId>ctypeoverseer</SubtypeId>
+			<SubtypeId>wtypeoverseer</SubtypeId>
 		</Id>
-		<DisplayName>C-Type Overseer</DisplayName>
-		<Description>Used for C-Type slighty improved Blocks</Description>
+		<DisplayName>W-Type Overseer</DisplayName>
+		<Description>Used for W-Type improved Weappons</Description>
 		<Icon>Icons\overseer.dds</Icon>
 		<Size>
 			<X>0.1</X>
@@ -32,10 +32,10 @@
 	<Component>
 		<Id>
 			<TypeId>Component</TypeId>
-			<SubtypeId>btypeoverseer</SubtypeId>
+			<SubtypeId>Pbtypeoverseer</SubtypeId>
 		</Id>
-		<DisplayName>B-Type Overseer</DisplayName>
-		<Description>Used for B-Type improved Blocks</Description>
+		<DisplayName>P-Type Overseer</DisplayName>
+		<Description>Used for P-Type improved Produktion / Power Blocks</Description>
 		<Icon>Icons\overseer.dds</Icon>
 		<Size>
 			<X>0.1</X>
@@ -60,10 +60,10 @@
 	<Component>
 		<Id>
 			<TypeId>Component</TypeId>
-			<SubtypeId>atypeoverseer</SubtypeId>
+			<SubtypeId>Ttypeoverseer</SubtypeId>
 		</Id>
-		<DisplayName>A-Type Overseer</DisplayName>
-		<Description>Used for A-Type heavly improved Blocks</Description>
+		<DisplayName>T-Type Overseer</DisplayName>
+		<Description>Used for T-Type heavly improved Thrusters</Description>
 		<Icon>Icons\overseer.dds</Icon>
 		<Size>
 			<X>0.1</X>

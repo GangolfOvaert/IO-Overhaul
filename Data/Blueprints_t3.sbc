@@ -9,11 +9,11 @@
 			<DisplayName>Heavy Steel Plate</DisplayName>
 			<Icon>Icons\plate_heavy.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
 				<Item Amount="2" TypeId="Component" SubtypeId="StainlessSteelPlate" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="heavySteelPlate" />
-			<BaseProductionTimeInSeconds>80</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>32</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -24,11 +24,11 @@
 			<DisplayName>Heavy Girder</DisplayName>
 			<Icon>Icons\girder_heavy.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Cobalt" />
 				<Item Amount="2" TypeId="Component" SubtypeId="StainlessGirder" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="heavyGirder" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -43,7 +43,7 @@
 				<Item Amount="2" TypeId="Component" SubtypeId="StainlessSmallTube" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="heavySmallTube" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -54,7 +54,7 @@
 			<DisplayName>Heavy Tube</DisplayName>
 			<Icon>Icons\tube_heavy.dds</Icon>
 			<Prerequisites>
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
 				<Item Amount="2" TypeId="Component" SubtypeId="StainlessLargeTube" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="heavyLargeTube" />
@@ -129,7 +129,7 @@
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlSiAlloy" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -144,7 +144,7 @@
 				<Item Amount="2" TypeId="Ore" SubtypeId="Magnesium" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlMgAlloy" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -159,7 +159,7 @@
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Copper" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlCuAlloy" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -205,7 +205,7 @@
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="GGMAlTiAlloy" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		<Blueprint>
@@ -219,7 +219,7 @@
 			  <Item Amount="0.6" TypeId="Ingot" SubtypeId="Gold" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="GoldWire" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 		  </Blueprint>
 		  <Blueprint>
 			<Id>
@@ -233,7 +233,7 @@
 				<Item Amount="1" TypeId="Component" SubtypeId="Rubber" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="GoldCable" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
 			<Id>

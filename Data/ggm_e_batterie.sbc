@@ -104,7 +104,7 @@
             </Size>
             <Mass>9.9</Mass>
             <Volume>15</Volume>
-            <Model>..\2344068716\Models\Components\PowerCellComponent.mwm</Model>
+            <Model>Models\Components\PowerCellComponent.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MaxIntegrity>40</MaxIntegrity>
             <DropProbability>0.3</DropProbability>
