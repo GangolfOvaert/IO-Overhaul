@@ -185,7 +185,7 @@
 		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
 			<Id>
 				<TypeId>Assembler</TypeId>
-				<SubtypeId>MunitionsFactoryt3</SubtypeId>
+				<SubtypeId>munitions_factory_t4</SubtypeId>
 			</Id>
 			<DisplayName>Munitions Factory T4</DisplayName>
 			<Icon>Icons\production\munitions_factory_t4.dds</Icon>

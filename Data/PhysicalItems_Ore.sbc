@@ -1609,34 +1609,7 @@
             <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
         </PhysicalItem>
 	
-        <PhysicalItem>
-            <Id>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>CrudeOil</SubtypeId>
-            </Id>
-            <DisplayName>Crude Oil</DisplayName>
-            <Icon>Icons\BlackBarrel.dds</Icon>
-            <Size>
-                <X>0.07</X>
-                <Y>0.07</Y>
-                <Z>0.07</Z>
-            </Size>
-            <Mass>1</Mass>
-            <Volume>0.15</Volume>
-            <Model>Models\OilBarrel.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <IconSymbol>Oil</IconSymbol>
-			
-            <MinimalPricePerUnit>500</MinimalPricePerUnit>
-            <MinimumOfferAmount>100</MinimumOfferAmount>
-            <MaximumOfferAmount>10000</MaximumOfferAmount>
-            <MinimumOrderAmount>100</MinimumOrderAmount>
-            <MaximumOrderAmount>10000</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
-
-            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
-        </PhysicalItem>
+        
 		
         <PhysicalItem>
             <Id>
@@ -1696,34 +1669,7 @@
             <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
         </PhysicalItem>
 		
-        <PhysicalItem>
-            <Id>
-                <TypeId>Ingot</TypeId>
-                <SubtypeId>FuelOil</SubtypeId>
-            </Id>
-            <DisplayName>Fuel Oil</DisplayName>
-            <Icon>Icons\fuelbarrel.dds</Icon>
-            <Size>
-                <X>0.072</X>
-                <Y>0.072</Y>
-                <Z>0.072</Z>
-            </Size>
-            <Mass>0.16</Mass>
-            <Volume>0.2</Volume>
-            <Model>Models\OilBarrel.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <IconSymbol>Fuel Oil</IconSymbol>
-			
-            <MinimalPricePerUnit>1388</MinimalPricePerUnit>
-            <MinimumOfferAmount>100</MinimumOfferAmount>
-            <MaximumOfferAmount>10000</MaximumOfferAmount>
-            <MinimumOrderAmount>100</MinimumOrderAmount>
-            <MaximumOrderAmount>10000</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
-
-            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
-        </PhysicalItem>
+  
 		
         <PhysicalItem>
             <Id>
