@@ -1,5 +1,22 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+	<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>wurstkeks</SubtypeId>
+			</Id>
+			<DisplayName>W-Type Overseer</DisplayName>
+			<Icon>Icons\overseer.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="wtypeoverseer" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+			<Public>false</Public>
+	</Blueprint>	
+</Blueprints>
 <Components>
 	<Component>
 		<Id>

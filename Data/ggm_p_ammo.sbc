@@ -24,13 +24,13 @@
 				<Component Subtype="SteelPlate" Count="200" />
 				<Component Subtype="InteriorPlate" Count="100" />
 				<Component Subtype="Construction" Count="80" />
-				<Component Subtype="CopperWire" Count="100" />
+				<Component Subtype="SilverWire" Count="100" />
 				<Component Subtype="Motor" Count="40" />
 				<Component Subtype="Computer" Count="20" />
 				<Component Subtype="Computer" Count="80" />
 				<Component Subtype="SteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="20" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
 				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\MunitionsFactoryConstruct2.mwm" />
@@ -73,7 +73,7 @@
 			<Description>
 				Mixes Gunpowder, and produces various types of Ammunition and Explosives.
 
-				Power Usage: 1MW
+				Power Usage: 2MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -81,16 +81,16 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\MunitionsFactory.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="StainlessSteelPlate" Count="200" />
 				<Component Subtype="InteriorPlate" Count="100" />
 				<Component Subtype="Construction" Count="80" />
-				<Component Subtype="CopperWire" Count="100" />
-				<Component Subtype="Motor" Count="40" />
-				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="advMotor" Count="40" />
+				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="Computer" Count="80" />
-				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="StainlessSteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="20" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
 				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\MunitionsFactoryConstruct2.mwm" />
@@ -106,7 +106,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1</OperationalPowerConsumption>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>MunitionsFactory</Class>
 				<Class>Ammo</Class>
@@ -133,7 +133,7 @@
 			<Description>
 				Mixes Gunpowder, and produces various types of Ammunition and Explosives.
 
-				Power Usage: 1MW
+				Power Usage: 4MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -144,13 +144,13 @@
 				<Component Subtype="heavySteelPlate" Count="200" />
 				<Component Subtype="InteriorPlate" Count="100" />
 				<Component Subtype="Construction" Count="80" />
-				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="GoldCable" Count="100" />
 				<Component Subtype="advMotor" Count="40" />
-				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="heavyGirder" Count="20" />
 				<Component Subtype="AdvancedComputer" Count="40" />
 				<Component Subtype="heavySteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="heavySteelPlate" Index="20" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
 				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\MunitionsFactoryConstruct2.mwm" />
@@ -166,7 +166,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1</OperationalPowerConsumption>
+			<OperationalPowerConsumption>4</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>MunitionsFactory</Class>
 				<Class>Ammo</Class>
@@ -192,7 +192,7 @@
 			<Description>
 				Mixes Gunpowder, and produces various types of Ammunition and Explosives.
 
-				Power Usage: 1MW
+				Power Usage: 8MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -200,16 +200,16 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\MunitionsFactory.mwm</Model>
 			<Components>
-				<Component Subtype="heavySteelPlate" Count="200" />
+				<Component Subtype="reinforcedSteelPlate" Count="200" />
 				<Component Subtype="InteriorPlate" Count="100" />
 				<Component Subtype="Construction" Count="80" />
-				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="GoldCable" Count="100" />
 				<Component Subtype="advMotor" Count="40" />
-				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="reinforcedGirder" Count="20" />
 				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="heavySteelPlate" Count="100" />
+				<Component Subtype="reinforcedSteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="heavySteelPlate" Index="20" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\Generic2x2Construct1.mwm" />
 				<Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\MunitionsFactoryConstruct2.mwm" />
@@ -225,12 +225,12 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1</OperationalPowerConsumption>
+			<OperationalPowerConsumption>8</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>MunitionsFactory</Class>
 				<Class>Ammo</Class>
 			</BlueprintClasses>
-			<AssemblySpeed>4</AssemblySpeed>
+			<AssemblySpeed>8</AssemblySpeed>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
 			<PrimarySound>BlockAssembler</PrimarySound>

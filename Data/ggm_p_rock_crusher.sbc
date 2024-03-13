@@ -13,7 +13,7 @@
 			<Description>
                     Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-
+					Power Usage 2.5MW
                 </Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -80,7 +80,7 @@
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-				
+				Power Usage 5MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -122,7 +122,7 @@
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>5</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>Crushert2</Class>
 			</BlueprintClasses>
@@ -148,7 +148,7 @@
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-				
+				Power Usage 7.5MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -191,7 +191,7 @@
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>7.5</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>Crushert3</Class>
 			</BlueprintClasses>
@@ -217,7 +217,7 @@
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-				
+				Power Usage 10MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -234,10 +234,10 @@
 				<Component Subtype="Ceramic" Count="250" />
 		     	<Component Subtype="QuantumComputer" Count="30" />		
 				<Component Subtype="Superconductor" Count="75" />
-				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="MetalGrid" Count="150" />
 				<Component Subtype="reinforcedSteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<CriticalComponent Subtype="QuantumComputer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
 				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
@@ -289,7 +289,7 @@
 			<Description>
 				Crushes Stone and Ores. Crushed Ore can be refined more efficiently.
 
-				
+				Power Usage 20MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -297,19 +297,19 @@
 			<Center x="1" y="1" z="1" />
 			<Model>..\2344068716\Models\OreCrusher.mwm</Model>
 			<Components>
-				<Component Subtype="reinforcedSteelPlate" Count="350" />
+				<Component Subtype="duraniumSteelPlate" Count="350" />
 				<Component Subtype="Construction" Count="140" />
-				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="Thermocouple" Count="100" />
 				<Component Subtype="GoldCable" Count="300" />
-				<Component Subtype="reinforcedLargeTube" Count="100" />
+				<Component Subtype="duraniumLargeTube" Count="100" />
 				<Component Subtype="advMotor" Count="100" />
 				<Component Subtype="Ceramic" Count="250" />
 		     	<Component Subtype="QuantumComputer" Count="30" />		
 				<Component Subtype="Superconductor" Count="75" />
-				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="reinforcedSteelPlate" Count="50" />
+				<Component Subtype="duraniumGirder" Count="150" />
+				<Component Subtype="duraniumSteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="TitaniumPlate" Index="25" />
+			<CriticalComponent Subtype="QuantumComputer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
 				<MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
@@ -333,7 +333,7 @@
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>2.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>20</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>Crushert5</Class>
 			</BlueprintClasses>

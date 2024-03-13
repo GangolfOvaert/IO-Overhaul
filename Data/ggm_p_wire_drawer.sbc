@@ -70,7 +70,7 @@
 			<Description>
 				Draws and insulates Wire of various types.
 
-				Power Usage: 1.5MW
+				Power Usage: 3MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -103,7 +103,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>3</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>WireDrawerComponents</Class>
 			</BlueprintClasses>

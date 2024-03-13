@@ -14,7 +14,7 @@
 				Automated production of basic components.
 				Produces Basic Computers, Construction Components, Metal Grids, Electromagnets, Heating Elements, Lightbulbs, and Alkaline Power Cells.
 
-				Power Usage: 1MW
+				Power Usage: 1.5MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -46,7 +46,7 @@
 				<Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1</OperationalPowerConsumption>
+			<OperationalPowerConsumption>1.5</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>FabricatorComponents</Class>
 			</BlueprintClasses>

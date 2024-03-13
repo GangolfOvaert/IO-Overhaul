@@ -244,7 +244,10 @@
 			</Id>
 			<DisplayName>Exotic Assembler</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-			<Description>An assembler for exotic materials</Description>
+			<Description>An assembler for exotic materials
+
+			Power Usage: 10MW			
+			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
@@ -286,7 +289,7 @@
 			  <Z>1</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+			<OperationalPowerConsumption>10</OperationalPowerConsumption>
 			<BlueprintClasses>
 			  <Class>ExoticMaterials</Class>
 			</BlueprintClasses>
