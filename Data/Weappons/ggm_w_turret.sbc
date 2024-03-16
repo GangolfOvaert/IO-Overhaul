@@ -21,14 +21,14 @@
             <Components>
               <Component Subtype="heavySteelPlate" Count="25" />
               <Component Subtype="Construction" Count="25" />
-              <Component Subtype="CopperWire" Count="15" />
+              <Component Subtype="CopperCable" Count="15" />
               <Component Subtype="MetalGrid" Count="15" />
               <Component Subtype="SmallTube" Count="6" />
-              <Component Subtype="Motor" Count="8" />
+              <Component Subtype="advMotor" Count="8" />
               <Component Subtype="Detector" Count="5" />
               <Component Subtype="Computer" Count="10" />
               <Component Subtype="AdvancedComputer" Count="10" />
-              <Component Subtype="ArmoredPlate" Count="15" />
+              <Component Subtype="heavySteelPlate" Count="15" />
             </Components>
             <CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -110,14 +110,14 @@
             <Components>
               <Component Subtype="heavySteelPlate" Count="10" />
               <Component Subtype="Construction" Count="25" />
-              <Component Subtype="CopperWire" Count="10" />
+              <Component Subtype="CopperCable" Count="10" />
               <Component Subtype="MetalGrid" Count="5" />
-              <Component Subtype="SmallTube" Count="6" />
-              <Component Subtype="Motor" Count="4" />
+              <Component Subtype="heavySmallTube" Count="6" />
+              <Component Subtype="advMotor" Count="4" />
               <Component Subtype="Detector" Count="2" />
               <Component Subtype="Computer" Count="10" />
               <Component Subtype="AdvancedComputer" Count="10" />
-              <Component Subtype="ArmoredPlate" Count="5" />
+              <Component Subtype="heavySteelPlate" Count="5" />
             </Components>
             <CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -199,14 +199,14 @@
             <Components>
               <Component Subtype="reinforcedSteelPlate" Count="25" />
               <Component Subtype="Construction" Count="25" />
-              <Component Subtype="CopperWire" Count="15" />
+              <Component Subtype="CopperCable" Count="15" />
               <Component Subtype="MetalGrid" Count="15" />
               <Component Subtype="LargeTube" Count="6" />
-              <Component Subtype="Motor" Count="10" />
+              <Component Subtype="advMotor" Count="10" />
               <Component Subtype="Detector" Count="5" />
               <Component Subtype="Computer" Count="10" />
               <Component Subtype="AdvancedComputer" Count="15" />
-              <Component Subtype="ArmoredPlate" Count="15" />
+              <Component Subtype="reinforcedSteelPlate" Count="15" />
             </Components>
             <CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -288,14 +288,14 @@
             <Components>
               <Component Subtype="reinforcedSteelPlate" Count="10" />
               <Component Subtype="Construction" Count="25" />
-              <Component Subtype="CopperWire" Count="10" />
+              <Component Subtype="CopperCable" Count="10" />
               <Component Subtype="MetalGrid" Count="5" />
               <Component Subtype="LargeTube" Count="2" />
-              <Component Subtype="Motor" Count="6" />
+              <Component Subtype="advMotor" Count="6" />
               <Component Subtype="Detector" Count="2" />
               <Component Subtype="Computer" Count="10" />
               <Component Subtype="AdvancedComputer" Count="10" />
-              <Component Subtype="ArmoredPlate" Count="5" />
+              <Component Subtype="reinforcedSteelPlate" Count="5" />
             </Components>
             <CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -375,12 +375,12 @@
             <Model>Models\Cubes\Large\InteriorTurret.mwm</Model>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-              <Component Subtype="InteriorPlate" Count="6" />
+              <Component Subtype="SteelPlate" Count="6" />
               <Component Subtype="Construction" Count="15" />
               <Component Subtype="SmallTube" Count="1" />
-              <Component Subtype="Motor" Count="2" />
+              <Component Subtype="advMotor" Count="2" />
               <Component Subtype="Computer" Count="10" />
-              <Component Subtype="CopperWire" Count="5" />
+              <Component Subtype="CopperCable" Count="5" />
               <Component Subtype="SteelPlate" Count="4" />
             </Components>
             <CriticalComponent Subtype="AdvancedComputer" Index="0" />
@@ -459,14 +459,14 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\RocketLauncher.mwm</Model>
             <Components>
-              <Component Subtype="SteelPlate" Count="1" />
+              <Component Subtype="heavySteelPlate" Count="1" />
               <Component Subtype="Construction" Count="2" />
               <Component Subtype="MetalGrid" Count="1" />
-              <Component Subtype="LargeTube" Count="4" />
-              <Component Subtype="CopperWire" Count="5" />
+              <Component Subtype="heavyLargeTube" Count="4" />
+              <Component Subtype="CopperCable" Count="5" />
               <Component Subtype="Computer" Count="5" />
               <Component Subtype="AdvancedComputer" Count="1" />
-              <Component Subtype="SteelPlate" Count="3" />
+              <Component Subtype="heavySteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -510,15 +510,15 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\GatlingGun.mwm</Model>
             <Components>
-              <Component Subtype="SteelPlate" Count="1" />
+              <Component Subtype="StainlessSteelPlate" Count="1" />
               <Component Subtype="Construction" Count="1" />
-              <Component Subtype="CopperWire" Count="4" />
+              <Component Subtype="CopperCable" Count="4" />
               <Component Subtype="MetalGrid" Count="2" />
-              <Component Subtype="SmallTube" Count="6" />
-              <Component Subtype="Motor" Count="1" />
+              <Component Subtype="StainlessSmallTube" Count="6" />
+              <Component Subtype="advMotor" Count="1" />
               <Component Subtype="Computer" Count="5" />
               <Component Subtype="AdvancedComputer" Count="2" />
-              <Component Subtype="SteelPlate" Count="3" />
+              <Component Subtype="StainlessSteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -566,17 +566,17 @@
             <Model>Models\Cubes\Small\AutocannonTurret_Base.mwm</Model>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="heavySteelPlate" Count="10" />
 				<Component Subtype="Construction" Count="10" />
-				<Component Subtype="CopperWire" Count="15" />
+				<Component Subtype="CopperCable" Count="15" />
 				<Component Subtype="MetalGrid" Count="5" />
-				<Component Subtype="LargeTube" Count="3" />
-				<Component Subtype="SmallTube" Count="5" />
-				<Component Subtype="Motor" Count="5" />
-				<Component Subtype="Computer" Count="20" />
-				<Component Subtype="ArmoredPlate" Count="5" />
+				<Component Subtype="heavyLargeTube" Count="3" />
+				<Component Subtype="heavySmallTube" Count="5" />
+				<Component Subtype="advMotor" Count="5" />
+				<Component Subtype="AdvancedComputer" Count="20" />
+				<Component Subtype="heavySteelPlate" Count="5" />
 			</Components>
-			<CriticalComponent Subtype="Computer" Index="0" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="1.3" StartY="1.3" EndX="3.7" EndY="3.7" Default="true" />
             </MountPoints>
@@ -670,16 +670,16 @@
             <Model>Models\Cubes\Large\HeavyCalibreTurret.mwm</Model>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-				<Component Subtype="SteelPlate" Count="75" />
+				<Component Subtype="heavySteelPlate" Count="75" />
 				<Component Subtype="Construction" Count="75" />
-				<Component Subtype="CopperWire" Count="50" />
+				<Component Subtype="CopperCable" Count="50" />
 				<Component Subtype="MetalGrid" Count="25" />
-				<Component Subtype="LargeTube" Count="65" />
-				<Component Subtype="Motor" Count="50" />
+				<Component Subtype="heavyLargeTube" Count="65" />
+				<Component Subtype="advMotor" Count="50" />
 				<Component Subtype="Detector" Count="10" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="45" />
-				<Component Subtype="ArmoredPlate" Count="75" />
+				<Component Subtype="heavySteelPlate" Count="75" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -770,14 +770,14 @@
             <Components>
 				<Component Subtype="heavySteelPlate" Count="60" />
 				<Component Subtype="Construction" Count="75" />
-				<Component Subtype="CopperWire" Count="45" />
+				<Component Subtype="CopperCable" Count="45" />
 				<Component Subtype="MetalGrid" Count="25" />
-				<Component Subtype="LargeTube" Count="30" />
-				<Component Subtype="Motor" Count="25" />
+				<Component Subtype="heavyLargeTube" Count="30" />
+				<Component Subtype="advMotor" Count="25" />
 				<Component Subtype="Detector" Count="5" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="25" />
-				<Component Subtype="ArmoredPlate" Count="40" />
+				<Component Subtype="heavySteelPlate" Count="40" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -859,16 +859,16 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\MediumCaliberGun.mwm</Model>
             <Components>
-				<Component Subtype="SteelPlate" Count="15" />
+				<Component Subtype="heavySteelPlate" Count="15" />
 				<Component Subtype="Construction" Count="20" />
-				<Component Subtype="CopperWire" Count="10" />
+				<Component Subtype="CopperCable" Count="10" />
 				<Component Subtype="MetalGrid" Count="5" />
-				<Component Subtype="LargeTube" Count="10" />
-				<Component Subtype="Motor" Count="2" />
-				<Component Subtype="Computer" Count="10" />
-				<Component Subtype="ArmoredPlate" Count="5" />
+				<Component Subtype="heavyLargeTube" Count="10" />
+				<Component Subtype="advMotor" Count="2" />
+				<Component Subtype="AdvancedComputer" Count="10" />
+				<Component Subtype="heavySteelPlate" Count="5" />
 			</Components>
-			<CriticalComponent Subtype="Computer" Index="0" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Left" StartX="6" StartY="0" EndX="9" EndY="1" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="3" />
@@ -915,16 +915,16 @@
             <Model>Models\Cubes\Small\MediumCalibreTurret_Base.mwm</Model>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="heavySteelPlate" Count="20" />
 				<Component Subtype="Construction" Count="30" />
-				<Component Subtype="CopperWire" Count="25" />
+				<Component Subtype="CopperCable" Count="25" />
 				<Component Subtype="MetalGrid" Count="15" />
-				<Component Subtype="LargeTube" Count="12" />
-				<Component Subtype="Motor" Count="10" />
+				<Component Subtype="heavyLargeTube" Count="12" />
+				<Component Subtype="advMotor" Count="10" />
 				<Component Subtype="Detector" Count="5" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="15" />
-				<Component Subtype="ArmoredPlate" Count="10" />
+				<Component Subtype="heavySteelPlate" Count="10" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -1005,16 +1005,16 @@
             <Model>Models\Cubes\Large\MediumCalibreTurret.mwm</Model>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-				<Component Subtype="SteelPlate" Count="60" />
+				<Component Subtype="heavySteelPlate" Count="60" />
 				<Component Subtype="Construction" Count="75" />
-				<Component Subtype="CopperWire" Count="45" />
+				<Component Subtype="CopperCable" Count="45" />
 				<Component Subtype="MetalGrid" Count="25" />
-				<Component Subtype="LargeTube" Count="30" />
-				<Component Subtype="Motor" Count="25" />
+				<Component Subtype="heavyLargeTube" Count="30" />
+				<Component Subtype="advMotor" Count="25" />
 				<Component Subtype="Detector" Count="5" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="25" />
-				<Component Subtype="ArmoredPlate" Count="40" />
+				<Component Subtype="heavySteelPlate" Count="40" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -1095,18 +1095,18 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\RailGun.mwm</Model>
             <Components>
-				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="heavySteelPlate" Count="50" />
 				<Component Subtype="Construction" Count="60" />
-				<Component Subtype="CopperWire" Count="70" />
+				<Component Subtype="CopperCable" Count="70" />
 				<Component Subtype="MetalGrid" Count="25" />
-				<Component Subtype="LargeTube" Count="30" />
-				<Component Subtype="Motor" Count="10" />
+				<Component Subtype="heavyLargeTube" Count="30" />
+				<Component Subtype="advMotor" Count="10" />
 				<Component Subtype="Capacitor" Count="75" />
 				<Component Subtype="Superconductor" Count="50" />
-				<Component Subtype="Girder" Count="100" />
+				<Component Subtype="heavyGirder" Count="100" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="ArmoredPlate" Count="50" />
+				<Component Subtype="heavySteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>
@@ -1159,18 +1159,18 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\RailGun.mwm</Model>
             <Components>
-				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="heavySteelPlate" Count="10" />
 				<Component Subtype="Construction" Count="15" />
-				<Component Subtype="CopperWire" Count="20" />
+				<Component Subtype="CopperCable" Count="20" />
 				<Component Subtype="MetalGrid" Count="5" />
-				<Component Subtype="LargeTube" Count="8" />
-				<Component Subtype="Motor" Count="4" />
+				<Component Subtype="heavyLargeTube" Count="8" />
+				<Component Subtype="advMotor" Count="4" />
 				<Component Subtype="Capacitor" Count="15" />
 				<Component Subtype="Superconductor" Count="10" />
-				<Component Subtype="Girder" Count="20" />
+				<Component Subtype="heavyGirder" Count="20" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="AdvancedComputer" Count="10" />
-				<Component Subtype="ArmoredPlate" Count="10" />
+				<Component Subtype="heavySteelPlate" Count="10" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
             <MountPoints>

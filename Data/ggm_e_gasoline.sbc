@@ -12,7 +12,7 @@
 		<Description>
 			Burns Gasoline to generate power.
 			Max Output: 5MW
-			Fuel Consumption: 50L/s
+			Fuel Consumption: 40L/s
 		</Description>
 		<Icon>Icons\mobility\HydrogenEngineLarge_gasoline.dds</Icon>
 		<CubeSize>Large</CubeSize>
@@ -65,7 +65,7 @@
 				</Id>
 			</FuelInfo>
 		</FuelInfos>
-		<FuelProductionToCapacityMultiplier>0.11</FuelProductionToCapacityMultiplier>
+		<FuelProductionToCapacityMultiplier>0.22</FuelProductionToCapacityMultiplier>
 		<PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
 
 		<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

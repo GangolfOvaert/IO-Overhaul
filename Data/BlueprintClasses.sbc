@@ -125,6 +125,8 @@
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="Display" />
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="soiledPolymerToPlastic" />
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="soiledplastictopcb" />
+	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="DEBUG_Oil" />
+	
 
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="basicpcbtocuircitboard" />
 	<Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="POComputerComponentsoiled" />

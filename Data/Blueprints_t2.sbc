@@ -218,7 +218,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>POMedicalComponent</SubtypeId>
 			</Id>
-			<DisplayName>Advanced Motor</DisplayName>
+			<DisplayName>Medical Components</DisplayName>
 			<Icon>Icons\medical_components_component.dds</Icon>
 			<Prerequisites>
 				<Item Amount="10" TypeId="Component" SubtypeId="GGMSilverPlate" />

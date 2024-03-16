@@ -11,7 +11,7 @@
 			<DisplayName>Refinery T1</DisplayName>
 			<Icon>Icons\production\refinery_t1.dds</Icon>
 			<Description>
-				Refinery can refine Nickel, Iron, Silicon, Copper, Silver, Gold, Cobalt, Platin
+				Refinery can refine T1 Ores
 
 				Power Usage 3MW
 			</Description>
@@ -85,7 +85,7 @@
 			<DisplayName>Refinery T2</DisplayName>
 			<Icon>Icons\production\refinery_t2.dds</Icon>
 			<Description>
-				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield than T1.
+				Refinery can refine T2 Ores
 
 				Power Usage 6MW
 			</Description>
@@ -160,7 +160,7 @@
 			<DisplayName>Refinery T3</DisplayName>
 			<Icon>Icons\production\refinery_t3.dds</Icon>
 			<Description>
-				Refinery can refine Bauxite, gold, Lithium, Platin, Silver, Stone with better yield than T2.
+				Refinery can refine T3 Ores
 
 				Power Usage 10MW
 			</Description>
@@ -237,7 +237,7 @@
 			<DisplayName>Refinery T4</DisplayName>
 			<Icon>Icons\production\refinery_t4.dds</Icon>
 			<Description>
-				Refinery can refine with better yield than T3.
+				Refinery can refine T4 Ores
 
 				Power Usage 15MW
 			</Description>
@@ -316,7 +316,7 @@
 			<DisplayName>Refinery T5</DisplayName>
 			<Icon>Icons\production\refinery_t5.dds</Icon>
 			<Description>
-				Refinery can refine with better yield than T4.
+				Refinery can refine T5 Ores
 
 				Power Usage 200MW
 			</Description>
