@@ -264,7 +264,7 @@
             </Size>
             <Mass>24.9</Mass>
             <Volume>10</Volume>
-            <Model>Models\ElectronMatrixCell.mwm</Model>
+            <Model>..\2344068716\Models\ElectronMatrixCell.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MaxIntegrity>2</MaxIntegrity>
             <MinimalPricePerUnit>177871</MinimalPricePerUnit>
