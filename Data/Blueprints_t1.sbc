@@ -34,7 +34,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>POConstructionComponent</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+			<DisplayName>Steel Components</DisplayName>
 			<Icon>Icons\component_steel.dds</Icon>
 			<Prerequisites>
 				<Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />

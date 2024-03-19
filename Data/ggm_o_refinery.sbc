@@ -475,11 +475,15 @@
 
     
 
-    
-
   </BlueprintClasses>
   
 <BlueprintClassEntries>
+  <Entry Class="refineryIngotst1" BlueprintSubtypeId="ScrapToIronIngot" />
+  <Entry Class="refineryIngotst2" BlueprintSubtypeId="ScrapToIronIngot" />
+  <Entry Class="refineryIngotst3" BlueprintSubtypeId="ScrapToIronIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="ScrapToIronIngot" />
+  <Entry Class="refineryIngots5" BlueprintSubtypeId="ScrapToIronIngot" />
+
   <Entry Class="refineryIngotst1" BlueprintSubtypeId="StoneOreToIngot" />
   <Entry Class="refineryIngotst1" BlueprintSubtypeId="IronOreToIngot" />
   <Entry Class="refineryIngotst1" BlueprintSubtypeId="SiliconOreToIngot" />

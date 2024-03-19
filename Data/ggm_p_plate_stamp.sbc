@@ -58,8 +58,8 @@
 			<Class>PlateStampComponents</Class>
 		</BlueprintClasses>
 		<AssemblySpeed>1</AssemblySpeed>
-		<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-		<DamagedSound>ParticleHeavyMech</DamagedSound>
+		<DamageEffectName>Damage_heavyMech_Damaged</DamageEffectName>
+		<DamagedSound>ParticleheavyMech</DamagedSound>
 		<PrimarySound>BlockAssembler</PrimarySound>
 		<ActionSound>BlockAssemblerProcess</ActionSound>
 		<DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -95,10 +95,10 @@
 				<Component Subtype="StainlessLargeTube" Count="20" />
 				<Component Subtype="advMotor" Count="40" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="AdvancedComputer" Count="40" />
+				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="StainlessSteelPlate" Count="40" />
 			</Components>
-			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
 				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -126,8 +126,8 @@
 				<Class>PlateStampComponents</Class>
 			</BlueprintClasses>
 			<AssemblySpeed>2</AssemblySpeed>
-			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DamageEffectName>Damage_heavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleheavyMech</DamagedSound>
 			<PrimarySound>BlockAssembler</PrimarySound>
 			<ActionSound>BlockAssemblerProcess</ActionSound>
 			<DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -156,15 +156,15 @@
 			<Center x="0" y="0" z="1" />
 			<Model>..\2344068716\Models\PlateStamp.mwm</Model>
 			<Components>
-				<Component Subtype="StainlessSteelPlate" Count="200" />
+				<Component Subtype="heavySteelPlate" Count="200" />
 				<Component Subtype="Construction" Count="100" />
-				<Component Subtype="CopperCable" Count="100" />
+				<Component Subtype="GoldCable" Count="100" />
 				<Component Subtype="advElectromagnet" Count="30" />
-				<Component Subtype="StainlessLargeTube" Count="20" />
+				<Component Subtype="heavyLargeTube" Count="20" />
 				<Component Subtype="advMotor" Count="40" />
 				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="StainlessSteelPlate" Count="40" />
+				<Component Subtype="heavySteelPlate" Count="40" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<MountPoints>
@@ -194,8 +194,8 @@
 				<Class>PlateStampComponents</Class>
 			</BlueprintClasses>
 			<AssemblySpeed>4</AssemblySpeed>
-			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DamageEffectName>Damage_heavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleheavyMech</DamagedSound>
 			<PrimarySound>BlockAssembler</PrimarySound>
 			<ActionSound>BlockAssemblerProcess</ActionSound>
 			<DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -224,15 +224,15 @@
 			<Center x="0" y="0" z="1" />
 			<Model>..\2344068716\Models\PlateStamp.mwm</Model>
 			<Components>
-				<Component Subtype="StainlessSteelPlate" Count="200" />
+				<Component Subtype="reinforcedSteelPlate" Count="200" />
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="CopperCable" Count="100" />
 				<Component Subtype="advElectromagnet" Count="30" />
-				<Component Subtype="StainlessLargeTube" Count="20" />
+				<Component Subtype="reinforcedLargeTube" Count="20" />
 				<Component Subtype="advMotor" Count="40" />
-				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="StainlessSteelPlate" Count="40" />
+				<Component Subtype="QuantumComputer" Count="40" />
+				<Component Subtype="reinforcedSteelPlate" Count="40" />
 			</Components>
 			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<MountPoints>
@@ -262,8 +262,8 @@
 				<Class>PlateStampComponents</Class>
 			</BlueprintClasses>
 			<AssemblySpeed>8</AssemblySpeed>
-			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DamageEffectName>Damage_heavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleheavyMech</DamagedSound>
 			<PrimarySound>BlockAssembler</PrimarySound>
 			<ActionSound>BlockAssemblerProcess</ActionSound>
 			<DestroyEffect>Explosion_Missile</DestroyEffect>

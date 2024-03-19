@@ -579,7 +579,7 @@
 		  <Component Subtype="AdvancedComputer" Count="10" />
 		  <Component Subtype="heavySteelPlate" Count="15" />
 		</Components>
-		<CriticalComponent Subtype="Computer" Index="0" />
+		<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 		<BuildProgressModels>
 		  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
 		  <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
@@ -649,7 +649,7 @@
 		  <Component Subtype="AdvancedComputer" Count="8" />
 		  <Component Subtype="heavySteelPlate" Count="10" />
 		</Components>
-		<CriticalComponent Subtype="Motor" Index="0" />
+		<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 		<BuildProgressModels>
 		  <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm" />
 		  <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />

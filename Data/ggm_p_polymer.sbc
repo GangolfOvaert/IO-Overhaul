@@ -25,7 +25,7 @@
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="StainlessLargeTube" Count="80" />
 				<Component Subtype="StainlessSmallTube" Count="80" />
-				<Component Subtype="advMotor" Count="80" />
+				<Component Subtype="Motor" Count="160" />
 				<Component Subtype="CopperWire" Count="300" />
 				<Component Subtype="HeatingElement" Count="80" />
 				<Component Subtype="Computer" Count="80" />

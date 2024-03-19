@@ -10,6 +10,7 @@
 			</Id>
 			<DisplayName>Chemical Refinery</DisplayName>
 			<Icon>Icons\production\chemical_plant_t3.dds</Icon>
+			<Icon>Icons\Corners\t2.dds</Icon>
 			<Description>
 				Refines Lithium, Niter, and Sulfur, and extracts pure Carbon from Coal.
 
@@ -21,16 +22,16 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\2344068716\Models\ChemicalPlant.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="StainlessSteelPlate" Count="125" />
 				<Component Subtype="Construction" Count="60" />
-				<Component Subtype="LargeTube" Count="50" />
-				<Component Subtype="Motor" Count="40" />
+				<Component Subtype="StainlessLargeTube" Count="50" />
+				<Component Subtype="advMotor" Count="40" />
 				<Component Subtype="CopperWire" Count="100" />
 				<Component Subtype="Ceramic" Count="100" />
-				<Component Subtype="AdvancedComputer" Count="40" />
-				<Component Subtype="SteelPlate" Count="25" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="StainlessSteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<Center x="1" y="0" z="2" />
 			<MountPoints>
 				<MountPoint Side="Back" StartX="2" StartY="0" EndX="3" EndY="1" />
