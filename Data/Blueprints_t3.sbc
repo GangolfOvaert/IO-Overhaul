@@ -307,9 +307,11 @@
 			<DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
 			<Icon>Icons\thrust_components_component.dds</Icon>
 			<Prerequisites>
+			  <Item Amount="1" TypeId="Component" SubtypeId="Casing" />
 			  <Item Amount="6" TypeId="Component" SubtypeId="Ceramic" />
 			  <Item Amount="20" TypeId="Component" SubtypeId="GoldCable" />
-			  <Item Amount="10" TypeId="Component" SubtypeId="GGMAlTiAlloy" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="heavyLargeTube" />
+			  <Item Amount="10" TypeId="Component" SubtypeId="GGMAlCuAlloy" />
 			  <Item Amount="10" TypeId="Component" SubtypeId="advMotor" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
@@ -323,6 +325,7 @@
 			</Id>
 			<DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
 			<Icon>Icons\impthrust_components_component.dds</Icon>
+			<Icon>Icons\Corners\t4.dds</Icon>
 			<Prerequisites>
 			  <Item Amount="1" TypeId="Component" SubtypeId="Casing" />
 			  <Item Amount="10" TypeId="Component" SubtypeId="Cryocooler" />

@@ -62,7 +62,7 @@
                     </Id>
                 </FuelInfo>
             </FuelInfos>
-            <FuelProductionToCapacityMultiplier>0.025</FuelProductionToCapacityMultiplier>
+            <FuelProductionToCapacityMultiplier>0.015</FuelProductionToCapacityMultiplier>
             <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
 
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

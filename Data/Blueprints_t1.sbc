@@ -18,9 +18,23 @@
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>DEBUG_Oil</SubtypeId>
+			</Id>
+			<DisplayName>DEBUG Oilsand</DisplayName>
+			<Icon>Icons\ingots\OilSand.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Coal" />
+			</Prerequisites>
+			<Result Amount="0.5" TypeId="Ore" SubtypeId="OilSand" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>POConstructionComponent</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+			<DisplayName>Steel Components</DisplayName>
 			<Icon>Icons\component_steel.dds</Icon>
 			<Prerequisites>
 				<Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />

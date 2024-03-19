@@ -26,7 +26,7 @@
 				<Component Subtype="StainlessSteelPlate" Count="50" />
 				<Component Subtype="Construction" Count="120" />
 				<Component Subtype="CopperCable" Count="200" />
-				<Component Subtype="advMotor" Count="80" />
+				<Component Subtype="Motor" Count="80" />
 				<Component Subtype="StainlessGirder" Count="80" />
 				<Component Subtype="Computer" Count="150" />
 				<Component Subtype="StainlessSteelPlate" Count="20" />
@@ -107,7 +107,7 @@
 				<Component Subtype="CopperCable" Count="200" />
 				<Component Subtype="heavyGirder" Count="200" />
 				<Component Subtype="advMotor" Count="20" />
-				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="MetalGrid" Count="80" />
 				<Component Subtype="GoldCable" Count="100" />
 				<Component Subtype="Superconductor" Count="40" />
 				<Component Subtype="AdvancedComputer" Count="100" />
