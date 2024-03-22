@@ -28,7 +28,7 @@
 				<Component Subtype="Computer" Count="20" />
 				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="HeatingElement" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<MountPoints>
@@ -94,7 +94,7 @@
 				<Component Subtype="HeatingElement" Count="75" />
 				<Component Subtype="SteelPlate" Count="250" />
 			</Components>
-			<CriticalComponent Subtype="HeatingElement" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<MountPoints>
@@ -161,7 +161,7 @@
 				<Component Subtype="MetalGrid" Count="30" />
 				<Component Subtype="StainlessSteelPlate" Count="300" />
 			</Components>
-			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<MountPoints>

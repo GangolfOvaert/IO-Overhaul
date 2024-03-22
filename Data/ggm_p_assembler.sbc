@@ -198,7 +198,7 @@
 				<Component Subtype="AdvancedComputer" Count="200" />
 				<Component Subtype="reinforcedSteelPlate" Count="100" />
 			</Components>
-			<CriticalComponent Subtype="reinforcedSteelPlate" Index="50" />
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
 				<MountPoint Side="Back" StartX="1" StartY="3" EndX="2" EndY="4" />

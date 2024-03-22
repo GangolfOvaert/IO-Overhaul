@@ -383,7 +383,7 @@
               <Component Subtype="CopperCable" Count="5" />
               <Component Subtype="SteelPlate" Count="4" />
             </Components>
-            <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+            <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
               <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
@@ -468,7 +468,7 @@
               <Component Subtype="AdvancedComputer" Count="1" />
               <Component Subtype="heavySteelPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+            <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
               <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
               <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />

@@ -982,7 +982,7 @@
 						<Component Subtype="Ceramic" Count="8" />
 						<Component Subtype="duraniumSteelPlate" Count="5" />
 					</Components>
-					<CriticalComponent Subtype="advElectromagnet" Index="0" />
+					<CriticalComponent Subtype="Ceramic" Index="0" />
 					<MountPoints>
 					  <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
 					  <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -1081,7 +1081,7 @@
 						<Component Subtype="Ceramic" Count="50" />
 						<Component Subtype="duraniumSteelPlate" Count="10" />
 					</Components>
-					<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+					<CriticalComponent Subtype="Ceramic" Index="0" />
 					<MountPoints>
 					  <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
 					  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />

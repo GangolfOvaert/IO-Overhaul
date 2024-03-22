@@ -30,7 +30,7 @@
 				<Component Subtype="Ceramic" Count="30" />
 				<Component Subtype="reinforcedSteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="reinforcedLargeTube" Index="0" />
+			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<Center x="1" y="1" z="3" />
 			<MountPoints>
 			  <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -136,7 +136,7 @@
 				<Component Subtype="Ceramic" Count="30" />
 				<Component Subtype="reinforcedSteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="reinforcedLargeTube" Index="0" />
+			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
 			  <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
 			</MountPoints>
@@ -237,7 +237,7 @@
 			  <Component Subtype="Ceramic" Count="10" />
 			  <Component Subtype="reinforcedSteelPlate" Count="10" />
 			</Components>
-			<CriticalComponent Subtype="reinforcedLargeTube" Index="0" />
+			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<Center x="1" y="1" z="3" />
 			<MountPoints>
 			  <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -341,7 +341,7 @@
 				<Component Subtype="Ceramic" Count="2" />
 				<Component Subtype="reinforcedSteelPlate" Count="5" />
 			</Components>
-			<CriticalComponent Subtype="reinforcedLargeTube" Index="0" />
+			<CriticalComponent Subtype="Ceramic" Index="0" />
 			<MountPoints>
 			  <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
 			</MountPoints>

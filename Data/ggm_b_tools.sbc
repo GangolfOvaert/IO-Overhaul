@@ -93,7 +93,7 @@
 	  <Component Subtype="Computer" Count="2" />
 	  <Component Subtype="StainlessSteelPlate" Count="2" />
 	</Components>
-	<CriticalComponent Subtype="Motor" Index="0" />
+	<CriticalComponent Subtype="Computer" Index="0" />
 	<BuildProgressModels>
 	  <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" />
 	  <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm" />

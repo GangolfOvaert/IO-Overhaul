@@ -27,12 +27,12 @@
 			  <Component Subtype="Computer" Count="5" />
 			  <Component Subtype="GGMSilverPlate" Count="10" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 			  <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
 			  <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
 			  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
 			</MountPoints>
-			<CriticalComponent Subtype="Computer" Index="0" />
 			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<BuildProgressModels>
