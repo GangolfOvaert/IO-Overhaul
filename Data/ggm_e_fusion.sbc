@@ -178,7 +178,7 @@
       </Id>
       <DisplayName>Fusion Reactor</DisplayName>
       <Icon>..\2344068716\Icons\LargeFusionReactor.dds</Icon>
-	  <Icon>Icons\Corners\t5.dds</Icon>
+	  <Icon>Icons\Corners\t6.dds</Icon>
 	  <Description>Laser-initiated, magnetic confinement fusion reactor.
 	  Consumes Deuterium fuel.
 	  Max Output: 1GW
@@ -203,6 +203,7 @@
         <Component Subtype="Detector" Count="250" />
         <Component Subtype="AdvancedComputer" Count="750" />
         <Component Subtype="QuantumComputer" Count="250" />
+        <Component Subtype="Pbtypeoverseer" Count="25"> <DeconstructId><TypeId>Ore</TypeId><SubtypeId>Scrap</SubtypeId></DeconstructId></Component>
         <Component Subtype="duraniumSteelPlate" Count="1000" />
       </Components>
       <CriticalComponent Subtype="QuantumComputer" Index="0" />
@@ -261,7 +262,7 @@
       </Id>
       <DisplayName>Deuterium Tank</DisplayName>
       <Icon>..\2344068716\Icons\LargeDeuteriumTank.dds</Icon>
-	  <Icon>Icons\Corners\t5.dds</Icon>
+	    <Icon>Icons\Corners\t5.dds</Icon>
 	  <Description>Stores cryogenic Deuterium. 500,000L capacity.
 	  Caution: Cryogenically compressed gases are highly volatile.</Description>
       <CubeSize>Large</CubeSize>
@@ -612,7 +613,7 @@
       </Id>
       <DisplayName>Fusion Thruster</DisplayName>
       <Icon>..\2344068716\Icons\LargeFusionThruster.dds</Icon>
-	  <Icon>Icons\Corners\t5.dds</Icon>
+	  <Icon>Icons\Corners\t6.dds</Icon>
 	  <Description>Uses a modified tokamak to initiate a fusion reaction, and magnetically focuses the plasma output to produce thrust.
 	  Consumes Deuterium fuel.
 	  
@@ -639,6 +640,7 @@
         <Component Subtype="Detector" Count="250" />
         <Component Subtype="AdvancedComputer" Count="705" />
         <Component Subtype="QuantumComputer" Count="250" />
+        <Component Subtype="Pbtypeoverseer" Count="25"> <DeconstructId><TypeId>Ore</TypeId><SubtypeId>Scrap</SubtypeId></DeconstructId></Component>
         <Component Subtype="duraniumSteelPlate" Count="1000" />
       </Components>
       <CriticalComponent Subtype="QuantumComputer" Index="0" />
