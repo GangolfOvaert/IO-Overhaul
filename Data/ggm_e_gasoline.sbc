@@ -271,7 +271,7 @@
 			<TypeId>HydrogenEngine</TypeId>
 			<SubtypeId>SmallGasolineEnginet2</SubtypeId>
 		</Id>
-		<DisplayName>Gasoline Engine T2</DisplayName>
+		<DisplayName>Gasoline Engine T3</DisplayName>
 		<Description>
 			Burns Gasoline to generate power.
 			Max Output: 3MW
