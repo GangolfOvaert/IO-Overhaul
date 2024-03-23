@@ -82,7 +82,7 @@
 				Filters impurites from Crushed Ore to further increase refining yield.
 				Nicekel, Iron, Silicon, Copper, Silver, Gold, Cobalt
 
-				Power Usage: 5MW
+				Power Usage: 10MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -125,7 +125,7 @@
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>10</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>Purifiert2</Class>
 			</BlueprintClasses>
@@ -151,7 +151,7 @@
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 
-				Power Usage: 5MW
+				Power Usage: 15MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -196,7 +196,7 @@
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>15</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>Purifiert3</Class>
 			</BlueprintClasses>
@@ -222,7 +222,7 @@
 			<Description>
 				Filters impurites from Crushed Ore to further increase refining yield.
 
-				Power Usage: 5MW
+				Power Usage: 20MW
 			</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -269,7 +269,7 @@
 				<Z>2.5</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>20</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>Purifiert4</Class>
 			</BlueprintClasses>
