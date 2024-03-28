@@ -127,9 +127,6 @@
 		</InventorySize>
 		<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
 		<OperationalPowerConsumption>3</OperationalPowerConsumption>
-		<BlueprintClasses>
-			<Class>OilCracking</Class>
-		</BlueprintClasses>
 		<RefineSpeed>1.5</RefineSpeed>
 		<MaterialEfficiency>0.8</MaterialEfficiency>
 		<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
