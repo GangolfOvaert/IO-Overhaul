@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+	</CubeBlocks>
+	<Blueprints>
+    <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POAngleGrinder</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AngleGrinder</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+            <Icon>Icons\Corners\t1.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinderItem" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POAngleGrinder2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AngleGrinder2</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+            <Icon>Icons\Corners\t2.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Component" SubtypeId="StainlessSteelPlate" />
+                <Item Amount="1" TypeId="Component" SubtypeId="AcidPowerCell" />
+                <Item Amount="2" TypeId="Component" SubtypeId="CopperWire" />
+                <Item Amount="6" TypeId="Component" SubtypeId="advMotor" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder2Item" />
+            <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POAngleGrinder3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AngleGrinder3</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+            <Icon>Icons\Corners\t3.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Component" SubtypeId="heavySteelPlate" />
+                <Item Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+                <Item Amount="1" TypeId="Component" SubtypeId="CopperCable" />
+                <Item Amount="2" TypeId="Component" SubtypeId="advMotor" />
+                <Item Amount="1" TypeId="Component" SubtypeId="GoldCable" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder3Item" />
+            <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POAngleGrinder4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AngleGrinder4</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+            <Icon>Icons\Corners\t4.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
+                <Item Amount="1" TypeId="Component" SubtypeId="ElectronMatrix" />
+                <Item Amount="2" TypeId="Component" SubtypeId="GoldCable" />
+                <Item Amount="2" TypeId="Component" SubtypeId="advMotor" />
+                <Item Amount="2" TypeId="Component" SubtypeId="SuperMagnet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder4Item" />
+            <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POHandDrill</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_HandDrill</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+            <Icon>Icons\Corners\t1.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrillItem" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POHandDrill2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_HandDrill2</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+            <Icon>Icons\Corners\t2.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Component" SubtypeId="StainlessSteelPlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="AcidPowerCell" />
+                <Item Amount="3" TypeId="Component" SubtypeId="CopperWire" />        
+                <Item Amount="3" TypeId="Component" SubtypeId="advMotor" />  
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill2Item" />
+            <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POHandDrill3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_HandDrill3</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+            <Icon>Icons\Corners\t3.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Component" SubtypeId="heavySteelPlate" />
+                <Item Amount="3" TypeId="Component" SubtypeId="PowerCell" />
+                <Item Amount="3" TypeId="Component" SubtypeId="CopperCable" />
+                <Item Amount="2" TypeId="Component" SubtypeId="advMotor" />
+                <Item Amount="1" TypeId="Component" SubtypeId="GoldCable" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill3Item" />
+            <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POHandDrill4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_HandDrill4</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+            <Icon>Icons\Corners\t4.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
+                <Item Amount="3" TypeId="Component" SubtypeId="ElectronMatrix" />
+                <Item Amount="3" TypeId="Component" SubtypeId="GoldCable" />
+                <Item Amount="2" TypeId="Component" SubtypeId="advMotor" />
+                <Item Amount="2" TypeId="Component" SubtypeId="SuperMagnet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill4Item" />
+            <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POWelder</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Welder</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+            <Icon>Icons\Corners\t1.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="WelderItem" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POWelder2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Welder2</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+            <Icon>Icons\Corners\t2.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Component" SubtypeId="StainlessSteelPlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="AcidPowerCell" />
+                <Item Amount="5" TypeId="Component" SubtypeId="CopperWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="advElectromagnet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder2Item" />
+            <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>POWelder3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Welder3</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+            <Icon>Icons\Corners\t3.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Component" SubtypeId="heavySteelPlate" />
+                <Item Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+                <Item Amount="4" TypeId="Component" SubtypeId="CopperCable" />
+                <Item Amount="2" TypeId="Component" SubtypeId="advMotor" />
+                <Item Amount="1" TypeId="Component" SubtypeId="GoldCable" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder3Item" />
+            <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+                <Id>
+                    <TypeId>BlueprintDefinition</TypeId>
+                    <SubtypeId>POWelder4</SubtypeId>
+                </Id>
+                <DisplayName>DisplayName_Item_Welder4</DisplayName>
+                <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+                <Icon>Icons\Corners\t3.dds</Icon>
+                <Prerequisites>
+                    <Item Amount="5" TypeId="Component" SubtypeId="reinforcedSteelPlate" />
+                    <Item Amount="1" TypeId="Component" SubtypeId="ElectronMatrix" />
+                    <Item Amount="0.2" TypeId="Component" SubtypeId="GoldCable" />
+                    <Item Amount="2" TypeId="Component" SubtypeId="advMotor" />
+                    <Item Amount="2" TypeId="Component" SubtypeId="SuperMagnet" />
+                </Prerequisites>
+                <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder4Item" />
+                <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+                <IsPrimary>true</IsPrimary>
+        </Blueprint>
+	</Blueprints>
+	<BlueprintClasses>
+	</BlueprintClasses>
+    <BlueprintClassEntries>
+    </BlueprintClassEntries>
+    <PhysicalItems>
+	<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>WelderItem</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Welder</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+			<Icon>Icons\Corners\t1.dds</Icon>
+            <Description>Description_Welder</Description>
+            <Size>
+                <X>0.4</X>
+                <Y>0.2</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>5</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Weapons\Welder.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>20</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>100</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>Welder2Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Welder2</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+			<Icon>Icons\Corners\t2.dds</Icon>
+            <Description>Description_Welder</Description>
+            <Size>
+                <X>0.4</X>
+                <Y>0.2</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>5</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Weapons\WelderMk2.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Welder_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>10</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>50</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>Welder3Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Welder3</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+			<Icon>Icons\Corners\t3.dds</Icon>
+            <Description>Description_Welder</Description>
+            <Size>
+                <X>0.4</X>
+                <Y>0.2</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>5</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Weapons\WelderMk3.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Welder_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>10</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>50</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>Welder4Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Welder4</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+			<Icon>Icons\Corners\t4.dds</Icon>
+            <Description>Description_Welder</Description>
+            <Size>
+                <X>0.4</X>
+                <Y>0.2</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>5</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Weapons\WelderMk4.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Welder4_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>3</MaximumOfferAmount>
+            <MinimumOrderAmount>5</MinimumOrderAmount>
+            <MaximumOrderAmount>10</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinderItem</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AngleGrinder</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+			<Icon>Icons\Corners\t1.dds</Icon>
+            <Description>Description_AngleGrinder</Description>
+            <Size>
+                <X>0.5</X>
+                <Y>0.3</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\Weapons\AngleGrinder.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>20</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>100</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder2Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AngleGrinder2</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+			<Icon>Icons\Corners\t2.dds</Icon>
+            <Description>Description_AngleGrinder</Description>
+            <Size>
+                <X>0.5</X>
+                <Y>0.3</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\Weapons\AngleGrinderMk2.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Grinder_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>10</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>50</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder3Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AngleGrinder3</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+			<Icon>Icons\Corners\t3.dds</Icon>
+            <Description>Description_AngleGrinder</Description>
+            <Size>
+                <X>0.5</X>
+                <Y>0.3</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\Weapons\AngleGrinderMk3.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Grinder_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>10</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>50</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder4Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AngleGrinder4</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+			<Icon>Icons\Corners\t4.dds</Icon>
+            <Description>Description_AngleGrinder</Description>
+            <Size>
+                <X>0.5</X>
+                <Y>0.3</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\Weapons\AngleGrinderMk4.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Grinder4_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>3</MaximumOfferAmount>
+            <MinimumOrderAmount>5</MinimumOrderAmount>
+            <MaximumOrderAmount>10</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>HandDrillItem</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_HandDrill</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+			<Icon>Icons\Corners\t1.dds</Icon>
+            <Description>Description_HandDrill</Description>
+            <Size>
+                <X>1.2</X>
+                <Y>0.6</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>22</Mass>
+            <Volume>25</Volume>
+            <Model>Models\Weapons\HandDrill.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>20</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>100</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>HandDrill2Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_HandDrill2</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+			<Icon>Icons\Corners\t2.dds</Icon>
+            <Description>Description_HandDrill</Description>
+            <Size>
+                <X>1.2</X>
+                <Y>0.6</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>22</Mass>
+            <Volume>25</Volume>
+            <Model>Models\Weapons\HandDrillMk2.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Drill_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>10</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>50</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>HandDrill3Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_HandDrill3</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+			<Icon>Icons\Corners\t3.dds</Icon>
+            <Description>Description_HandDrill</Description>
+            <Size>
+                <X>1.2</X>
+                <Y>0.6</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>22</Mass>
+            <Volume>25</Volume>
+            <Model>Models\Weapons\HandDrillMk3.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Drill_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>10</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>50</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>HandDrill4Item</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_HandDrill4</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+			<Icon>Icons\Corners\t4.dds</Icon>
+            <Description>Description_HandDrill</Description>
+            <Size>
+                <X>1.2</X>
+                <Y>0.6</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>22</Mass>
+            <Volume>25</Volume>
+            <Model>Models\Weapons\HandDrillMk4.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>Item_Drill4_Extra_Tooltip</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>3</MaximumOfferAmount>
+            <MinimumOrderAmount>5</MinimumOrderAmount>
+            <MaximumOrderAmount>10</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+    </PhysicalItems>
+	<Components>
+	</Components>
+</Definitions>
