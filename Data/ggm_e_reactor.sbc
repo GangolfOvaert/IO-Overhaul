@@ -255,7 +255,8 @@
         <SubtypeId>NuclearReactor</SubtypeId>
       </Id>
         <DisplayName>Nucular Reactor</DisplayName>
-        <Icon>Icons\StandardReactor.dds</Icon>
+        <Icon>..\2344068716\Icons\StandardReactor.dds</Icon>
+        <Icon>Icons\Corners\t4.dds</Icon>
         <Description>Standard fission Reactor. High efficiency and power output.
 		Produces Spent Fuel. Must be connected to a Steam Turbine.
 		Produces 500 Steam/sec
