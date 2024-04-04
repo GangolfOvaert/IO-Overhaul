@@ -17,6 +17,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_LargeAtmoThrustFlat</DisplayName>
 	<Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterLarge.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Description_AtmosphericThrust</Description>
 	<CubeSize>Large</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
@@ -33,10 +34,10 @@
 		<Component Subtype="MetalGrid" Count="100" />
 		<Component Subtype="advMotor" Count="500" />
 		<Component Subtype="advElectromagnet" Count="150" />
-		<Component Subtype="impThrust" Count="200" />
+		<Component Subtype="Thrust" Count="200" />
 		<Component Subtype="heavySteelPlate" Count="50" />
 	</Components>
-	<CriticalComponent Subtype="impThrust" Index="0" />
+	<CriticalComponent Subtype="Thrust" Index="0" />
 	<MountPoints>
 		<MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
 		<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -134,6 +135,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape</DisplayName>
 	<Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterDShapeLarge.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Description_AtmosphericThrust</Description>
 	<CubeSize>Large</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
@@ -150,10 +152,10 @@
 		<Component Subtype="MetalGrid" Count="100" />
 		<Component Subtype="advMotor" Count="500" />
 		<Component Subtype="advElectromagnet" Count="150" />
-		<Component Subtype="impThrust" Count="200" />
+		<Component Subtype="Thrust" Count="200" />
 		<Component Subtype="heavySteelPlate" Count="50" />
 	</Components>
-	<CriticalComponent Subtype="impThrust" Index="0" />
+	<CriticalComponent Subtype="Thrust" Index="0" />
 	<MountPoints>
 		<MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
 		<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -251,6 +253,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_SmallAtmoThrustFlat</DisplayName>
 	<Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterSmall.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Description_AtmosphericThrust</Description>
 	<CubeSize>Large</CubeSize>
 	<GuiVisible>false</GuiVisible>
@@ -268,10 +271,10 @@
 		<Component Subtype="MetalGrid" Count="50" />
 		<Component Subtype="advMotor" Count="100" />
 		<Component Subtype="advElectromagnet" Count="75" />
-		<Component Subtype="impThrust" Count="100" />
+		<Component Subtype="Thrust" Count="100" />
 		<Component Subtype="heavySteelPlate" Count="50" />
 	</Components>
-	<CriticalComponent Subtype="impThrust" Index="0" />
+	<CriticalComponent Subtype="Thrust" Index="0" />
 	<MountPoints>
 		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
 		<MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -369,6 +372,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShape</DisplayName>
 	<Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterDShapeSmall.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Description_AtmosphericThrust</Description>
 	<CubeSize>Large</CubeSize>
 	<GuiVisible>false</GuiVisible>
@@ -386,10 +390,10 @@
 		<Component Subtype="MetalGrid" Count="50" />
 		<Component Subtype="advMotor" Count="100" />
 		<Component Subtype="advElectromagnet" Count="75" />
-		<Component Subtype="impThrust" Count="100" />
+		<Component Subtype="Thrust" Count="100" />
 		<Component Subtype="heavySteelPlate" Count="50" />
 	</Components>
-	<CriticalComponent Subtype="impThrust" Index="0" />
+	<CriticalComponent Subtype="Thrust" Index="0" />
 	<MountPoints>
 		<MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
 		<MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -487,6 +491,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_LargeAtmoThrustFlat</DisplayName>
 	<Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterSmall.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Description_AtmosphericThrust</Description>
 	<CubeSize>Small</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
@@ -503,10 +508,10 @@
 		<Component Subtype="MetalGrid" Count="8" />
 		<Component Subtype="advMotor" Count="80" />
 		<Component Subtype="advElectromagnet" Count="25" />
-		<Component Subtype="impThrust" Count="10" />
+		<Component Subtype="Thrust" Count="10" />
 		<Component Subtype="heavySteelPlate" Count="10" />
 	</Components>
-	<CriticalComponent Subtype="impThrust" Index="0" />
+	<CriticalComponent Subtype="Thrust" Index="0" />
 	<MountPoints>
 		<MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
 		<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -605,6 +610,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape</DisplayName>
 	<Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterDShapeLarge.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Description_AtmosphericThrust</Description>
 	<CubeSize>Small</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
@@ -621,10 +627,10 @@
 		<Component Subtype="MetalGrid" Count="8" />
 		<Component Subtype="advMotor" Count="80" />
 		<Component Subtype="advElectromagnet" Count="25" />
-		<Component Subtype="impThrust" Count="10" />
+		<Component Subtype="Thrust" Count="10" />
 		<Component Subtype="heavySteelPlate" Count="10" />
 	</Components>
-	<CriticalComponent Subtype="impThrust" Index="0" />
+	<CriticalComponent Subtype="Thrust" Index="0" />
 	<MountPoints>
 		<MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
 		<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -723,6 +729,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_SmallAtmoThrustFlat</DisplayName>
 	<Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterSmall.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Description_AtmosphericThrust</Description>
 	<CubeSize>Small</CubeSize>
 	<GuiVisible>false</GuiVisible>
@@ -740,10 +747,10 @@
 		<Component Subtype="MetalGrid" Count="2" />
 		<Component Subtype="advMotor" Count="20" />
 		<Component Subtype="advElectromagnet" Count="5" />
-		<Component Subtype="impThrust" Count="5" />
+		<Component Subtype="Thrust" Count="5" />
 		<Component Subtype="heavySteelPlate" Count="5" />
 	</Components>
-	<CriticalComponent Subtype="impThrust" Index="0" />
+	<CriticalComponent Subtype="Thrust" Index="0" />
 	<MountPoints>
 		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
 		<MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -842,6 +849,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShape</DisplayName>
 	<Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterDShapeSmall.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Description_AtmosphericThrust</Description>
 	<CubeSize>Small</CubeSize>
 	<GuiVisible>false</GuiVisible>
@@ -859,10 +867,10 @@
 		<Component Subtype="MetalGrid" Count="2" />
 		<Component Subtype="advMotor" Count="20" />
 		<Component Subtype="advElectromagnet" Count="5" />
-		<Component Subtype="impThrust" Count="5" />
+		<Component Subtype="Thrust" Count="5" />
 		<Component Subtype="heavySteelPlate" Count="5" />
 	</Components>
-	<CriticalComponent Subtype="impThrust" Index="0" />
+	<CriticalComponent Subtype="Thrust" Index="0" />
 	<MountPoints>
 		<MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
 		<MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -960,6 +968,7 @@
 	</Id>
 	<DisplayName>DisplayName_Block_LargeAtmoThrust</DisplayName>
 	<Icon>Icons\AtmosphericThrusterLargeLarge.dds</Icon>
+	<Icon>Icons\Corners\t3.dds</Icon>
 	<Description>Electrically-driven turbine designed for atmospheric flight.
 	Thrust Output: 6.48MN
 	Power Consumption: 16.8MW</Description>

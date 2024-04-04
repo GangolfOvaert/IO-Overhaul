@@ -9,7 +9,7 @@
 			<TypeId>Refinery</TypeId>
 			<SubtypeId>OilCracker</SubtypeId>
 		</Id>
-		<DisplayName>Oil Cracker</DisplayName>
+		<DisplayName>Oil Cracker T1</DisplayName>
 		<Icon>Icons\production\oil_cracker_t1.dds</Icon>
 		<Description>
 			Cracks Crude Oil into various products.
@@ -48,7 +48,6 @@
 		</BuildProgressModels>
 		<EdgeType>Light</EdgeType>
 		<BuildTimeSeconds>90</BuildTimeSeconds>
-		<ResourceSinkGroup>Factory</ResourceSinkGroup>
 		<InventoryMaxVolume>7.5</InventoryMaxVolume>
 		<InventorySize>
 			<X>2.5</X>
@@ -78,7 +77,7 @@
 			<TypeId>Refinery</TypeId>
 			<SubtypeId>OilCrackert3</SubtypeId>
 		</Id>
-		<DisplayName>Oil Cracker</DisplayName>
+		<DisplayName>Oil Cracker T3</DisplayName>
 		<Icon>Icons\production\oil_cracker_t1.dds</Icon>
 		<Icon>Icons\Corners\t3.dds</Icon>
 		<Description>
@@ -127,6 +126,9 @@
 		</InventorySize>
 		<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
 		<OperationalPowerConsumption>3</OperationalPowerConsumption>
+		<BlueprintClasses>
+			<Class>OilCracking</Class>
+		</BlueprintClasses>
 		<RefineSpeed>1.5</RefineSpeed>
 		<MaterialEfficiency>0.8</MaterialEfficiency>
 		<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>

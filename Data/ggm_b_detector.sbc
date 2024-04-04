@@ -60,7 +60,7 @@
 			<DisplayName>Metal Detector</DisplayName>
 				  <Icon>Icons\MetalDetector.dds</Icon>
 			<Description>Uses magnetic field interations to detect buried ores. A cruder and less sensitive detection mechanism means a shorter effective range.
-			Range: 7000m</Description>
+			Range: 3km</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
@@ -94,7 +94,7 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>30</BuildTimeSeconds>
 			<ResourceSinkGroup>Utility</ResourceSinkGroup>
-			<MaximumRange>2000</MaximumRange>
+			<MaximumRange>3000</MaximumRange>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
 			<DamagedSound>ParticleElectrical</DamagedSound>
 			<EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -109,8 +109,9 @@
 			</Id>
 			<DisplayName>Ore Detector</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+			<Icon>Icons/Corners/t4.dds</Icon>
 			<Description>More advanced sensors and discrimination algorithms means ores can be detected at longer ranges.
-			Range: 2.5km</Description>
+			Range: 5km</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
@@ -146,7 +147,7 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>30</BuildTimeSeconds>
 			<ResourceSinkGroup>Utility</ResourceSinkGroup>
-			<MaximumRange>2500</MaximumRange>
+			<MaximumRange>5000</MaximumRange>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
 			<DamagedSound>ParticleElectrical</DamagedSound>
 			<EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -161,21 +162,22 @@
 			</Id>
 			<DisplayName>Ore Detector</DisplayName>
 			<Icon>Icons\detector.dds</Icon>
+			<Icon>Icons/Corners/t4.dds</Icon>
 			<Description>More advanced sensors and discrimination algorithms means ores can be detected at longer ranges.
-			Range: 7km</Description>
+			Range: 5km</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Small\OreDetector.mwm</Model>
 			<Components>
-			  <Component Subtype="duraniumSteelPlate" Count="5" />
+			  <Component Subtype="heavySteelPlate" Count="5" />
 			  <Component Subtype="Construction" Count="5" />
 			  <Component Subtype="advMotor" Count="1" />
-			  <Component Subtype="AdvancedComputer" Count="10" />
-			  <Component Subtype="QuantumComputer" Count="5" />
+			  <Component Subtype="Computer" Count="10" />
+			  <Component Subtype="AdvancedComputer" Count="5" />
 			  <Component Subtype="Detector" Count="5" />
-			  <Component Subtype="duraniumSteelPlate" Count="2" />
+			  <Component Subtype="heavySteelPlate" Count="2" />
 			</Components>
 			<CriticalComponent Subtype="Detector" Index="0" />
 			<Center x="0" y="0" z="1" />
@@ -196,57 +198,7 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>14</BuildTimeSeconds>
 			<ResourceSinkGroup>Utility</ResourceSinkGroup>
-			<MaximumRange>500</MaximumRange>
-			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-			<DamagedSound>ParticleElectrical</DamagedSound>
-			<EmissiveColorPreset>Default</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-			<PCU>40</PCU>      
-		  </Definition>
-		  <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
-			<Id>
-			  <TypeId>OreDetector</TypeId>
-			  <SubtypeId>SmallMetalDetector</SubtypeId>
-			</Id>
-			<DisplayName>Ore Detector</DisplayName>
-			<Icon>Icons\detector.dds</Icon>
-			<Description>More advanced sensors and discrimination algorithms means ores can be detected at longer ranges.
-			Range: 14km</Description>
-			<CubeSize>Small</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2" />
-			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\Small\OreDetector.mwm</Model>
-			<Components>
-			  <Component Subtype="duraniumSteelPlate" Count="5" />
-			  <Component Subtype="Construction" Count="5" />
-			  <Component Subtype="advMotor" Count="1" />
-			  <Component Subtype="AdvancedComputer" Count="10" />
-			  <Component Subtype="QuantumComputer" Count="5" />
-			  <Component Subtype="Detector" Count="5" />
-			  <Component Subtype="duraniumSteelPlate" Count="2" />
-			</Components>
-			<CriticalComponent Subtype="Detector" Index="0" />
-			<Center x="0" y="0" z="1" />
-			<MountPoints>
-			  <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-			  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-			  <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-			  <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-			  <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-			</MountPoints>
-			<BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
-			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
-			</BuildProgressModels>
-			<BlockPairName>OreDetector</BlockPairName>
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>14</BuildTimeSeconds>
-			<ResourceSinkGroup>Utility</ResourceSinkGroup>
-			<MaximumRange>14000</MaximumRange>
+			<MaximumRange>5000</MaximumRange>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
 			<DamagedSound>ParticleElectrical</DamagedSound>
 			<EmissiveColorPreset>Default</EmissiveColorPreset>

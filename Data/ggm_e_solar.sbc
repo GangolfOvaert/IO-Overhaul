@@ -762,7 +762,7 @@
                 <SubtypeId>FSSolarCell</SubtypeId>
             </Id>
             <DisplayName>Full-Spectrum Solar Cell</DisplayName>
-          <Icon>Icons\SolarCellComponent.dds</Icon>
+            <Icon>Icons\FSSolarCell.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.5</Y>

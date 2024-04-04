@@ -3,6 +3,359 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>LargeBlockAcidBatteryBlock</SubtypeId>
+            </Id>
+            <DisplayName>Acid Battery</DisplayName>
+            <Icon>..\2344068716\Icons\AcidBattery.dds</Icon>
+            <Icon>Icons\Corners\t2.dds</Icon>
+            <Description>Simple sulfuric-acid battery. Stores a moderate amount of power. Acid Power Cells are NOT reuseable.
+			75% charging efficiency.
+			
+			Max Output: 6MW
+			Stored Power: 1.5MWh</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>..\2344068716\Models\LargeAcidBattery.mwm</Model>
+            <Components>
+                <Component Subtype="StainlessSteelPlate" Count="60" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="CopperCable" Count="40" />
+                <Component Subtype="AcidPowerCell" Count="100">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Computer" Count="25" />
+                <Component Subtype="StainlessSteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeAcidBatteryConstruct1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeAcidBatteryConstruct2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeAcidBatteryConstruct3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AcidBatteryBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>6</MaxPowerOutput>
+
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>6</RequiredPowerInput>
+            <AdaptibleInput>true</AdaptibleInput>
+            <MaxStoredPower>1.5</MaxStoredPower>
+            <InitialStoredPowerRatio>0.75</InitialStoredPowerRatio>
+            <RechargeMultiplier>0.75</RechargeMultiplier>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>SmallBlockAcidBatteryBlock</SubtypeId>
+            </Id>
+            <DisplayName>Acid Battery</DisplayName>
+            <Icon>..\2344068716\Icons\AcidBattery.dds</Icon>
+            <Icon>Icons\Corners\t2.dds</Icon>
+            <Description>Simple sulfuric-acid battery. Stores a moderate amount of power. Acid Power Cells are NOT reuseable.
+			75% charging efficiency.
+			
+			Max Output: 2MW
+			Stored Power: 500kWh</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>..\2344068716\Models\SmallAcidBattery.mwm</Model>
+            <Components>
+                <Component Subtype="StainlessSteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="CopperCable" Count="10" />
+                <Component Subtype="AcidPowerCell" Count="30">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="StainlessSteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SmallAcidBatteryConstruct1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SmallAcidBatteryConstruct2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallAcidBatteryConstruct3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AcidBatteryBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>2</MaxPowerOutput>
+
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>2</RequiredPowerInput>
+            <MaxStoredPower>0.5</MaxStoredPower>
+            <InitialStoredPowerRatio>0.75</InitialStoredPowerRatio>
+            <RechargeMultiplier>0.75</RechargeMultiplier>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>SmallBlockSmallAcidBatteryBlock</SubtypeId>
+            </Id>
+            <DisplayName>Small Acid Battery</DisplayName>
+            <Icon>..\2344068716\Icons\AcidBattery.dds</Icon>
+            <Icon>Icons\Corners\t2.dds</Icon>
+            <Description>Simple sulfuric-acid battery. Stores a moderate amount of power. Acid Power Cells are NOT reuseable.
+			75% charging efficiency.
+			
+			Max Output: 100kW
+			Stored Power: 50kWh</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>..\2344068716\Models\SmallAcidBatterySmall.mwm</Model>
+            <Components>
+                <Component Subtype="StainlessSteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="CopperCable" Count="5" />
+                <Component Subtype="AcidPowerCell" Count="6">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="StainlessSteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SmallAcidBatterySmallConstruct1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SmallAcidBatterySmallConstruct2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallAcidBatterySmallConstruct3.mwm" />
+            </BuildProgressModels>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>0.1</MaxPowerOutput>
+
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>0.1</RequiredPowerInput>
+            <MaxStoredPower>0.05</MaxStoredPower>
+            <InitialStoredPowerRatio>0.75</InitialStoredPowerRatio>
+            <RechargeMultiplier>0.75</RechargeMultiplier>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <IsAirTight>true</IsAirTight>
+            <PCU>15</PCU>
+        </Definition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>LargeBlockAlkalineBatteryBlock</SubtypeId>
+            </Id>
+            <DisplayName>Alkaline Battery</DisplayName>
+            <Icon>..\2344068716\Icons\AlkalineBattery.dds</Icon>
+            <Icon>Icons\Corners\t1.dds</Icon>
+            <Description>Simple dissimilar-metal battery. Produces a small amount of power.
+			Cannot be recharged.
+			
+			Max Output: 6MW
+			Stored Power: 1MWh</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>..\2344068716\Models\LargeAlkalineBattery.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="30" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="CopperWire" Count="40" />
+                <Component Subtype="AlkalinePowerCell" Count="120">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Computer" Count="25" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeAlkalineBatteryConstruct1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeAlkalineBatteryConstruct2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeAlkalineBatteryConstruct3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AlkalineBatteryBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>6</MaxPowerOutput>
+
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>0</RequiredPowerInput>
+            <MaxStoredPower>1</MaxStoredPower>
+            <InitialStoredPowerRatio>1</InitialStoredPowerRatio>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>SmallBlockSmallAlkalineBatteryBlock</SubtypeId>
+            </Id>
+            <DisplayName>Small Alkaline Battery</DisplayName>
+            <Icon>..\2344068716\Icons\AlkalineBattery.dds</Icon>
+            <Icon>Icons\Corners\t1.dds</Icon>
+            <Description>Simple dissimilar-metal battery. Produces a small amount of power.
+			Cannot be recharged.
+			
+			Max Output: 100kW
+			Stored Power: 20kWh</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>..\2344068716\Models\SmallAlkalineBatterySmall.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="CopperWire" Count="5" />
+                <Component Subtype="AlkalinePowerCell" Count="6">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SmallAlkalineBatterySmallConstruct1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SmallAlkalineBatterySmallConstruct2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallAlkalineBatterySmallConstruct3.mwm" />
+            </BuildProgressModels>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <BlockPairName>AlkalineBatteryBlock</BlockPairName>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>0.1</MaxPowerOutput>
+
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>0</RequiredPowerInput>
+            <MaxStoredPower>0.02</MaxStoredPower>
+            <InitialStoredPowerRatio>1</InitialStoredPowerRatio>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <IsAirTight>true</IsAirTight>
+            <PCU>15</PCU>
+        </Definition>
+	
+
+
 	<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>

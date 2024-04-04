@@ -236,19 +236,6 @@
             <IsAirTight>false</IsAirTight>
         </Definition>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
         <TypeId>OxygenGenerator</TypeId>
@@ -280,10 +267,10 @@
                 <Component Subtype="Superconductor" Count="30" />
                 <Component Subtype="Concrete" Count="150" />
 		        		<Component Subtype="Computer" Count="10" />
-                <Component Subtype="AdvancedComputer" Count="50" />
+                <Component Subtype="QuantumComputer" Count="50" />
                 <Component Subtype="reinforcedSteelPlate" Count="50" />
       </Components>
-      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="1" StartY="4" EndX="2" EndY="5" />
         <MountPoint Side="Front" StartX="1" StartY="4" EndX="2" EndY="5" />
@@ -333,6 +320,91 @@
       <MirroringZ>Y</MirroringZ>
       <PCU>50</PCU>
     </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>NuclearReactort5</SubtypeId>
+      </Id>
+        <DisplayName>Nucular Reactor T5</DisplayName>
+        <Icon>..\2344068716\Icons\StandardReactor.dds</Icon>
+        <Icon>Icons\Corners\t5.dds</Icon>
+        <Description>Standard fission Reactor. High efficiency and power output.
+		Produces Spent Fuel. Must be connected to a Steam Turbine.
+		Produces 500 Steam/sec
+    
+    Mimimimimimi</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\StandardReactor.mwm</Model>
+      <Components>
+                <Component Subtype="duraniumSteelPlate" Count="350" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="CopperCable" Count="60" />
+                <Component Subtype="MetalGrid" Count="75" />
+                <Component Subtype="duraniumLargeTube" Count="250" />
+                <Component Subtype="Ceramic" Count="200" />
+                <Component Subtype="Reactor" Count="2500" />
+                <Component Subtype="advMotor" Count="60" />
+                <Component Subtype="ArmorGlass" Count="40" />
+                <Component Subtype="Superconductor" Count="30" />
+                <Component Subtype="Concrete" Count="150" />
+		        		<Component Subtype="Computer" Count="10" />
+                <Component Subtype="QuantumComputer" Count="120" />
+                <Component Subtype="duraniumSteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="1" StartY="4" EndX="2" EndY="5" />
+        <MountPoint Side="Front" StartX="1" StartY="4" EndX="2" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="5" Default="true" />
+        <MountPoint Side="Top" StartX="1" StartY="2" EndX="2" EndY="3" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\StandardReactorConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\StandardReactorConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\StandardReactorConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>0.03</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Steam</SubtypeId>
+          </Id>
+          <IceToGasRatio>50000</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>NRSteam</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+    </Definition>
 		
     <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
@@ -363,10 +435,10 @@
                 <Component Subtype="Superconductor" Count="125" />
                 <Component Subtype="Concrete" Count="200" />
 	        			<Component Subtype="Computer" Count="10" />
-                <Component Subtype="AdvancedComputer" Count="75" />
+                <Component Subtype="QuantumComputer" Count="75" />
                 <Component Subtype="reinforcedSteelPlate" Count="50" />
       </Components>
-      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="1" StartY="3" EndX="2" EndY="4" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="4" Default="true" />
@@ -440,10 +512,10 @@
         <Component Subtype="InteriorPlate" Count="50" />
         <Component Subtype="Rubber" Count="20" />
         <Component Subtype="Computer" Count="10" />
-        <Component Subtype="AdvancedComputer" Count="15" />
+        <Component Subtype="QuantumComputer" Count="15" />
         <Component Subtype="reinforcedSteelPlate" Count="10" />
       </Components>
-      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
       <Center x="1" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />

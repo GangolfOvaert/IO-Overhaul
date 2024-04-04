@@ -317,7 +317,7 @@
   <Entry Class="SmelterIngotst4" BlueprintSubtypeId="GoldOrebySmelterToIngot" />
   <Entry Class="SmelterIngotst4" BlueprintSubtypeId="BauxiteOrebySmelterToIngot" />
   <Entry Class="SmelterIngotst4" BlueprintSubtypeId="TitaniumOrebySmelterToIngot" />
-  <Entry Class="SmelterIngotst4" BlueprintSubtypeId="UraniumOrebySmelterToIngot" />
+
 
   <Entry Class="SmelterIngotst5" BlueprintSubtypeId="StoneOrebySmelterToIngot" />
   <Entry Class="SmelterIngotst5" BlueprintSubtypeId="IronOrebySmelterToIngot" />
@@ -330,7 +330,7 @@
   <Entry Class="SmelterIngotst5" BlueprintSubtypeId="GoldOrebySmelterToIngot" />
   <Entry Class="SmelterIngotst5" BlueprintSubtypeId="BauxiteOrebySmelterToIngot" />
   <Entry Class="SmelterIngotst5" BlueprintSubtypeId="TitaniumOrebySmelterToIngot" />
-  <Entry Class="SmelterIngotst5" BlueprintSubtypeId="UraniumOrebySmelterToIngot" />
+
   <Entry Class="SmelterIngotst5" BlueprintSubtypeId="PlatinumOrebySmelterToIngot" />
   <Entry Class="SmelterIngotst5" BlueprintSubtypeId="TantalumOrebySmelterToIngot" />
 </BlueprintClassEntries>

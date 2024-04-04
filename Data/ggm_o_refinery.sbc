@@ -589,7 +589,7 @@
   <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedGoldOreToIngot" />
   <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
   <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedTitaniumOreToIngot" />
-  <Entry Class="refineryIngotst4" BlueprintSubtypeId="CrushedUraniumOreToIngot" />
+
 
 
   <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedIronOreToIngot" />
@@ -602,7 +602,6 @@
   <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedGoldOreToIngot" />
   <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedBauxiteOreToIngot" />
   <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedTitaniumOreToIngot" />
-  <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedUraniumOreToIngot" />
   <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedPlatinumOreToIngot" />
   <Entry Class="refineryIngotst5" BlueprintSubtypeId="CrushedTantalumOreToIngot" />
 </BlueprintClassEntries>

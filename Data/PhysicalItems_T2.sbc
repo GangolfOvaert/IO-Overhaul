@@ -30,5 +30,34 @@
         <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
         <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+         <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Fabric</SubtypeId>
+            </Id>
+            <DisplayName>Synthetic Fabric</DisplayName>
+			<Icon>Icons\Fabric.dds</Icon>
+            <Icon>Icons\Corners\T2.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>0.9</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Fabric.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>10</MaxIntegrity>
+            <MinimalPricePerUnit>19132</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+	
 </Components>
 </Definitions>
