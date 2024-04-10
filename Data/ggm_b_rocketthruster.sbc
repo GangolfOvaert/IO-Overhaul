@@ -438,7 +438,7 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LargeRocketFuelTankvanilla</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_HydrogenTank</DisplayName>
+            <DisplayName>Rocket Fuel Tank</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
 			<Icon>Icons/Corners/t4.dds</Icon>
             <Description>
