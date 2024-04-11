@@ -524,6 +524,7 @@
 		<Entry Class="Purifiert4" BlueprintSubtypeId="PurifyGoldOre" />
 		<Entry Class="Purifiert4" BlueprintSubtypeId="PurifyBauxiteOre" />
 		<Entry Class="Purifiert4" BlueprintSubtypeId="PurifyTitaniumOre" />
+    <Entry Class="Purifiert4" BlueprintSubtypeId="PurifyUraniumOre" />
 
 
 
@@ -537,7 +538,7 @@
 		<Entry Class="Purifiert5" BlueprintSubtypeId="PurifyGoldOre" />
 		<Entry Class="Purifiert5" BlueprintSubtypeId="PurifyBauxiteOre" />
 		<Entry Class="Purifiert5" BlueprintSubtypeId="PurifyTitaniumOre" />
-
+    <Entry Class="Purifiert5" BlueprintSubtypeId="PurifyUraniumOre" />
 		<Entry Class="Purifiert5" BlueprintSubtypeId="PurifyPlatinumOre" />
 		<Entry Class="Purifiert5" BlueprintSubtypeId="PurifyTantalumOre" />
   </BlueprintClassEntries>

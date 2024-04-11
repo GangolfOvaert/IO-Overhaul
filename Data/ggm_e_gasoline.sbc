@@ -8,7 +8,7 @@
 			<TypeId>HydrogenEngine</TypeId>
 			<SubtypeId>LargeGasolineEngine</SubtypeId>
 		</Id>
-		<DisplayName>Gasoline Engine</DisplayName>
+		<DisplayName>Gasoline Engine T1</DisplayName>
 		<Description>
 			Burns Gasoline to generate power.
 			Max Output: 5MW

@@ -331,7 +331,7 @@
         <Icon>Icons\Corners\t5.dds</Icon>
         <Description>Standard fission Reactor. High efficiency and power output.
 		Produces Spent Fuel. Must be connected to a Steam Turbine.
-		Produces 500 Steam/sec
+		Produces 1250x Steam/sec
     
     Mimimimimimi</Description>
       <CubeSize>Large</CubeSize>

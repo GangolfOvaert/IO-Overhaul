@@ -538,6 +538,7 @@
   <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedGoldOreToIngot" />
   <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedBauxiteOreToIngot" />
   <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedTitaniumOreToIngot" />
+  <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedPlatinumOreToIngot" />
   <Entry Class="refineryIngotst4" BlueprintSubtypeId="PurifiedUraniumOreToIngot" />
 
 

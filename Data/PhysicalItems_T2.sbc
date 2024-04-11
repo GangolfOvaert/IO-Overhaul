@@ -36,7 +36,7 @@
                 <SubtypeId>Fabric</SubtypeId>
             </Id>
             <DisplayName>Synthetic Fabric</DisplayName>
-			<Icon>Icons\Fabric.dds</Icon>
+			<Icon>..\2344068716\Icons\Fabric.dds</Icon>
             <Icon>Icons\Corners\T2.dds</Icon>
             <Size>
                 <X>0.2</X>
