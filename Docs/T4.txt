@@ -1,0 +1,15 @@
+Cryocooler
+DepletedUranium
+LaserEmitter
+NuclearWaste
+QTCuircitBoard
+QTPCB
+QuantumComputer
+SpentFuel
+SuperMagnet
+Thermocouple
+advThrust
+reinforcedGirder
+reinforcedLargeTube
+reinforcedSmallTube
+reinforcedSteelPlate

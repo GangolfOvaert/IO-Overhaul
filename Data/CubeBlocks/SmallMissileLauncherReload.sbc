@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncherReload</TypeId>
+        <SubtypeId>SmallRocketLauncherReload</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallRocketLauncherReload</DisplayName>
+      <BlockPairName>SmallRocketLauncherReload</BlockPairName>
+      <Icon>Icons\RocketLauncherReload.dds</Icon>
+      <Description>Description_RocketLauncherReload</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\RocketLauncherReload.mwm</Model>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <Components>
+        <Component Subtype="heavySteelPlate" Count="10" />
+        <Component Subtype="heavySmallTube" Count="10" />
+        <Component Subtype="Construction" Count="24" />
+        <Component Subtype="heavyLargeTube" Count="4" />
+        <Component Subtype="CopperCable" Count="8" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="advMotor" Count="4" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="AdvancedComputer" Count="10" />
+        <Component Subtype="heavySteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\RocketLauncherReloadConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\RocketLauncherReloadConstruction_2.mwm" />
+      </BuildProgressModels>
+      <Center x="0" y="0" z="1" />
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <WeaponDefinitionId Subtype="SmallMissileLauncher" />
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>425</PCU>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncherReload</TypeId>
+        <SubtypeId>LargeRailgun</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Railgun</DisplayName>
+      <Icon>Icons\RailGun.dds</Icon>
+      <Description>Description_Railgun</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="8" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RailGun.mwm</Model>
+      <Components>
+        <Component Subtype="reinforcedSteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="60" />
+        <Component Subtype="GoldCable" Count="70" />
+        <Component Subtype="MetalGrid" Count="25" />
+        <Component Subtype="reinforcedLargeTube" Count="30" />
+        <Component Subtype="advMotor" Count="10" />
+        <Component Subtype="Capacitor" Count="75" />
+        <Component Subtype="Superconductor" Count="50" />
+        <Component Subtype="reinforcedGirder" Count="100" />
+        <Component Subtype="AdvancedComputer" Count="10" />
+        <Component Subtype="QuantumComputer" Count="40" />
+        <Component Subtype="reinforcedSteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.1" StartY="0.6" EndX="0.9" EndY="1.9" Default="true" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="3.3" />
+        <MountPoint Side="Bottom" StartX="0.3" StartY="4.9" EndX="0.7" EndY="6.5" />
+        <MountPoint Side="Right" StartX="0.1" StartY="1" EndX="3.3" EndY="1.8" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.6" EndX="2.1" EndY="1" />
+        <MountPoint Side="Left" StartX="4.7" StartY="1" EndX="7.9" EndY="1.8" />
+        <MountPoint Side="Left" StartX="5.9" StartY="0.6" EndX="7.9" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\RailGunConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\RailGunConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RailGunConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Railgun</BlockPairName>
+      <Center x="0" y="1" z="6" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <WeaponDefinitionId Subtype="LargeRailgun" />
+      <ResourceSinkGroup>DefenseAdative</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <StandbyPowerConsumption>0.0001</StandbyPowerConsumption>
+      <DamageEffectName>Damage_Railgun_Large</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>80</PCU>
+      <IsAirTight>false</IsAirTight>
+      <InventoryFillFactorMin>.6</InventoryFillFactorMin>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncherReload</TypeId>
+        <SubtypeId>SmallRailgun</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Railgun</DisplayName>
+      <Icon>Icons\RailGunsmall.dds</Icon>
+      <Description>Description_SmallRailgun</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="8" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\RailGun.mwm</Model>
+      <Components>
+        <Component Subtype="reinforcedSteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="CopperCable" Count="20" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="reinforcedLargeTube" Count="8" />
+        <Component Subtype="advMotor" Count="4" />
+        <Component Subtype="Capacitor" Count="15" />
+        <Component Subtype="Superconductor" Count="10" />
+        <Component Subtype="reinforcedGirder" Count="20" />
+        <Component Subtype="AdvancedComputer" Count="10" />
+        <Component Subtype="QuantumComputer" Count="10" />
+        <Component Subtype="reinforcedSteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.1" StartY="0.6" EndX="0.9" EndY="1.9" Default="true" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="3.3" />
+        <MountPoint Side="Bottom" StartX="0.3" StartY="4.9" EndX="0.7" EndY="6.5" />
+        <MountPoint Side="Right" StartX="0.1" StartY="1" EndX="3.3" EndY="1.8" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.6" EndX="2.1" EndY="1" />
+        <MountPoint Side="Left" StartX="4.7" StartY="1" EndX="7.9" EndY="1.8" />
+        <MountPoint Side="Left" StartX="5.9" StartY="0.6" EndX="7.9" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\RailGunConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RailGunConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Railgun</BlockPairName>
+      <Center x="0" y="1" z="6" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <WeaponDefinitionId Subtype="SmallRailgun" />
+      <ResourceSinkGroup>DefenseAdative</ResourceSinkGroup>
+      <InventoryMaxVolume>0.048</InventoryMaxVolume>
+      <DamageEffectName>Damage_Railgun_Large</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>80</PCU>
+      <IsAirTight>false</IsAirTight>
+      <InventoryFillFactorMin>.6</InventoryFillFactorMin>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncherReload</TypeId>
+        <SubtypeId>SmallBlockMediumCalibreGun</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_MediumCalibreGun</DisplayName>
+      <Icon>Icons\MediumCaliberGun.dds</Icon>
+      <Description>Description_MediumCalibreGun</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\MediumCaliberGun.mwm</Model>
+      <Components>
+        <Component Subtype="heavySteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="CopperCable" Count="10" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="heavyLargeTube" Count="10" />
+        <Component Subtype="advMotor" Count="2" />
+        <Component Subtype="AdvancedComputer" Count="10" />
+        <Component Subtype="heavySteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="6" StartY="0" EndX="9" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="6" EndX="1" EndY="9" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MediumCaliberGunConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MediumCaliberGunConstruction_2.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BlockPairName>MediumCalibreGun</BlockPairName>
+      <Center x="0" y="0" z="7" />
+      <BuildTimeSeconds>26</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <WeaponDefinitionId Subtype="SmallMediumCalibreGun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.09</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>80</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncherReload</TypeId>
+        <SubtypeId>LargeRailgun</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Railgun</DisplayName>
+      <Icon>Icons\RailGun.dds</Icon>
+      <Description>Description_Railgun</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="8" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\RailGun.mwm</Model>
+      <Components>
+        <Component Subtype="heavySteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="60" />
+        <Component Subtype="CopperCable" Count="70" />
+        <Component Subtype="MetalGrid" Count="25" />
+        <Component Subtype="heavyLargeTube" Count="30" />
+        <Component Subtype="advMotor" Count="10" />
+        <Component Subtype="Capacitor" Count="75" />
+        <Component Subtype="Superconductor" Count="50" />
+        <Component Subtype="heavyGirder" Count="100" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="AdvancedComputer" Count="40" />
+        <Component Subtype="heavySteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.1" StartY="0.6" EndX="0.9" EndY="1.9" Default="true" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="3.3" />
+        <MountPoint Side="Bottom" StartX="0.3" StartY="4.9" EndX="0.7" EndY="6.5" />
+        <MountPoint Side="Right" StartX="0.1" StartY="1" EndX="3.3" EndY="1.8" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.6" EndX="2.1" EndY="1" />
+        <MountPoint Side="Left" StartX="4.7" StartY="1" EndX="7.9" EndY="1.8" />
+        <MountPoint Side="Left" StartX="5.9" StartY="0.6" EndX="7.9" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\RailGunConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\RailGunConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RailGunConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Railgun</BlockPairName>
+      <Center x="0" y="1" z="6" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <WeaponDefinitionId Subtype="LargeRailgun" />
+      <ResourceSinkGroup>DefenseAdative</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <StandbyPowerConsumption>0.0001</StandbyPowerConsumption>
+      <DamageEffectName>Damage_Railgun_Large</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>80</PCU>
+      <IsAirTight>false</IsAirTight>
+      <InventoryFillFactorMin>.6</InventoryFillFactorMin>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncherReload</TypeId>
+        <SubtypeId>SmallRailgun</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Railgun</DisplayName>
+      <Icon>Icons\RailGunsmall.dds</Icon>
+      <Description>Description_SmallRailgun</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="8" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\RailGun.mwm</Model>
+      <Components>
+        <Component Subtype="heavySteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="CopperCable" Count="20" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="heavyLargeTube" Count="8" />
+        <Component Subtype="advMotor" Count="4" />
+        <Component Subtype="Capacitor" Count="15" />
+        <Component Subtype="Superconductor" Count="10" />
+        <Component Subtype="heavyGirder" Count="20" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="AdvancedComputer" Count="10" />
+        <Component Subtype="heavySteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.1" StartY="0.6" EndX="0.9" EndY="1.9" Default="true" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="3.3" />
+        <MountPoint Side="Bottom" StartX="0.3" StartY="4.9" EndX="0.7" EndY="6.5" />
+        <MountPoint Side="Right" StartX="0.1" StartY="1" EndX="3.3" EndY="1.8" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.6" EndX="2.1" EndY="1" />
+        <MountPoint Side="Left" StartX="4.7" StartY="1" EndX="7.9" EndY="1.8" />
+        <MountPoint Side="Left" StartX="5.9" StartY="0.6" EndX="7.9" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\RailGunConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RailGunConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Railgun</BlockPairName>
+      <Center x="0" y="1" z="6" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <WeaponDefinitionId Subtype="SmallRailgun" />
+      <ResourceSinkGroup>DefenseAdative</ResourceSinkGroup>
+      <InventoryMaxVolume>0.048</InventoryMaxVolume>
+      <DamageEffectName>Damage_Railgun_Large</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>80</PCU>
+      <IsAirTight>false</IsAirTight>
+      <InventoryFillFactorMin>.6</InventoryFillFactorMin>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
+    </Definition>
+  </CubeBlocks>
+  <BlueprintClasses />
+  <BlueprintClassEntries />
+</Definitions>

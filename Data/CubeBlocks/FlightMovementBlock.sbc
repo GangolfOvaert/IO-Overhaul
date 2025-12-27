@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_FlightMovementBlockDefinition">
+      <Id>
+        <TypeId>FlightMovementBlock</TypeId>
+        <SubtypeId>LargeFlightMovement</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_FlightMovementBlock</DisplayName>
+      <Icon>Icons\FlightMovementBlock_Move.dds</Icon>
+      <Description>Description_FlightMovementBlock</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\Large\FlightMovementBlock.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="heavySteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="Detector" Count="20" />
+        <Component Subtype="advMotor" Count="4" />
+        <Component Subtype="AdvancedComputer" Count="20" />
+        <Component Subtype="heavySteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.3" EndY="1" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.3" StartY="0.15" EndX="0.7" EndY="0.85" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.3" EndY="1" />
+        <MountPoint Side="Back" StartX="0.7" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0.3" StartY="0.15" EndX="0.7" EndY="0.85" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.3" EndY="1" />
+        <MountPoint Side="Front" StartX="0.7" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0.3" StartY="0.15" EndX="0.7" EndY="0.85" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.3" EndY="1" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0.3" StartY="0.15" EndX="0.7" EndY="0.85" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DroneFeatureBlockConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DroneFeatureBlockConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DroneFeatureBlockConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>FlightMovementBlock</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>25</PCU>
+      <ResourceSinkGroup>AIBlock</ResourceSinkGroup>
+      <RequiredPowerInput>0.01</RequiredPowerInput>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_FlightMovementBlockDefinition">
+      <Id>
+        <TypeId>FlightMovementBlock</TypeId>
+        <SubtypeId>SmallFlightMovement</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_FlightMovementBlock</DisplayName>
+      <Icon>Icons\FlightMovementBlock_Move.dds</Icon>
+      <Description>Description_FlightMovementBlock</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\Small\FlightMovementBlock.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="heavySteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Detector" Count="4" />
+        <Component Subtype="advMotor" Count="2" />
+        <Component Subtype="AdvancedComputer" Count="10" />
+        <Component Subtype="heavySteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DroneFeatureBlockConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DroneFeatureBlockConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>FlightMovementBlock</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>25</PCU>
+      <ResourceSinkGroup>AIBlock</ResourceSinkGroup>
+      <RequiredPowerInput>0.01</RequiredPowerInput>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+    </Definition>
+  </CubeBlocks>
+  <BlueprintClasses />
+  <BlueprintClassEntries />
+</Definitions>

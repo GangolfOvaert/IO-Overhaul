@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Components>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>heavySteelPlate</SubtypeId>
+		</Id>
+		<DisplayName>Heavy Steel Plate</DisplayName>
+		<Icon>Icons\plate_heavy.dds</Icon>
+		<Size>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>0.01</Z>
+		</Size>
+		<Mass>20</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\steel_plate_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>100</MaxIntegrity>
+		<DropProbability>0.9</DropProbability>
+		<Health>53</Health>
+		<MinimalPricePerUnit>798</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>heavyGirder</SubtypeId>
+		</Id>
+		<DisplayName>Heavy Steel Girder</DisplayName>
+		<Icon>Icons\girder_heavy.dds</Icon>
+		<Size>
+			<X>0.05</X>
+			<Y>0.05</Y>
+			<Z>1</Z>
+		</Size>
+		<Mass>3.2</Mass>
+		<Volume>3</Volume>
+		<Model>Models\Components\girder_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>15</MaxIntegrity>
+		<DropProbability>0.5</DropProbability>
+		<MinimalPricePerUnit>532</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
+	</Component>
+		<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>AdvPCB</SubtypeId>
+		</Id>
+		<DisplayName>Advanced PCB</DisplayName>
+		<Icon>Icons\pcb_advanced.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>2.3</Mass>
+		<Volume>1</Volume>
+		<Model>Models\Components\computer_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>43379</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>AdvCuircitBoard</SubtypeId>
+		</Id>
+		<DisplayName>Advanced Cuircit Board</DisplayName>
+		<Icon>Icons\cuircitboard_advanced.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>2.3</Mass>
+		<Volume>1</Volume>
+		<Model>Models\Components\computer_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>43379</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>AdvancedComputer</SubtypeId>
+		</Id>
+		<DisplayName>Advanced Computer</DisplayName>
+		<Icon>Icons\computer_advanced.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>2.3</Mass>
+		<Volume>1</Volume>
+		<Model>Models\Components\computer_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>43379</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+
+
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GGMAlSiAlloy</SubtypeId>
+		</Id>
+		<DisplayName>Al Si Alloy</DisplayName>
+		<Description>Used in harsch envorioment, like reactors </Description>
+		<Icon>Icons\alg_si.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>346635</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GGMAlMgAlloy</SubtypeId>
+		</Id>
+		<DisplayName>Al Mg Alloy</DisplayName>
+		<Description>Alu Panzerung </Description>
+		<Icon>Icons\alg_mg.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>346635</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GGMAlCuAlloy</SubtypeId>
+		</Id>
+		<DisplayName>Al Cu Alloy</DisplayName>
+		<Description>Very light and sturdy, used in planes and space ships</Description>
+		<Icon>Icons\alg_cu.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>346635</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GGMAlSiCuAlloy</SubtypeId>
+		</Id>
+		<DisplayName>Al Si Cu Alloy</DisplayName>
+		<Description>High sturdy and hardened alloy, used in high end production facilities</Description>
+		<Icon>Icons\alg_all.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>346635</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GGMAlTiAlloy</SubtypeId>
+		</Id>
+		<DisplayName>Al Ti Alloy</DisplayName>
+		<Description>High sturdy and hardened alloy, used in Thrusters</Description>
+		<Icon>Icons\alg_ti.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>346635</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GGMAdvCircuitBoard</SubtypeId>
+		</Id>
+		<DisplayName>Advanced Circuit Board</DisplayName>
+		<Description>Advanced Circuit Board</Description>
+		<Icon>Icons\placeholder.dds</Icon>
+		<Size>
+			<X>0.1</X>
+			<Y>0.1</Y>
+			<Z>0.02</Z>
+		</Size>
+		<Mass>1</Mass>
+		<Volume>5</Volume>
+		<Model>Models\Components\Sphere.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>346635</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Thrust</SubtypeId>
+		</Id>
+		<DisplayName>Basic Thruster Component</DisplayName>
+		<Icon>Icons\thrust_components_component.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.2</Y>
+			<Z>0.2</Z>
+		</Size>
+		<Mass>52</Mass>
+		<Volume>10</Volume>
+		<Model>Models\Components\thrust_components_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>30</MaxIntegrity>
+		<DropProbability>0.2</DropProbability>
+		<Health>12</Health>
+		<MinimalPricePerUnit>88077</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>impThrust</SubtypeId>
+		</Id>
+		<DisplayName>Improved Thruster Component</DisplayName>
+		<Icon>Icons\impthrust_components_component.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.2</Y>
+			<Z>0.2</Z>
+		</Size>
+		<Mass>52</Mass>
+		<Volume>10</Volume>
+		<Model>Models\Components\thrust_components_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>30</MaxIntegrity>
+		<DropProbability>0.2</DropProbability>
+		<Health>12</Health>
+		<MinimalPricePerUnit>88077</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>heavySmallTube</SubtypeId>
+		</Id>
+		<DisplayName>Heavy Steel Small Tube</DisplayName>
+		<Icon>Icons\pipe_heavy.dds</Icon>
+		<Size>
+			<X>1</X>
+			<Y>0.04</Y>
+			<Z>0.04</Z>
+		</Size>
+		<Mass>3.2</Mass>
+		<Volume>2</Volume>
+		<Model>Models\Components\small_tube_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>15</MaxIntegrity>
+		<DropProbability>0.5</DropProbability>
+		<Health>18</Health>
+		<MinimalPricePerUnit>532</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>heavyLargeTube</SubtypeId>
+		</Id>
+		<DisplayName>Heavy Steel Large Tube</DisplayName>
+		<Icon>Icons\tube_heavy.dds</Icon>
+		<Size>
+			<X>1</X>
+			<Y>0.2</Y>
+			<Z>0.2</Z>
+		</Size>
+		<Mass>6.3</Mass>
+		<Volume>10</Volume>
+		<Model>Models\Components\large_tube_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>60</MaxIntegrity>
+		<DropProbability>0.6</DropProbability>
+		<Health>22</Health>
+		<MinimalPricePerUnit>1065</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GoldWire</SubtypeId>
+		</Id>
+		<DisplayName>Gold Wire</DisplayName>
+		<Icon>Icons\wire_gold.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.1</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>1.2</Mass>
+		<Volume>0.5</Volume>
+		<Model>..\2344068716\Models\GoldReel.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>4500</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>GoldCable</SubtypeId>
+		</Id>
+		<DisplayName>Gold Cable</DisplayName>
+		<Icon>Icons\cable_gold.dds</Icon>
+		<Size>
+			<X>0.2</X>
+			<Y>0.1</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>1.2</Mass>
+		<Volume>0.5</Volume>
+		<Model>..\2344068716\Models\GoldReel.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>2</MaxIntegrity>
+		<MinimalPricePerUnit>4500</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+	</Component>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Capacitor</SubtypeId>
+		</Id>
+		<DisplayName>Capacitor Cell</DisplayName>
+		<Icon>Icons\CapacitorCell.dds</Icon>
+		<Size>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>0.1</Z>
+		</Size>
+		<Mass>4.6</Mass>
+		<Volume>10</Volume>
+		<Model>..\2344068716\Models\CapacitorCell.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>5</MaxIntegrity>
+		<MinimalPricePerUnit>19899</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Superconductor</SubtypeId>
+		</Id>
+		<DisplayName>DisplayName_Item_Superconductor</DisplayName>
+		<Icon>Icons\superconductor_conducts_component.dds</Icon>
+		<Size>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>0.03</Z>
+		</Size>
+		<Mass>21</Mass>
+		<Volume>8</Volume>
+		<Model>Models\Components\superconductor_conducts_component.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>5</MaxIntegrity>
+		<DropProbability>0.3</DropProbability>
+		<Health>14</Health>
+		<MinimalPricePerUnit>194656</MinimalPricePerUnit>
+		<MinimumOfferAmount>100</MinimumOfferAmount>
+		<MaximumOfferAmount>10000</MaximumOfferAmount>
+		<MinimumOrderAmount>1</MinimumOrderAmount>
+		<MaximumOrderAmount>10000</MaximumOrderAmount>
+		<CanPlayerOrder>true</CanPlayerOrder>
+
+		<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+		<MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+	</Component>
+</Components>
+
+
+</Definitions>

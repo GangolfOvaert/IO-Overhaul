@@ -1,0 +1,1065 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>Fuelnozzle</SubtypeId>
+      </Id>
+      <DisplayName>Fuel Nozzle</DisplayName>
+      <Icon>Icons\fuel_nozzle.dds</Icon>
+      <Description>Refines raw Fuel Oil into useable Gasoline.
+			
+			Max Output: 80L/s
+			Power Usage: 2MW</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\Connector.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorConstruction_2.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>10</IceConsumptionPerSecond>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+      <StandbyPowerConsumption>0</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Gasoline</SubtypeId>
+          </Id>
+          <IceToGasRatio>8</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>FuelNozzle</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+        <unsignedInt>1200</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>CoalFurnace</SubtypeId>
+      </Id>
+      <DisplayName>Coal Boiler</DisplayName>
+      <Icon>Icons\energy\coal_boiler.dds</Icon>
+      <Description>
+				Burns Coal to produce Steam. Must be connected to a Steam Turbine.
+				Produces 100 Steam/sec
+			</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="6" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\CoalBoiler.mwm</Model>
+      <Components>
+        <Component Subtype="StainlessSteelPlate" Count="80" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="CopperCable" Count="30" />
+        <Component Subtype="StainlessLargeTube" Count="50" />
+        <Component Subtype="advMotor" Count="10" />
+        <Component Subtype="HeatingElement" Count="10" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="StainlessSteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="6" EndY="3" Default="true" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\CoalBoilerConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\CoalBoilerConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\CoalBoilerConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>5</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Steam</SubtypeId>
+          </Id>
+          <IceToGasRatio>20</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>CoalFurnace</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>DeuteriumExtractor</SubtypeId>
+      </Id>
+      <DisplayName>Deuterium Extractor</DisplayName>
+      <Icon>..\2344068716\Icons\DeuteriumExtractor.dds</Icon>
+      <Icon>Icons\Corners\t5.dds</Icon>
+      <Description>Extracts trace Deuterium from common water ice.
+	  Max Output: 5L/s</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\DeuteriumExtractor.mwm</Model>
+      <Components>
+        <Component Subtype="duraniumSteelPlate" Count="800" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="GoldCable" Count="200" />
+        <Component Subtype="duraniumSmallTube" Count="200" />
+        <Component Subtype="duraniumLargeTube" Count="500" />
+        <Component Subtype="advMotor" Count="100" />
+        <Component Subtype="HeatingElement" Count="350" />
+        <Component Subtype="QuantumComputer" Count="150" />
+        <Component Subtype="duraniumSteelPlate" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\DeuteriumExtractorConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\DeuteriumExtractorConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Construct\DeuteriumExtractorConstruct3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>DeuteriumExtractor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>100</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>10</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Deuterium</SubtypeId>
+          </Id>
+          <IceToGasRatio>0.05</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>Deuterium</Class>
+      </BlueprintClasses>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <TieredUpdateTimes>
+        <unsignedInt>30</unsignedInt>
+        <unsignedInt>60</unsignedInt>
+        <unsignedInt>120</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>DeuteriumRamscoop</SubtypeId>
+      </Id>
+      <DisplayName>Deuterium Ramscoop</DisplayName>
+      <Icon>..\2344068716\Icons\DeuteriumRamscoop.dds</Icon>
+      <Icon>Icons\Corners\t5.dds</Icon>
+      <Description>Uses shaped magnetic and gravitational fields to collect, separate, and compress small amounts of Deuterium from the interstellar medium.
+	  Collection rate increases with forward velocity. Collection funnel must be open to space. Natural gravity will interfere with scoop fields.
+	  Max Output at 100m/s: 1.25L/s</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="15" y="15" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\LargeDeuteriumRamscoop.mwm</Model>
+      <Components>
+        <Component Subtype="duraniumSteelPlate" Count="1500" />
+        <Component Subtype="Construction" Count="750" />
+        <Component Subtype="duraniumLargeTube" Count="250" />
+        <Component Subtype="duraniumGirder" Count="500" />
+        <Component Subtype="advMotor" Count="250" />
+        <Component Subtype="GoldCable" Count="400" />
+        <Component Subtype="QuantumComputer" Count="100" />
+        <Component Subtype="GoldWire" Count="500" />
+        <Component Subtype="SuperMagnet" Count="250" />
+        <Component Subtype="Cryocooler" Count="150" />
+        <Component Subtype="AdvancedComputer" Count="100" />
+        <Component Subtype="GravityGenerator" Count="300" />
+        <Component Subtype="QuantumComputer" Count="400" />
+        <Component Subtype="duraniumSteelPlate" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="7" StartY="7" EndX="8" EndY="8" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeDeuteriumRamscoopConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeDeuteriumRamscoopConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="..\2344068716\Models\Construct\LargeDeuteriumRamscoopConstruct3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>DeuteriumRamscoop</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>1000</IceConsumptionPerSecond>
+      <InventoryMaxVolume>100</InventoryMaxVolume>
+      <InventorySize>
+        <X>10</X>
+        <Y>10</Y>
+        <Z>10</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>25</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Deuterium</SubtypeId>
+          </Id>
+          <IceToGasRatio>0.05</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>Deuterium</Class>
+      </BlueprintClasses>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <TieredUpdateTimes>
+        <unsignedInt>30</unsignedInt>
+        <unsignedInt>60</unsignedInt>
+        <unsignedInt>120</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>OilFurnace</SubtypeId>
+      </Id>
+      <DisplayName>Oil Boiler</DisplayName>
+      <Icon>Icons\energy\coal_boiler.dds</Icon>
+      <Icon>Icons\Corners\t3.dds</Icon>
+      <Description>
+				Burns Fuel Oil to produce Steam. Must be connected to a Steam Turbine.
+				Produces 100 Steam/sec
+			</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="6" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\CoalBoiler.mwm</Model>
+      <Components>
+        <Component Subtype="heavySteelPlate" Count="80" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="GoldCable" Count="30" />
+        <Component Subtype="heavyLargeTube" Count="50" />
+        <Component Subtype="advMotor" Count="10" />
+        <Component Subtype="HeatingElement" Count="10" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="AdvancedComputer" Count="25" />
+        <Component Subtype="heavySteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="6" EndY="3" Default="true" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\CoalBoilerConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\CoalBoilerConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\CoalBoilerConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>5</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Steam</SubtypeId>
+          </Id>
+          <IceToGasRatio>50</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>OilFurnace</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>NuclearReactor</SubtypeId>
+      </Id>
+      <DisplayName>Nucular Reactor</DisplayName>
+      <Icon>..\2344068716\Icons\StandardReactor.dds</Icon>
+      <Icon>Icons\Corners\t4.dds</Icon>
+      <Description>Standard fission Reactor. High efficiency and power output.
+		Produces Spent Fuel. Must be connected to a Steam Turbine.
+		Produces 500 Steam/sec
+    
+    Mimimimimimi</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\StandardReactor.mwm</Model>
+      <Components>
+        <Component Subtype="reinforcedSteelPlate" Count="150" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="CopperCable" Count="60" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="reinforcedLargeTube" Count="50" />
+        <Component Subtype="Ceramic" Count="100" />
+        <Component Subtype="Reactor" Count="1500" />
+        <Component Subtype="advMotor" Count="60" />
+        <Component Subtype="ArmorGlass" Count="40" />
+        <Component Subtype="Superconductor" Count="30" />
+        <Component Subtype="Concrete" Count="150" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="QuantumComputer" Count="50" />
+        <Component Subtype="reinforcedSteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="1" StartY="4" EndX="2" EndY="5" />
+        <MountPoint Side="Front" StartX="1" StartY="4" EndX="2" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="5" Default="true" />
+        <MountPoint Side="Top" StartX="1" StartY="2" EndX="2" EndY="3" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\StandardReactorConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\StandardReactorConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\StandardReactorConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>0.025</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Steam</SubtypeId>
+          </Id>
+          <IceToGasRatio>20000</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>NRSteam</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>NuclearReactort5</SubtypeId>
+      </Id>
+      <DisplayName>Nucular Reactor T5</DisplayName>
+      <Icon>..\2344068716\Icons\StandardReactor.dds</Icon>
+      <Icon>Icons\Corners\t5.dds</Icon>
+      <Description>Standard fission Reactor. High efficiency and power output.
+		Produces Spent Fuel. Must be connected to a Steam Turbine.
+		Produces 1250x Steam/sec
+    
+    Mimimimimimi</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\StandardReactor.mwm</Model>
+      <Components>
+        <Component Subtype="duraniumSteelPlate" Count="350" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="CopperCable" Count="60" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="duraniumLargeTube" Count="250" />
+        <Component Subtype="Ceramic" Count="200" />
+        <Component Subtype="Reactor" Count="2500" />
+        <Component Subtype="advMotor" Count="60" />
+        <Component Subtype="ArmorGlass" Count="40" />
+        <Component Subtype="Superconductor" Count="30" />
+        <Component Subtype="Concrete" Count="150" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="QuantumComputer" Count="120" />
+        <Component Subtype="duraniumSteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="1" StartY="4" EndX="2" EndY="5" />
+        <MountPoint Side="Front" StartX="1" StartY="4" EndX="2" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="5" Default="true" />
+        <MountPoint Side="Top" StartX="1" StartY="2" EndX="2" EndY="3" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\StandardReactorConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\StandardReactorConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\StandardReactorConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>0.03</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Steam</SubtypeId>
+          </Id>
+          <IceToGasRatio>50000</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>NRSteam</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>FastNeutronReactor</SubtypeId>
+      </Id>
+      <DisplayName>Fast Neutron Reactor</DisplayName>
+      <Icon>..\2344068716\Icons\FastReactor.dds</Icon>
+      <Icon>Icons\Corners\t4.dds</Icon>
+      <Description>Less efficient, but generates less waste than a standard Reactor.
+		Also capable of consuming Nuclear Waste as fuel. Must be connected to a Steam Turbine.
+		Produces 300 Steam/sec</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="4" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\FastReactor.mwm</Model>
+      <Components>
+        <Component Subtype="reinforcedSteelPlate" Count="150" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="CopperCable" Count="60" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="reinforcedLargeTube" Count="50" />
+        <Component Subtype="Ceramic" Count="150" />
+        <Component Subtype="Reactor" Count="1750" />
+        <Component Subtype="advMotor" Count="80" />
+        <Component Subtype="ArmorGlass" Count="50" />
+        <Component Subtype="Superconductor" Count="125" />
+        <Component Subtype="Concrete" Count="200" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="QuantumComputer" Count="75" />
+        <Component Subtype="reinforcedSteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="1" StartY="3" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="4" Default="true" />
+        <MountPoint Side="Top" StartX="1" StartY="2" EndX="2" EndY="3" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\FastReactorConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\FastReactorConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\FastReactorConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>0.025</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Steam</SubtypeId>
+          </Id>
+          <IceToGasRatio>12000</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>FNRSteam</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>GeothermalWellHead</SubtypeId>
+      </Id>
+      <DisplayName>Geothermal Wellhead</DisplayName>
+      <Icon>Icons\GeothermalWellHead.dds</Icon>
+      <Description>Processes geothermal heat to produce Steam. Must be connected by Geothermal Pipes to a Geothermal Well Tip.
+			Produces ~7.5 Steam/sec per 100m of Well Tip depth below 150m.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\GeothermalWellHead.mwm</Model>
+      <Components>
+        <Component Subtype="heavySteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="heavyLargeTube" Count="50" />
+        <Component Subtype="advMotor" Count="30" />
+        <Component Subtype="CopperCable" Count="25" />
+        <Component Subtype="AdvancedComputer" Count="5" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="heavySteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="4" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\GeothermalWellHeadConstruct3.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\GeothermalWellHeadConstruct2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\GeothermalWellHeadConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\GeothermalWellHeadConstruct0.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>9999999999</IceConsumptionPerSecond>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>1</InventoryFillFactorMin>
+      <InventoryFillFactorMax>1</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>10</FuelPullAmountFromConveyorInMinutes>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Steam</SubtypeId>
+          </Id>
+          <IceToGasRatio>1.25</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>Heat</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>10</unsignedInt>
+        <unsignedInt>60</unsignedInt>
+        <unsignedInt>240</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>RocketFuelRefinery</SubtypeId>
+      </Id>
+      <DisplayName>Rocket Fuel Refinery</DisplayName>
+      <Icon>Icons\mobility\rocket_fuel_refinery_t3.dds</Icon>
+      <Description>
+				Refines raw Fuel Oil into useable Rocket Fuel.
+
+				Max Output: 50L/s
+				Power Usage: 2MW
+			</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\FuelRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="60" />
+        <Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="LargeTube" Count="40" />
+        <Component Subtype="SmallTube" Count="40" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="Computer" Count="40" />
+        <Component Subtype="GGMSilverComponent" Count="50" />
+        <Component Subtype="AdvancedComputer" Count="50" />
+        <Component Subtype="Superconductor" Count="30" />
+        <Component Subtype="Ceramic" Count="50" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Ceramic" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\FuelRefineryConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\FuelRefineryConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\FuelRefineryConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>10</IceConsumptionPerSecond>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>2</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>RocketFuel</SubtypeId>
+          </Id>
+          <IceToGasRatio>5</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>FuelOilToFuels</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+        <unsignedInt>1200</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>GasolineRefinery</SubtypeId>
+      </Id>
+      <DisplayName>Gasoline Refinery</DisplayName>
+      <Icon>Icons\production\fuel_refinery_t1.dds</Icon>
+      <Description>
+				Refines raw Fuel Oil into useable Gasoline.
+
+				Max Output: 80L/s
+				Power Usage: 2MW
+			</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\GasolineRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="75" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="LargeTube" Count="30" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Ceramic" Count="50" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Ceramic" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\FuelRefineryConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\FuelRefineryConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\FuelRefineryConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>10</IceConsumptionPerSecond>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>2</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Gasoline</SubtypeId>
+          </Id>
+          <IceToGasRatio>8</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>FuelOilToFuels</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+        <unsignedInt>1200</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>GasolineRefineryt3</SubtypeId>
+      </Id>
+      <DisplayName>Gasoline Refinery</DisplayName>
+      <Icon>Icons\production\fuel_refinery_t1.dds</Icon>
+      <Icon>Icons\Corners\t3.dds</Icon>
+      <Description>
+				Refines raw Fuel Oil into useable Gasoline.
+
+				Max Output: 200L/s
+				Power Usage: 4MW
+			</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\GasolineRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="75" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="LargeTube" Count="30" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Ceramic" Count="50" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Ceramic" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\FuelRefineryConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\FuelRefineryConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\FuelRefineryConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>2</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Gasoline</SubtypeId>
+          </Id>
+          <IceToGasRatio>8</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>FuelOilToFuels</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+        <unsignedInt>1200</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>CoalFurnace</SubtypeId>
+      </Id>
+      <DisplayName>Coal Boiler</DisplayName>
+      <Icon>..\2344068716\Icons\CoalBoiler.dds</Icon>
+      <Description>
+				Burns Coal to produce Steam. Must be connected to a Steam Turbine.
+				Produces 100 Steam/sec
+			</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="6" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\CoalBoiler.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="CopperWire" Count="30" />
+        <Component Subtype="LargeTube" Count="50" />
+        <Component Subtype="Motor" Count="10" />
+        <Component Subtype="HeatingElement" Count="10" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="GGMSilverPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="GGMSilverPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="6" EndY="3" Default="true" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\CoalBoilerConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\CoalBoilerConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\CoalBoilerConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>5</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Steam</SubtypeId>
+          </Id>
+          <IceToGasRatio>20</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>CoalFurnace</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+    </Definition>
+  </CubeBlocks>
+  <BlueprintClasses />
+  <BlueprintClassEntries />
+</Definitions>
