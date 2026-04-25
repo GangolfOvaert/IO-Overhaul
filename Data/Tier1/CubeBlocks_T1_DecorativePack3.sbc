@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <!-- Decorative Blocks #3 - Tier 1 (no Glass or Computer) -->
+        <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockHalfBed</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HalfBed</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfBedBlock.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Bed</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\HalfBlockBed.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <CharacterAnimation>Bed_Laying_Pose</CharacterAnimation>
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="14" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="6" />
+                <Component Subtype="Display" Count="3" />
+                <Component Subtype="IronBolt" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+			</MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HalfBlockBed_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HalfBlockBed_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HalfBlockBed_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>HalfBed</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <OxygenCapacity>1</OxygenCapacity>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockHalfBedOffset</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HalfBedOffset</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\OffsetHalfBedBlock.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Bed</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\HalfBlockBedOffset.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <CharacterAnimation>Bed_Laying_Pose</CharacterAnimation>
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="14" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="6" />
+                <Component Subtype="Display" Count="3" />
+                <Component Subtype="IronBolt" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+                <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+                <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.15" />
+                <MountPoint Side="Right" StartX="0.00" StartY="0.85" EndX="1.0" EndY="1.00" />
+                <MountPoint Side="Right" StartX="0.00" StartY="0.15" EndX="0.10" EndY="0.85" />
+                <MountPoint Side="Right" StartX="0.90" StartY="0.15" EndX="1.00" EndY="0.85" />
+                <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+                <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+                <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+			</MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HalfBlockBedOffset_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HalfBlockBedOffset_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HalfBlockBedOffset_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>HalfBedOffset</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <OxygenCapacity>1</OxygenCapacity>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Truss</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Truss</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Truss.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="20" />
+				<Component Subtype="IronTube" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Truss</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Truss</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussSmall.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\Truss.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="2" />
+				<Component Subtype="IronTube" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TrussConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Truss</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFrame</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFrame</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFrameLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFrame.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="10" />
+                <Component Subtype="IronTube" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFrameConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFrame</BlockPairName>
+            <MirroringX>YMinusHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>XHalfX</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussSlopedFrame</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussSlopedFrame</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussSlopedFrameLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussSlopedFrame.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="6" />
+                <Component Subtype="IronTube" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussSlopedFrameConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussSlopedFrame</BlockPairName>
+            <MirroringX>YHalfX</MirroringX>
+            <MirroringY>MinusHalfX</MirroringY>
+            <MirroringZ>HalfX</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussSloped</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussSloped</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussCornerLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussCorner.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="10" />
+                <Component Subtype="IronTube" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0.5" EndX="0.5" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussCornerConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussSloped</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussSlopedSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussSloped</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussCornerSmall.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\TrussCorner.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="1" />
+                <Component Subtype="IronTube" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0.5" EndX="0.5" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TrussCornerConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussSloped</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussAngled</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussAngled</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussAngledLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussAngled.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="20" />
+				<Component Subtype="IronTube" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussAngledConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussAngled</BlockPairName>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussAngledSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussAngled</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussAngledSmall.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\TrussAngled.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="2" />
+				<Component Subtype="IronTube" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TrussAngledConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussAngled</BlockPairName>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussHalf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussHalf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussHalfLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussHalf.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="10" />
+				<Component Subtype="IronTube" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1"/>
+				<MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.03" StartY="0.5" EndX="0.97" EndY="0.54"/>
+				<MountPoint Side="Top" StartX="0" StartY="0.5" EndX="0.03" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.97" StartY="0.5" EndX="1" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.03" StartY="0.96" EndX="0.97" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.97" StartY="0" EndX="1" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.03" StartY="0" EndX="0.97" EndY="0.04"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.03" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.03" StartY="0.46" EndX="0.97" EndY="0.5"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussHalfConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussHalf</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussHalfSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussHalf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussHalfSmall.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\TrussHalf.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="1" />
+				<Component Subtype="IronTube" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1"/>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TrussHalfConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussHalf</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloor.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="24" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="30" />
+                <Component Subtype="IronBolt" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloor</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloorT</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloorT</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorTLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloorT.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="22" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="30" />
+                <Component Subtype="IronBolt" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorTConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloorT</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>11</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloorX</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloorX</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorXLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloorX.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="20" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="30" />
+                <Component Subtype="IronBolt" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Right" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Right" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorXConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloorX</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloorAngled</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloorAngled</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorAngledLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloorAngled.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="24" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="30" />
+                <Component Subtype="IronBolt" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorAngledConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloorAngled</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloorAngledInverted</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloorAngledInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorAngledInvLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloorAngledInverted.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="24" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="30" />
+                <Component Subtype="IronBolt" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorAngledInvertedConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloorAngledInverted</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloorHalf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloorHalf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorHalfLarge.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloorHalf.mwm</Model>
+            <Components>
+                <Component Subtype="IronRod" Count="12" />
+                <Component Subtype="IronBolt" Count="8" />
+				<Component Subtype="IronTube" Count="20" />
+                <Component Subtype="IronBolt" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.50" EndY="1" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.50" Default="true" />
+				<MountPoint Side="Top" StartX="0.97" StartY="0.54" EndX="1" EndY="0.96" />
+				<MountPoint Side="Top" StartX="0" StartY="0.96" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0.50" EndX="1" EndY="0.54" />
+				<MountPoint Side="Top" StartX="0" StartY="0.54" EndX="0.03" EndY="0.96" />
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorHalfConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloorHalf</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>Ladder2</TypeId>
+                <SubtypeId>TrussLadder</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussLadder</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussLadder.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Ladder</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </Size>
+            <ModelOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+            </ModelOffset>
+            <Model>Models\Cubes\large\TrussLadder.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <Components>
+                <Component Subtype="IronRod" Count="20" />
+                <Component Subtype="MagnesiumPressedPlate" Count="10" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="30" />
+				<Component Subtype="IronBolt" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.44" Default="true" />
+				<MountPoint Side="Bottom" StartX="0.27" StartY="0.8" EndX="0.73" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.73" StartY="0.44" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0.44" EndX="0.27" EndY="1" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0.3" StartY="0.05" EndX="0.7" EndY="0.2" />
+				<MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Right" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Right" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TrussLadderConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussLadder</BlockPairName>
+            <ExcludedAreaForCamera>
+                <BoundingBox>
+                    <Min>
+                        <X>-0.6</X>
+                        <Y>-1.3</Y>
+                        <Z>-1.3</Z>
+                    </Min>
+                    <Max>
+                        <X>0.6</X>
+                        <Y>-1.1</Y>
+                        <Z>-0.75</Z>
+                    </Max>
+                </BoundingBox>
+                <BoundingBox>
+                    <Min>
+                        <X>-0.6</X>
+                        <Y>1.1</Y>
+                        <Z>-1.3</Z>
+                    </Min>
+                    <Max>
+                        <X>0.6</X>
+                        <Y>1.3</Y>
+                        <Z>-0.75</Z>
+                    </Max>
+                </BoundingBox>
+            </ExcludedAreaForCamera>
+            <CenterOffset xsi:nil="true" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>LargeCrate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Crate</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Crate01.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_CrateBlock</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Crate01.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="IronPlate" Count="10" />
+				<Component Subtype="IronTube" Count="8" />
+                <Component Subtype="SimpleBearing" Count="4" />
+				<Component Subtype="IronBolt" Count="24" />
+                <Component Subtype="IronPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="IronBolt" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.5" Default="true" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.1" EndX="0.95" EndY="0.4" />
+				<MountPoint Side="Left" StartX="0.05" StartY="0.1" EndX="0.5" EndY="0.4" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.4" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\Crate01Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Crate01Construction_2.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Crate</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Barrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01_Large.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="IronPlate" Count="4" />
+				<Component Subtype="IronPipe" Count="1" />
+                <Component Subtype="IronBolt" Count="6" />
+                <Component Subtype="IronPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="IronBolt" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.6" StartY="0" EndX="1.0" EndY="0.4" Default="true" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.3" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="0.9" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01_Large_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01_Large_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Barrel</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Barrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="2" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Small\Barrel01.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="IronPlate" Count="4" />
+				<Component Subtype="IronPipe" Count="1" />
+                <Component Subtype="IronBolt" Count="6" />
+                <Component Subtype="IronPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="IronBolt" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+                <MountPoint Side="Back" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+                <MountPoint Side="Left" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+				<MountPoint Side="Right" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Barrel01_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Barrel01_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Barrel01_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Barrel</BlockPairName>
+            <MirroringY>XHalfY</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrelThree</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BarrelThree</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Three.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01Three.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="IronPlate" Count="12" />
+				<Component Subtype="IronPipe" Count="3" />
+                <Component Subtype="IronBolt" Count="18" />
+                <Component Subtype="IronPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="IronBolt" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.3" StartY="0" EndX="1.0" EndY="0.4" Default="true" />
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.0" EndY="0.6" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.6" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.3" StartY="0" EndX="0.9" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01Three_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01Three_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01Three_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>BarrelThree</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrelStack</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BarrelStack</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Stack.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01Stack.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="IronPlate" Count="40" />
+				<Component Subtype="IronPipe" Count="10" />
+				<Component Subtype="IronFrameS" Count="4" />
+				<Component Subtype="IronRod" Count="8" />
+                <Component Subtype="IronBolt" Count="60" />
+                <Component Subtype="IronPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="IronBolt" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+				<MountPoint Side="Front" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+				<MountPoint Side="Front" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.4" EndY="0.4" />
+				<MountPoint Side="Top" StartX="0.6" StartY="0" EndX="1.0" EndY="0.4" />
+				<MountPoint Side="Top" StartX="0" StartY="0.6" EndX="0.4" EndY="1.0" />
+				<MountPoint Side="Top" StartX="0.6" StartY="0.6" EndX="1.0" EndY="1.0" />
+				<MountPoint Side="Top" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01Stack_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01Stack_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01Stack_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>BarrelStack</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>22</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockInsetBed</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetBed</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InsetBed.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Bed</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InsetBed.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <CharacterAnimation>Normal_Bed_Laying_Pose</CharacterAnimation>
+            <!-- Random animation poses support
+                <CharacterAnimations>
+                    <DefaultAnimations>
+                        <string>Normal_Bed_Laying_Pose</string>
+                        <string>Bed_Laying_Pose</string>
+                    </DefaultAnimations>
+                    <MaleAnimations>
+                        <string>Normal_Bed_Laying_Pose</string>
+                        <string>Bed_Laying_Pose</string>
+                    </MaleAnimations>
+                    <FemaleAnimations>
+                        <string>Normal_Bed_Laying_Pose</string>
+                        <string>Bed_Laying_Pose</string>
+                    </FemaleAnimations>
+                </CharacterAnimations>
+            -->
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="30" />
+                <Component Subtype="IronBolt" Count="20" />
+                <Component Subtype="IronTube" Count="8" />
+                <Component Subtype="MagnesiumPressedPlate" Count="30" />
+                <Component Subtype="IronBolt" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.2" />
+                <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.95" StartY="0.2" EndX="1" EndY="0.8" />
+                <MountPoint Side="Front" StartX="0" StartY="0.2" EndX="0.05" EndY="0.8" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InsetBedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InsetBedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InsetBedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>InsetBed</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <OxygenCapacity>1</OxygenCapacity>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LargeBlockInsetBookshelf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetBookshelf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorBookshelf.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Lockers</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InteriorBookshelf.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="20" />
+                <Component Subtype="IronBolt" Count="20" />
+                <Component Subtype="MagnesiumPressedPlate" Count="10" />
+                <Component Subtype="IronBolt" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="IronBolt" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorBookshelfConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorBookshelfConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorBookshelfConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>InsetBookshelf</BlockPairName>
+            <MirroringZ>YHalfY</MirroringZ>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringX>MinusHalfY</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <EmissiveColorPreset>Basic</EmissiveColorPreset>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <IsAirTight>true</IsAirTight>
+            <PCU>10</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+    </CubeBlocks>
+</Definitions>

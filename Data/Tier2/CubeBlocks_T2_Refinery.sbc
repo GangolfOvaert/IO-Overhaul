@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <!-- ============================= -->
+        <!-- T2 REFINERY                   -->
+        <!-- Processes T2 ores into ingots -->
+        <!-- ============================= -->
+
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefineryT2</SubtypeId>
+            </Id>
+            <DisplayName>Tier 2 Refinery</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+            <Icon>Icons\t2.dds</Icon>
+            <Description>Tier 2 Refinery for processing Cobalt, Silver, Aluminium, Copper, Carbon, and Silicon ores.
+
+Power Usage: 6MW</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Refinery.mwm</Model>
+            <Components>
+                <Component Subtype="IronFrameL" Count="1" />
+                <Component Subtype="CobaltPlate" Count="60" />
+                <Component Subtype="IronPlate" Count="40" />
+                <Component Subtype="IronPipe" Count="15" />
+                <Component Subtype="CopperWire" Count="20" />
+                <Component Subtype="SimpleBearing" Count="8" />
+                <Component Subtype="BasicComputer" Count="10" />
+                <Component Subtype="CobaltPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="BasicComputer" Index="0" />
+            <Center x="1" y="0" z="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>RefineryT2</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>7.5</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>6</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>T2Refining</Class>
+            </BlueprintClasses>
+            <RefineSpeed>4</RefineSpeed>
+            <MaterialEfficiency>1.0</MaterialEfficiency>
+            <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
+            <AllowSelfPulling>false</AllowSelfPulling>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>

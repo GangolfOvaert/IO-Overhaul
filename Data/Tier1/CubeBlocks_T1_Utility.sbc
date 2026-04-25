@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <!-- ============================================ -->
+        <!-- TIER 1 UTILITY BLOCKS                        -->
+        <!-- Landing Gear and Magnetic Plates             -->
+        <!-- ============================================ -->
+
+        <!-- Landing Gear - Large Grid -->
+        <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+            <Id>
+                <TypeId>LandingGear</TypeId>
+                <SubtypeId>LargeBlockLandingGear</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LandingGear</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_LandingGear</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\LandingGear.mwm</Model>
+            <LockSound>ShipLandGearOn</LockSound>
+            <UnlockSound>ShipLandGearOff</UnlockSound>
+            <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+            <Components>
+                <Component Subtype="IronFrameL" Count="1" />
+                <Component Subtype="IronPlate" Count="99" />
+                <Component Subtype="IronBolt" Count="20" />
+                <Component Subtype="SimpleBearing" Count="6" />
+                <Component Subtype="IronPlate" Count="50" />
+            </Components>
+            <CriticalComponent Subtype="SimpleBearing" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LandingGearConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LandingGearConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LandingGearConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LandingGear</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+            <MaxLockSeparatingVelocity>7</MaxLockSeparatingVelocity>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>35</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- Landing Gear - Small Grid -->
+        <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+            <Id>
+                <TypeId>LandingGear</TypeId>
+                <SubtypeId>SmallBlockLandingGear</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LandingGear</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_LandingGear</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\LandingGear.mwm</Model>
+            <LockSound>ShipLandGearOn</LockSound>
+            <UnlockSound>ShipLandGearOff</UnlockSound>
+            <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+            <Components>
+                <Component Subtype="IronFrameS" Count="1" />
+                <Component Subtype="IronBolt" Count="5" />
+                <Component Subtype="SimpleBearing" Count="1" />
+                <Component Subtype="IronPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SimpleBearing" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\LandingGearConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LandingGearConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LandingGear</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+            <MaxLockSeparatingVelocity>7</MaxLockSeparatingVelocity>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>35</PCU>
+        </Definition>
+
+        <!-- Magnetic Plate - Large Grid -->
+        <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+            <Id>
+                <TypeId>LandingGear</TypeId>
+                <SubtypeId>LargeBlockSmallMagneticPlate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_MagneticPlateSmall</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SimpleMagneticPlate.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_LandingGear</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SimpleMagneticPlate.mwm</Model>
+            <LockSound>ShipLandGearOn</LockSound>
+            <UnlockSound>ShipLandGearOff</UnlockSound>
+            <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+            <Components>
+                <Component Subtype="IronFrameL" Count="1" />
+                <Component Subtype="IronPlate" Count="9" />
+                <Component Subtype="IronBolt" Count="3" />
+                <Component Subtype="SimpleBearing" Count="1" />
+                <Component Subtype="IronPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="SimpleBearing" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SimpleMagneticPlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SimpleMagneticPlateConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SimpleMagneticPlateConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>MagneticPlate</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+            <MaxLockSeparatingVelocity>7</MaxLockSeparatingVelocity>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>35</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- Magnetic Plate - Small Grid -->
+        <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+            <Id>
+                <TypeId>LandingGear</TypeId>
+                <SubtypeId>SmallBlockSmallMagneticPlate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_MagneticPlateSmall</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SimpleMagneticPlate.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_LandingGear</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SimpleMagneticPlate.mwm</Model>
+            <LockSound>ShipLandGearOn</LockSound>
+            <UnlockSound>ShipLandGearOff</UnlockSound>
+            <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+            <Components>
+                <Component Subtype="IronFrameS" Count="1" />
+                <Component Subtype="IronBolt" Count="1" />
+                <Component Subtype="SimpleBearing" Count="1" />
+                <Component Subtype="IronPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SimpleBearing" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SimpleMagneticPlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SimpleMagneticPlateConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>MagneticPlate</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+            <MaxLockSeparatingVelocity>7</MaxLockSeparatingVelocity>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>35</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>

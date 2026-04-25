@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+        
+        <!-- T1 Pure Ores: Iron, Nickel, Magnesium -->
+        <!-- Refining Rate: 80% -->
+        
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>IronOrePure</SubtypeId>
+            </Id>
+            <DisplayName>Pure Iron Ore</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.3</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>T1+</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>NickelOrePure</SubtypeId>
+            </Id>
+            <DisplayName>Pure Nickel Ore</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.3</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>T1+</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>MagnesiumOrePure</SubtypeId>
+            </Id>
+            <DisplayName>Pure Magnesium Ore</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>T1+</IconSymbol>
+            <MinimalPricePerUnit>400</MinimalPricePerUnit>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>9000</MaximumOfferAmount>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>9000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+    </PhysicalItems>
+</Definitions>

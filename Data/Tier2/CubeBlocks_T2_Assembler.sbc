@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <!-- ============================= -->
+        <!-- T2 ASSEMBLER                  -->
+        <!-- Crafts all T2 components      -->
+        <!-- ============================= -->
+
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+            <Id>
+                <TypeId>Assembler</TypeId>
+                <SubtypeId>T2_Assembler</SubtypeId>
+            </Id>
+            <DisplayName>Tier 2 Assembler</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <Icon>Icons\t2.dds</Icon>
+            <Description>Tier 2 Assembler for crafting advanced electronic components: glass, wafers, chips, computers, displays, and sensors.
+
+Power Usage: 1.5MW</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Assembler.mwm</Model>
+            <Components>
+                <Component Subtype="IronFrameL" Count="1" />
+                <Component Subtype="CobaltPlate" Count="40" />
+                <Component Subtype="IronPlate" Count="30" />
+                <Component Subtype="IronBolt" Count="30" />
+                <Component Subtype="CopperWire" Count="16" />
+                <Component Subtype="SimpleBearing" Count="6" />
+                <Component Subtype="BasicComputer" Count="8" />
+                <Component Subtype="CobaltPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="BasicComputer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="3" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>T2Assembler</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>100</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>4</InventoryMaxVolume>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>T1AssemblingBench</Class>
+                <Class>T2AssemblingBench</Class>
+            </BlueprintClasses>
+            <AssemblySpeed>1.0</AssemblySpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockAssembler</PrimarySound>
+            <ActionSound>BlockAssemblerProcess</ActionSound>
+            <DestroyEffect>Explosion_Missile</DestroyEffect>
+            <DestroySound>WepSmallMissileExpl</DestroySound>
+            <PCU>40</PCU>
+            <IsAirTight>true</IsAirTight>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>

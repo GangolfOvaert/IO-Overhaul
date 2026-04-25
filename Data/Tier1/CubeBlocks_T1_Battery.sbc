@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- ============================= -->
+    <!-- T1 ALKALINE BATTERY (LARGE)   -->
+    <!-- Non-rechargeable, 6MW / 1MWh  -->
+    <!-- ============================= -->
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockAlkalineBatteryBlock</SubtypeId>
+      </Id>
+      <DisplayName>Alkaline Battery</DisplayName>
+      <Icon>..\2344068716\Icons\AlkalineBattery.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Description>Simple dissimilar-metal battery. Produces a small amount of power.
+		Cannot be recharged.
+
+		Max Output: 6MW
+		Stored Power: 1MWh</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\LargeAlkalineBattery.mwm</Model>
+      <Components>
+        <Component Subtype="IronFrameL" Count="1" />
+        <Component Subtype="IronPlate" Count="30" />
+        <Component Subtype="IronBolt" Count="20" />
+        <Component Subtype="IronTube" Count="10" />
+        <Component Subtype="AlkalinePowerCell" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="IronFrameS" Count="2" />
+        <Component Subtype="IronPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="IronFrameS" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\LargeAlkalineBatteryConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\LargeAlkalineBatteryConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\LargeAlkalineBatteryConstruct3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AlkalineBatteryBlock</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>6</MaxPowerOutput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <MaxStoredPower>1</MaxStoredPower>
+      <InitialStoredPowerRatio>1</InitialStoredPowerRatio>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+    </Definition>
+
+    <!-- ============================= -->
+    <!-- T1 SMALL ALKALINE BATTERY     -->
+    <!-- Small grid, 100kW / 20kWh     -->
+    <!-- ============================= -->
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockSmallAlkalineBatteryBlock</SubtypeId>
+      </Id>
+      <DisplayName>Small Alkaline Battery</DisplayName>
+      <Icon>..\2344068716\Icons\AlkalineBattery.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Description>Simple dissimilar-metal battery. Produces a small amount of power.
+		Cannot be recharged.
+
+		Max Output: 100kW
+		Stored Power: 20kWh</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2344068716\Models\SmallAlkalineBatterySmall.mwm</Model>
+      <Components>
+        <Component Subtype="IronFrameS" Count="1" />
+        <Component Subtype="IronPlate" Count="3" />
+        <Component Subtype="IronBolt" Count="4" />
+        <Component Subtype="IronTube" Count="2" />
+        <Component Subtype="AlkalinePowerCell" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="IronFrameS" Count="1" />
+        <Component Subtype="IronPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="IronFrameS" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\SmallAlkalineBatterySmallConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\SmallAlkalineBatterySmallConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\SmallAlkalineBatterySmallConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <BlockPairName>AlkalineBatteryBlock</BlockPairName>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>0.1</MaxPowerOutput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <MaxStoredPower>0.02</MaxStoredPower>
+      <InitialStoredPowerRatio>1</InitialStoredPowerRatio>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
+      <PCU>15</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

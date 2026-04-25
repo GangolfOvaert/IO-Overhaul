@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+        
+        <!-- T1 Ingots: Gravel (Stone), Iron, Nickel, Magnesium -->
+        
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Stone</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Gravel</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.25</Volume>
+            <Model>Models\Ingots\stone_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T1</IconSymbol>
+            <MinimalPricePerUnit>31</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Iron</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+            <Size>
+                <X>0.05</X>
+                <Y>0.05</Y>
+                <Z>0.05</Z>
+            </Size>
+            <Mass>1.575</Mass>
+            <Volume>0.2</Volume>
+            <Model>Models\Ingots\iron_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T1</IconSymbol>
+            <MinimalPricePerUnit>177</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Nickel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+            <Size>
+                <X>0.048</X>
+                <Y>0.048</Y>
+                <Z>0.048</Z>
+            </Size>
+            <Mass>1.78</Mass>
+            <Volume>0.2</Volume>
+            <Model>Models\Ingots\nickel_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T1</IconSymbol>
+            <MinimalPricePerUnit>207</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Magnesium</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MagnesiumPowder</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
+            <Size>
+                <X>0.083</X>
+                <Y>0.083</Y>
+                <Z>0.083</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.575</Volume>
+            <Model>Models\Ingots\magnesium_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T1</IconSymbol>
+            <MinimumOfferAmount>300</MinimumOfferAmount>
+            <MaximumOfferAmount>3000</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>200</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>200</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <!-- T1 Energy Cell - Fuel ingot for T1 reactors -->
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>T1_EnergyCell</SubtypeId>
+            </Id>
+            <DisplayName>Ice Energy Cell</DisplayName>
+            <Description>Primitive energy storage for T1 reactors. Crafted from ice or atmospheric extraction in Survival Kits.</Description>
+            <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+            <Size>
+                <X>0.075</X>
+                <Y>0.075</Y>
+                <Z>0.075</Z>
+            </Size>
+            <Mass>0.001</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Items\PowerKit.mwm</Model>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+    </PhysicalItems>
+</Definitions>

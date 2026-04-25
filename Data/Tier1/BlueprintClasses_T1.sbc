@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClasses>
+    <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>T1Refining</SubtypeId>
+			</Id>
+			<DisplayName>Ingots</DisplayName>
+			<Icon>Icons\t1_cat.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1Components</SubtypeId>
+      </Id>
+      <DisplayName>T1 Components</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1Stamp</SubtypeId>
+      </Id>
+      <DisplayName>Plates</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\component\steel_plate_component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\component\steel_plate_component.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1Extruder</SubtypeId>
+      </Id>
+      <DisplayName>Tubes &amp; Rods</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\component\large_tube_component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\component\large_tube_component.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1Fabricator</SubtypeId>
+      </Id>
+      <DisplayName>Composite Parts</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\component\metal_grid_component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\component\metal_grid_component.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1AssemblingBench</SubtypeId>
+      </Id>
+      <DisplayName>All T1 Components</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <!-- Survival Kit Classes -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1SurvivalKitIngots</SubtypeId>
+      </Id>
+      <DisplayName>Basic Ingots</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1SurvivalKitComponents</SubtypeId>
+      </Id>
+      <DisplayName>Basic Components</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+    <!-- Impure Ores (25%) -->
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_IronOreImpureToIngot" />
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_NickelOreImpureToIngot" />
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_MagnesiumOreImpureToIngot" />
+    <!-- Normal Ores (60%) -->
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_IronOreToIngot" />
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_NickelOreToIngot" />
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_MagnesiumOreToIngot" />
+    <!-- Pure Ores (80%) -->
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_IronOrePureToIngot" />
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_NickelOrePureToIngot" />
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_MagnesiumOrePureToIngot" />
+    <!-- Stone Processing -->
+    <Entry Class="T1Refining" BlueprintSubtypeId="T1_StoneProcessing" />
+
+    <!-- T1 Components - Basic Shapes -->
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_IronRod" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_IronPlate" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_IronBolt" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_IronTube" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_IronPipe" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_NickelBall" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_MagnesiumPressedPlate" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_Concrete" />
+    <!-- T1 Components - Composite Parts -->
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_SimpleBearing" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_IronFrameS" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_IronFrameL" />
+    <Entry Class="T1Components" BlueprintSubtypeId="T1_IronFrameXL" />
+
+    <!-- T1 Stamp - Plate Pressing -->
+    <Entry Class="T1Stamp" BlueprintSubtypeId="T1_IronPlate" />
+    <Entry Class="T1Stamp" BlueprintSubtypeId="T1_MagnesiumPressedPlate" />
+    <Entry Class="T1Stamp" BlueprintSubtypeId="T1_IronBolt" />
+    <Entry Class="T1Stamp" BlueprintSubtypeId="T1_NickelBall" />
+
+    <!-- T1 Extruder - Tubes & Rods -->
+    <Entry Class="T1Extruder" BlueprintSubtypeId="T1_IronRod" />
+    <Entry Class="T1Extruder" BlueprintSubtypeId="T1_IronTube" />
+    <Entry Class="T1Extruder" BlueprintSubtypeId="T1_IronPipe" />
+
+    <!-- T1 Fabricator - Composite Parts -->
+    <Entry Class="T1Fabricator" BlueprintSubtypeId="T1_SimpleBearing" />
+    <Entry Class="T1Fabricator" BlueprintSubtypeId="T1_IronFrameS" />
+    <Entry Class="T1Fabricator" BlueprintSubtypeId="T1_IronFrameL" />
+    <Entry Class="T1Fabricator" BlueprintSubtypeId="T1_IronFrameXL" />
+
+    <!-- T1 Assembling Bench - All T1 Components (4x Building Speed) -->
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_IronRod" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_IronPlate" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_IronBolt" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_IronTube" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_IronPipe" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_NickelBall" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_MagnesiumPressedPlate" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_SimpleBearing" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_IronFrameS" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_IronFrameL" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_IronFrameXL" />
+    <Entry Class="T1AssemblingBench" BlueprintSubtypeId="T1_Concrete" />
+
+    <!-- T1 Survival Kit - Stone Processing Only (Iron, Nickel) -->
+    <Entry Class="T1SurvivalKitIngots" BlueprintSubtypeId="T1_StoneProcessing" />
+
+    <!-- T1 Survival Kit - Basic Components (Iron Plate, Iron Rod, Iron Bolt) -->
+    <Entry Class="T1SurvivalKitComponents" BlueprintSubtypeId="T1_IronPlate" />
+    <Entry Class="T1SurvivalKitComponents" BlueprintSubtypeId="T1_IronRod" />
+    <Entry Class="T1SurvivalKitComponents" BlueprintSubtypeId="T1_IronBolt" />
+    <Entry Class="T1SurvivalKitComponents" BlueprintSubtypeId="T1_Concrete" />
+    <!-- T1 Survival Kit - Energy Cell Recipes -->
+    <Entry Class="T1SurvivalKitComponents" BlueprintSubtypeId="T1_EnergyCellFromIce" />
+    <Entry Class="T1SurvivalKitComponents" BlueprintSubtypeId="T1_EnergyCellFromAir" />
+  </BlueprintClassEntries>
+
+</Definitions>

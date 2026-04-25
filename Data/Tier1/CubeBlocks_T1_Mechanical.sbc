@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <!-- ============================================ -->
+        <!-- TIER 1 MECHANICAL PARTS                      -->
+        <!-- Piston tops, rotor parts, hinge heads        -->
+        <!-- These are passive attachment parts            -->
+        <!-- (Stator/motor blocks need Computer = T2)     -->
+        <!-- ============================================ -->
+
+        <!-- Piston Top - Large Grid -->
+        <Definition>
+            <Id>
+                <TypeId>PistonTop</TypeId>
+                <SubtypeId>LargePistonTop</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PistonTop</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PistonTop.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_PistonTop</Description>
+            <Public>true</Public>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PistonTop.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="IronFrameL" Count="1" />
+                <Component Subtype="IronPlate" Count="9" />
+                <Component Subtype="IronPipe" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="IronPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+                <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+                <MountPoint Side="Front" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+                <MountPoint Side="Back" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PistonTopConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PistonTopConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PistonTopConstruction_3.mwm" />
+            </BuildProgressModels>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <BlockPairName>PistonTop</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- Piston Top - Small Grid -->
+        <Definition>
+            <Id>
+                <TypeId>PistonTop</TypeId>
+                <SubtypeId>SmallPistonTop</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PistonTop</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PistonTop.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_PistonTop</Description>
+            <CubeSize>Small</CubeSize>
+            <Public>true</Public>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\PistonTop.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="IronFrameS" Count="1" />
+                <Component Subtype="IronPlate" Count="3" />
+                <Component Subtype="IronPipe" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="IronPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+                <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+                <MountPoint Side="Front" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+                <MountPoint Side="Back" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\PistonTopConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\PistonTopConstruction_2.mwm" />
+            </BuildProgressModels>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <BlockPairName>PistonTop</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>1</PCU>
+        </Definition>
+
+        <!-- Rotor Part - Large Grid -->
+        <Definition>
+            <Id>
+                <TypeId>MotorRotor</TypeId>
+                <SubtypeId>LargeRotor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_RotorPart</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\RotorPart.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_RotorPart</Description>
+            <BlockPairName>MotorRotor</BlockPairName>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MotorRotor.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="IronFrameL" Count="1" />
+                <Component Subtype="IronPlate" Count="29" />
+                <Component Subtype="IronPipe" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="IronPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorRotorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorRotorConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorRotorConstruction_3.mwm" />
+            </BuildProgressModels>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- Rotor Part - Small Grid -->
+        <Definition>
+            <Id>
+                <TypeId>MotorRotor</TypeId>
+                <SubtypeId>SmallRotor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_RotorPart</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\RotorPart.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_RotorPart</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\MotorRotor.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="IronFrameS" Count="1" />
+                <Component Subtype="IronPlate" Count="11" />
+                <Component Subtype="IronTube" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="IronPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorRotorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorRotorConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>MotorRotor</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- Hinge Head - Large Grid -->
+        <Definition>
+            <Id>
+                <TypeId>MotorAdvancedRotor</TypeId>
+                <SubtypeId>LargeHingeHead</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LargeHingeHead</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HingeHead.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_HingeHead</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HingeHead.mwm</Model>
+            <Components>
+                <Component Subtype="IronFrameL" Count="1" />
+                <Component Subtype="IronPlate" Count="9" />
+                <Component Subtype="IronPipe" Count="5" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="IronPipe" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HingeHeadConstruction_1.mwm" />
+            </BuildProgressModels>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <BlockPairName>HingeHead</BlockPairName>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <UseModelIntersection>true</UseModelIntersection>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <PCU>1</PCU>
+        </Definition>
+
+        <!-- Hinge Head Medium - Small Grid (3x3x3) -->
+        <Definition>
+            <Id>
+                <TypeId>MotorAdvancedRotor</TypeId>
+                <SubtypeId>MediumHingeHead</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_MediumHingeHead</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HingeHeadMedium.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_HingeHead</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\HingeHeadMedium.mwm</Model>
+            <Components>
+                <Component Subtype="IronFrameS" Count="1" />
+                <Component Subtype="IronPlate" Count="4" />
+                <Component Subtype="IronPipe" Count="3" />
+                <Component Subtype="IronBolt" Count="5" />
+                <Component Subtype="IronPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="IronPipe" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HingeHeadMediumConstruction_1.mwm" />
+            </BuildProgressModels>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <BlockPairName>HingeHead3x3</BlockPairName>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <UseModelIntersection>true</UseModelIntersection>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <PCU>1</PCU>
+        </Definition>
+
+        <!-- Hinge Head Small - Small Grid (1x1x1) -->
+        <Definition>
+            <Id>
+                <TypeId>MotorAdvancedRotor</TypeId>
+                <SubtypeId>SmallHingeHead</SubtypeId>
+            </Id>
+            <BlockPairName>HingeHead</BlockPairName>
+            <DisplayName>DisplayName_Block_SmallHingeHead</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HingeHeadSmall.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Description_HingeHead</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\HingeHeadSmall.mwm</Model>
+            <Components>
+                <Component Subtype="IronFrameS" Count="1" />
+                <Component Subtype="IronPlate" Count="1" />
+                <Component Subtype="IronPipe" Count="1" />
+                <Component Subtype="IronBolt" Count="2" />
+                <Component Subtype="IronPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="IronPipe" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HingeHeadSmallConstruction_1.mwm" />
+            </BuildProgressModels>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <UseModelIntersection>true</UseModelIntersection>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <PCU>1</PCU>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>

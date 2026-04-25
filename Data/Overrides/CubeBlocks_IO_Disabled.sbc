@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- ============================= -->
+    <!-- DISABLE IO PLATESTAMP         -->
+    <!-- Replaced by T1 Hydraulic Press -->
+    <!-- ============================= -->
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>PlateStamp</SubtypeId>
+      </Id>
+      <DisplayName>Plate Stamp</DisplayName>
+      <Icon>Icons\PlateStamp.dds</Icon>
+      <Description>Presses materials into Plates.
+	  
+	  Power Usage: 1.5MW</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\PlateStamp.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="150" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="CopperWire" Count="20" />
+        <Component Subtype="Electromagnet" Count="20" />
+        <Component Subtype="LargeTube" Count="15" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="2.5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Construct\PressConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Construct\PressConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Construct\PressConstruct3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>PlateStampComponents</Class>
+      </BlueprintClasses>
+      <AssemblySpeed>1</AssemblySpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>40</PCU>
+      <IsAirTight>true</IsAirTight>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <AllowSelfPulling>true</AllowSelfPulling>
+      <Public>false</Public>
+      <GuiVisible>false</GuiVisible>
+    </Definition>
+
+    <!-- ============================= -->
+    <!-- DISABLE IO EXTRUDER           -->
+    <!-- Replaced by T1 Metal Extruder -->
+    <!-- ============================= -->
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>Extruder</SubtypeId>
+      </Id>
+      <DisplayName>Extruder</DisplayName>
+      <Icon>Icons\Extruder.dds</Icon>
+      <Description>Forms Tubes and Girders.
+	  
+	  Power Usage: 1.5MW</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Extruder.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="CopperWire" Count="20" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="Electromagnet" Count="10" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Construct\Generic2x2Construct1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Construct\Generic2x2Construct2.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>1.5</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>ExtruderComponents</Class>
+      </BlueprintClasses>
+      <AssemblySpeed>1</AssemblySpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>40</PCU>
+      <IsAirTight>true</IsAirTight>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <AllowSelfPulling>true</AllowSelfPulling>
+      <Public>false</Public>
+      <GuiVisible>false</GuiVisible>
+    </Definition>
+
+    <!-- ============================= -->
+    <!-- DISABLE IO FABRICATOR         -->
+    <!-- Replaced by T1 Fabricator     -->
+    <!-- ============================= -->
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>Fabricator</SubtypeId>
+      </Id>
+      <DisplayName>Fabricator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+      <Description>Automated production of basic components.
+	  Produces Basic Computers, Construction Components, Metal Grids, Electromagnets, Heating Elements, Lightbulbs, and Alkaline Power Cells.
+	  
+	  Power Usage: 1MW</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="CopperWire" Count="20" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="Electromagnet" Count="20" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicAssembler_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicAssembler_Construction3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>1</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>FabricatorComponents</Class>
+      </BlueprintClasses>
+      <AssemblySpeed>1</AssemblySpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>40</PCU>
+      <IsAirTight>true</IsAirTight>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <AllowSelfPulling>true</AllowSelfPulling>
+      <Public>false</Public>
+      <GuiVisible>false</GuiVisible>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

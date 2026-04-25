@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+        
+        <!-- T2 Ingots: Cobalt, Silver, Silicon, Silicium, Aluminium, Copper, Carbon -->
+        
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Cobalt</SubtypeId>
+            </Id>
+            <DisplayName>Cobalt Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.112</Volume>
+            <Model>Models\Ingots\cobalt_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T2</IconSymbol>
+            <MinimalPricePerUnit>500</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Silver</SubtypeId>
+            </Id>
+            <DisplayName>Silver Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.095</Volume>
+            <Model>Models\Ingots\silver_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T2</IconSymbol>
+            <MinimalPricePerUnit>750</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Silicon</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+            <Size>
+                <X>0.075</X>
+                <Y>0.075</Y>
+                <Z>0.075</Z>
+            </Size>
+            <Mass>0.466</Mass>
+            <Volume>0.2</Volume>
+            <Model>Models\Ingots\silicon_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T2</IconSymbol>
+            <MinimalPricePerUnit>177</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Silicium</SubtypeId>
+            </Id>
+            <DisplayName>Silicium Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+            <Size>
+                <X>0.075</X>
+                <Y>0.075</Y>
+                <Z>0.075</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.2</Volume>
+            <Model>Models\Ingots\silicon_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T2</IconSymbol>
+            <MinimalPricePerUnit>500</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Aluminium</SubtypeId>
+            </Id>
+            <DisplayName>Aluminium Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Ingots\stone_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T2</IconSymbol>
+            <MinimalPricePerUnit>500</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Copper</SubtypeId>
+            </Id>
+            <DisplayName>Copper Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.112</Volume>
+            <Model>Models\Ingots\stone_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T2</IconSymbol>
+            <MinimalPricePerUnit>500</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Carbon</SubtypeId>
+            </Id>
+            <DisplayName>Carbon Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.112</Volume>
+            <Model>Models\Ingots\stone_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>T2</IconSymbol>
+            <MinimalPricePerUnit>500</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+    </PhysicalItems>
+</Definitions>

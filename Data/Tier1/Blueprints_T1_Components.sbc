@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!-- ============================= -->
+    <!-- TIER 1 COMPONENT CRAFTING     -->
+    <!-- Basic iron-based components   -->
+    <!-- ============================= -->
+
+    <!-- Iron Rod: 1 Iron Ingot -> 2 Iron Rods -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronRod</SubtypeId>
+      </Id>
+      <DisplayName>Iron Rod</DisplayName>
+      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IronRod" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Iron Plate: 1 Iron Ingot -> 1 Iron Plate -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronPlate</SubtypeId>
+      </Id>
+      <DisplayName>Iron Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IronPlate" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Iron Bolt: 1 Iron Ingot -> 10 Iron Bolts -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronBolt</SubtypeId>
+      </Id>
+      <DisplayName>Iron Bolt</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="IronRod" />
+      </Prerequisites>
+      <Result Amount="2" TypeId="Component" SubtypeId="IronBolt" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Iron Tube: 1 Iron Ingot -> 1 Iron Tube -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronTube</SubtypeId>
+      </Id>
+      <DisplayName>Iron Tube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Component" SubtypeId="IronRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IronTube" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Iron Pipe: 1 Iron Ingot -> 1 Iron Pipe -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronPipe</SubtypeId>
+      </Id>
+      <DisplayName>Iron Pipe</DisplayName>
+      <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="IronRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IronPipe" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Nickel Ball: 1 Nickel Ingot -> 4 Nickel Balls -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_NickelBall</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ball</DisplayName>
+      <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="4" TypeId="Component" SubtypeId="NickelBall" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Magnesium Pressed Plate: 1 Magnesium Ingot -> 1 Plate -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_MagnesiumPressedPlate</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Pressed Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="MagnesiumPressedPlate" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Simple Bearing: 2 Iron Rods + 1 Iron Tube -> 1 Bearing -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_SimpleBearing</SubtypeId>
+      </Id>
+      <DisplayName>Simple Bearing</DisplayName>
+      <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8" TypeId="Component" SubtypeId="IronRod" />
+        <Item Amount="1" TypeId="Component" SubtypeId="IronTube" />
+        <Item Amount="4" TypeId="Component" SubtypeId="NickelBall" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SimpleBearing" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Iron Frame S: 2 Iron Rods + 4 Iron Bolts -> 1 Frame S -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronFrameS</SubtypeId>
+      </Id>
+      <DisplayName>Iron Frame (Small)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Component" SubtypeId="IronRod" />
+        <Item Amount="24" TypeId="Component" SubtypeId="IronBolt" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IronFrameS" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Iron Frame L: 4 Iron Rods + 8 Iron Bolts + 1 Iron Plate -> 1 Frame L -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronFrameL</SubtypeId>
+      </Id>
+      <DisplayName>Iron Frame (Large)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="24" TypeId="Component" SubtypeId="IronRod" />
+        <Item Amount="16" TypeId="Component" SubtypeId="IronBolt" />
+        <Item Amount="2" TypeId="Component" SubtypeId="IronPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IronFrameL" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Iron Frame XL: 8 Iron Rods + 16 Iron Bolts + 2 Iron Plates -> 1 Frame XL -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronFrameXL</SubtypeId>
+      </Id>
+      <DisplayName>Iron Frame (XL)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="48" TypeId="Component" SubtypeId="IronRod" />
+        <Item Amount="32" TypeId="Component" SubtypeId="IronBolt" />
+        <Item Amount="4" TypeId="Component" SubtypeId="IronPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IronFrameXL" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <!-- Concrete: 5 Gravel (Stone Ingot) -> 1 Concrete -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_Concrete</SubtypeId>
+      </Id>
+      <DisplayName>Concrete</DisplayName>
+      <Icon>..\2344068716\Icons\Concrete.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Concrete" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Ice to Energy Cell -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_EnergyCellFromIce</SubtypeId>
+      </Id>
+      <DisplayName>Energy Cell (from Ice)</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="T1_EnergyCell" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <!-- Nothing to Energy Cell (very slow) -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_EnergyCellFromAir</SubtypeId>
+      </Id>
+      <DisplayName>Energy Cell (Atmospheric Extraction)</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="T1_EnergyCell" />
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

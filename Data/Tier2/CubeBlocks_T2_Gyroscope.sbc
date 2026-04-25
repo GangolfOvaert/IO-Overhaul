@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <!-- ============================================================ -->
+        <!-- T2 GYROSCOPES                                                 -->
+        <!-- Overrides vanilla gyroscopes with T2 component requirements  -->
+        <!-- Models/performance unchanged; only build cost changed         -->
+        <!-- ============================================================ -->
+
+        <!-- Large Grid Gyroscope -->
+        <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+            <Id>
+                <TypeId>Gyro</TypeId>
+                <SubtypeId>LargeBlockGyro</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+            <Icon>Icons\t2.dds</Icon>
+            <Description>Description_Gyroscope</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\gyroscope.mwm</Model>
+            <Components>
+                <Component Subtype="AluminumFrameL" Count="1" />
+                <Component Subtype="CobaltPlate" Count="40" />
+                <Component Subtype="IronBolt" Count="40" />
+                <Component Subtype="IronPipe" Count="4" />
+                <Component Subtype="AluminumFrameS" Count="8" />
+                <Component Subtype="BasicComputer" Count="5" />
+                <Component Subtype="CobaltPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="BasicComputer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GyroscopeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Gyroscope</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <PrimarySound>BlockGyroscope</PrimarySound>
+            <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+            <ForceMagnitude>3.36E+07</ForceMagnitude>
+            <RequiredPowerInput>0.01</RequiredPowerInput>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+
+        <!-- Small Grid Gyroscope -->
+        <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+            <Id>
+                <TypeId>Gyro</TypeId>
+                <SubtypeId>SmallBlockGyro</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+            <Icon>Icons\t2.dds</Icon>
+            <Description>Description_Gyroscope</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\gyroscope.mwm</Model>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="AluminumFrameS" Count="1" />
+                <Component Subtype="CobaltPlate" Count="5" />
+                <Component Subtype="IronBolt" Count="5" />
+                <Component Subtype="IronPipe" Count="1" />
+                <Component Subtype="BasicComputer" Count="3" />
+                <Component Subtype="CobaltPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="BasicComputer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Gyroscope</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <PrimarySound>BlockGyroscope</PrimarySound>
+            <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+            <ForceMagnitude>448000</ForceMagnitude>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>

@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!-- ============================= -->
+    <!-- TIER 1 ORE REFINING           -->
+    <!-- Impure Ores: 25% Efficiency   -->
+    <!-- Normal Ores: 60% Efficiency   -->
+    <!-- Pure Ores: 80% Efficiency     -->
+    <!-- Stone Metals: 30% Efficiency  -->
+    <!-- ============================= -->
+
+    <!-- ========== IMPURE ORES (25%) ========== -->
+
+    <!-- Impure Iron Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iron Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="IronOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Iron" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+
+
+    <!-- Impure Nickel Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_NickelOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="NickelOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Nickel" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Impure Magnesium Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_MagnesiumOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Powder (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="MagnesiumOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Magnesium" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ========== NORMAL ORES (60%) ========== -->
+
+    <!-- Iron Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iron Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Iron" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Nickel Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_NickelOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Nickel" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Magnesium Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_MagnesiumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Powder</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Magnesium" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ========== PURE ORES (80%) ========== -->
+
+    <!-- Pure Iron Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iron Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="IronOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Iron" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Pure Nickel Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_NickelOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="NickelOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Nickel" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Pure Magnesium Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_MagnesiumOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Powder (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="MagnesiumOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Magnesium" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ========== STONE PROCESSING ========== -->
+
+    <!-- Stone: 50 Gravel + 30% Metals (3 Iron, 3 Nickel) -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_StoneProcessing</SubtypeId>
+      </Id>
+      <DisplayName>Stone Processing</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100000" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="50000" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Nickel" />
+      </Results>
+      <BaseProductionTimeInSeconds>15000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

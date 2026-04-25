@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <!-- ============================= -->
+    <!-- TIER 2 COMPONENTS             -->
+    <!-- Advanced multi-material parts -->
+    <!-- ============================= -->
+
+    <!-- Glass - Transparent panel from Silicium -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Glass</SubtypeId>
+      </Id>
+      <DisplayName>Glass</DisplayName>
+      <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\display_component.mwm</Model>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+      <Health>10</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>300</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Silicium Wafer - Thin semiconductor disc -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SiliciumWafer</SubtypeId>
+      </Id>
+      <DisplayName>Silicium Wafer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.005</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Components\computer_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>3</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>400</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Carbon Block - Solid carbon composite -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CarbonBlock</SubtypeId>
+      </Id>
+      <DisplayName>Carbon Block</DisplayName>
+      <Icon>Textures\GUI\Icons\component\explosives_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Components\ExplosivesComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>20</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+      <Health>10</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>350</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Computer Chip - Basic processing unit -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ComputerChip</SubtypeId>
+      </Id>
+      <DisplayName>Computer Chip</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.1</Mass>
+      <Volume>0.05</Volume>
+      <Model>Models\Components\computer_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3</MaxIntegrity>
+      <DropProbability>0.2</DropProbability>
+      <Health>2</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>600</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Simple PCB - Printed circuit board -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SimplePCB</SubtypeId>
+      </Id>
+      <DisplayName>Simple PCB</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.005</Z>
+      </Size>
+      <Mass>0.15</Mass>
+      <Volume>0.08</Volume>
+      <Model>Models\Components\computer_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>3</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>350</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Copper Wire - Conductive wiring -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CopperWire</SubtypeId>
+      </Id>
+      <DisplayName>Copper Wire</DisplayName>
+      <Icon>Textures\GUI\Icons\component\power_cell_component.dds</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>1</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.4</DropProbability>
+      <Health>5</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>250</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Basic Computer - Simple processing assembly -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>BasicComputer</SubtypeId>
+      </Id>
+      <DisplayName>Basic Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.15</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Components\computer_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>8</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>1200</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>200</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>2000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Display - Visual output panel -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Display</SubtypeId>
+      </Id>
+      <DisplayName>Display</DisplayName>
+      <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+      <Size>
+        <X>0.3</X>
+        <Y>0.2</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\display_component.mwm</Model>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>5</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>2000</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Sensors - Detection and measurement unit -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Sensors</SubtypeId>
+      </Id>
+      <DisplayName>Sensors</DisplayName>
+      <Icon>Textures\GUI\Icons\component\detector_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\detector_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>12</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>6</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>2000</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Medical Components - Advanced medical assembly -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MedicalComponents</SubtypeId>
+      </Id>
+      <DisplayName>Medical Components</DisplayName>
+      <Icon>Textures\GUI\Icons\component\medical_component.dds</Icon>
+      <Size>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\medical_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>15</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>5000</MinimalPricePerUnit>
+      <MinimumOfferAmount>10</MinimumOfferAmount>
+      <MaximumOfferAmount>1000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Cobalt Plates - Hardened alloy plates -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CobaltPlate</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\steel_plate_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>80</MaxIntegrity>
+      <DropProbability>0.8</DropProbability>
+      <Health>30</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>800</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- T2 Power Cell - Rechargeable cobalt-silicon battery cell -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>T2_PowerCell</SubtypeId>
+      </Id>
+      <DisplayName>T2 Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\power_cell_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.6</DropProbability>
+      <Health>15</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>500</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- T2 Thrust Component - Impeller/fan assembly for atmospheric thrusters -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>T2_ThrustComponent</SubtypeId>
+      </Id>
+      <DisplayName>Thrust Component</DisplayName>
+      <Icon>Textures\GUI\Icons\component\thruster_components.dds</Icon>
+      <Size>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>4</Volume>
+      <Model>Models\Components\thruster_components.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>50</MaxIntegrity>
+      <DropProbability>0.7</DropProbability>
+      <Health>25</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>1200</MinimalPricePerUnit>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>5000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>5000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>200</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>2000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Aluminum Plate - Lightweight structural sheet -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AluminumPlate</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1.5</Volume>
+      <Model>Models\Components\steel_plate_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.8</DropProbability>
+      <Health>12</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>400</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Aluminum Rod - Lightweight solid bar -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AluminumRod</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Rod</DisplayName>
+      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.75</Volume>
+      <Model>Models\Components\girder_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>20</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>8</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>300</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Aluminum Frame (Small) - Lightweight small structural frame -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AluminumFrameS</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Frame (Small)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Size>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\metal_grid_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+      <Health>12</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>500</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Aluminum Frame (XL) - Lightweight extra-large structural frame -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AluminumFrameXL</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Frame (XL)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Size>
+      <Mass>8</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Components\metal_grid_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>70</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+      <Health>28</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>1600</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>200</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>2000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- Aluminum Frame (Large) - Lightweight large structural frame -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AluminumFrameL</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Frame (Large)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>4</Mass>
+      <Volume>6</Volume>
+      <Model>Models\Components\metal_grid_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>40</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+      <Health>18</Health>
+      <IconSymbol>T2</IconSymbol>
+      <MinimalPricePerUnit>900</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>10000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+    </Component>
+
+  </Components>
+</Definitions>

@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClasses>
+    <!-- Cement Kiln: ingot input → concrete output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>CementKilnComponents</SubtypeId>
+      </Id>
+      <DisplayName>Cement</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <!-- Refinery: ore input → ingot output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2Refining</SubtypeId>
+      </Id>
+      <DisplayName>Ingots</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\ingot\ingot_class.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+    <!-- General Assembler: ingot/component input → T2 components output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2Components</SubtypeId>
+      </Id>
+      <DisplayName>T2 Components</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <!-- General Assembler fallback: all T2 components -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2AssemblingBench</SubtypeId>
+      </Id>
+      <DisplayName>All T2 Components</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <!-- Furnace: ingot input → glass/carbon output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2Furnace</SubtypeId>
+      </Id>
+      <DisplayName>Furnace</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\component\display_component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\component\display_component.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <!-- Electronics Fabricator: ingot/component input → electronics output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2ElectronicsFabricator</SubtypeId>
+      </Id>
+      <DisplayName>Electronics</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\component\computer_component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\component\computer_component.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\component\computer_component.dds</OutputConstraintIcon>
+    </Class>
+    <!-- Hydraulic Press: ingot input → plate/thrust output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2Stamp</SubtypeId>
+      </Id>
+      <DisplayName>Plates</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\component\steel_plate_component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\component\steel_plate_component.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+    <!-- Metal Extruder: ingot input → wire output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2Extruder</SubtypeId>
+      </Id>
+      <DisplayName>Wire &amp; Cable</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\component\power_cell_component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\component\power_cell_component.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\component\power_cell_component.dds</OutputConstraintIcon>
+    </Class>
+    <!-- Fabricator: component input → composite parts output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2Fabricator</SubtypeId>
+      </Id>
+      <DisplayName>Composite Parts</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\component\metal_grid_component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\component\metal_grid_component.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+    <!-- Impure Ores (25%) -->
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CobaltOreImpureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SilverOreImpureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SiliconOreImpureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SiliciumOreImpureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_AluminiumOreImpureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CopperOreImpureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CarbonOreImpureToIngot" />
+    <!-- Normal Ores (60%) -->
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CobaltOreToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SilverOreToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SiliconOreToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SiliciumOreToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_AluminiumOreToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CopperOreToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CarbonOreToIngot" />
+    <!-- Pure Ores (80%) -->
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CobaltOrePureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SilverOrePureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SiliconOrePureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_SiliciumOrePureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_AluminiumOrePureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CopperOrePureToIngot" />
+    <Entry Class="T2Refining" BlueprintSubtypeId="T2_CarbonOrePureToIngot" />
+
+    <!-- T2 Components - Basic Materials -->
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_Glass" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_SiliciumWafer" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_CarbonBlock" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_SimplePCB" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_CopperWire" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_CobaltPlate" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_AluminumPlate" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_AluminumRod" />
+    <!-- T2 Components - Structural Frames -->
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_AluminumFrameS" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_AluminumFrameL" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_AluminumFrameXL" />
+    <!-- T2 Components - Composite Parts -->
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_ComputerChip" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_BasicComputer" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_Display" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_Sensors" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_MedicalComponents" />
+
+
+    <!-- T2 Power Cell and Thrust Component -->
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_PowerCell" />
+    <Entry Class="T2Components" BlueprintSubtypeId="T2_ThrustComponent" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_PowerCell" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_ThrustComponent" />
+
+    <!-- T2 Assembling Bench - All T2 Components -->
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_Glass" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_SiliciumWafer" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_CarbonBlock" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_SimplePCB" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_CopperWire" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_CobaltPlate" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_AluminumPlate" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_AluminumRod" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_AluminumFrameS" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_AluminumFrameL" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_AluminumFrameXL" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_ComputerChip" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_BasicComputer" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_Display" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_Sensors" />
+    <Entry Class="T2AssemblingBench" BlueprintSubtypeId="T2_MedicalComponents" />
+
+    <!-- T2 Furnace (T2 only — no T1 equivalent) -->
+    <Entry Class="T2Furnace" BlueprintSubtypeId="T2_Glass" />
+    <Entry Class="T2Furnace" BlueprintSubtypeId="T2_CarbonBlock" />
+
+    <!-- T2 Electronics Fabricator (T2 only — no T1 equivalent) -->
+    <Entry Class="T2ElectronicsFabricator" BlueprintSubtypeId="T2_SiliciumWafer" />
+    <Entry Class="T2ElectronicsFabricator" BlueprintSubtypeId="T2_SimplePCB" />
+    <Entry Class="T2ElectronicsFabricator" BlueprintSubtypeId="T2_ComputerChip" />
+    <Entry Class="T2ElectronicsFabricator" BlueprintSubtypeId="T2_BasicComputer" />
+    <Entry Class="T2ElectronicsFabricator" BlueprintSubtypeId="T2_Display" />
+    <Entry Class="T2ElectronicsFabricator" BlueprintSubtypeId="T2_Sensors" />
+    <Entry Class="T2ElectronicsFabricator" BlueprintSubtypeId="T2_MedicalComponents" />
+    <Entry Class="T2ElectronicsFabricator" BlueprintSubtypeId="T2_PowerCell" />
+
+
+    <!-- T2 Stamp: T1 plates (inherited) + T2 plates -->
+    <Entry Class="T2Stamp" BlueprintSubtypeId="T2_CobaltPlate" />
+    <Entry Class="T2Stamp" BlueprintSubtypeId="T2_AluminumPlate" />
+
+
+    <!-- T2 Extruder: T1 tubes & rods (inherited) + T2 wire + T2 rods -->
+    <Entry Class="T2Extruder" BlueprintSubtypeId="T2_CopperWire" />
+    <Entry Class="T2Extruder" BlueprintSubtypeId="T2_AluminumRod" />
+
+    <!-- T2 Fabricator: T1 composite parts + T2 composite parts -->
+    <Entry Class="T2Fabricator" BlueprintSubtypeId="T2_ComputerChip" />
+    <Entry Class="T2Fabricator" BlueprintSubtypeId="T2_ThrustComponent" />
+    <Entry Class="T2Fabricator" BlueprintSubtypeId="T2_AluminumFrameS" />
+    <Entry Class="T2Fabricator" BlueprintSubtypeId="T2_AluminumFrameL" />
+    <Entry Class="T2Fabricator" BlueprintSubtypeId="T2_AluminumFrameXL" />
+
+
+  </BlueprintClassEntries>
+
+</Definitions>

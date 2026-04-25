@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!-- ============================= -->
+    <!-- TIER 2 ORE REFINING           -->
+    <!-- Impure Ores: 25% Efficiency   -->
+    <!-- Normal Ores: 60% Efficiency   -->
+    <!-- Pure Ores: 80% Efficiency     -->
+    <!-- ============================= -->
+
+    <!-- ========== IMPURE ORES (25%) ========== -->
+
+    <!-- Impure Cobalt Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CobaltOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CobaltOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Cobalt" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Impure Silver Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SilverOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SilverOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Silver" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Impure Silicon Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SiliconOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Wafer (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SiliconOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Silicon" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Impure Silicium Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SiliciumOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicium Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SiliciumOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Silicium" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Impure Aluminium Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AluminiumOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminium Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="AluminiumOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Aluminium" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Impure Copper Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CopperOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CopperOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Copper" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Impure Carbon Ore: 25% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CarbonOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Carbon Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CarbonOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Carbon" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ========== NORMAL ORES (60%) ========== -->
+
+    <!-- Cobalt Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CobaltOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Cobalt" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Silver Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SilverOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Silver" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Silicon Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SiliconOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Wafer</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Silicon" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Silicium Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SiliciumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Silicium" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Silicium" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Aluminium Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AluminiumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Aluminium" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Aluminium" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Copper Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CopperOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Copper" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Carbon Ore: 60% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CarbonOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Carbon Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Carbon" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ========== PURE ORES (80%) ========== -->
+
+    <!-- Pure Cobalt Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CobaltOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CobaltOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Cobalt" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Pure Silver Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SilverOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SilverOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Silver" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Pure Silicon Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SiliconOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Wafer (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SiliconOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Silicon" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Pure Silicium Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SiliciumOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicium Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SiliciumOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Silicium" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Pure Aluminium Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AluminiumOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminium Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="AluminiumOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Aluminium" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Pure Copper Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CopperOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CopperOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Copper" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- Pure Carbon Ore: 80% yield -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CarbonOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Carbon Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CarbonOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Carbon" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

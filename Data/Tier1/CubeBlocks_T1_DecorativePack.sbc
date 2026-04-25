@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <!-- Decorative Blocks -->
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockDesk</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Desk</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Desk.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Desk</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\Desk.mwm</Model>
+            <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="20" />
+                <Component Subtype="IronBolt" Count="20" />
+                <Component Subtype="MagnesiumPressedPlate" Count="10" />
+                <Component Subtype="IronBolt" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DeskConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DeskConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.12</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.12</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Desk</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockDeskCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeskCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeskCorner.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_DeskCorner</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\DeskCorner.mwm</Model>
+            <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="15" />
+                <Component Subtype="IronBolt" Count="15" />
+                <Component Subtype="MagnesiumPressedPlate" Count="5" />
+                <Component Subtype="IronBolt" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Front" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DeskCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DeskCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.12</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.12</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DeskCorner</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockDeskCornerInv</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeskCornerInv</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InvertedCornerDesk.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_DeskCorner</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InvertedCornerDesk.mwm</Model>
+            <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="40" />
+                <Component Subtype="IronBolt" Count="40" />
+                <Component Subtype="MagnesiumPressedPlate" Count="20" />
+                <Component Subtype="IronBolt" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.9" StartY="0.1" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InvertedCornerDeskConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InvertedCornerDeskConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InvertedCornerDeskConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.12</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.12</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DeskCornerInv</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockDeskChairless</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeskChairless</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeskChairless.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_DeskChairless</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\DeskChairless.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="20" />
+                <Component Subtype="IronBolt" Count="20" />
+                <Component Subtype="MagnesiumPressedPlate" Count="10" />
+                <Component Subtype="IronBolt" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DeskChairlessConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DeskChairlessConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskChairlessConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>DeskChairless</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockDeskChairlessCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeskChairlessCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeskChairlessCorner.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_DeskChairlessCorner</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\DeskChairlessCorner.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="15" />
+                <Component Subtype="IronBolt" Count="15" />
+                <Component Subtype="MagnesiumPressedPlate" Count="5" />
+                <Component Subtype="IronBolt" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Front" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DeskChairlessCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DeskChairlessCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskChairlessCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>DeskChairlessCorner</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockDeskChairlessCornerInv</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeskChairlessCornerInv</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InvertedChairlessCornerDesk.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_DeskChairlessCorner</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InvertedChairlessCornerDesk.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="40" />
+                <Component Subtype="IronBolt" Count="40" />
+                <Component Subtype="MagnesiumPressedPlate" Count="20" />
+                <Component Subtype="IronBolt" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.9" StartY="0.1" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InvertedChairlessCornerDeskConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InvertedChairlessCornerDeskConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InvertedChairlessCornerDeskConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>DeskChairlessCornerInv</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockCouch</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Couch</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Couch</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\Couch.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="20" />
+                <Component Subtype="IronBolt" Count="20" />
+                <Component Subtype="MagnesiumPressedPlate" Count="10" />
+                <Component Subtype="IronBolt" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.65" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.35" />
+                <MountPoint Side="Left" StartX="0.65" StartY="0" EndX="1" EndY="0.2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.35" EndY="0.2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CouchConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CouchConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CouchConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Couch</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockCouchCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CouchCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CouchCorner.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_CornerCouch</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\CouchCorner.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="25" />
+                <Component Subtype="IronBolt" Count="25" />
+                <Component Subtype="MagnesiumPressedPlate" Count="10" />
+                <Component Subtype="IronBolt" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="MagnesiumPressedPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.65" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.35" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.35" />
+                <MountPoint Side="Left" StartX="0.0" StartY="0" EndX="1" EndY="0.35" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.35" EndY="0.2" />
+                <MountPoint Side="Front" StartX="0.65" StartY="0" EndX="1" EndY="0.2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CouchCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CouchCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CouchCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>CouchCorner</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockBathroomOpen</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BathroomOpen</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BathroomOpen.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_BathroomOpen</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\BathroomOpen.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="30" />
+                <Component Subtype="IronBolt" Count="15" />
+                <Component Subtype="IronTube" Count="8" />
+                <Component Subtype="SimpleBearing" Count="4" />
+                <Component Subtype="IronPipe" Count="2" />
+                <Component Subtype="IronBolt" Count="15" />
+            </Components>
+            <CriticalComponent Subtype="IronPipe" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.9" />
+                <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="0.9" />
+                <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BathroomOpenConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BathroomOpenConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BathroomOpenConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>BathroomOpen</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockBathroom</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Bathroom</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Bathroom.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_Bathroom</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\Bathroom.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="30" />
+                <Component Subtype="IronBolt" Count="20" />
+                <Component Subtype="IronTube" Count="8" />
+                <Component Subtype="SimpleBearing" Count="4" />
+                <Component Subtype="IronPipe" Count="2" />
+                <Component Subtype="IronBolt" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="IronPipe" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.9" />
+                <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="0.9" />
+                <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BathroomConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BathroomConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BathroomConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Bathroom</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockToilet</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Toilet</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Toilet.dds</Icon>
+            <Icon>Icons/t1.dds</Icon>
+            <Description>Description_ToiletSeat</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\Toilet.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="MagnesiumPressedPlate" Count="10" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronTube" Count="2" />
+                <Component Subtype="SimpleBearing" Count="2" />
+                <Component Subtype="IronPipe" Count="1" />
+                <Component Subtype="IronBolt" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="IronPipe" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.55" StartY="0.2" EndX="1" EndY="0.8" Default="true" />
+                <MountPoint Side="Right" StartX="0.31" StartY="0" EndX="0.69" EndY="0.31" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ToiletConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ToiletConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ToiletConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Toilet</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- End of Decorative Blocks -->
+    </CubeBlocks>
+</Definitions>

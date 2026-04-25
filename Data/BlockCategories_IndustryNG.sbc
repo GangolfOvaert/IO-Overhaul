@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+        <!-- ============================================================ -->
+    <!-- Industry NG -->
+    <!-- ============================================================ -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>IndustryNG</SubtypeId>
+      </Id>
+      <DisplayName>Industry NG</DisplayName>
+      <Name>IndustryNG</Name>
+      <IsToolCategory>false</IsToolCategory>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <SearchBlocks>true</SearchBlocks>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <Public>true</Public>
+      <ItemIds>
+
+      </ItemIds>
+    </Category>
+
+    <!-- ============================================================ -->
+    <!-- Industry NG - Production -->
+    <!-- ============================================================ -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>IndustryNG_Production</SubtypeId>
+      </Id>
+      <DisplayName>Industry NG - Production</DisplayName>
+      <Name>IndustryNG_Production</Name>
+      <IsToolCategory>false</IsToolCategory>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <SearchBlocks>true</SearchBlocks>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <Public>true</Public>
+      <ItemIds>
+        <string>Refinery/Blast Furnace</string>
+        <string>Refinery/RockCrusher</string>
+        <string>Refinery/OrePurifier</string>
+        <string>Refinery/LargeRefineryt1</string>
+        <string>Refinery/LargeRefineryT1</string>
+        <string>Refinery/Incinerator</string>
+        <string>Assembler/T1_HydraulicPress</string>
+        <string>Assembler/T1_MetalExtruder</string>
+        <string>Assembler/T1_Fabricator</string>
+        <string>Assembler/T1_AssemblingBench</string>
+        <string>Assembler/CementKiln</string>
+        <string>Refinery/LargeRefineryT2</string>
+        <string>Assembler/T2_Assembler</string>
+        <string>Assembler/T2_Furnace</string>
+        <string>Assembler/T2_ElectronicsFabricator</string>
+        <string>Assembler/T2_HydraulicPress</string>
+        <string>Assembler/T2_MetalExtruder</string>
+        <string>Assembler/T2_Fabricator</string>
+        <string>SurvivalKit/T1_SurvivalKitLarge</string>
+        <string>SurvivalKit/T1_SurvivalKit</string>
+        <string>SurvivalKit/T1_SurvivalKitLargeReskin</string>
+        <string>SurvivalKit/T1_SurvivalKitSmallReskin</string>
+      </ItemIds>
+    </Category>
+
+    <!-- ============================================================ -->
+    <!-- Industry NG - Power -->
+    <!-- ============================================================ -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>IndustryNG_Power</SubtypeId>
+      </Id>
+      <DisplayName>Industry NG - Power</DisplayName>
+      <Name>IndustryNG_Power</Name>
+      <IsToolCategory>false</IsToolCategory>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <SearchBlocks>true</SearchBlocks>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <Public>true</Public>
+      <ItemIds>
+        <string>BatteryBlock/LargeBlockAlkalineBatteryBlock</string>
+        <string>BatteryBlock/SmallBlockSmallAlkalineBatteryBlock</string>
+        <string>Reactor/T1_SmallReactor</string>
+        <string>WindTurbine/LargeBlockWindTurbinet1</string>
+        <string>WindTurbine/LargeWindTurbine</string>
+      </ItemIds>
+    </Category>
+
+
+    <!-- ============================================================ -->
+    <!-- Industry NG - Mobility -->
+    <!-- ============================================================ -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>IndustryNG_Mobility</SubtypeId>
+      </Id>
+      <DisplayName>Industry NG - Mobility</DisplayName>
+      <Name>IndustryNG_Mobility</Name>
+      <IsToolCategory>false</IsToolCategory>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <SearchBlocks>true</SearchBlocks>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <Public>true</Public>
+      <ItemIds>
+        <string>Gyro/LargeBlockGyro</string>
+        <string>Gyro/SmallBlockGyro</string>
+      </ItemIds>
+    </Category>
+
+    <!-- ============================================================ -->
+    <!-- Industry NG - Oxygen -->
+    <!-- ============================================================ -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>IndustryNG_Oxygen</SubtypeId>
+      </Id>
+      <DisplayName>Industry NG - Oxygen</DisplayName>
+      <Name>IndustryNG_Oxygen</Name>
+      <IsToolCategory>false</IsToolCategory>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <SearchBlocks>true</SearchBlocks>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <Public>true</Public>
+      <ItemIds>
+        <string>OxygenTank/OxygenTankSmall</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

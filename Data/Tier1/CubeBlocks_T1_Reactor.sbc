@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>T1_SmallReactor</SubtypeId>
+      </Id>
+      <DisplayName>T1 Small Reactor</DisplayName>
+      <Description>Primitive reactor that burns T1 Energy Cells for power. Early game, low output, no uranium required.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="IronPlate" Count="40" />
+        <Component Subtype="IronRod" Count="20" />
+        <Component Subtype="IronTube" Count="8" />
+        <Component Subtype="IronBolt" Count="20" />
+        <Component Subtype="SimpleBearing" Count="4" />
+        <Component Subtype="IronFrameS" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="IronFrameS" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicAssembler_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicAssembler_Construction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>T1_SmallReactor</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <MirroringX>Y</MirroringX>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>1.5</MaxPowerOutput>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>T1_EnergyCell</SubtypeId>
+          </Id>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <TieredUpdateTimes>
+        <unsignedInt>900</unsignedInt>
+        <unsignedInt>1800</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+      </TieredUpdateTimes>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <Public>true</Public>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

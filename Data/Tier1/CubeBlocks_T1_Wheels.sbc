@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <!-- ============================================ -->
+        <!-- TIER 1 WHEELS - MetalWheel (IO)              -->
+        <!-- Only MetalWheel variants are T1              -->
+        <!-- All rubber tire/suspensions are T2            -->
+        <!-- ============================================ -->
+
+        <!-- MetalWheel Suspension 3x3 - Small Grid Motor Suspension -->
+        <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>MetalWheelSuspension3x3</SubtypeId>
+            </Id>
+            <DisplayName>Metal-Wheel Suspension</DisplayName>
+            <Icon>..\2344068716\Icons\wheels\MetalWheelSuspension3x3.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Axle motor with a sprung metal rover wheel. Simple to build, but worse performance than a standard wheel suspension.</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>true</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\MotorSuspension.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <DeformationRatio>0.1</DeformationRatio>
+            <UsesDeformation>false</UsesDeformation>
+            <Components>
+                <Component Subtype="IronFrameS" Count="1" />
+                <Component Subtype="IronPlate" Count="4" />
+                <Component Subtype="IronBolt" Count="7" />
+                <Component Subtype="IronTube" Count="2" />
+                <Component Subtype="SimpleBearing" Count="2" />
+                <Component Subtype="IronPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="SimpleBearing" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
+                <MountPoint Side="Right" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
+                <MountPoint Side="Front" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
+                <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PrimarySound>BlockWheel3x3</PrimarySound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.3</RequiredPowerInput>
+            <RequiredIdlePowerInput>0.001</RequiredIdlePowerInput>
+            <MaxForceMagnitude>1E9</MaxForceMagnitude>
+            <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+            <RotorPart>MetalWheel3x3</RotorPart>
+            <PropulsionForce>1500</PropulsionForce>
+            <MinHeight>-0.1</MinHeight>
+            <MaxHeight>0.1</MaxHeight>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <SafetyDetach>5</SafetyDetach>
+            <SafetyDetachMax>5</SafetyDetachMax>
+            <AxleFriction>10000</AxleFriction>
+            <SteeringSpeed>0.015</SteeringSpeed>
+            <AirShockMinSpeed>10</AirShockMinSpeed>
+            <AirShockMaxSpeed>25</AirShockMaxSpeed>
+            <AirShockActivationDelay>60</AirShockActivationDelay>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+        </Definition>
+
+        <!-- MetalWheel 3x3 - Wheel Part (attached to suspension) -->
+        <Definition>
+            <Id>
+                <TypeId>Wheel</TypeId>
+                <SubtypeId>MetalWheel3x3</SubtypeId>
+            </Id>
+            <Public>false</Public>
+            <DisplayName>Metal Wheel 3x3</DisplayName>
+            <Icon>..\2344068716\Icons\wheels\MetalWheelSuspension3x3.dds</Icon>
+            <Icon>Icons\t1.dds</Icon>
+            <Description>Sprung metal rover wheel. Simple to build, but poor performance compared to a standard tire.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>..\2344068716\Models\MetalWheel3x3.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <Components>
+                <Component Subtype="IronFrameS" Count="1" />
+                <Component Subtype="IronPlate" Count="14" />
+                <Component Subtype="IronBolt" Count="10" />
+                <Component Subtype="IronPipe" Count="5" />
+                <Component Subtype="IronTube" Count="15" />
+                <Component Subtype="IronPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="IronTube" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension3x3Construction_2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+			</MountPoints>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MountPoints>
+                <MountPoint Side="Top" StartX="-0.1" StartY="-0.1" EndX="-0.1" EndY="-0.1" />
+            </MountPoints>
+            <BlockPairName>MetalWheel3x3</BlockPairName>
+            <UsesDeformation>true</UsesDeformation>
+            <DeformationRatio>0</DeformationRatio>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <Public>true</Public>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>
