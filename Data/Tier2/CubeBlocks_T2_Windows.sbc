@@ -17,8 +17,8 @@
                 <SubtypeId>LargeWindowSquare</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_VerticalWindow</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\window.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\window.dds</Icon>
             <Description>Description_VerticalWindow</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -57,8 +57,8 @@
                 <SubtypeId>LargeWindowEdge</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_DiagonalWindow</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\window2.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\window2.dds</Icon>
             <Description>Description_DiagonalWindow</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -105,8 +105,8 @@
                 <SubtypeId>Window1x2Slope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2Slope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Slope.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Slope.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -154,8 +154,8 @@
                 <SubtypeId>Window1x2Inv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2FaceInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Inv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Inv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -207,8 +207,8 @@
                 <SubtypeId>Window1x2Face</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2Face</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -259,8 +259,8 @@
                 <SubtypeId>Window1x2SideLeft</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2SideLeft</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideLeft.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideLeft.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -303,8 +303,8 @@
                 <SubtypeId>Window1x2SideLeftInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2SideLeftInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideLeftInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideLeftInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -347,8 +347,8 @@
                 <SubtypeId>Window1x2SideRight</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2SideRight</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideRight.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideRight.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -391,8 +391,8 @@
                 <SubtypeId>Window1x2SideRightInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2SideRightInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideRightInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideRightInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -435,8 +435,8 @@
                 <SubtypeId>Window1x1Slope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Slope.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Slope.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -484,8 +484,8 @@
                 <SubtypeId>Window1x1Face</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Face</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -536,8 +536,8 @@
                 <SubtypeId>Window1x1Side</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Side.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Side.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -578,8 +578,8 @@
                 <SubtypeId>Window1x1SideInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1SideInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1SideInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1SideInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -620,8 +620,8 @@
                 <SubtypeId>Window1x1Inv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FaceInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Inv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Inv.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -673,8 +673,8 @@
                 <SubtypeId>Window1x2Flat</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2Flat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -713,8 +713,8 @@
                 <SubtypeId>Window1x2FlatInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2FlatInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2FlatInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2FlatInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -754,8 +754,8 @@
                 <SubtypeId>Window1x1Flat</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Flat.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -794,8 +794,8 @@
                 <SubtypeId>Window1x1FlatInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1FlatInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1FlatInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -834,8 +834,8 @@
                 <SubtypeId>Window3x3Flat</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window3x3Flat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window3x3Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window3x3Flat.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -874,8 +874,8 @@
                 <SubtypeId>Window3x3FlatInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window3x3FlatInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window3x3FlatInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window3x3FlatInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -914,8 +914,8 @@
                 <SubtypeId>Window2x3Flat</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window2x3Flat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window2x3Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window2x3Flat.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -954,8 +954,8 @@
                 <SubtypeId>Window2x3FlatInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window2x3FlatInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window2x3FlatInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window2x3FlatInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -998,8 +998,8 @@
                 <SubtypeId>SmallWindow1x2Slope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2Slope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Slope.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Slope.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1046,8 +1046,8 @@
                 <SubtypeId>SmallWindow1x2Inv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2FaceInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Inv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Inv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1098,8 +1098,8 @@
                 <SubtypeId>SmallWindow1x2Face</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2Face</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1149,8 +1149,8 @@
                 <SubtypeId>SmallWindow1x2SideLeft</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2SideLeft</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideLeft.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideLeft.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1192,8 +1192,8 @@
                 <SubtypeId>SmallWindow1x2SideLeftInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2SideLeftInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideLeftInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideLeftInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1235,8 +1235,8 @@
                 <SubtypeId>SmallWindow1x2SideRight</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2SideRight</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideRight.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideRight.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1278,8 +1278,8 @@
                 <SubtypeId>SmallWindow1x2SideRightInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2SideRightInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideRightInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2SideRightInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1321,8 +1321,8 @@
                 <SubtypeId>SmallWindow1x1Slope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Slope.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Slope.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1369,8 +1369,8 @@
                 <SubtypeId>SmallWindow1x1Face</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Face</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1420,8 +1420,8 @@
                 <SubtypeId>SmallWindow1x1Side</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Side.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Side.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1461,8 +1461,8 @@
                 <SubtypeId>SmallWindow1x1SideInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1SideInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1SideInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1SideInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1502,8 +1502,8 @@
                 <SubtypeId>SmallWindow1x1Inv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FaceInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Inv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Inv.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1554,8 +1554,8 @@
                 <SubtypeId>SmallWindow1x2Flat</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2Flat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1593,8 +1593,8 @@
                 <SubtypeId>SmallWindow1x2FlatInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x2FlatInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2FlatInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2FlatInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1633,8 +1633,8 @@
                 <SubtypeId>SmallWindow1x1Flat</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Flat.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1672,8 +1672,8 @@
                 <SubtypeId>SmallWindow1x1FlatInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1FlatInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1FlatInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1711,8 +1711,8 @@
                 <SubtypeId>SmallWindow3x3Flat</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window3x3Flat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window3x3Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window3x3Flat.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1750,8 +1750,8 @@
                 <SubtypeId>SmallWindow3x3FlatInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window3x3FlatInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window3x3FlatInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window3x3FlatInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1789,8 +1789,8 @@
                 <SubtypeId>SmallWindow2x3Flat</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window2x3Flat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window2x3Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window2x3Flat.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1828,8 +1828,8 @@
                 <SubtypeId>SmallWindow2x3FlatInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Window2x3FlatInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Window2x3FlatInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window2x3FlatInv.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -1871,8 +1871,8 @@
                 <SubtypeId>WindowRound</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRound</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -1921,8 +1921,8 @@
                 <SubtypeId>WindowRoundInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundInvLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundInvLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -1971,8 +1971,8 @@
                 <SubtypeId>WindowRoundCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundCornerLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundCornerLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -2025,8 +2025,8 @@
                 <SubtypeId>WindowRoundCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundCornerInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundCornerInvLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundCornerInvLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -2080,8 +2080,8 @@
                 <SubtypeId>WindowRoundFace</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundFace</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\windowRoundFaceLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\windowRoundFaceLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -2124,8 +2124,8 @@
                 <SubtypeId>WindowRoundFaceInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundFaceInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\windowRoundFaceInvLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\windowRoundFaceInvLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -2168,8 +2168,8 @@
                 <SubtypeId>WindowRoundInwardsCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundInwardsCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\windowRoundInwardsCornerLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\windowRoundInwardsCornerLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -2225,8 +2225,8 @@
                 <SubtypeId>WindowRoundInwardsCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundInwardsCornerInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\windowRoundInwardsCornerInvLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\windowRoundInwardsCornerInvLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -2282,8 +2282,8 @@
                 <SubtypeId>SmallWindowRound</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRound</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -2331,8 +2331,8 @@
                 <SubtypeId>SmallWindowRoundInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundInvLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundInvLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -2380,8 +2380,8 @@
                 <SubtypeId>SmallWindowRoundCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundCornerLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundCornerLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -2433,8 +2433,8 @@
                 <SubtypeId>SmallWindowRoundCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundCornerInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundCornerInvLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundCornerInvLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -2487,8 +2487,8 @@
                 <SubtypeId>SmallWindowRoundFace</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundFace</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundFaceLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundFaceLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -2530,8 +2530,8 @@
                 <SubtypeId>SmallWindowRoundFaceInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundFaceInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundFaceInvLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundFaceInvLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -2573,8 +2573,8 @@
                 <SubtypeId>SmallWindowRoundInwardsCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundInwardsCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundInwardsCornerLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundInwardsCornerLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -2629,8 +2629,8 @@
                 <SubtypeId>SmallWindowRoundInwardsCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowRoundInwardsCornerInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundInwardsCornerInvLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundInwardsCornerInvLarge.dds</Icon>
             <Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
@@ -2691,8 +2691,8 @@
                 <SubtypeId>ExtendedWindow</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindow</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowStraight.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowStraight.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -2739,8 +2739,8 @@
                 <SubtypeId>ExtendedWindowRailing</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowRailing</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowRailing.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowRailing.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -2787,8 +2787,8 @@
                 <SubtypeId>ExtendedWindowCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCorner.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCorner.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -2833,8 +2833,8 @@
                 <SubtypeId>ExtendedWindowCornerInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowCornerInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCornerInverted.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCornerInverted.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -2886,8 +2886,8 @@
                 <SubtypeId>ExtendedWindowCornerInvertedRailing</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowCornerInvertedRailing</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCornerInvertedRailing.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCornerInvertedRailing.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -2940,8 +2940,8 @@
                 <SubtypeId>ExtendedWindowDiagonal</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowDiagonal</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDiagonal.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDiagonal.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -2998,8 +2998,8 @@
                 <SubtypeId>ExtendedWindowDiagonalRailing</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowDiagonalRailing</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDiagonalRailing.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDiagonalRailing.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3056,8 +3056,8 @@
                 <SubtypeId>ExtendedWindowEnd</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowEnd</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowEnd.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowEnd.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3103,8 +3103,8 @@
                 <SubtypeId>ExtendedWindowDome</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowDome</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDome.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDome.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3151,8 +3151,8 @@
                 <SubtypeId>SmallBlockExtendedWindow</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindow</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowStraight.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowStraight.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3199,8 +3199,8 @@
                 <SubtypeId>SmallBlockExtendedWindowCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCorner.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCorner.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3246,8 +3246,8 @@
                 <SubtypeId>SmallBlockExtendedWindowCornerInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowCornerInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCornerInverted.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowCornerInverted.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3300,8 +3300,8 @@
                 <SubtypeId>SmallBlockExtendedWindowDiagonal</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowDiagonal</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDiagonal.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDiagonal.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3358,8 +3358,8 @@
                 <SubtypeId>SmallBlockExtendedWindowEnd</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowEnd</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowEnd.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowEnd.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3405,8 +3405,8 @@
                 <SubtypeId>SmallBlockExtendedWindowDome</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExtendedWindowDome</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDome.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowDome.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3442,8 +3442,8 @@
                 <SubtypeId>HalfWindow</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfWindow</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HalfWindow.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HalfWindow.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3485,8 +3485,8 @@
                 <SubtypeId>HalfWindowInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfWindowInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HalfWindowInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HalfWindowInv.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3527,8 +3527,8 @@
                 <SubtypeId>HalfWindowCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfWindowCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HalfWindowCorner.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HalfWindowCorner.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3573,8 +3573,8 @@
                 <SubtypeId>HalfWindowCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfWindowCornerInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HalfWindowCornerInv.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HalfWindowCornerInv.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3619,8 +3619,8 @@
                 <SubtypeId>HalfWindowDiagonal</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfWindowDiagonal</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HalfWindowDiagonal.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HalfWindowDiagonal.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3671,8 +3671,8 @@
                 <SubtypeId>HalfWindowRound</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfWindowRound</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HalfWindowRound.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HalfWindowRound.dds</Icon>
             <Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3730,8 +3730,8 @@
                 <SubtypeId>WindowWall</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowWall</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowWall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowWall.dds</Icon>
             <Description>Description_WindowWall</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3779,8 +3779,8 @@
                 <SubtypeId>WindowWallLeft</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowWallLeft</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowWallLeft.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowWallLeft.dds</Icon>
             <Description>Description_WindowWallLeft</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3829,8 +3829,8 @@
                 <SubtypeId>WindowWallRight</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowWallRight</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowWallRight.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowWallRight.dds</Icon>
             <Description>Description_WindowWallRight</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3883,8 +3883,8 @@
                 <SubtypeId>BarredWindow</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_BarredWindow</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
             <Description>Description_BarredWindow</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3925,8 +3925,8 @@
                 <SubtypeId>BarredWindowSlope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_BarredWindowSlope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Slope.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Slope.dds</Icon>
             <Description>Description_BarredWindow</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -3974,8 +3974,8 @@
                 <SubtypeId>BarredWindowSide</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_BarredWindowSide</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Side.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Side.dds</Icon>
             <Description>Description_BarredWindow</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -4017,8 +4017,8 @@
                 <SubtypeId>BarredWindowFace</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_BarredWindowFace</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Face.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Face.dds</Icon>
             <Description>Description_BarredWindow</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>

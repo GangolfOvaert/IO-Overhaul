@@ -13,8 +13,8 @@
                 <SubtypeId>LargeRefineryT2</SubtypeId>
             </Id>
             <DisplayName>Tier 2 Refinery</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
             <Description>Tier 2 Refinery for processing Cobalt, Silver, Aluminium, Copper, Carbon, and Silicon ores.
 
 Power Usage: 6MW</Description>

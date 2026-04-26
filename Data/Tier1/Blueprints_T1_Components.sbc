@@ -14,8 +14,8 @@
         <SubtypeId>T1_IronRod</SubtypeId>
       </Id>
       <DisplayName>Iron Rod</DisplayName>
-      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
@@ -31,8 +31,8 @@
         <SubtypeId>T1_IronPlate</SubtypeId>
       </Id>
       <DisplayName>Iron Plate</DisplayName>
-      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
@@ -48,8 +48,8 @@
         <SubtypeId>T1_IronBolt</SubtypeId>
       </Id>
       <DisplayName>Iron Bolt</DisplayName>
-      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="IronRod" />
       </Prerequisites>
@@ -65,8 +65,8 @@
         <SubtypeId>T1_IronTube</SubtypeId>
       </Id>
       <DisplayName>Iron Tube</DisplayName>
-      <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
       <Prerequisites>
         <Item Amount="4" TypeId="Component" SubtypeId="IronRod" />
       </Prerequisites>
@@ -82,8 +82,8 @@
         <SubtypeId>T1_IronPipe</SubtypeId>
       </Id>
       <DisplayName>Iron Pipe</DisplayName>
-      <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
       <Prerequisites>
         <Item Amount="2" TypeId="Component" SubtypeId="IronRod" />
       </Prerequisites>
@@ -99,8 +99,8 @@
         <SubtypeId>T1_NickelBall</SubtypeId>
       </Id>
       <DisplayName>Nickel Ball</DisplayName>
-      <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
@@ -116,8 +116,8 @@
         <SubtypeId>T1_MagnesiumPressedPlate</SubtypeId>
       </Id>
       <DisplayName>Magnesium Pressed Plate</DisplayName>
-      <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
       </Prerequisites>
@@ -133,8 +133,8 @@
         <SubtypeId>T1_SimpleBearing</SubtypeId>
       </Id>
       <DisplayName>Simple Bearing</DisplayName>
-      <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
       <Prerequisites>
         <Item Amount="8" TypeId="Component" SubtypeId="IronRod" />
         <Item Amount="1" TypeId="Component" SubtypeId="IronTube" />
@@ -152,8 +152,8 @@
         <SubtypeId>T1_IronFrameS</SubtypeId>
       </Id>
       <DisplayName>Iron Frame (Small)</DisplayName>
-      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
       <Prerequisites>
         <Item Amount="12" TypeId="Component" SubtypeId="IronRod" />
         <Item Amount="24" TypeId="Component" SubtypeId="IronBolt" />
@@ -170,8 +170,8 @@
         <SubtypeId>T1_IronFrameL</SubtypeId>
       </Id>
       <DisplayName>Iron Frame (Large)</DisplayName>
-      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
       <Prerequisites>
         <Item Amount="24" TypeId="Component" SubtypeId="IronRod" />
         <Item Amount="16" TypeId="Component" SubtypeId="IronBolt" />
@@ -189,8 +189,8 @@
         <SubtypeId>T1_IronFrameXL</SubtypeId>
       </Id>
       <DisplayName>Iron Frame (XL)</DisplayName>
-      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
       <Prerequisites>
         <Item Amount="48" TypeId="Component" SubtypeId="IronRod" />
         <Item Amount="32" TypeId="Component" SubtypeId="IronBolt" />
@@ -207,8 +207,8 @@
         <SubtypeId>T1_Concrete</SubtypeId>
       </Id>
       <DisplayName>Concrete</DisplayName>
-      <Icon>..\2344068716\Icons\Concrete.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>..\2344068716\Icons\Concrete.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
@@ -224,8 +224,8 @@
         <SubtypeId>T1_EnergyCellFromIce</SubtypeId>
       </Id>
       <DisplayName>Energy Cell (from Ice)</DisplayName>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Ice" />
       </Prerequisites>
@@ -240,8 +240,8 @@
         <SubtypeId>T1_EnergyCellFromAir</SubtypeId>
       </Id>
       <DisplayName>Energy Cell (Atmospheric Extraction)</DisplayName>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
       <Prerequisites>
       </Prerequisites>
       <Result Amount="1" TypeId="Ingot" SubtypeId="T1_EnergyCell" />

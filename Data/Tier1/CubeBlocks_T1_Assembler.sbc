@@ -13,8 +13,8 @@
         <SubtypeId>T1_HydraulicPress</SubtypeId>
       </Id>
       <DisplayName>Hydraulic Press</DisplayName>
-      <Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
       <Description>A basic hydraulic press for forming iron and magnesium into simple components.
 	  
 Power Usage: 0.5 MW</Description>
@@ -84,8 +84,8 @@ Power Usage: 0.5 MW</Description>
         <SubtypeId>T1_MetalExtruder</SubtypeId>
       </Id>
       <DisplayName>Metal Extruder</DisplayName>
-      <Icon>..\2344068716\Icons\Extruder.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>..\2344068716\Icons\Extruder.dds</Icon>
       <Description>A basic extruder for forming iron ingots into rods, tubes, and pipes.
 	  
 Power Usage: 0.5 MW</Description>
@@ -146,8 +146,8 @@ Power Usage: 0.5 MW</Description>
         <SubtypeId>T1_Fabricator</SubtypeId>
       </Id>
       <DisplayName>Fabricator</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
       <Description>A basic fabricator for assembling composite parts from simple components.
 	  
 Power Usage: 0.5 MW</Description>

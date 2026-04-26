@@ -9,8 +9,8 @@
                 <SubtypeId>FoodDispenser</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_FoodDispenser</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\FoodDispenser.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\FoodDispenser.dds</Icon>
             <Description>Description_FoodDispenser</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -93,8 +93,8 @@
                 <SubtypeId>Jukebox</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Jukebox</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Jukebox.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Jukebox.dds</Icon>
             <Description>Description_Jukebox</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -142,8 +142,8 @@
                 <SubtypeId>LabEquipment</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LabEquipment</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LabEquipment.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LabEquipment.dds</Icon>
             <Description>Description_LabEquipment</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -195,8 +195,8 @@
                 <SubtypeId>Shower</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Shower</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Shower.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Shower.dds</Icon>
             <Description>Description_Shower</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -243,8 +243,8 @@
                 <SubtypeId>WindowWall</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowWall</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowWall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowWall.dds</Icon>
             <Description>Description_WindowWall</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -291,8 +291,8 @@
                 <SubtypeId>WindowWallLeft</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowWallLeft</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowWallLeft.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowWallLeft.dds</Icon>
             <Description>Description_WindowWallLeft</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -340,8 +340,8 @@
                 <SubtypeId>WindowWallRight</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_WindowWallRight</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WindowWallRight.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowWallRight.dds</Icon>
             <Description>Description_WindowWallRight</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -389,8 +389,8 @@
                 <SubtypeId>MedicalStation</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_MedicalStation</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MedicalStation.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\MedicalStation.dds</Icon>
             <Description>Description_MedicalStation</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -445,8 +445,8 @@
                 <SubtypeId>TransparentLCDLarge</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_TransparentLCD</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\TransparentLCD.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\TransparentLCD.dds</Icon>
             <Description>Description_TransparentLCD</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -500,8 +500,8 @@
                 <SubtypeId>TransparentLCDSmall</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_TransparentLCD</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\TransparentLCD.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\TransparentLCD.dds</Icon>
             <Description>Description_TransparentLCD</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>

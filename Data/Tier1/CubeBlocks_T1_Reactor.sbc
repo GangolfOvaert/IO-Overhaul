@@ -8,8 +8,8 @@
       </Id>
       <DisplayName>T1 Small Reactor</DisplayName>
       <Description>Primitive reactor that burns T1 Energy Cells for power. Early game, low output, no uranium required.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />

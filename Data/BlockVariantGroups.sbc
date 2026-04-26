@@ -50,8 +50,8 @@
         </BlockVariantGroup>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightCubeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
             <DisplayName>DisplayName_Block_LightArmorBlock</DisplayName>
             <Description>Description_LightArmor</Description>
             <Blocks>
@@ -72,8 +72,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightRampGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ArmorLightRampGroup</DisplayName>
             <Description>Description_LightArmor</Description>
             <Blocks>
@@ -96,8 +96,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightRampCornerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ArmorLightRampCornerGroup</DisplayName>
             <Description>Description_LightArmor</Description>
             <Blocks>
@@ -118,8 +118,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightRoundGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
             <DisplayName>DisplayName_Block_LightRoundArmorSlope</DisplayName>
             <Description>Description_LightArmor</Description>
             <Blocks>
@@ -134,8 +134,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavyCubeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
             <DisplayName>DisplayName_Block_HeavyArmorBlock</DisplayName>
             <Description>Description_HeavyArmor</Description>
             <Blocks>
@@ -156,8 +156,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavyRampGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ArmorHeavyRampGroup</DisplayName>
             <Description>Description_HeavyArmor</Description>
             <Blocks>
@@ -180,8 +180,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavyRampCornerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ArmorHeavyRampCornerGroup</DisplayName>
             <Description>Description_HeavyArmor</Description>
             <Blocks>
@@ -202,8 +202,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavyRoundGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
             <DisplayName>DisplayName_Block_HeavyRoundArmorSlope</DisplayName>
             <Description>Description_HeavyArmor</Description>
             <Blocks>
@@ -218,8 +218,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightSlopedCorners" />
-            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_LightArmorSlopedCorners</DisplayName>
             <Description>Description_LightArmor</Description>
             <Blocks>
@@ -244,8 +244,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavySlopedCorners" />
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_HeavyArmorSlopedCorners</DisplayName>
             <Description>Description_HeavyArmor</Description>
             <Blocks>
@@ -270,8 +270,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightTransitionBlocks" />
-            <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_LightArmorTransitionBlocks</DisplayName>
             <Description>Description_LightArmor</Description>
             <Blocks>
@@ -292,8 +292,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavyTransitionBlocks" />
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_HeavyArmorTransitionBlocks</DisplayName>
             <Description>Description_LightArmor</Description>
             <Blocks>
@@ -314,8 +314,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorPanelsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
             <DisplayName>DisplayName_Block_LightArmorPanel</DisplayName>
             <Description>Description_ArmorPanel</Description>
             <Blocks>
@@ -368,8 +368,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorPanelsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel.dds</Icon>
             <DisplayName>DisplayName_Block_heavyArmorPanel</DisplayName>
             <Description>Description_ArmorPanel</Description>
             <Blocks>
@@ -422,8 +422,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BeamGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\LargeGirderStraight.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LargeGirderStraight.dds</Icon>
             <DisplayName>DisplayName_Block_BeamBlock</DisplayName>
             <Description>Description_BeamBlock</Description>
             <Blocks>
@@ -452,8 +452,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ScaffoldingGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\TrussLarge.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\TrussLarge.dds</Icon>
             <DisplayName>DisplayName_Block_Truss</DisplayName>
             <Description>Description_Truss</Description>
             <Blocks>
@@ -479,8 +479,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorWallGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\interior_wall.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\interior_wall.dds</Icon>
             <DisplayName>DisplayName_Block_InteriorWall</DisplayName>
             <Description>Description_InteriorWall</Description>
             <Blocks>
@@ -501,8 +501,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BlastDoorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
             <DisplayName>DisplayName_Block_ArmorCenter</DisplayName>
             <Description>Description_LightArmor</Description>
             <Blocks>
@@ -519,8 +519,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorPillarGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\TrussPillar.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\TrussPillar.dds</Icon>
             <DisplayName>DisplayName_Block_TrussPillar</DisplayName>
             <Description>Description_InteriorPillar</Description>
             <Blocks>
@@ -543,8 +543,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BedGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\BedFree.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BedFree.dds</Icon>
             <DisplayName>DisplayName_Block_BedFree</DisplayName>
             <Description>Description_Bed</Description>
             <Blocks>
@@ -560,8 +560,8 @@
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BathroomGroup" />
             <DisplayName>DisplayName_Block_BathroomOpen</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BathroomOpen.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BathroomOpen.dds</Icon>
             <Description>Description_BathroomOpen</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroomOpen" />
@@ -573,8 +573,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="KitchenGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
             <DisplayName>DisplayName_Block_Kitchen</DisplayName>
             <Description>Description_Kitchen</Description>
             <Blocks>
@@ -587,8 +587,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SmallBlockKitchenGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Sink.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Sink.dds</Icon>
             <DisplayName>DisplayName_Block_Kitchen</DisplayName>
             <Description>Description_Kitchen</Description>
             <Blocks>
@@ -603,8 +603,8 @@
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DeskGroup" />
             <DisplayName>DisplayName_Block_Desk</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Desk.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Desk.dds</Icon>
             <Description>Description_Desk</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockDesk" />
@@ -624,8 +624,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeFloraGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Planters.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Planters.dds</Icon>
             <DisplayName>DisplayName_Block_Planters</DisplayName>
             <Description>Description_Planters</Description>
             <Blocks>
@@ -639,8 +639,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CouchGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
             <DisplayName>DisplayName_Block_Couch</DisplayName>
             <Description>Description_Couch</Description>
             <Blocks>
@@ -653,8 +653,8 @@
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConsoleModuleGroup" />
             <DisplayName>DisplayName_Block_ConsoleModule</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\ConsoleModule_Straight_Large.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ConsoleModule_Straight_Large.dds</Icon>
             <Description>Description_ConsoleModule</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockConsoleModule" />
@@ -672,8 +672,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeUtilityGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\LabEquipment.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LabEquipment.dds</Icon>
             <DisplayName>DisplayName_Block_LabEquipment</DisplayName>
             <Description>Description_LabEquipment</Description>
             <Blocks>
@@ -687,8 +687,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AccesPanelGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel_Large.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel_Large.dds</Icon>
             <DisplayName>DisplayName_Block_AccessPanel1</DisplayName>
             <Description>Description_AccessPanel</Description>
             <Blocks>
@@ -705,8 +705,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StorageShelves" />
-            <Icon>Textures\GUI\Icons\Cubes\Shelf_1.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Shelf_1.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_StorageShelves</DisplayName>
             <Description>Description_StorageShelf</Description>
             <Blocks>
@@ -718,8 +718,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LockersGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WeaponRack.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WeaponRack.dds</Icon>
             <DisplayName>DisplayName_Block_WeaponRack</DisplayName>
             <Description>Description_WeaponRack</Description>
             <Blocks>
@@ -737,8 +737,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NeonTubes" />
-            <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraight1.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraight1.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_NeonTubes</DisplayName>
             <Description>Description_NeonTubes</Description>
             <Blocks>
@@ -768,8 +768,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StatueGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\10YearStatue.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\10YearStatue.dds</Icon>
             <DisplayName>DisplayName_Block_StatueEngineer</DisplayName>
             <Description>Description_EngineerPlushie</Description>
             <Blocks>
@@ -779,8 +779,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EngineerPlushieGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Plushie.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Plushie.dds</Icon>
             <DisplayName>DisplayName_Block_EngineerPlushie</DisplayName>
             <Description>Description_EngineerPlushie</Description>
             <Blocks>
@@ -791,8 +791,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WarningSignGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Arrow.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Arrow.dds</Icon>
             <DisplayName>DisplayName_Block_WarningSignEaster9</DisplayName>
             <Description>Description_SignBlocks</Description>
             <Blocks>
@@ -845,8 +845,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LettersAZ" />
-            <Icon>Textures\GUI\Icons\Cubes\Symbol_A.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Symbol_A.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_LettersAH</DisplayName>
             <Description>Description_Letters</Description>
             <Blocks>
@@ -907,8 +907,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Numbers1" />
-            <Icon>Textures\GUI\Icons\Cubes\Symbol_1.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Symbol_1.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_Numbers</DisplayName>
             <Description>Description_Numbers</Description>
             <Blocks>
@@ -937,8 +937,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Symbols" />
-            <Icon>Textures\GUI\Icons\Cubes\Symbol_Hyphen.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Symbol_Hyphen.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_Symbols</DisplayName>
             <Description>Description_Symbols</Description>
             <Blocks>
@@ -963,8 +963,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ramp.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ramp.dds</Icon>
             <DisplayName>DisplayName_Block_Ramp</DisplayName>
             <Description>Description_Ramp</Description>
             <Blocks>
@@ -978,8 +978,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PassageGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\passage.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\passage.dds</Icon>
             <DisplayName>DisplayName_Block_Passage</DisplayName>
             <Description>Description_Passage</Description>
             <Blocks>
@@ -1025,8 +1025,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirDuctGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\AirDuctStraight01.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AirDuctStraight01.dds</Icon>
             <DisplayName>DisplayName_Block_AirDucts</DisplayName>
             <Description>Description_AirDucts</Description>
             <Blocks>
@@ -1043,8 +1043,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DoorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
             <DisplayName>DisplayName_Block_Door</DisplayName>
             <Description>Description_Door</Description>
             <Blocks>
@@ -1072,8 +1072,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHangarDoorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
             <DisplayName>DisplayName_Block_AirtightHangarDoor</DisplayName>
             <Description>Description_HangarDoor</Description>
             <Blocks>
@@ -1086,8 +1086,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GateGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Gate.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Gate.dds</Icon>
             <DisplayName>DisplayName_Block_Gate</DisplayName>
             <Description>Description_Gate</Description>
             <Blocks>
@@ -1099,8 +1099,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CatwalkGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\steel_catwalk.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\steel_catwalk.dds</Icon>
             <DisplayName>DisplayName_Block_SteelCatwalk</DisplayName>
             <Description>Description_SteelCatwalk</Description>
             <Blocks>
@@ -1113,8 +1113,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CoverWallGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\cover_wall_full.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\cover_wall_full.dds</Icon>
             <DisplayName>DisplayName_Block_FullCoverWall</DisplayName>
             <Description>Description_FullCoverWall</Description>
             <Blocks>
@@ -1129,8 +1129,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoCatwalkGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\GratedCatwalk.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\GratedCatwalk.dds</Icon>
             <DisplayName>DisplayName_Block_CatwalkWall</DisplayName>
             <Description>Description_CatwalkWall</Description>
             <Blocks>
@@ -1150,8 +1150,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RailingGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\RailingStraight.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\RailingStraight.dds</Icon>
             <DisplayName>DisplayName_Block_RailingStraight</DisplayName>
             <Description>Description_RailingStraight</Description>
             <Blocks>
@@ -1169,8 +1169,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LadderGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
             <DisplayName>DisplayName_Block_Ladder</DisplayName>
             <Description>Description_Ladder</Description>
             <Blocks>
@@ -1183,8 +1183,8 @@
         <!-- Control -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CockpitGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
             <Icon>Icons\t3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
             <DisplayName>DisplayName_Block_Cockpit2</DisplayName>
             <Description>Description_ControlStation</Description>
             <Blocks>
@@ -1201,8 +1201,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OpenCockpitGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\OpenCockpitLarge.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OpenCockpitLarge.dds</Icon>
             <DisplayName>DisplayName_Block_OpenCockpitSmall</DisplayName>
             <Description>Description_ControlStation</Description>
             <Blocks>
@@ -1225,8 +1225,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ModularBridgeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\BridgeCockpit.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BridgeCockpit.dds</Icon>
             <DisplayName>DisplayName_Block_ModularBridgeCockpit</DisplayName>
             <Description>Description_ModularBridgeCockpit</Description>
             <Blocks>
@@ -1253,8 +1253,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PassengerSeatGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <DisplayName>DisplayName_Block_PassengerSeat</DisplayName>
             <Description>Description_PassengerSeat</Description>
             <Blocks>
@@ -1267,8 +1267,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RemoteControlGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\RemoteControl.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\RemoteControl.dds</Icon>
             <DisplayName>DisplayName_Block_RemoteControl</DisplayName>
             <Description>Description_RemoteControl</Description>
             <Blocks>
@@ -1279,8 +1279,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AIBlocksGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\FlightMovementBlock_Move.dds</Icon>
             <Icon>Icons\t3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\FlightMovementBlock_Move.dds</Icon>
             <DisplayName>DisplayName_Block_FlightMovementBlock</DisplayName>
             <Description>Description_FlightMovementBlock</Description>
             <Blocks>
@@ -1299,8 +1299,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BatteryGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
             <DisplayName>DisplayName_Block_Battery</DisplayName>
             <Description>Description_Battery</Description>
             <Blocks>
@@ -1314,8 +1314,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SolarGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
             <Icon>Icons\t3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_EnergyRenewableGroup</DisplayName>
             <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
             <Blocks>
@@ -1332,8 +1332,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindTurbineGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
             <DisplayName>DisplayName_Block_WindTurbine</DisplayName>
             <Description>Description_WindTurbine</Description>
             <Blocks>
@@ -1344,8 +1344,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HydrogenEngineGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
             <Icon>Icons\t3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
             <DisplayName>DisplayName_Block_Hydrogen_Engine</DisplayName>
             <Description>Description_PowerGenerator</Description>
             <Blocks>
@@ -1358,8 +1358,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ReactorsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
             <Icon>Icons\t4.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_EnergyFueledGroup</DisplayName>
             <Description>Description_BlockGroup_EnergyFueledGroup</Description>
             <Blocks>
@@ -1376,8 +1376,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterHydroGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
             <Icon>Icons\t4.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
             <DisplayName>DisplayName_Block_LargeHydrogenThrust</DisplayName>
             <Description>Description_HydrogenThrust</Description>
             <Blocks>
@@ -1398,8 +1398,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterAtmoGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <DisplayName>DisplayName_Block_LargeAtmoThrust</DisplayName>
             <Description>Description_AtmosphericThrust</Description>
             <Blocks>
@@ -1424,8 +1424,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterIonGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
             <Icon>Icons\t5.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
             <DisplayName>DisplayName_Block_LargeThrust</DisplayName>
             <Description>Description_IonThrust</Description>
             <Blocks>
@@ -1446,8 +1446,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GyroscopeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
             <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
             <Description>Description_Gyroscope</Description>
             <Blocks>
@@ -1458,8 +1458,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ParachuteGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ParachuteHatch.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ParachuteHatch.dds</Icon>
             <DisplayName>DisplayName_Block_ParachuteHatch</DisplayName>
             <Description>Description_ParachuteHatch</Description>
             <Blocks>
@@ -1470,8 +1470,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionRightGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
             <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
             <Description>Description_Suspension</Description>
             <Blocks>
@@ -1496,8 +1496,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionLeftGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
             <DisplayName>DisplayName_Block_Suspension3x3mirrored</DisplayName>
             <Description>Description_Suspension</Description>
             <Blocks>
@@ -1522,8 +1522,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OffroadWheelSuspensionRightGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingRight.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingRight.dds</Icon>
             <DisplayName>DisplayName_Block_OffroadSuspension3x3</DisplayName>
             <Description>Description_Suspension</Description>
             <Blocks>
@@ -1548,8 +1548,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OffroadWheelSuspensionLeftGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingLeft.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingLeft.dds</Icon>
             <DisplayName>DisplayName_Block_OffroadSuspension3x3mirrored</DisplayName>
             <Description>Description_Suspension</Description>
             <Blocks>
@@ -1574,8 +1574,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelStaticGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Wheel1x1.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Wheel1x1.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_WheelStaticGroup</DisplayName>
             <Description>Description_Wheel</Description>
             <Blocks>
@@ -1600,8 +1600,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SurvivalKitGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
             <DisplayName>DisplayName_Block_Assembler</DisplayName>
             <Description>Description_Assembler</Description>
             <Blocks>
@@ -1614,8 +1614,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MedicalGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
             <DisplayName>DisplayName_Block_MedicalRoom</DisplayName>
             <Description>Description_MedicalRoom</Description>
             <Blocks>
@@ -1626,8 +1626,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefillStation" />
-            <Icon>Textures\GUI\Icons\Cubes\RefillStationCap.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\RefillStationCap.dds</Icon>
             <DisplayName>DisplayName_Block_RefillStation</DisplayName>
             <Description>Description_RefillStation</Description>
             <Blocks>
@@ -1639,8 +1639,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CryoGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\CryoPod.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CryoPod.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_MedicalGroup</DisplayName>
             <Description>Description_BlockGroup_MedicalGroup</Description>
             <Blocks>
@@ -1653,8 +1653,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
             <DisplayName>DisplayName_Block_Refinery</DisplayName>
             <Description>Description_Refinery</Description>
             <Blocks>
@@ -1666,8 +1666,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <DisplayName>DisplayName_Block_Assembler</DisplayName>
             <Description>Description_Assembler</Description>
             <Blocks>
@@ -1679,8 +1679,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="UpgradeModuleGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_UpgradeModuleGroup</DisplayName>
             <Description>Description_BlockGroup_UpgradeModuleGroup</Description>
             <Blocks>
@@ -1692,8 +1692,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipToolGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
             <Icon>Icons\t3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ShipToolGroup</DisplayName>
             <Description>Description_BlockGroup_ShipToolGroup</Description>
             <Blocks>
@@ -1714,8 +1714,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ProjectorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Projector.dds</Icon>
             <Icon>Icons\t3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Projector.dds</Icon>
             <DisplayName>DisplayName_Block_Projector</DisplayName>
             <Description>Description_Projector</Description>
             <Blocks>
@@ -1727,8 +1727,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CameraGroup" />
-            <Icon>Textures\GUI\Icons\Camera.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Camera.dds</Icon>
             <DisplayName>DisplayName_Block_Camera</DisplayName>
             <Description>Description_Camera</Description>
             <Blocks>
@@ -1741,8 +1741,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
             <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
             <Description>Description_InteriorLight</Description>
             <Blocks>
@@ -1765,8 +1765,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SpotlightGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
             <Description>Description_BlockGroup_LightingGroup</Description>
             <Blocks>
@@ -1792,8 +1792,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SoundGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SoundBlock.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SoundBlock.dds</Icon>
             <DisplayName>DisplayName_Block_SoundBlock</DisplayName>
             <Description>Description_Sound</Description>
             <Blocks>
@@ -1807,8 +1807,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeatVentGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HeatVent.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeatVent.dds</Icon>
             <DisplayName>DisplayName_Block_HeatVent</DisplayName>
             <Description>Description_HeatVent</Description>
             <Blocks>
@@ -1819,8 +1819,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExhaustPipeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
             <DisplayName>DisplayName_Block_ExhaustPipe</DisplayName>
             <Description>Description_ExhaustPipe</Description>
             <Blocks>
@@ -1833,8 +1833,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OreDetectorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
             <DisplayName>DisplayName_Block_OreDetector</DisplayName>
             <Description>Description_OreDetector</Description>
             <Blocks>
@@ -1847,8 +1847,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BeaconGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\beacon.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\beacon.dds</Icon>
             <DisplayName>DisplayName_Block_Beacon</DisplayName>
             <Description>Description_Beacon</Description>
             <Blocks>
@@ -1861,8 +1861,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_AntennaGroup</DisplayName>
             <Description>Description_BlockGroup_AntennaGroup</Description>
             <Blocks>
@@ -1879,8 +1879,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BroadcastControllerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Broadcast.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Broadcast.dds</Icon>
             <DisplayName>DisplayName_Block_BroadcastController</DisplayName>
             <Description>Description_BroadcastController</Description>
             <Blocks>
@@ -1891,8 +1891,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
             <Description>Description_BlockGroup_ContainerGroup</Description>
             <Blocks>
@@ -1910,8 +1910,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup1" />
-            <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
             <DisplayName>DisplayName_Block_Freight1</DisplayName>
             <Description>Description_Freight</Description>
             <Blocks>
@@ -1923,8 +1923,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
             <DisplayName>DisplayName_Block_Barrel</DisplayName>
             <Description>Description_Freight</Description>
             <Blocks>
@@ -1937,8 +1937,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup3" />
-            <Icon>Textures\GUI\Icons\Cubes\Crate01.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Crate01.dds</Icon>
             <DisplayName>DisplayName_Block_Crate</DisplayName>
             <Description>Description_CrateBlock</Description>
             <Blocks>
@@ -1948,8 +1948,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeDeadBodiesGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\DeadBody_1.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_1.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_DeadBodies</DisplayName>
             <Description>Description_BlockGroup_DeadBodies</Description>
             <Blocks>
@@ -1964,8 +1964,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
             <DisplayName>DisplayName_Block_Conveyor</DisplayName>
             <Description>Description_ConveyorTube</Description>
             <Blocks>
@@ -1990,8 +1990,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorPipeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
             <DisplayName>DisplayName_Block_ConveyorPipes</DisplayName>
             <Description>Description_ConveyorTube</Description>
             <Blocks>
@@ -2009,8 +2009,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorSmallGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
             <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
             <Description>Description_ConveyorTube</Description>
             <Blocks>
@@ -2028,8 +2028,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CollectorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\collector.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\collector.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_InputOutputGroup</DisplayName>
             <Description>Description_BlockGroup_InputOutputGroup</Description>
             <Blocks>
@@ -2040,8 +2040,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConnectorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Connector.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Connector.dds</Icon>
             <DisplayName>DisplayName_Block_Connector</DisplayName>
             <Description>Description_Connector</Description>
             <Blocks>
@@ -2057,8 +2057,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirVentGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
             <DisplayName>DisplayName_Block_AirVent</DisplayName>
             <Description>Description_AirVent</Description>
             <Blocks>
@@ -2075,8 +2075,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GasGeneratorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
             <DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
             <Description>Description_OxygenGenerator</Description>
             <Blocks>
@@ -2089,8 +2089,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TankGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
             <Description>Description_BlockGroup_TankGroup</Description>
             <Blocks>
@@ -2110,8 +2110,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OxygenFarmGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
             <DisplayName>DisplayName_Block_OxygenFarm</DisplayName>
             <Description>Description_OxygenFarm</Description>
             <Blocks>
@@ -2122,8 +2122,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponStaticGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ShipWeaponStaticGroup</DisplayName>
             <Description>Description_BlockGroup_ShipWeaponStaticGroup</Description>
             <Blocks>
@@ -2145,8 +2145,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
@@ -2168,8 +2168,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WarheadGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
             <DisplayName>DisplayName_Block_Warhead</DisplayName>
             <Description>Description_Warhead</Description>
             <Blocks>
@@ -2182,8 +2182,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoyGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\decoy.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\decoy.dds</Icon>
             <DisplayName>DisplayName_Block_Decoy</DisplayName>
             <Description>Description_Decoy</Description>
             <Blocks>
@@ -2194,8 +2194,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretControlGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\TurretControlBlockLarge.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\TurretControlBlockLarge.dds</Icon>
             <DisplayName>DisplayName_TurretControlBlock</DisplayName>
             <Description>Description_TurretControlBlock</Description>
             <Blocks>
@@ -2206,8 +2206,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\TimerBlock.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\TimerBlock.dds</Icon>
             <DisplayName>DisplayName_Block_TimerBlock</DisplayName>
             <Description>Description_Timer</Description>
             <Blocks>
@@ -2224,8 +2224,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ProgrammableBlockGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ProgrammingBlock.dds</Icon>
             <Icon>Icons\t3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ProgrammingBlock.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_AutomationGroup</DisplayName>
             <Description>Description_BlockGroup_AutomationGroup</Description>
             <Blocks>
@@ -2238,8 +2238,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup1" />
-            <Icon>Textures\GUI\Icons\Cubes\Sensor.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Sensor.dds</Icon>
             <DisplayName>DisplayName_Block_Sensor</DisplayName>
             <Description>Description_Sensor</Description>
             <Blocks>
@@ -2252,8 +2252,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ButtonPanelGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ButtonPanel.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ButtonPanel.dds</Icon>
             <DisplayName>DisplayName_Block_ButtonPanel</DisplayName>
             <Description>Description_ButtonPanel</Description>
             <Blocks>
@@ -2277,8 +2277,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TargetDummyGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\TargetDummy.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\TargetDummy.dds</Icon>
             <DisplayName>DisplayName_Block_TargetDummy</DisplayName>
             <Description>Description_TargetDummy</Description>
             <Blocks>
@@ -2288,8 +2288,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LandingGearGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
             <DisplayName>DisplayName_Block_LandingGear</DisplayName>
             <Description>Description_LandingGear</Description>
             <Blocks>
@@ -2306,8 +2306,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MergeBlockGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\MergeBlock.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\MergeBlock.dds</Icon>
             <DisplayName>DisplayName_Block_MergeBlock</DisplayName>
             <Description>Description_MergeBlock</Description>
             <Blocks>
@@ -2319,8 +2319,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PistonGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
             <DisplayName>DisplayName_Block_PistonBase</DisplayName>
             <Description>Description_Piston</Description>
             <Blocks>
@@ -2337,8 +2337,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RotorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
             <DisplayName>DisplayName_Block_Rotor</DisplayName>
             <Description>Description_Rotor</Description>
             <Blocks>
@@ -2357,8 +2357,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HingeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Hinge.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Hinge.dds</Icon>
             <DisplayName>DisplayName_Block_Hinge</DisplayName>
             <Description>Description_Rotor</Description>
             <Blocks>
@@ -2373,8 +2373,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_LCDGroup</DisplayName>
             <Description>Description_BlockGroup_LCDGroup</Description>
             <Blocks>
@@ -2410,8 +2410,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EmotionControllerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\EmotionController.dds</Icon>
             <Icon>Icons\t3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\EmotionController.dds</Icon>
             <DisplayName>DisplayName_EmotionController</DisplayName>
             <Description>Description_EmotionController</Description>
             <Blocks>
@@ -2422,8 +2422,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Flat.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_WindowSmallGroup</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2438,8 +2438,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowMediumGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_WindowMediumGroup</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2454,8 +2454,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowLargeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Window2x3Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window2x3Flat.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_WindowLargeGroup</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2472,8 +2472,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallCornerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_WindowSmallCornerGroup</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2490,8 +2490,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowMediumCornerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_WindowMediumCornerGroup</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2512,8 +2512,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RoundWindowGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WindowRoundLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundLarge.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_RoundWindows</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2538,8 +2538,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowWallGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\WindowWall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindowWall.dds</Icon>
             <DisplayName>DisplayName_Block_WindowWall</DisplayName>
             <Description>Description_WindowWall</Description>
             <Blocks>
@@ -2553,8 +2553,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShutterGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\window.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\window.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ShutterGroup</DisplayName>
             <Description>Description_VerticalWindow</Description>
             <Blocks>
@@ -2565,8 +2565,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BarredWindows" />
-            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_BarredWindows</DisplayName>
             <Description>Description_BarredWindow</Description>
             <Blocks>
@@ -2579,8 +2579,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HalfWindowGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HalfWindow.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HalfWindow.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_HalfWindows</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2595,8 +2595,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BridgeWindowsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\BridgeWindow1x1Slope.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BridgeWindow1x1Slope.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_BridgeWindowsGroup</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2608,8 +2608,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExtendedWindowGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\InsetWindowStraight.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InsetWindowStraight.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ExtendedWindow</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
@@ -2633,8 +2633,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SafeZoneGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
             <Icon>Icons\t6.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
             <DisplayName>DisplayName_Block_SafeZone</DisplayName>
             <Description>Description_SafeZone</Description>
             <Blocks>
@@ -2644,8 +2644,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StoreGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\StoreBlock.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\StoreBlock.dds</Icon>
             <DisplayName>DisplayName_Block_Store</DisplayName>
             <Description>Description_StoreBlock</Description>
             <Blocks>
@@ -2659,8 +2659,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JumpDriveGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
             <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
             <Description>Description_JumpDrive</Description>
             <Blocks>
@@ -2671,8 +2671,8 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravityGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\gravity_generator.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\gravity_generator.dds</Icon>
             <DisplayName>DisplayName_Block_GravityGenerator</DisplayName>
             <Description>Description_GravityGenerator</Description>
             <Blocks>
@@ -2683,8 +2683,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="VirtualMassGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ArtificialMass.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ArtificialMass.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_GravityGroup</DisplayName>
             <Description>Description_BlockGroup_GravityGroup</Description>
             <Blocks>
@@ -2697,8 +2697,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PrototechGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Prototech_JumpDrive.dds</Icon>
             <Icon>Icons\t6.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Prototech_JumpDrive.dds</Icon>
             <DisplayName>DisplayName_Block_PrototechJumpDrive</DisplayName>
             <Description>Description_Prototech</Description>
             <Blocks>
@@ -2720,8 +2720,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FloorBlockGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
             <DisplayName>DisplayName_Block_FloorCenter</DisplayName>
             <Description>Description_DecorativeFloor</Description>
             <Blocks>
@@ -2737,8 +2737,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PipesBlockGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\PipesStraight1.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PipesStraight1.dds</Icon>
             <DisplayName>DisplayName_Block_PipesStraight1</DisplayName>
             <Description>Description_Pipes</Description>
             <Blocks>
@@ -2754,8 +2754,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FoodProductionGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\food_processor.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\food_processor.dds</Icon>
             <DisplayName>DisplayName_Block_FoodProcessor</DisplayName>
             <Description>Description_FoodProcessor</Description>
             <Blocks>
@@ -2769,8 +2769,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConduitsBlockGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Conduit_Straight.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Conduit_Straight.dds</Icon>
             <DisplayName>DisplayName_Block_ConduitStraight</DisplayName>
             <Description>Description_Conduits</Description>
             <Blocks>
@@ -2793,8 +2793,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup4" />
-            <Icon>Textures\GUI\Icons\Cubes\StorageBins_single.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\StorageBins_single.dds</Icon>
             <DisplayName>DisplayName_Block_StorageBin1</DisplayName>
             <Description>Description_Freight</Description>
             <Blocks>
@@ -2806,8 +2806,8 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RoundEdgeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Round_Edge.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Round_Edge.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_RoundEdge</DisplayName>
             <Description>Description_RoundEdgeBlocks</Description>
             <Blocks>

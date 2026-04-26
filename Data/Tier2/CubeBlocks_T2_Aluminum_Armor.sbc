@@ -7,8 +7,8 @@
         <SubtypeId>LargeAluminumCube</SubtypeId>
       </Id>
       <DisplayName>Aluminum Block</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCube.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCube.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -47,8 +47,8 @@
         <SubtypeId>LargeAluminumSlope</SubtypeId>
       </Id>
       <DisplayName>Aluminum Slope</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlope.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlope.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -90,8 +90,8 @@
         <SubtypeId>LargeAluminumCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -136,8 +136,8 @@
         <SubtypeId>LargeAluminumInvCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Inv. Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumInvCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumInvCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -185,8 +185,8 @@
         <SubtypeId>LargeAluminumCornerSquare</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner Square</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCornerSquare.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCornerSquare.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -227,8 +227,8 @@
         <SubtypeId>LargeAluminumCornerSquareInv</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner Square Inv.</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCornerSquareInv.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCornerSquareInv.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -271,8 +271,8 @@
         <SubtypeId>LargeAluminumSlope2x1x1Base</SubtypeId>
       </Id>
       <DisplayName>Aluminum Slope 2x1x1 Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlope2x1x1Base.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlope2x1x1Base.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -315,8 +315,8 @@
         <SubtypeId>LargeAluminumSlope2x1x1Tip</SubtypeId>
       </Id>
       <DisplayName>Aluminum Slope 2x1x1 Tip</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlope2x1x1Tip.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlope2x1x1Tip.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -360,8 +360,8 @@
         <SubtypeId>LargeHalfAluminum</SubtypeId>
       </Id>
       <DisplayName>Half Aluminum Block</DisplayName>
-      <Icon>..\2344068716\Icons\HalfAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -402,8 +402,8 @@
         <SubtypeId>LargeHalfSlopeAluminum</SubtypeId>
       </Id>
       <DisplayName>Half Slope Aluminum</DisplayName>
-      <Icon>..\2344068716\Icons\HalfSlopeAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfSlopeAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -447,8 +447,8 @@
         <SubtypeId>LargeHalfSlopeCornerAluminum</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Slope Corner</DisplayName>
-      <Icon>..\2344068716\Icons\HalfSlopeCornerAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfSlopeCornerAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -487,8 +487,8 @@
         <SubtypeId>LargeAluminumHalfCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumHalfCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumHalfCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -528,8 +528,8 @@
         <SubtypeId>LargeAluminumHalfSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Sloped Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumHalfSlopedCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumHalfSlopedCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -571,8 +571,8 @@
         <SubtypeId>LargeAluminumCorner2x1x1Base</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner 2x1x1 Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCorner2x1x1Base.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCorner2x1x1Base.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -618,8 +618,8 @@
         <SubtypeId>LargeAluminumCorner2x1x1Tip</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner 2x1x1 Tip</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCorner2x1x1Tip.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCorner2x1x1Tip.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -662,8 +662,8 @@
         <SubtypeId>LargeAluminumInvCorner2x1x1Base</SubtypeId>
       </Id>
       <DisplayName>Aluminum Inv. Corner 2x1x1 Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Base.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Base.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -711,8 +711,8 @@
         <SubtypeId>LargeAluminumInvCorner2x1x1Tip</SubtypeId>
       </Id>
       <DisplayName>Aluminum Inv. Corner 2x1x1 Tip</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Tip.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Tip.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -760,8 +760,8 @@
         <SubtypeId>LargeHalfSlopeCornerInvAluminum</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Slope Corner Inv.</DisplayName>
-      <Icon>..\2344068716\Icons\HalfSlopeCornerInvAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfSlopeCornerInvAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -809,8 +809,8 @@
         <SubtypeId>LargeHalfSlopeInvAluminum</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Slope Inv.</DisplayName>
-      <Icon>..\2344068716\Icons\HalfSlopeInvAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfSlopeInvAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -856,8 +856,8 @@
         <SubtypeId>LargeSlopedCornerAluminumTip</SubtypeId>
       </Id>
       <DisplayName>Aluminum Sloped Corner Tip</DisplayName>
-      <Icon>..\2344068716\Icons\SlopedCornerAluminumTip.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\SlopedCornerAluminumTip.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -901,8 +901,8 @@
         <SubtypeId>LargeAluminumSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>Aluminum Sloped Corner Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlopedCornerBase.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlopedCornerBase.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -947,8 +947,8 @@
         <SubtypeId>LargeAluminumSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Sloped Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlopedCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlopedCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -995,8 +995,8 @@
         <SubtypeId>LargeAluminumHalfSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Sloped Corner Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumHalfSlopedCornerBase.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumHalfSlopedCornerBase.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1041,8 +1041,8 @@
         <SubtypeId>SmallAluminumCube</SubtypeId>
       </Id>
       <DisplayName>Aluminum Block</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCube.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCube.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1080,8 +1080,8 @@
         <SubtypeId>SmallAluminumSlope</SubtypeId>
       </Id>
       <DisplayName>Aluminum Slope</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlope.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlope.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1122,8 +1122,8 @@
         <SubtypeId>SmallAluminumCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1167,8 +1167,8 @@
         <SubtypeId>SmallAluminumInvCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Inv. Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumInvCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumInvCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1215,8 +1215,8 @@
         <SubtypeId>SmallAluminumCornerSquare</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner Square</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCornerSquare.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCornerSquare.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1257,8 +1257,8 @@
         <SubtypeId>SmallAluminumCornerSquareInv</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner Square Inv.</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCornerSquareInv.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCornerSquareInv.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1301,8 +1301,8 @@
         <SubtypeId>SmallAluminumSlope2x1x1Base</SubtypeId>
       </Id>
       <DisplayName>Aluminum Slope 2x1x1 Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlope2x1x1Base.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlope2x1x1Base.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1345,8 +1345,8 @@
         <SubtypeId>SmallAluminumSlope2x1x1Tip</SubtypeId>
       </Id>
       <DisplayName>Aluminum Slope 2x1x1 Tip</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlope2x1x1Tip.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlope2x1x1Tip.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1390,8 +1390,8 @@
         <SubtypeId>SmallHalfAluminum</SubtypeId>
       </Id>
       <DisplayName>Half Aluminum Block</DisplayName>
-      <Icon>..\2344068716\Icons\HalfAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1432,8 +1432,8 @@
         <SubtypeId>SmallHalfSlopeAluminum</SubtypeId>
       </Id>
       <DisplayName>Half Slope Aluminum</DisplayName>
-      <Icon>..\2344068716\Icons\HalfSlopeAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfSlopeAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1477,8 +1477,8 @@
         <SubtypeId>SmallHalfSlopeCornerAluminum</SubtypeId>
       </Id>
       <DisplayName>Half Slope Corner Aluminum</DisplayName>
-      <Icon>..\2344068716\Icons\HalfSlopeCornerAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfSlopeCornerAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1517,8 +1517,8 @@
         <SubtypeId>SmallAluminumHalfCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumHalfCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumHalfCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1558,8 +1558,8 @@
         <SubtypeId>SmallAluminumHalfSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Sloped Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumHalfSlopedCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumHalfSlopedCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1601,8 +1601,8 @@
         <SubtypeId>SmallAluminumCorner2x1x1Base</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner 2x1x1 Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCorner2x1x1Base.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCorner2x1x1Base.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1648,8 +1648,8 @@
         <SubtypeId>SmallAluminumCorner2x1x1Tip</SubtypeId>
       </Id>
       <DisplayName>Aluminum Corner 2x1x1 Tip</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumCorner2x1x1Tip.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumCorner2x1x1Tip.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1692,8 +1692,8 @@
         <SubtypeId>SmallAluminumInvCorner2x1x1Base</SubtypeId>
       </Id>
       <DisplayName>Aluminum Inv. Corner 2x1x1 Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Base.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Base.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1741,8 +1741,8 @@
         <SubtypeId>SmallAluminumInvCorner2x1x1Tip</SubtypeId>
       </Id>
       <DisplayName>Aluminum Inv. Corner 2x1x1 Tip</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Tip.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumInvCorner2x1x1Tip.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1790,8 +1790,8 @@
         <SubtypeId>SmallHalfSlopeCornerInvAluminum</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Slope Corner Inv.</DisplayName>
-      <Icon>..\2344068716\Icons\HalfSlopeCornerInvAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfSlopeCornerInvAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1839,8 +1839,8 @@
         <SubtypeId>SmallHalfSlopeInvAluminum</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Slope Inv.</DisplayName>
-      <Icon>..\2344068716\Icons\HalfSlopeInvAluminum.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\HalfSlopeInvAluminum.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1886,8 +1886,8 @@
         <SubtypeId>SmallSlopedCornerAluminumTip</SubtypeId>
       </Id>
       <DisplayName>Aluminum Sloped Corner Tip</DisplayName>
-      <Icon>..\2344068716\Icons\SlopedCornerAluminumTip.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\SlopedCornerAluminumTip.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1931,8 +1931,8 @@
         <SubtypeId>SmallAluminumSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>Aluminum Sloped Corner Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlopedCornerBase.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlopedCornerBase.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1977,8 +1977,8 @@
         <SubtypeId>SmallAluminumSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>Aluminum Sloped Corner</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumSlopedCorner.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumSlopedCorner.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2025,8 +2025,8 @@
         <SubtypeId>SmallAluminumHalfSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>Aluminum Half Sloped Corner Base</DisplayName>
-      <Icon>..\2344068716\Icons\AluminumHalfSlopedCornerBase.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\AluminumHalfSlopedCornerBase.dds</Icon>
       <Description>Lighter than Light Armor, but less durable.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

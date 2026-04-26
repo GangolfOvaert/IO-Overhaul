@@ -14,8 +14,8 @@
                 <SubtypeId></SubtypeId>
             </Id>
             <DisplayName>O2/H2 Generator</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
             <Description>Electrolyzes Ice into Oxygen and Hydrogen gas.
 
 Power Usage: 0.5 MW</Description>
@@ -96,8 +96,8 @@ Power Usage: 0.5 MW</Description>
                 <SubtypeId>OxygenGeneratorSmall</SubtypeId>
             </Id>
             <DisplayName>O2/H2 Generator (Small)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\OxygenGeneratorSmall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OxygenGeneratorSmall.dds</Icon>
             <Description>Electrolyzes Ice into Oxygen and Hydrogen gas. Small grid variant.
 
 Power Usage: 0.15 MW</Description>

@@ -13,8 +13,8 @@
                 <SubtypeId>LargeBlockBatteryBlock</SubtypeId>
             </Id>
             <DisplayName>Battery Block</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\battery.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\battery.dds</Icon>
             <Description>Rechargeable T2 battery. Stores and supplies electrical power.
 
 Power Output: 12 MW
@@ -77,8 +77,8 @@ Capacity: 3 MWh</Description>
                 <SubtypeId>SmallBlockBatteryBlock</SubtypeId>
             </Id>
             <DisplayName>Battery Block</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\battery.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\battery.dds</Icon>
             <Description>Rechargeable T2 battery for small grid.
 
 Power Output: 1 MW

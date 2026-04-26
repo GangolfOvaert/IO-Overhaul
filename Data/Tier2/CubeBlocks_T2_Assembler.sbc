@@ -13,8 +13,8 @@
                 <SubtypeId>T2_Assembler</SubtypeId>
             </Id>
             <DisplayName>Tier 2 Assembler</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Description>Tier 2 Assembler for crafting advanced electronic components: glass, wafers, chips, computers, displays, and sensors.
 
 Power Usage: 1.5MW</Description>

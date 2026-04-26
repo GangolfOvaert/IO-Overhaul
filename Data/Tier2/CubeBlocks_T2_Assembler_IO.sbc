@@ -13,8 +13,8 @@
         <SubtypeId>CementKiln</SubtypeId>
       </Id>
       <DisplayName>Cement Kiln</DisplayName>
-      <Icon>..\2344068716\Icons\production\cement_kiln.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>..\2344068716\Icons\production\cement_kiln.dds</Icon>
       <Description>
 		Processes and mixes Concrete.
 

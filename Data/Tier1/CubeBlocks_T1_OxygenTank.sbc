@@ -13,8 +13,8 @@
         <SubtypeId>OxygenTankSmall</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_OxygenTank</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
       <Description>Oxygen tank to store 2500l oxygen</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

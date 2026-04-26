@@ -13,8 +13,8 @@
         <SubtypeId>RockCrushert2</SubtypeId>
       </Id>
       <DisplayName>Rock Crusher T2</DisplayName>
-      <Icon>Icons\production\ore_crusher_t1.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>Icons\production\ore_crusher_t1.dds</Icon>
       <Description>
                 Crushes T2 Impure Ores into Crushed Ore with same-tier and upper-tier byproducts.
 
@@ -90,8 +90,8 @@
         <SubtypeId>OrePurifiert2</SubtypeId>
       </Id>
       <DisplayName>Ore Purifier T2</DisplayName>
-      <Icon>Icons\production\ore_purifier_t1.dds</Icon>
       <Icon>Icons\t2.dds</Icon>
+      <Icon>Icons\production\ore_purifier_t1.dds</Icon>
       <Description>
 		Filters impurities from T2 Crushed Ore to produce Pure Ore.
 

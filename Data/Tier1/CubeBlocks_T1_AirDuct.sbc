@@ -13,8 +13,8 @@
         <SubtypeId>AirDuct1</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirDuct1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AirDuctStraight01.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AirDuctStraight01.dds</Icon>
       <Description>Description_AirDucts</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -65,8 +65,8 @@
         <SubtypeId>AirDuct2</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirDuct2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AirDuctStraight02.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AirDuctStraight02.dds</Icon>
       <Description>Description_AirDucts</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -120,8 +120,8 @@
         <SubtypeId>AirDuctLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirDuctLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AirDuctStraight03.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AirDuctStraight03.dds</Icon>
       <Description>Description_AirDucts</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -180,8 +180,8 @@
         <SubtypeId>AirDuctCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirDuctCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AirDuctCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AirDuctCorner.dds</Icon>
       <Description>Description_AirDucts</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -233,8 +233,8 @@
         <SubtypeId>AirDuctT</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirDuctT</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AirDuctTSection.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AirDuctTSection.dds</Icon>
       <Description>Description_AirDucts</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -286,8 +286,8 @@
         <SubtypeId>AirDuctX</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirDuctX</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AirDuctXSection.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AirDuctXSection.dds</Icon>
       <Description>Description_AirDucts</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -340,8 +340,8 @@
         <SubtypeId>AirDuctRamp</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirDuctRamp</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AirDuctRamp.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AirDuctRamp.dds</Icon>
       <Description>Description_AirDucts</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -392,8 +392,8 @@
         <SubtypeId>AirDuctGrate</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirDuctGrate</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AirDuctGrate.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AirDuctGrate.dds</Icon>
       <Description>Description_AirDucts</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>

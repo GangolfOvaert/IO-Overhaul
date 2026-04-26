@@ -10,8 +10,8 @@
                 <SubtypeId>LargeBlockKitchen</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Kitchen</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
             <Description>Description_Kitchen</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -60,8 +60,8 @@
                 <SubtypeId>LargeBlockBed</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Bed</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Bed.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Bed.dds</Icon>
             <Description>Description_Bed</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -135,8 +135,8 @@
                 <SubtypeId>LargeBlockLockerRoom</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LockerRoom</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LockerRoom.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LockerRoom.dds</Icon>
             <Description>Description_LockerRoomCorner</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -187,8 +187,8 @@
                 <SubtypeId>LargeBlockLockerRoomCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LockerRoomCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LockerRoomCorner.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LockerRoomCorner.dds</Icon>
             <Description>Description_LockerRoom</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -241,8 +241,8 @@
                 <SubtypeId>LargeBlockPlanters</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Planters</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Planters.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Planters.dds</Icon>
             <Description>Description_Planters</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -288,8 +288,8 @@
                 <SubtypeId>LargeBlockLockers</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Lockers</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Lockers.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Lockers.dds</Icon>
             <Description>Description_Lockers</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -334,8 +334,8 @@
                 <SubtypeId>LargeBlockConsole</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Console</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Console.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Console.dds</Icon>
             <Description>Description_Console</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -394,8 +394,8 @@
             <YesNoToolbarYesTooltip>YesNoToolbarTooltip_Cockpit_Yes</YesNoToolbarYesTooltip>
             <YesNoToolbarNoTooltip>YesNoToolbarTooltip_Cockpit_No</YesNoToolbarNoTooltip>
             <DisplayName>DisplayName_Block_CockpitIndustrial</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\CockpitIndustrial.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CockpitIndustrial.dds</Icon>
             <Description>Description_CockpitIndustrial</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -468,8 +468,8 @@
             <YesNoToolbarYesTooltip>YesNoToolbarTooltip_Cockpit_Yes</YesNoToolbarYesTooltip>
             <YesNoToolbarNoTooltip>YesNoToolbarTooltip_Cockpit_No</YesNoToolbarNoTooltip>
             <DisplayName>DisplayName_Block_CockpitIndustrial</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LargeCockpitIndustrial.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LargeCockpitIndustrial.dds</Icon>
             <Description>Description_CockpitIndustrial</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -551,8 +551,8 @@
                 <SubtypeId>LargeBlockColorableSolarPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ColorableSolarPanel</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskin.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskin.dds</Icon>
             <Description>Description_SolarPanel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -684,8 +684,8 @@
                 <SubtypeId>LargeBlockColorableSolarPanelCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ColorableSolarPanelCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCorner.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCorner.dds</Icon>
             <Description>Description_SolarPanel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -795,8 +795,8 @@
                 <SubtypeId>LargeBlockColorableSolarPanelCornerInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCornerInverted.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCornerInverted.dds</Icon>
             <Description>Description_SolarPanel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -907,8 +907,8 @@
                 <SubtypeId>SmallBlockColorableSolarPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ColorableSolarPanel</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskin.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskin.dds</Icon>
             <Description>Description_SolarPanel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1041,8 +1041,8 @@
                 <SubtypeId>SmallBlockColorableSolarPanelCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ColorableSolarPanelCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCorner.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCorner.dds</Icon>
             <Description>Description_SolarPanel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1151,8 +1151,8 @@
                 <SubtypeId>SmallBlockColorableSolarPanelCornerInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCornerInverted.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCornerInverted.dds</Icon>
             <Description>Description_SolarPanel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1262,8 +1262,8 @@
             </Id>
             <DisplayName>DisplayName_Block_WindTurbineReskin</DisplayName>
             <Description>Description_WindTurbine</Description>
-            <Icon>Textures\GUI\Icons\Cubes\WindTurbineReskin_Large.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindTurbineReskin_Large.dds</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <PlaceDecals>false</PlaceDecals>
@@ -1332,8 +1332,8 @@
                 <SubtypeId>LargeBlockBeaconReskin</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_BeaconReskin</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BeaconReskin.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BeaconReskin.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1392,8 +1392,8 @@
                 <SubtypeId>SmallBlockBeaconReskin</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_BeaconReskin</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BeaconReskin.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BeaconReskin.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1451,8 +1451,8 @@
                 <SubtypeId>LargeBlockCryoRoom</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_CryoRoom</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\CryoRoom.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CryoRoom.dds</Icon>
             <Description>Description_CryoChamber</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1533,8 +1533,8 @@
             <YesNoToolbarYesTooltip>YesNoToolbarTooltip_Cockpit_Yes</YesNoToolbarYesTooltip>
             <YesNoToolbarNoTooltip>YesNoToolbarTooltip_Cockpit_No</YesNoToolbarNoTooltip>
             <DisplayName>DisplayName_Block_CapCockpit</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\CapCockpit.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CapCockpit.dds</Icon>
             <Description>Description_CockpitIndustrial</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1601,8 +1601,8 @@
                 <SubtypeId>HoloLCDLarge</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HoloLCD</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HoloLCDLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HoloLCDLarge.dds</Icon>
             <Description>Description_TransparentLCD</Description>
             <CubeSize>Large</CubeSize>
             <AllowInteractionThroughBlock>true</AllowInteractionThroughBlock>
@@ -1662,8 +1662,8 @@
                 <SubtypeId>HoloLCDSmall</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HoloLCD</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HoloLCD_Small.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HoloLCD_Small.dds</Icon>
             <Description>Description_TransparentLCD</Description>
             <CubeSize>Small</CubeSize>
             <AllowInteractionThroughBlock>true</AllowInteractionThroughBlock>
@@ -1722,8 +1722,8 @@
                 <SubtypeId>LargeMedicalRoomReskin</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_MedicalRoomReskin</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MedicalRoomReskin.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\MedicalRoomReskin.dds</Icon>
             <Description>Description_MedicalRoom</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1796,8 +1796,8 @@
             </Id>
             <DisplayName>DisplayName_Block_InsetAquarium</DisplayName>
             <SimpleUpdateVisualOnSkinChange>true</SimpleUpdateVisualOnSkinChange>
-            <Icon>Textures\GUI\Icons\Cubes\Inset_Aquarium.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Inset_Aquarium.dds</Icon>
             <Description>Description_Aquarium</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1856,8 +1856,8 @@
                 <SubtypeId>LargeFullBlockLCDPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_FullBlockLCD</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\FullBlockLCD.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\FullBlockLCD.dds</Icon>
             <Description>Description_TextPanel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1909,8 +1909,8 @@
                 <SubtypeId>SmallFullBlockLCDPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_FullBlockLCD</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\FullBlockLCD.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\FullBlockLCD.dds</Icon>
             <Description>Description_TextPanel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1962,8 +1962,8 @@
                 <SubtypeId>LargeDiagonalLCDPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_DiagonalLCD</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\DiagonalLCD.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\DiagonalLCD.dds</Icon>
             <Description>Description_TextPanel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2024,8 +2024,8 @@
                 <SubtypeId>SmallDiagonalLCDPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_DiagonalLCD</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\DiagonalLCD.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\DiagonalLCD.dds</Icon>
             <Description>Description_TextPanel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2086,8 +2086,8 @@
                 <SubtypeId>LargeCurvedLCDPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_CurvedLCDPanel</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\CurvedLCD.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CurvedLCD.dds</Icon>
             <Description>Description_TextPanel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2148,8 +2148,8 @@
                 <SubtypeId>SmallCurvedLCDPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_CurvedLCDPanel</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\CurvedLCD.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CurvedLCD.dds</Icon>
             <Description>Description_TextPanel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2210,8 +2210,8 @@
                 <SubtypeId>LargeExplosiveBarrel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExplosiveBarrel</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Barrel01Explosive.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Explosive.dds</Icon>
             <Description>Description_ExplosiveBarrel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2266,8 +2266,8 @@
                 <SubtypeId>SmallExplosiveBarrel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ExplosiveBarrel</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Barrel01Explosive.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Explosive.dds</Icon>
             <Description>Description_ExplosiveBarrel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2322,8 +2322,8 @@
                 <SubtypeId>LargeBlockInsetPlantCouch</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_InsetPlantCouch</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Inset_PlantCouch.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Inset_PlantCouch.dds</Icon>
             <Description>Description_Couch</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -2389,8 +2389,8 @@
                 <SubtypeId>LargeBlockInsetButtonPanel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_InsetButtonPanel</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InteriorButtonPanel.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorButtonPanel.dds</Icon>
             <Description>Description_ButtonPanel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2474,8 +2474,8 @@
                 <SubtypeId>LargeBlockInsetEntertainmentCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_InsetEntertainmentCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\EntertainmentCorner.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\EntertainmentCorner.dds</Icon>
             <Description>Description_Jukebox</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2531,8 +2531,8 @@
                 <SubtypeId>LargeBlockInsetKitchen</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_InsetKitchen</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InteriorKitchen.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorKitchen.dds</Icon>
             <Description>Description_Kitchen</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>

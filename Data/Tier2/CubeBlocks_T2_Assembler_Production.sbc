@@ -14,8 +14,8 @@
                 <SubtypeId>T2_Furnace</SubtypeId>
             </Id>
             <DisplayName>Furnace</DisplayName>
-            <Icon>..\2344068716\Icons\production\silicon_fuser_t1.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>..\2344068716\Icons\production\silicon_fuser_t1.dds</Icon>
             <Description>High-temperature furnace for melting and fusing materials into glass, carbon blocks, and cobalt alloy plates.
 
 Power Usage: 2 MW</Description>
@@ -82,8 +82,8 @@ Power Usage: 2 MW</Description>
                 <SubtypeId>T2_ElectronicsFabricator</SubtypeId>
             </Id>
             <DisplayName>Electronics Fabricator</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Description>Precision electronics assembly station. Produces circuit boards, computers, displays, sensors, and medical components.
 
 Power Usage: 1 MW</Description>
@@ -150,8 +150,8 @@ Power Usage: 1 MW</Description>
                 <SubtypeId>T2_HydraulicPress</SubtypeId>
             </Id>
             <DisplayName>T2 Hydraulic Press</DisplayName>
-            <Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>..\2344068716\Icons\PlateStamp.dds</Icon>
             <Description>High-pressure press for forming cobalt alloy plates and thrust components.
 
 Power Usage: 1 MW</Description>
@@ -222,8 +222,8 @@ Power Usage: 1 MW</Description>
                 <SubtypeId>T2_MetalExtruder</SubtypeId>
             </Id>
             <DisplayName>T2 Metal Extruder</DisplayName>
-            <Icon>..\2344068716\Icons\Extruder.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>..\2344068716\Icons\Extruder.dds</Icon>
             <Description>Precision drawing machine for extruding copper into fine wire.
 
 Power Usage: 1 MW</Description>
@@ -285,8 +285,8 @@ Power Usage: 1 MW</Description>
                 <SubtypeId>T2_Fabricator</SubtypeId>
             </Id>
             <DisplayName>T2 Fabricator</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
             <Description>Assembles composite mechanical and electronic sub-assemblies including thrust components and computer chips.
 
 Power Usage: 1 MW</Description>

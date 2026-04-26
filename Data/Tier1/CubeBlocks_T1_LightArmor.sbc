@@ -7,8 +7,8 @@
         <SubtypeId>LargeBlockArmorBlock</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorBlock</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -162,8 +162,8 @@
         <SubtypeId>LargeBlockArmorSlope</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_slope.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_slope.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -290,8 +290,8 @@
         <SubtypeId>LargeBlockArmorCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_corner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_corner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -387,8 +387,8 @@
         <SubtypeId>LargeBlockArmorCornerInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorInvCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_inv_corner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_inv_corner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -541,8 +541,8 @@
         <SubtypeId>LargeRoundArmor_Slope</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightRoundArmorSlope</DisplayName>
-      <Icon>Textures\GUI\Fake.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Fake.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -595,8 +595,8 @@
         <SubtypeId>LargeRoundArmor_Corner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightRoundArmorCorner</DisplayName>
-      <Icon>Textures\GUI\Fake.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Fake.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -653,8 +653,8 @@
         <SubtypeId>LargeRoundArmor_CornerInv</SubtypeId>
       </Id>
       <DisplayName>LargeRoundArmor_CornerInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_inv_corner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_inv_corner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -716,8 +716,8 @@
         <SubtypeId>SmallBlockArmorBlock</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorBlock</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -877,8 +877,8 @@
         <SubtypeId>SmallBlockArmorSlope</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_slope.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_slope.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1004,8 +1004,8 @@
         <SubtypeId>SmallBlockArmorCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_corner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_corner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1100,8 +1100,8 @@
         <SubtypeId>SmallBlockArmorCornerInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorInvCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_inv_corner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_inv_corner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1253,8 +1253,8 @@
         <SubtypeId>LargeHalfArmorBlock</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HalfLightArmorBlock</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlab.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlab.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -1418,8 +1418,8 @@
         <SubtypeId>LargeHalfSlopeArmorBlock</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HalfSlopeLightArmorBlock</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeSlab.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeSlab.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -1582,8 +1582,8 @@
         <SubtypeId>HalfArmorBlock</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HalfLightArmorBlock</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlab.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlab.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -1746,8 +1746,8 @@
         <SubtypeId>HalfSlopeArmorBlock</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HalfSlopeLightArmorBlock</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeSlab.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeSlab.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -1909,8 +1909,8 @@
         <SubtypeId>LargeBlockArmorRoundSlope</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightRoundArmorSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -2036,8 +2036,8 @@
         <SubtypeId>LargeBlockArmorRoundCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightRoundArmorCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\RoundArmorCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\RoundArmorCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -2133,8 +2133,8 @@
         <SubtypeId>LargeBlockArmorRoundCornerInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightRoundArmorInvCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\RoundArmorInvCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\RoundArmorInvCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -2287,8 +2287,8 @@
         <SubtypeId>SmallBlockArmorRoundSlope</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightRoundArmorSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -2413,8 +2413,8 @@
         <SubtypeId>SmallBlockArmorRoundCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightRoundArmorCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\RoundArmorCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\RoundArmorCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
@@ -2509,8 +2509,8 @@
         <SubtypeId>SmallBlockArmorRoundCornerInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightRoundArmorInvCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\RoundArmorInvCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\RoundArmorInvCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
@@ -2662,8 +2662,8 @@
         <SubtypeId>LargeBlockArmorSlope2Base</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlope2Base</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -2827,8 +2827,8 @@
         <SubtypeId>LargeBlockArmorSlope2Tip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlope2Tip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Tip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Tip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -2957,8 +2957,8 @@
         <SubtypeId>LargeBlockArmorCorner2Base</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCorner2Base</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -3087,8 +3087,8 @@
         <SubtypeId>LargeBlockArmorCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCorner2Tip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Tip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Tip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -3185,8 +3185,8 @@
         <SubtypeId>LargeBlockArmorInvCorner2Base</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorInvCorner2Base</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\InvCorner2x1x1Base.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner2x1x1Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -3339,8 +3339,8 @@
         <SubtypeId>LargeBlockArmorInvCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorInvCorner2Tip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\InvCorner2x1x1Tip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner2x1x1Tip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -3497,8 +3497,8 @@
         <SubtypeId>SmallBlockArmorSlope2Base</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlope2Base</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -3661,8 +3661,8 @@
         <SubtypeId>SmallBlockArmorSlope2Tip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlope2Tip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Tip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Tip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
@@ -3790,8 +3790,8 @@
         <SubtypeId>SmallBlockArmorCorner2Base</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCorner2Base</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -3919,8 +3919,8 @@
         <SubtypeId>SmallBlockArmorCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCorner2Tip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Tip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Tip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
@@ -4016,8 +4016,8 @@
         <SubtypeId>SmallBlockArmorInvCorner2Base</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorInvCorner2Base</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\InvCorner2x1x1Base.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner2x1x1Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -4169,8 +4169,8 @@
         <SubtypeId>SmallBlockArmorInvCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorInvCorner2Tip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\InvCorner2x1x1Tip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner2x1x1Tip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
@@ -4326,8 +4326,8 @@
         <SubtypeId>LargeBlockArmorCornerSquare</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCornerSquare</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\CornerSquare.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\CornerSquare.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -4444,8 +4444,8 @@
         <SubtypeId>SmallBlockArmorCornerSquare</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCornerSquare</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\CornerSquare.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\CornerSquare.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -4561,8 +4561,8 @@
         <SubtypeId>LargeBlockArmorCornerSquareInverted</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCornerSquareInverted</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\CornerSquareInverted.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\CornerSquareInverted.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -4683,8 +4683,8 @@
         <SubtypeId>SmallBlockArmorCornerSquareInverted</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorCornerSquareInverted</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\CornerSquareInverted.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\CornerSquareInverted.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -4804,8 +4804,8 @@
         <SubtypeId>LargeBlockArmorHalfCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -4914,8 +4914,8 @@
         <SubtypeId>SmallBlockArmorHalfCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -5023,8 +5023,8 @@
         <SubtypeId>LargeBlockArmorHalfSlopeCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopeCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -5111,8 +5111,8 @@
         <SubtypeId>SmallBlockArmorHalfSlopeCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopeCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -5198,8 +5198,8 @@
         <SubtypeId>LargeBlockArmorHalfSlopeCornerInverted</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopeCornerInverted</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCornerInverted.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCornerInverted.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -5373,8 +5373,8 @@
         <SubtypeId>SmallBlockArmorHalfSlopeCornerInverted</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopeCornerInverted</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCornerInverted.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeCornerInverted.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -5547,8 +5547,8 @@
         <SubtypeId>LargeBlockArmorHalfSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopedCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -5662,8 +5662,8 @@
         <SubtypeId>SmallBlockArmorHalfSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopedCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -5776,8 +5776,8 @@
         <SubtypeId>LargeBlockArmorHalfSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopedCornerBase</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCornerBase.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCornerBase.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -5912,8 +5912,8 @@
         <SubtypeId>SmallBlockArmorHalfSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopedCornerBase</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCornerBase.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopedCornerBase.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -6047,8 +6047,8 @@
         <SubtypeId>LargeBlockArmorHalfSlopeInverted</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopeInverted</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeInverted.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeInverted.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -6208,8 +6208,8 @@
         <SubtypeId>SmallBlockArmorHalfSlopeInverted</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorHalfSlopeInverted</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeInverted.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HalfSlopeInverted.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -6368,8 +6368,8 @@
         <SubtypeId>LargeBlockArmorSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopedCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SlopedCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SlopedCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -6501,8 +6501,8 @@
         <SubtypeId>SmallBlockArmorSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopedCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SlopedCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SlopedCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -6633,8 +6633,8 @@
         <SubtypeId>LargeBlockArmorSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopedCornerBase</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SlopedCornerBase.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SlopedCornerBase.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -6793,8 +6793,8 @@
         <SubtypeId>SmallBlockArmorSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopedCornerBase</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SlopedCornerBase.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SlopedCornerBase.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -6952,8 +6952,8 @@
         <SubtypeId>LargeBlockArmorSlopedCornerTip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopedCornerTip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -7053,8 +7053,8 @@
         <SubtypeId>SmallBlockArmorSlopedCornerTip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopedCornerTip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -7153,8 +7153,8 @@
         <SubtypeId>LargeBlockArmorRaisedSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorRaisedSlopedCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorRaisedSlopedCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorRaisedSlopedCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -7300,8 +7300,8 @@
         <SubtypeId>SmallBlockArmorRaisedSlopedCorner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorRaisedSlopedCorner</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorRaisedSlopedCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorRaisedSlopedCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -7446,8 +7446,8 @@
         <SubtypeId>LargeBlockArmorSlopeTransition</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransition</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransition.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransition.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -7575,8 +7575,8 @@
         <SubtypeId>SmallBlockArmorSlopeTransition</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransition</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransition.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransition.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -7703,8 +7703,8 @@
         <SubtypeId>LargeBlockArmorSlopeTransitionBase</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionBase</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -7858,8 +7858,8 @@
         <SubtypeId>SmallBlockArmorSlopeTransitionBase</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionBase</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -8012,8 +8012,8 @@
         <SubtypeId>LargeBlockArmorSlopeTransitionBaseMirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionBaseMirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBaseMirrored.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBaseMirrored.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -8167,8 +8167,8 @@
         <SubtypeId>SmallBlockArmorSlopeTransitionBaseMirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionBaseMirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBaseMirrored.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBaseMirrored.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -8321,8 +8321,8 @@
         <SubtypeId>LargeBlockArmorSlopeTransitionMirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionMirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionMirrored.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionMirrored.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -8450,8 +8450,8 @@
         <SubtypeId>SmallBlockArmorSlopeTransitionMirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionMirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionMirrored.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionMirrored.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -8578,8 +8578,8 @@
         <SubtypeId>LargeBlockArmorSlopeTransitionTip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionTip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -8695,8 +8695,8 @@
         <SubtypeId>SmallBlockArmorSlopeTransitionTip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionTip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -8811,8 +8811,8 @@
         <SubtypeId>LargeBlockArmorSlopeTransitionTipMirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionTipMirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTipMirrored.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTipMirrored.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -8928,8 +8928,8 @@
         <SubtypeId>SmallBlockArmorSlopeTransitionTipMirrored</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSlopeTransitionTipMirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTipMirrored.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionTipMirrored.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -9044,8 +9044,8 @@
         <SubtypeId>LargeBlockArmorSquareSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSquareSlopedCornerBase</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerBase.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerBase.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -9195,8 +9195,8 @@
         <SubtypeId>SmallBlockArmorSquareSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSquareSlopedCornerBase</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerBase.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerBase.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -9345,8 +9345,8 @@
         <SubtypeId>LargeBlockArmorSquareSlopedCornerTip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSquareSlopedCornerTip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -9464,8 +9464,8 @@
         <SubtypeId>SmallBlockArmorSquareSlopedCornerTip</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSquareSlopedCornerTip</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -9582,8 +9582,8 @@
         <SubtypeId>LargeBlockArmorSquareSlopedCornerTipInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSquareSlopedCornerTipInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTipInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTipInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -9721,8 +9721,8 @@
         <SubtypeId>SmallBlockArmorSquareSlopedCornerTipInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_LightArmorSquareSlopedCornerTipInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTipInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlopedCornerTipInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -9859,8 +9859,8 @@
         <SubtypeId>LargeArmorPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -9897,8 +9897,8 @@
         <SubtypeId>LargeArmorCenterPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorCenterPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorCenterPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorCenterPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -9936,8 +9936,8 @@
         <SubtypeId>LargeArmorSlopedSidePanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorSlopedSidePanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedSidePanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedSidePanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -9976,8 +9976,8 @@
         <SubtypeId>LargeArmorSlopedPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorSlopedPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10022,8 +10022,8 @@
         <SubtypeId>LargeArmorHalfPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorHalfPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10060,8 +10060,8 @@
         <SubtypeId>LargeArmorHalfCenterPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorHalfCenterPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfCenterPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfCenterPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10097,8 +10097,8 @@
         <SubtypeId>LargeArmorQuarterPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorQuarterPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10135,8 +10135,8 @@
         <SubtypeId>LargeArmor2x1SlopedPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10177,8 +10177,8 @@
         <SubtypeId>LargeArmor2x1SlopedPanelTipLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedPanelTipLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanelTip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanelTip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10219,8 +10219,8 @@
         <SubtypeId>LargeArmor2x1SlopedSideBasePanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedSideBasePanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedSideBasePanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedSideBasePanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10260,8 +10260,8 @@
         <SubtypeId>LargeArmor2x1SlopedSideTipPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedSideTipPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10300,8 +10300,8 @@
         <SubtypeId>LargeArmor2x1SlopedSideBasePanelLightInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedSideBasePanelLightInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideBasePanelInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideBasePanelInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10341,8 +10341,8 @@
         <SubtypeId>LargeArmor2x1SlopedSideTipPanelLightInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedSideTipPanelLightInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanelInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanelInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10381,8 +10381,8 @@
         <SubtypeId>LargeArmorHalfSlopedPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorHalfSlopedPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfSlopedPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfSlopedPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10423,8 +10423,8 @@
         <SubtypeId>LargeArmor2x1HalfSlopedPanelLightRight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1HalfSlopedPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10463,8 +10463,8 @@
         <SubtypeId>LargeArmor2x1HalfSlopedTipPanelLightRight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1HalfSlopedTipPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10503,8 +10503,8 @@
         <SubtypeId>LargeArmor2x1HalfSlopedPanelLightLeft</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1HalfSlopedPanelLightInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanelInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanelInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10543,8 +10543,8 @@
         <SubtypeId>LargeArmor2x1HalfSlopedTipPanelLightLeft</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1HalfSlopedTipPanelLightInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanelInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanelInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10583,8 +10583,8 @@
         <SubtypeId>LargeRoundArmorPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorPanelRoundLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightRoundArmorPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightRoundArmorPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10629,8 +10629,8 @@
         <SubtypeId>LargeRoundArmorPanelCornerLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorPanelRoundCornerLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightRoundArmorPanelCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightRoundArmorPanelCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10678,8 +10678,8 @@
         <SubtypeId>SmallArmorPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10715,8 +10715,8 @@
         <SubtypeId>SmallArmorCenterPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorCenterPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorCenterPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorCenterPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10753,8 +10753,8 @@
         <SubtypeId>SmallArmorSlopedSidePanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorSlopedSidePanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedSidePanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedSidePanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10792,8 +10792,8 @@
         <SubtypeId>SmallArmorSlopedPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorSlopedPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopedPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10837,8 +10837,8 @@
         <SubtypeId>SmallArmorHalfPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorHalfPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10874,8 +10874,8 @@
         <SubtypeId>SmallArmorHalfCenterPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorHalfCenterPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfCenterPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfCenterPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10910,8 +10910,8 @@
         <SubtypeId>SmallArmorQuarterPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorQuarterPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightQuarterPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10947,8 +10947,8 @@
         <SubtypeId>SmallArmor2x1SlopedPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -10988,8 +10988,8 @@
         <SubtypeId>SmallArmor2x1SlopedPanelTipLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedPanelTipLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanelTip.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedPanelTip.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11029,8 +11029,8 @@
         <SubtypeId>SmallArmor2x1SlopedSideBasePanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedSideBasePanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedSideBasePanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopedSideBasePanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11069,8 +11069,8 @@
         <SubtypeId>SmallArmor2x1SlopedSideTipPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedSideTipPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11108,8 +11108,8 @@
         <SubtypeId>SmallArmor2x1SlopedSideBasePanelLightInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedSideBasePanelLightInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideBasePanelInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideBasePanelInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11148,8 +11148,8 @@
         <SubtypeId>SmallArmor2x1SlopedSideTipPanelLightInv</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1SlopedSideTipPanelLightInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanelInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1SlopeSideTipPanelInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11187,8 +11187,8 @@
         <SubtypeId>SmallArmorHalfSlopedPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorHalfSlopedPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfSlopedPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorHalfSlopedPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11228,8 +11228,8 @@
         <SubtypeId>SmallArmor2x1HalfSlopedPanelLightRight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1HalfSlopedPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11267,8 +11267,8 @@
         <SubtypeId>SmallArmor2x1HalfSlopedTipPanelLightRight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1HalfSlopedTipPanelLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11306,8 +11306,8 @@
         <SubtypeId>SmallArmor2x1HalfSlopedPanelLightLeft</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1HalfSlopedPanelLightInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanelInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedPanelInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11345,8 +11345,8 @@
         <SubtypeId>SmallArmor2x1HalfSlopedTipPanelLightLeft</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Armor2x1HalfSlopedTipPanelLightInv</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanelInv.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmor2x1HalfSlopedTipPanelInv.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11384,8 +11384,8 @@
         <SubtypeId>SmallRoundArmorPanelLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorPanelRoundLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightRoundArmorPanel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightRoundArmorPanel.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -11429,8 +11429,8 @@
         <SubtypeId>SmallRoundArmorPanelCornerLight</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_ArmorPanelRoundCornerLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\LightRoundArmorPanelCorner.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightRoundArmorPanelCorner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

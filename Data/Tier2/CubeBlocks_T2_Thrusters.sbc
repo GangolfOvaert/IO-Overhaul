@@ -18,8 +18,8 @@
                 <SubtypeId>LargeBlockLargeAtmosphericThrust</SubtypeId>
             </Id>
             <DisplayName>Large Atmospheric Thruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -66,8 +66,8 @@
                 <SubtypeId>LargeBlockSmallAtmosphericThrust</SubtypeId>
             </Id>
             <DisplayName>Small Atmospheric Thruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -117,8 +117,8 @@
                 <SubtypeId>SmallBlockLargeAtmosphericThrust</SubtypeId>
             </Id>
             <DisplayName>Large Atmospheric Thruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -164,8 +164,8 @@
                 <SubtypeId>SmallBlockSmallAtmosphericThrust</SubtypeId>
             </Id>
             <DisplayName>Small Atmospheric Thruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -215,8 +215,8 @@
                 <SubtypeId>LargeBlockLargeFlatAtmosphericThrust</SubtypeId>
             </Id>
             <DisplayName>Large Flat Atmospheric Thruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterLarge.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -263,8 +263,8 @@
                 <SubtypeId>LargeBlockLargeFlatAtmosphericThrustDShape</SubtypeId>
             </Id>
             <DisplayName>Large Flat Atmospheric Thruster (D)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterDShapeLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterDShapeLarge.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -311,8 +311,8 @@
                 <SubtypeId>LargeBlockSmallFlatAtmosphericThrust</SubtypeId>
             </Id>
             <DisplayName>Small Flat Atmospheric Thruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterSmall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterSmall.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -358,8 +358,8 @@
                 <SubtypeId>LargeBlockSmallFlatAtmosphericThrustDShape</SubtypeId>
             </Id>
             <DisplayName>Small Flat Atmospheric Thruster (D)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterDShapeSmall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterDShapeSmall.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -409,8 +409,8 @@
                 <SubtypeId>SmallBlockLargeFlatAtmosphericThrust</SubtypeId>
             </Id>
             <DisplayName>Large Flat Atmospheric Thruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterSmall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LargeFlatAtmosphericThrusterSmall.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -456,8 +456,8 @@
                 <SubtypeId>SmallBlockLargeFlatAtmosphericThrustDShape</SubtypeId>
             </Id>
             <DisplayName>Large Flat Atmospheric Thruster (D)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterDShapeLarge.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterDShapeLarge.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -503,8 +503,8 @@
                 <SubtypeId>SmallBlockSmallFlatAtmosphericThrust</SubtypeId>
             </Id>
             <DisplayName>Small Flat Atmospheric Thruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterSmall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterSmall.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -550,8 +550,8 @@
                 <SubtypeId>SmallBlockSmallFlatAtmosphericThrustDShape</SubtypeId>
             </Id>
             <DisplayName>Small Flat Atmospheric Thruster (D)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterSmall.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SmallFlatAtmosphericThrusterSmall.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -602,8 +602,8 @@
                 <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi</SubtypeId>
             </Id>
             <DisplayName>Large Atmospheric Thruster (Sci-Fi)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -653,8 +653,8 @@
                 <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi</SubtypeId>
             </Id>
             <DisplayName>Small Atmospheric Thruster (Sci-Fi)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterSmall_SciFi.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterSmall_SciFi.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -707,8 +707,8 @@
                 <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi</SubtypeId>
             </Id>
             <DisplayName>Large Atmospheric Thruster (Sci-Fi)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Small_AtmosphericThrusterLarge_SciFi.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Small_AtmosphericThrusterLarge_SciFi.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -757,8 +757,8 @@
                 <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi</SubtypeId>
             </Id>
             <DisplayName>Small Atmospheric Thruster (Sci-Fi)</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Small_AtmosphericThrusterSmall_SciFi.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Small_AtmosphericThrusterSmall_SciFi.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />

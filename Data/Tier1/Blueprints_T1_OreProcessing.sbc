@@ -17,8 +17,8 @@
         <SubtypeId>T1_IronOreImpureToCrushed</SubtypeId>
       </Id>
       <DisplayName>Crush Impure Iron Ore</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="IronOreImpure" />
       </Prerequisites>
@@ -38,8 +38,8 @@
         <SubtypeId>T1_NickelOreImpureToCrushed</SubtypeId>
       </Id>
       <DisplayName>Crush Impure Nickel Ore</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="NickelOreImpure" />
       </Prerequisites>
@@ -59,8 +59,8 @@
         <SubtypeId>T1_MagnesiumOreImpureToCrushed</SubtypeId>
       </Id>
       <DisplayName>Crush Impure Magnesium Ore</DisplayName>
-      <Icon>Icons\NiterOre.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Icons\NiterOre.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="MagnesiumOreImpure" />
       </Prerequisites>
@@ -85,8 +85,8 @@
         <SubtypeId>T1_CrushedIronToPure</SubtypeId>
       </Id>
       <DisplayName>Purify Crushed Iron Ore</DisplayName>
-      <Icon>Icons\ore_Fe_iron_pure.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Icons\ore_Fe_iron_pure.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedIron" />
       </Prerequisites>
@@ -101,8 +101,8 @@
         <SubtypeId>T1_CrushedNickelToPure</SubtypeId>
       </Id>
       <DisplayName>Purify Crushed Nickel Ore</DisplayName>
-      <Icon>Icons\ore_Ni_nickel_pure.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Icons\ore_Ni_nickel_pure.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedNickel" />
       </Prerequisites>
@@ -117,8 +117,8 @@
         <SubtypeId>T1_CrushedMagnesiumToPure</SubtypeId>
       </Id>
       <DisplayName>Purify Crushed Magnesium Ore</DisplayName>
-      <Icon>Icons\ore_Mg_magnesium_pure.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Icons\ore_Mg_magnesium_pure.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedMagnesium" />
       </Prerequisites>

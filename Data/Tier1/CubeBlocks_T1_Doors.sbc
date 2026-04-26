@@ -15,8 +15,8 @@
                 <SubtypeId>ArmorCenter</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ArmorCenter</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
             <Description>Description_BlastDoor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -58,8 +58,8 @@
                 <SubtypeId>ArmorCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ArmorCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\ArmorCorner.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ArmorCorner.dds</Icon>
             <Description>Description_BlastDoor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -106,8 +106,8 @@
                 <SubtypeId>ArmorInvCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ArmorInvCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BlastDoorCornerInverted.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BlastDoorCornerInverted.dds</Icon>
             <Description>Description_BlastDoor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -154,8 +154,8 @@
                 <SubtypeId>ArmorSide</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ArmorSide</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\ArmorSide.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ArmorSide.dds</Icon>
             <Description>Description_BlastDoor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -201,8 +201,8 @@
                 <SubtypeId>SmallArmorCenter</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ArmorCenter</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
             <Description>Description_BlastDoor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -243,8 +243,8 @@
                 <SubtypeId>SmallArmorCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ArmorCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\ArmorCorner.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ArmorCorner.dds</Icon>
             <Description>Description_BlastDoor</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -290,8 +290,8 @@
                 <SubtypeId>SmallArmorInvCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ArmorInvCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BlastDoorCornerInverted.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BlastDoorCornerInverted.dds</Icon>
             <Description>Description_BlastDoor</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -337,8 +337,8 @@
                 <SubtypeId>SmallArmorSide</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ArmorSide</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\ArmorSide.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ArmorSide.dds</Icon>
             <Description>Description_BlastDoor</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>

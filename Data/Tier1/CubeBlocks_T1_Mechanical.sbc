@@ -16,8 +16,8 @@
                 <SubtypeId>LargePistonTop</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_PistonTop</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PistonTop.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PistonTop.dds</Icon>
             <Description>Description_PistonTop</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -64,8 +64,8 @@
                 <SubtypeId>SmallPistonTop</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_PistonTop</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PistonTop.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PistonTop.dds</Icon>
             <Description>Description_PistonTop</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
@@ -110,8 +110,8 @@
                 <SubtypeId>LargeRotor</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_RotorPart</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\RotorPart.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\RotorPart.dds</Icon>
             <Description>Description_RotorPart</Description>
             <BlockPairName>MotorRotor</BlockPairName>
             <CubeSize>Large</CubeSize>
@@ -150,8 +150,8 @@
                 <SubtypeId>SmallRotor</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_RotorPart</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\RotorPart.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\RotorPart.dds</Icon>
             <Description>Description_RotorPart</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -189,8 +189,8 @@
                 <SubtypeId>LargeHingeHead</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LargeHingeHead</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HingeHead.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HingeHead.dds</Icon>
             <Description>Description_HingeHead</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -228,8 +228,8 @@
                 <SubtypeId>MediumHingeHead</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_MediumHingeHead</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HingeHeadMedium.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HingeHeadMedium.dds</Icon>
             <Description>Description_HingeHead</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -268,8 +268,8 @@
             </Id>
             <BlockPairName>HingeHead</BlockPairName>
             <DisplayName>DisplayName_Block_SmallHingeHead</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HingeHeadSmall.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HingeHeadSmall.dds</Icon>
             <Description>Description_HingeHead</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>

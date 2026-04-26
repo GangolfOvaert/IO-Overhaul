@@ -14,8 +14,8 @@
                 <SubtypeId>LargeBlockLandingGear</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LandingGear</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
             <Description>Description_LandingGear</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -63,8 +63,8 @@
                 <SubtypeId>SmallBlockLandingGear</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LandingGear</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
             <Description>Description_LandingGear</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -109,8 +109,8 @@
                 <SubtypeId>LargeBlockSmallMagneticPlate</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_MagneticPlateSmall</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SimpleMagneticPlate.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SimpleMagneticPlate.dds</Icon>
             <Description>Description_LandingGear</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -162,8 +162,8 @@
                 <SubtypeId>SmallBlockSmallMagneticPlate</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_MagneticPlateSmall</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SimpleMagneticPlate.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SimpleMagneticPlate.dds</Icon>
             <Description>Description_LandingGear</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>

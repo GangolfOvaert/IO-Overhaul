@@ -15,8 +15,8 @@
                 <SubtypeId>MetalWheelSuspension3x3</SubtypeId>
             </Id>
             <DisplayName>Metal-Wheel Suspension</DisplayName>
-            <Icon>..\2344068716\Icons\wheels\MetalWheelSuspension3x3.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>..\2344068716\Icons\wheels\MetalWheelSuspension3x3.dds</Icon>
             <Description>Axle motor with a sprung metal rover wheel. Simple to build, but worse performance than a standard wheel suspension.</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>true</GuiVisible>
@@ -96,8 +96,8 @@
             </Id>
             <Public>false</Public>
             <DisplayName>Metal Wheel 3x3</DisplayName>
-            <Icon>..\2344068716\Icons\wheels\MetalWheelSuspension3x3.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>..\2344068716\Icons\wheels\MetalWheelSuspension3x3.dds</Icon>
             <Description>Sprung metal rover wheel. Simple to build, but poor performance compared to a standard tire.</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>

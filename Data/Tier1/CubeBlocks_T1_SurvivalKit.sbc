@@ -10,8 +10,8 @@
       </Id>
       <DisplayName>Survival Kit</DisplayName>
       <Description>Basic survival station for emergency respawn and primitive crafting. Can process stone into basic ores and craft simple iron components.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -85,8 +85,8 @@
       </Id>
       <DisplayName>Survival Kit</DisplayName>
       <Description>Basic survival station for emergency respawn and primitive crafting. Can process stone into basic ores and craft simple iron components.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitSmall.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitSmall.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="4" y="3" z="3" />
@@ -164,8 +164,8 @@
       </Id>
       <DisplayName>Survival Kit</DisplayName>
       <Description>Basic survival station for emergency respawn and primitive crafting. Can process stone into basic ores and craft simple iron components.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitReskin.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitReskin.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -247,8 +247,8 @@
       </Id>
       <DisplayName>Survival Kit</DisplayName>
       <Description>Basic survival station for emergency respawn and primitive crafting. Can process stone into basic ores and craft simple iron components.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitReskinSmall.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitReskinSmall.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="4" z="3" />

@@ -9,8 +9,8 @@
                 <SubtypeId>LargeBlockBedFree</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_BedFree</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BedFree.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\BedFree.dds</Icon>
             <Description>Description_Bed</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>

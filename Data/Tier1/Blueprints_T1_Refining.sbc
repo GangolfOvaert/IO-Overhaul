@@ -19,8 +19,8 @@
         <SubtypeId>T1_IronOreImpureToIngot</SubtypeId>
       </Id>
       <DisplayName>Iron Ingot (Impure)</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="IronOreImpure" />
       </Prerequisites>
@@ -38,8 +38,8 @@
         <SubtypeId>T1_NickelOreImpureToIngot</SubtypeId>
       </Id>
       <DisplayName>Nickel Ingot (Impure)</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="NickelOreImpure" />
       </Prerequisites>
@@ -55,8 +55,8 @@
         <SubtypeId>T1_MagnesiumOreImpureToIngot</SubtypeId>
       </Id>
       <DisplayName>Magnesium Powder (Impure)</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="MagnesiumOreImpure" />
       </Prerequisites>
@@ -74,8 +74,8 @@
         <SubtypeId>T1_IronOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Iron Ingot</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="Iron" />
       </Prerequisites>
@@ -91,8 +91,8 @@
         <SubtypeId>T1_NickelOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Nickel Ingot</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="Nickel" />
       </Prerequisites>
@@ -108,8 +108,8 @@
         <SubtypeId>T1_MagnesiumOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Magnesium Powder</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="Magnesium" />
       </Prerequisites>
@@ -127,8 +127,8 @@
         <SubtypeId>T1_IronOrePureToIngot</SubtypeId>
       </Id>
       <DisplayName>Iron Ingot (Pure)</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="IronOrePure" />
       </Prerequisites>
@@ -144,8 +144,8 @@
         <SubtypeId>T1_NickelOrePureToIngot</SubtypeId>
       </Id>
       <DisplayName>Nickel Ingot (Pure)</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="NickelOrePure" />
       </Prerequisites>
@@ -161,8 +161,8 @@
         <SubtypeId>T1_MagnesiumOrePureToIngot</SubtypeId>
       </Id>
       <DisplayName>Magnesium Powder (Pure)</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="MagnesiumOrePure" />
       </Prerequisites>
@@ -180,8 +180,8 @@
         <SubtypeId>T1_StoneProcessing</SubtypeId>
       </Id>
       <DisplayName>Stone Processing</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Icon>Icons\t1.dds</Icon>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="100000" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>

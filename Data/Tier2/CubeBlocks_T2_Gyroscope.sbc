@@ -15,8 +15,8 @@
                 <SubtypeId>LargeBlockGyro</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
             <Description>Description_Gyroscope</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -69,8 +69,8 @@
                 <SubtypeId>SmallBlockGyro</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
             <Icon>Icons\t2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
             <Description>Description_Gyroscope</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>

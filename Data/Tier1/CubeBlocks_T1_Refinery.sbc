@@ -13,8 +13,8 @@
                 <SubtypeId>LargeRefineryT1</SubtypeId>
             </Id>
             <DisplayName>Tier 1 Refinery</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
             <Description>Basic Tier 1 Refinery for processing Iron, Nickel, Magnesium, and Stone.
 
 Power Usage: 3MW</Description>

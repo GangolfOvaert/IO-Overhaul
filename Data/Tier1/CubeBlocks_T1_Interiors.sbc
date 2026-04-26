@@ -18,8 +18,8 @@
                 <SubtypeId />
             </Id>
             <DisplayName>DisplayName_Block_Passage</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\passage.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\passage.dds</Icon>
             <Description>Description_Passage</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -66,8 +66,8 @@
                 <SubtypeId>Passage2</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Passage2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PassageStraight.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PassageStraight.dds</Icon>
             <Description>Description_Passage2</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -112,8 +112,8 @@
                 <SubtypeId>Passage2Wall</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Passage2Side</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PassageWall.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PassageWall.dds</Icon>
             <Description>Description_Passage2Side</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -155,8 +155,8 @@
                 <SubtypeId>LargeStairs</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Stairs</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Stairs.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Stairs.dds</Icon>
             <Description>Description_Stairs</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -198,8 +198,8 @@
                 <SubtypeId>LargeRamp</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Ramp</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Ramp.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Ramp.dds</Icon>
             <Description>Description_Ramp</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -241,8 +241,8 @@
                 <SubtypeId>LargeSteelCatwalk</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_SteelCatwalk</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SteelCatwalk.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SteelCatwalk.dds</Icon>
             <Description>Description_SteelCatwalk</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -285,8 +285,8 @@
                 <SubtypeId>LargeSteelCatwalk2Sides</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_SteelCatwalkTwoSides</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SteelCatwalk_2Sides.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SteelCatwalk_2Sides.dds</Icon>
             <Description>Description_SteelCatwalkTwoSides</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -330,8 +330,8 @@
                 <SubtypeId>LargeSteelCatwalkCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_SteelCatwalkCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SteelCatwalk_Corner.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SteelCatwalk_Corner.dds</Icon>
             <Description>Description_SteelCatwalkCorner</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -377,8 +377,8 @@
                 <SubtypeId>LargeSteelCatwalkPlate</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_SteelCatwalkPlate</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SteelCatwalk_Plate.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\SteelCatwalk_Plate.dds</Icon>
             <Description>Description_SteelCatwalkPlate</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -423,8 +423,8 @@
                 <SubtypeId>LargeCoverWall</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_FullCoverWall</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\CoverWall.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CoverWall.dds</Icon>
             <Description>Description_FullCoverWall</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -460,8 +460,8 @@
                 <SubtypeId>LargeCoverWallHalf</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfCoverWall</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\CoverWallHalf.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CoverWallHalf.dds</Icon>
             <Description>Description_HalfCoverWall</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -496,8 +496,8 @@
                 <SubtypeId>LargeCoverWallHalfMirrored</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfCoverWallMirror</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\CoverWallHalf_Mirror.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\CoverWallHalf_Mirror.dds</Icon>
             <Description>Description_HalfCoverWallMirror</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -532,8 +532,8 @@
                 <SubtypeId>LargeBlockInteriorWall</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_InteriorWall</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InteriorWall.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorWall.dds</Icon>
             <Description>Description_InteriorWall</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -568,8 +568,8 @@
                 <SubtypeId>LargeInteriorPillar</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_InteriorPillar</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\InteriorPillar.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorPillar.dds</Icon>
             <Description>Description_InteriorPillar</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -605,8 +605,8 @@
                 <SubtypeId>PassengerSeatLarge</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_PassengerSeat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Description>Description_PassengerSeat</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -645,8 +645,8 @@
                 <SubtypeId>PassengerSeatSmallNew</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_PassengerSeat</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Description>Description_PassengerSeat</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -684,8 +684,8 @@
                 <SubtypeId>PassengerSeatSmallOffset</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_PassengerSeatOffset</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Description>Description_PassengerSeatOffset</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -723,8 +723,8 @@
                 <SubtypeId />
             </Id>
             <DisplayName>DisplayName_Block_Ladder</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
             <Description>Description_Ladder</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -763,8 +763,8 @@
                 <SubtypeId>LadderShaft</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_LadderShaft</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LadderShaft.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\LadderShaft.dds</Icon>
             <Description>Description_LadderShaft</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -813,8 +813,8 @@
                 <SubtypeId>LadderSmall</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Ladder</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
             <Description>Description_Ladder</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>

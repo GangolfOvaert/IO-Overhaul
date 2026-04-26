@@ -16,8 +16,8 @@
                 <SubtypeId>LargeBlockFrontLight</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ReflectorLight</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
             <Description>Description_ReflectorLight</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -78,8 +78,8 @@
                 <SubtypeId>SmallBlockFrontLight</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ReflectorLight</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
             <Description>Description_ReflectorLight</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -138,8 +138,8 @@
                 <SubtypeId>SmallLight</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
             <Description>Description_InteriorLight</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -190,8 +190,8 @@
                 <SubtypeId>SmallBlockSmallLight</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
             <Description>Description_InteriorLight</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -238,8 +238,8 @@
             </Id>
             <DisplayName>DisplayName_Block_CornerLight</DisplayName>
             <BlockPairName>CornerLight</BlockPairName>
-            <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
             <Description>Description_CornerLight</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -292,8 +292,8 @@
                 <SubtypeId>LargeBlockLight_2corner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_CornerLightDouble</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Light_2corner.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Light_2corner.dds</Icon>
             <Description>Description_CornerLight</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -349,8 +349,8 @@
             </Id>
             <DisplayName>DisplayName_Block_CornerLight</DisplayName>
             <BlockPairName>CornerLight</BlockPairName>
-            <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
             <Description>Description_CornerLight</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -398,8 +398,8 @@
                 <SubtypeId>SmallBlockLight_2corner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_CornerLightDouble</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Light_2corner.dds</Icon>
             <Icon>Icons\t1.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Light_2corner.dds</Icon>
             <Description>Description_CornerLight</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
