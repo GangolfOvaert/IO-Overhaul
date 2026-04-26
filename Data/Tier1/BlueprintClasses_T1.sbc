@@ -50,6 +50,24 @@
       <DisplayName>All T1 Components</DisplayName>
       <Icon>Icons\t1_cat.dds</Icon>
     </Class>
+    <!-- Rock Crusher: Impure Ore -> Crushed Ore (multi-output) -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Crushert1</SubtypeId>
+      </Id>
+      <DisplayName>Crushed Ore</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+    </Class>
+    <!-- Ore Purifier: Crushed Ore -> Pure Ore -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Purifiert1</SubtypeId>
+      </Id>
+      <DisplayName>Pure Ore</DisplayName>
+      <Icon>Icons\t1_cat.dds</Icon>
+    </Class>
     <!-- Survival Kit Classes -->
     <Class>
       <Id>
@@ -84,6 +102,16 @@
     <Entry Class="T1Refining" BlueprintSubtypeId="T1_MagnesiumOrePureToIngot" />
     <!-- Stone Processing -->
     <Entry Class="T1Refining" BlueprintSubtypeId="T1_StoneProcessing" />
+
+    <!-- T1 Rock Crusher: Impure Ore -> Crushed Ore (multi-output) -->
+    <Entry Class="Crushert1" BlueprintSubtypeId="T1_IronOreImpureToCrushed" />
+    <Entry Class="Crushert1" BlueprintSubtypeId="T1_NickelOreImpureToCrushed" />
+    <Entry Class="Crushert1" BlueprintSubtypeId="T1_MagnesiumOreImpureToCrushed" />
+
+    <!-- T1 Ore Purifier: Crushed Ore -> Pure Ore -->
+    <Entry Class="Purifiert1" BlueprintSubtypeId="T1_CrushedIronToPure" />
+    <Entry Class="Purifiert1" BlueprintSubtypeId="T1_CrushedNickelToPure" />
+    <Entry Class="Purifiert1" BlueprintSubtypeId="T1_CrushedMagnesiumToPure" />
 
     <!-- T1 Components - Basic Shapes -->
     <Entry Class="T1Components" BlueprintSubtypeId="T1_IronRod" />

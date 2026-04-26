@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClasses>
+    <!-- T3 Refinery: ore input -> ingot output -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T3Refining</SubtypeId>
+      </Id>
+      <DisplayName>Ingots</DisplayName>
+      <Icon>Icons\t3_cat.dds</Icon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+    <!-- Impure Ores (25%) -->
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_GoldOreImpureToIngot" />
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_PlatinumOreImpureToIngot" />
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_SulfurOreImpureToIngot" />
+    <!-- Normal Ores (60%) -->
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_GoldOreToIngot" />
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_PlatinumOreToIngot" />
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_SulfurOreToIngot" />
+    <!-- Pure Ores (80%) -->
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_GoldOrePureToIngot" />
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_PlatinumOrePureToIngot" />
+    <Entry Class="T3Refining" BlueprintSubtypeId="T3_SulfurOrePureToIngot" />
+  </BlueprintClassEntries>
+
+</Definitions>

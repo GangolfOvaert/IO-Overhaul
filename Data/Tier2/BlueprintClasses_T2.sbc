@@ -119,6 +119,28 @@
       <InputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
     </Class>
+    <!-- T2 Rock Crusher: Impure Ore → Crushed Ore (multi-output) -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Crushert2</SubtypeId>
+      </Id>
+      <DisplayName>Crushed Ore</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+    </Class>
+    <!-- T2 Ore Purifier: Crushed Ore → Pure Ore -->
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Purifiert2</SubtypeId>
+      </Id>
+      <DisplayName>Pure Ore</DisplayName>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+    </Class>
   </BlueprintClasses>
 
   <BlueprintClassEntries>
@@ -223,6 +245,23 @@
     <Entry Class="T2Fabricator" BlueprintSubtypeId="T2_AluminumFrameL" />
     <Entry Class="T2Fabricator" BlueprintSubtypeId="T2_AluminumFrameXL" />
 
+    <!-- T2 Rock Crusher: Impure Ore -> Crushed Ore (multi-output) -->
+    <Entry Class="Crushert2" BlueprintSubtypeId="T2_CobaltOreImpureToCrushed" />
+    <Entry Class="Crushert2" BlueprintSubtypeId="T2_SilverOreImpureToCrushed" />
+    <Entry Class="Crushert2" BlueprintSubtypeId="T2_SiliconOreImpureToCrushed" />
+    <Entry Class="Crushert2" BlueprintSubtypeId="T2_SiliciumOreImpureToCrushed" />
+    <Entry Class="Crushert2" BlueprintSubtypeId="T2_AluminiumOreImpureToCrushed" />
+    <Entry Class="Crushert2" BlueprintSubtypeId="T2_CopperOreImpureToCrushed" />
+    <Entry Class="Crushert2" BlueprintSubtypeId="T2_CarbonOreImpureToCrushed" />
+
+    <!-- T2 Ore Purifier: Crushed Ore -> Pure Ore -->
+    <Entry Class="Purifiert2" BlueprintSubtypeId="T2_CrushedCobaltToPure" />
+    <Entry Class="Purifiert2" BlueprintSubtypeId="T2_CrushedSilverToPure" />
+    <Entry Class="Purifiert2" BlueprintSubtypeId="T2_CrushedSiliconToPure" />
+    <Entry Class="Purifiert2" BlueprintSubtypeId="T2_CrushedSiliciumToPure" />
+    <Entry Class="Purifiert2" BlueprintSubtypeId="T2_CrushedAluminiumToPure" />
+    <Entry Class="Purifiert2" BlueprintSubtypeId="T2_CrushedCopperToPure" />
+    <Entry Class="Purifiert2" BlueprintSubtypeId="T2_CrushedCarbonToPure" />
 
   </BlueprintClassEntries>
 

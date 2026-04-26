@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!-- ============================= -->
+    <!-- T1 ROCK CRUSHER RECIPES       -->
+    <!-- 1000 Impure ->                -->
+    <!--   500 Crushed (target)        -->
+    <!--   200 Crushed (same-tier T1)  -->
+    <!--   100 Crushed (upper T2)      -->
+    <!--   200 Gravel                  -->
+    <!-- ============================= -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_IronOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Iron Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="IronOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedIron" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedNickel" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedCopper" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_NickelOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Nickel Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="NickelOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedNickel" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedMagnesium" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedCobalt" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_MagnesiumOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Magnesium Ore</DisplayName>
+      <Icon>Icons\NiterOre.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="MagnesiumOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedMagnesium" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedIron" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedSilicon" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ============================= -->
+    <!-- T1 ORE PURIFIER RECIPES       -->
+    <!-- 1000 Crushed -> 1000 Pure     -->
+    <!-- ============================= -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_CrushedIronToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Iron Ore</DisplayName>
+      <Icon>Icons\ore_Fe_iron_pure.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedIron" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="IronOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_CrushedNickelToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Nickel Ore</DisplayName>
+      <Icon>Icons\ore_Ni_nickel_pure.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedNickel" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="NickelOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_CrushedMagnesiumToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Magnesium Ore</DisplayName>
+      <Icon>Icons\ore_Mg_magnesium_pure.dds</Icon>
+      <Icon>Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedMagnesium" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="MagnesiumOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

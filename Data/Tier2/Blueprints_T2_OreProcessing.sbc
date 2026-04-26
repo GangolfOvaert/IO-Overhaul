@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!-- ============================= -->
+    <!-- T2 ROCK CRUSHER RECIPES       -->
+    <!-- 1000 Impure ->                -->
+    <!--   500 Crushed (target)        -->
+    <!--   200 Crushed (same-tier T2)  -->
+    <!--   100 Crushed (upper T3)      -->
+    <!--   200 Gravel                  -->
+    <!-- ============================= -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CobaltOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Cobalt Ore</DisplayName>
+      <Icon>Icons\ore_Co_cobalt_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CobaltOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedCobalt" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedSilver" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedGold" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SilverOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Silver Ore</DisplayName>
+      <Icon>Icons\ore_Ag_silver_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SilverOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedSilver" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedSilicon" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedPlatinum" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SiliconOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Silicon Ore</DisplayName>
+      <Icon>Icons\ore_Si_silicon_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SiliconOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedSilicon" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedSilicium" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedSulfur" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_SiliciumOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Silicium Ore</DisplayName>
+      <Icon>Icons\ore_Si_silicium_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SiliciumOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedSilicium" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedAluminium" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedGold" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AluminiumOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Aluminium Ore</DisplayName>
+      <Icon>Icons\ore_Si_ite_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="AluminiumOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedAluminium" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedCopper" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedPlatinum" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CopperOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Copper Ore</DisplayName>
+      <Icon>Icons\ore_copper_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CopperOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedCopper" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedCarbon" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedGold" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CarbonOreImpureToCrushed</SubtypeId>
+      </Id>
+      <DisplayName>Crush Impure Carbon Ore</DisplayName>
+      <Icon>Icons\ore_carbon_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CarbonOreImpure" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ore" SubtypeId="CrushedCarbon" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="CrushedCobalt" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="CrushedSulfur" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ============================= -->
+    <!-- T2 ORE PURIFIER RECIPES       -->
+    <!-- 1000 Crushed -> 1000 Pure     -->
+    <!-- ============================= -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CrushedCobaltToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Cobalt Ore</DisplayName>
+      <Icon>Icons\ore_Co_cobalt_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedCobalt" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="CobaltOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CrushedSilverToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Silver Ore</DisplayName>
+      <Icon>Icons\ore_Ag_silver_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedSilver" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="SilverOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CrushedSiliconToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Silicon Ore</DisplayName>
+      <Icon>Icons\ore_Si_silicon_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedSilicon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="SiliconOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CrushedSiliciumToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Silicium Ore</DisplayName>
+      <Icon>Icons\ore_Si_silicium_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedSilicium" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="SiliciumOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CrushedAluminiumToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Aluminium Ore</DisplayName>
+      <Icon>Icons\ore_Si_ite_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedAluminium" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="AluminiumOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CrushedCopperToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Copper Ore</DisplayName>
+      <Icon>Icons\ore_copper_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedCopper" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="CopperOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_CrushedCarbonToPure</SubtypeId>
+      </Id>
+      <DisplayName>Purify Crushed Carbon Ore</DisplayName>
+      <Icon>Icons\ore_carbon_pure.dds</Icon>
+      <Icon>Icons\t2_cat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="CrushedCarbon" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Ore" SubtypeId="CarbonOrePure" />
+      <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

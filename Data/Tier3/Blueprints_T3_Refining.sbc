@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!-- ============================= -->
+    <!-- TIER 3 ORE REFINING           -->
+    <!-- Impure Ores: 25% Efficiency   -->
+    <!-- Normal Ores: 60% Efficiency   -->
+    <!-- Pure Ores: 80% Efficiency     -->
+    <!-- ============================= -->
+
+    <!-- ========== IMPURE ORES (25%) ========== -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_GoldOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="GoldOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Gold" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_PlatinumOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="PlatinumOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Platinum" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_SulfurOreImpureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sulfur Ingot (Impure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\sulfur_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SulfurOreImpure" />
+      </Prerequisites>
+      <Result Amount="250" TypeId="Ingot" SubtypeId="Sulfur" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ========== NORMAL ORES (60%) ========== -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_GoldOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Gold" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_PlatinumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Platinum" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_SulfurOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sulfur Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\sulfur_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Sulfur" />
+      </Prerequisites>
+      <Result Amount="600" TypeId="Ingot" SubtypeId="Sulfur" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <!-- ========== PURE ORES (80%) ========== -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_GoldOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="GoldOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Gold" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_PlatinumOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="PlatinumOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Platinum" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_SulfurOrePureToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sulfur Ingot (Pure)</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\sulfur_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="SulfurOrePure" />
+      </Prerequisites>
+      <Result Amount="800" TypeId="Ingot" SubtypeId="Sulfur" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

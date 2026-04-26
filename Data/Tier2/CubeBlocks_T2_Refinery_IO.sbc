@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- ============================= -->
+    <!-- T2 ROCK CRUSHER               -->
+    <!-- Crushes T2 impure ores, 5MW   -->
+    <!-- ============================= -->
+
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>RockCrushert2</SubtypeId>
+      </Id>
+      <DisplayName>Rock Crusher T2</DisplayName>
+      <Icon>Icons\production\ore_crusher_t1.dds</Icon>
+      <Icon>Icons\t2.dds</Icon>
+      <Description>
+                Crushes T2 Impure Ores into Crushed Ore with same-tier and upper-tier byproducts.
+
+				Power Usage 5MW
+            </Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="4" z="3" />
+      <Center x="1" y="1" z="1" />
+      <Model>..\2344068716\Models\OreCrusher.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumFrameXL" Count="1" />
+        <Component Subtype="AluminumPlate" Count="250" />
+        <Component Subtype="CobaltPlate" Count="80" />
+        <Component Subtype="AluminumRod" Count="60" />
+        <Component Subtype="CopperWire" Count="40" />
+        <Component Subtype="SimpleBearing" Count="10" />
+        <Component Subtype="AluminumFrameL" Count="4" />
+        <Component Subtype="AluminumFrameXL" Count="2" />
+        <Component Subtype="BasicComputer" Count="4" />
+        <Component Subtype="AluminumPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="BasicComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+      </MountPoints>
+      <MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="..\2344068716\Models\Construct\OreCrusherConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2344068716\Models\Construct\OreCrusherConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OreCrusherConstruct3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>RockCrushert2</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>7.5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>5</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>Crushert2</Class>
+      </BlueprintClasses>
+      <RefineSpeed>4</RefineSpeed>
+      <MaterialEfficiency>1.0</MaterialEfficiency>
+      <OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>RockCrusher</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>90</PCU>
+    </Definition>
+
+    <!-- ============================= -->
+    <!-- T2 ORE PURIFIER               -->
+    <!-- Filters T2 crushed ore, 10MW  -->
+    <!-- ============================= -->
+
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>OrePurifiert2</SubtypeId>
+      </Id>
+      <DisplayName>Ore Purifier T2</DisplayName>
+      <Icon>Icons\production\ore_purifier_t1.dds</Icon>
+      <Icon>Icons\t2.dds</Icon>
+      <Description>
+		Filters impurities from T2 Crushed Ore to produce Pure Ore.
+
+		Power Usage: 10MW
+	</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <Center x="1" y="0" z="1" />
+      <Model>..\2344068716\Models\OrePurifier.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumFrameL" Count="1" />
+        <Component Subtype="AluminumPlate" Count="200" />
+        <Component Subtype="CobaltPlate" Count="100" />
+        <Component Subtype="AluminumRod" Count="60" />
+        <Component Subtype="CopperWire" Count="60" />
+        <Component Subtype="SimplePCB" Count="20" />
+        <Component Subtype="SimpleBearing" Count="12" />
+        <Component Subtype="AluminumFrameL" Count="4" />
+        <Component Subtype="BasicComputer" Count="4" />
+        <Component Subtype="AluminumPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="BasicComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="..\2344068716\Models\Construct\OrePurifierConstruct0.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="..\2344068716\Models\Construct\OrePurifierConstruct1.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="..\2344068716\Models\Construct\OrePurifierConstruct2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2344068716\Models\Construct\OrePurifierConstruct3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OrePurifiert2</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>7.5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>10</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>Purifiert2</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1</RefineSpeed>
+      <MaterialEfficiency>1.0</MaterialEfficiency>
+      <OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>90</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
