@@ -9,10 +9,6 @@
 			</Id>
 			<DisplayName>Ingots</DisplayName>
 			<Icon>Icons\t1_cat.dds</Icon>
-			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
-			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class.dds</FocusIcon>
-			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
 		</Class>
     <Class>
       <Id>
@@ -21,10 +17,6 @@
       </Id>
       <DisplayName>T1 Components</DisplayName>
       <Icon>Icons\t1_cat.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
-      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
     </Class>
     <Class>
       <Id>
@@ -33,22 +25,14 @@
       </Id>
       <DisplayName>Plates</DisplayName>
       <Icon>Icons\t1_cat.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\component\steel_plate_component.dds</HighlightIcon>
-      <FocusIcon>Textures\GUI\Icons\component\steel_plate_component.dds</FocusIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
     </Class>
     <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>T1Extruder</SubtypeId>
       </Id>
-      <DisplayName>Tubes &amp; Rods</DisplayName>
+      <DisplayName>Tubes Rods</DisplayName>
       <Icon>Icons\t1_cat.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\component\large_tube_component.dds</HighlightIcon>
-      <FocusIcon>Textures\GUI\Icons\component\large_tube_component.dds</FocusIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
     </Class>
     <Class>
       <Id>
@@ -57,10 +41,6 @@
       </Id>
       <DisplayName>Composite Parts</DisplayName>
       <Icon>Icons\t1_cat.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\component\metal_grid_component.dds</HighlightIcon>
-      <FocusIcon>Textures\GUI\Icons\component\metal_grid_component.dds</FocusIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</InputConstraintIcon>
-      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
     </Class>
     <Class>
       <Id>
@@ -69,10 +49,6 @@
       </Id>
       <DisplayName>All T1 Components</DisplayName>
       <Icon>Icons\t1_cat.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
-      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
     </Class>
     <!-- Survival Kit Classes -->
     <Class>
@@ -82,8 +58,6 @@
       </Id>
       <DisplayName>Basic Ingots</DisplayName>
       <Icon>Icons\t1_cat.dds</Icon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>
     <Class>
       <Id>
@@ -92,10 +66,6 @@
       </Id>
       <DisplayName>Basic Components</DisplayName>
       <Icon>Icons\t1_cat.dds</Icon>
-      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
-      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-      <OutputConstraintIcon>Textures\GUI\Icons\buttons\component.dds</OutputConstraintIcon>
     </Class>
   </BlueprintClasses>
 

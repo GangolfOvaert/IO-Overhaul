@@ -10,7 +10,7 @@
                 <SubtypeId>Cobalt</SubtypeId>
             </Id>
             <DisplayName>Cobalt Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Co_cobite.dds</Icon>
+            <Icon>Icons\ore_Co_cobalt.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -35,7 +35,7 @@
                 <SubtypeId>Silver</SubtypeId>
             </Id>
             <DisplayName>Silver Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
+            <Icon>Icons\ore_Ag_silver.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -60,7 +60,7 @@
                 <SubtypeId>Silicon</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_SiliconOre</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
+            <Icon>Icons\ore_Si_silicon.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -87,7 +87,7 @@
                 <SubtypeId>Silicium</SubtypeId>
             </Id>
             <DisplayName>Silicium Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
+            <Icon>Icons\ore_Si_silicium.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -112,7 +112,7 @@
                 <SubtypeId>Aluminium</SubtypeId>
             </Id>
             <DisplayName>Aluminium Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_ite.dds</Icon>
+            <Icon>Icons\ore_Si_ite.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -137,7 +137,7 @@
                 <SubtypeId>Copper</SubtypeId>
             </Id>
             <DisplayName>Copper Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_ite.dds</Icon>
+            <Icon>Icons\ore_copper.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -162,7 +162,7 @@
                 <SubtypeId>Carbon</SubtypeId>
             </Id>
             <DisplayName>Coal Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_ite.dds</Icon>
+            <Icon>Icons\ore_carbon.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>

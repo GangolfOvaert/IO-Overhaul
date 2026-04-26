@@ -11,7 +11,7 @@
                 <SubtypeId>IronOreImpure</SubtypeId>
             </Id>
             <DisplayName>Impure Iron Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+            <Icon>Icons\ore_Fe_iron_impure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -38,7 +38,7 @@
                 <SubtypeId>NickelOreImpure</SubtypeId>
             </Id>
             <DisplayName>Impure Nickel Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
+            <Icon>Icons\ore_Ni_nickel_impure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -65,7 +65,7 @@
                 <SubtypeId>MagnesiumOreImpure</SubtypeId>
             </Id>
             <DisplayName>Impure Magnesium Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
+            <Icon>Icons\ore_Mg_magnesium_impure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>

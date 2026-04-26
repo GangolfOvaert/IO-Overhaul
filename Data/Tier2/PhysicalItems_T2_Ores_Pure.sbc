@@ -11,7 +11,7 @@
                 <SubtypeId>CobaltOrePure</SubtypeId>
             </Id>
             <DisplayName>Pure Cobalt Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Co_cobite.dds</Icon>
+            <Icon>Icons\ore_Co_cobalt_pure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -38,7 +38,7 @@
                 <SubtypeId>SilverOrePure</SubtypeId>
             </Id>
             <DisplayName>Pure Silver Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
+            <Icon>Icons\ore_Ag_silver_pure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -65,7 +65,7 @@
                 <SubtypeId>SiliconOrePure</SubtypeId>
             </Id>
             <DisplayName>Pure Silicon Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
+            <Icon>Icons\ore_Si_silicon_pure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -92,7 +92,7 @@
                 <SubtypeId>SiliciumOrePure</SubtypeId>
             </Id>
             <DisplayName>Pure Silicium Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
+            <Icon>Icons\ore_Si_silicium_pure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -119,7 +119,7 @@
                 <SubtypeId>AluminiumOrePure</SubtypeId>
             </Id>
             <DisplayName>Pure Aluminium Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_ite.dds</Icon>
+            <Icon>Icons\ore_Si_ite_pure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -146,7 +146,7 @@
                 <SubtypeId>CopperOrePure</SubtypeId>
             </Id>
             <DisplayName>Pure Copper Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_ite.dds</Icon>
+            <Icon>Icons\ore_copper_pure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -173,7 +173,7 @@
                 <SubtypeId>CarbonOrePure</SubtypeId>
             </Id>
             <DisplayName>Pure Coal Ore</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_ite.dds</Icon>
+            <Icon>Icons\ore_carbon_pure.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>

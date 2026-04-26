@@ -10,7 +10,7 @@
                 <SubtypeId>Stone</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_StoneOre</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+            <Icon>Icons\ore_rock.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -35,7 +35,7 @@
                 <SubtypeId>Iron</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_IronOre</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+            <Icon>Icons\ore_Fe_iron.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -62,7 +62,7 @@
                 <SubtypeId>Nickel</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_NickelOre</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
+            <Icon>Icons\ore_Ni_nickel.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
@@ -89,7 +89,7 @@
                 <SubtypeId>Magnesium</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_MagnesiumOre</DisplayName>
-            <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
+            <Icon>Icons\ore_Mg_magnesium.dds</Icon>
             <Size>
                 <X>0.07</X>
                 <Y>0.07</Y>
